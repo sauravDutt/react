@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #20182a;
+  height: 100vh;
 }
 
 code {
@@ -13,14 +15,18 @@ code {
 }
 
 .header-outter {
+  position: fixed;
   width: 90%;
-  height: 69px;
-  margin: 0 auto;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  box-shadow: 5px 5px 10px #0000002a;
+  height: 79px;
+  margin-left: 4.9%;
+  margin-top: 86vh;
+  border-radius: 26px;
+  background: #20182a;
+  box-shadow:  6px 6px 12px #130e19,
+              -6px -6px 12px #2d223b;
 }
 
 .App {
-  background-color: #fff;
+
+  background-color: #20182a;
 }
