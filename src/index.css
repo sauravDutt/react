@@ -1,11 +1,13 @@
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #20182a;
+  background-color: #110c18;
   height: 100vh;
 }
 
@@ -16,16 +18,17 @@ code {
 
 .header-outter {
   position: fixed;
+  flex-shrink: 0;
   width: 90%;
   height: 79px;
   margin-left: 4.9%;
   margin-top: 80vh;
   border-radius: 26px;
-  background: #20182a;
-  box-shadow:  6px 6px 12px #130e19,
-              -6px -6px 12px #2d223b;
+  background: #110c18;
+  box-shadow:  6px 6px 12px #07050a,
+              -6px -6px 12px #1b1326;
 }
 
 .App {
-  background-color: #20182a;
+  background-color: #110c18;
 }
