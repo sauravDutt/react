@@ -19,7 +19,7 @@ code {
   width: 90%;
   height: 79px;
   margin-left: 4.9%;
-  margin-top: 86vh;
+  margin-top: 80vh;
   border-radius: 26px;
   background: #20182a;
   box-shadow:  6px 6px 12px #130e19,
@@ -27,6 +27,5 @@ code {
 }
 
 .App {
-
   background-color: #20182a;
 }
