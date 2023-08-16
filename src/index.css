@@ -57,10 +57,10 @@ code {
   padding: 0;
   font-family: 'Logo';
   cursor: pointer;
-  font-size: 40px;
-  font-weight: 300;
+  font-size: 45px;
+  font-weight: 100;
   padding: 0;
-  color: #ffffffd0;
+  color: #ffffff8c;
 }
 
 .secondFont {
@@ -71,7 +71,7 @@ code {
 
 .user-section {
   display: grid;
-  color: #ffffffd5;
+  color: #ffffffa6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   grid-template-columns: auto auto;
@@ -86,7 +86,8 @@ code {
               -6px -6px 12px #331e3a;
 }
 .userImage {
-  border: 1px solid green;
+  border: 3px solid green;
+  background-color: #ffffff36;
   width: 25px;
   height: 25px;
   border-radius: 50%;
