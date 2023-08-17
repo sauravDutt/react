@@ -48,7 +48,6 @@ code {
 .navbar-outter {
   margin: 0;
   margin-top: 10px;
-  padding: 3px 0;
   border-top: 1.5px solid #00000023;
   border-bottom: 1.5px solid #00000023;
   position: fixed;
@@ -62,10 +61,8 @@ code {
   font-size: 50px;
   margin: 0;
   padding: 0;
-  margin-bottom: -10px;
 }
 .lower {
-  text-align: center;
   margin: 0;
   padding: 0;
   margin-top: -12px;
@@ -81,5 +78,3 @@ code {
   font-size: 15px;
   font-weight: 100;
 }
-
-
