@@ -55,7 +55,6 @@ code {
   width: 99.9%;
   text-align: center;
   justify-content: space-between;
-  height: 92px;
   background-color: #e0e0e0;
 }
 .app-title {
@@ -78,7 +77,7 @@ code {
   margin-top: -12px;
   font-family: 'Logo';
   cursor: pointer;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 100;
   padding: 0;
   color: #000;
