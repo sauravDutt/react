@@ -56,6 +56,11 @@ code {
   text-align: center;
   background-color: #e0e0e0;
 }
+.outBox{
+  border: 1px solid #000;
+  width: auto;
+  line-height: 35px;
+}
 .brand-name {
   font-family: 'News';
   font-weight: 300;
@@ -66,7 +71,6 @@ code {
 .lower {
   margin: 0;
   padding: 0;
-  margin-top: -12px;
   font-family: 'Logo';
   cursor: pointer;
   font-size: 25px;

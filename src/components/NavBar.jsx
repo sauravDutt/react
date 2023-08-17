@@ -3,7 +3,7 @@ const NavBar = () => {
 
     return(
         <div className="navbar-outter">
-            <div>
+            <div className="outBox">
                 <div className="app-title">
                     <h1 className="brand-name">Gtown Journal</h1>
                     <h3 className="lower">
