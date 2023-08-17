@@ -51,13 +51,12 @@ code {
   border-top: 1.5px solid #00000023;
   border-bottom: 1.5px solid #00000023;
   position: fixed;
-  padding: 8px 0;
+  padding: 10px 0;
   width: 99.9%;
   text-align: center;
   background-color: #e0e0e0;
 }
 .outBox{
-  border: 1px solid #000;
   width: auto;
   line-height: 35px;
 }
