@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #180920;
+  background-color: #e0e0e0;
   height: 100vh;
 }
 
@@ -22,8 +22,14 @@ code {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "News";
+  src: url("./News.otf");
+  font-style: normal;
+}
+
 .App {
-  background-color: #180920;
+  background-color: #e0e0e0;
 }
 
 .header-outter {
@@ -34,34 +40,48 @@ code {
   margin-left: 4.9%;
   margin-top: 85vh;
   border-radius: 26px;
-  background: #180920;
-  box-shadow:  8px 8px 16px #100615,
-             -8px -8px 16px #200c2b;
+  background: #e0e0e0;
+  box-shadow:  10px 10px 20px #afafaf,
+             -10px -10px 20px #ffffff;
 }
 
 .navbar-outter {
-  display: grid;
+  margin: 0;
+  margin-top: 20px;
+  padding: 5px 0;
+  border-top: 2px solid #00000073;
+  border-bottom: 2px solid #00000073;
   position: fixed;
-  width: 99%;
-  grid-template-columns: auto auto;
+  width: 99.9%;
+  text-align: center;
   justify-content: space-between;
-  height: 80px;
-  background-color: #180920;
+  height: 92px;
+  background-color: #e0e0e0;
 }
 .app-title {
-  margin: 0;
+  margin: 0 auto;
   margin-top: -1.9px;
   padding: 0px 15px;
 }
-.lower {
+.brand-name {
+  font-family: 'News';
+  font-weight: 300;
+  font-size: 50px;
   margin: 0;
   padding: 0;
+  margin-top: 5px;
+}
+.lower {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: -12px;
   font-family: 'Logo';
   cursor: pointer;
-  font-size: 52px;
+  font-size: 30px;
   font-weight: 100;
   padding: 0;
-  color: #ffffff8c;
+  color: #000;
 }
 
 .secondFont {
@@ -72,7 +92,7 @@ code {
 
 .user-section {
   display: grid;
-  color: #ffffff2d;
+  color: #000;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   grid-template-columns: auto auto;
@@ -83,9 +103,9 @@ code {
   margin-top: 14px;
   margin-right: 15px;
   border-radius: 26px;
-  background: #180920;
-  box-shadow:  8px 8px 16px #100615,
-             -8px -8px 16px #200c2b;
+  background: #e0e0e0;
+  box-shadow:  10px 10px 20px #afafaf,
+             -10px -10px 20px #ffffff;
 }
 .userImage {
   border: 2px solid green;
