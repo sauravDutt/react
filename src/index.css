@@ -84,3 +84,8 @@ code {
   font-weight: 100;
 }
 
+@media screen and (max-height: 741px) {
+  .header-outter {
+    margin-top: 72vh;
+  }
+}
