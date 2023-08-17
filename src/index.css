@@ -54,13 +54,7 @@ code {
   position: fixed;
   width: 99.9%;
   text-align: center;
-  justify-content: space-between;
   background-color: #e0e0e0;
-}
-.app-title {
-  margin: 0 auto;
-  margin-top: -1.9px;
-  padding: 0px 15px;
 }
 .brand-name {
   font-family: 'News';
