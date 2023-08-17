@@ -38,7 +38,7 @@ code {
   width: 90%;
   height: 79px;
   margin-left: 4.9%;
-  margin-top: 83vh;
+  bottom: 35px;
   border-radius: 26px;
   background: #e0e0e0;
   box-shadow:  10px 10px 20px #afafaf,
@@ -84,8 +84,3 @@ code {
   font-weight: 100;
 }
 
-@media screen and (max-height: 741px) {
-  .header-outter {
-    margin-top: 72vh;
-  }
-}
