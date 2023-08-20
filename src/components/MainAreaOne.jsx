@@ -9,7 +9,6 @@ const MainAreaOne = () => {
             <Banner/>
             <Article />
             <Banner />
-            <Article />
         </div>
     );
 }
