@@ -1,8 +1,10 @@
+// import gtownAbout from '../img/gtownAbout.jpg'
 
 const Article = () => {
 
     return(
-        <div>
+        <div className='article-outter'>
+        
 
         </div>
     );
