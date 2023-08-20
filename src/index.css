@@ -95,12 +95,12 @@ code {
 .mainArea {
   position: relative;
   width: 99%;
-  height: 89vh;
+  height: 76vh;
   margin: 0 auto;
   margin-top: 115px;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   overflow-x: hidden;
   overflow-y: scroll;
