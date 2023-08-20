@@ -126,6 +126,7 @@ code {
   width: 350px;
   height: 450px;
   border: 1px solid #000;
+  background-color: #fff;
   /* background: url('./img/gtownAbout.jpg') linear-gradient(145deg, #f0f0f0, #cacaca);
   box-shadow:  6px 6px 16px #94949485,
              -6px -6px 16px #ffffff75; */
