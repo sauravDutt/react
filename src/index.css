@@ -100,7 +100,7 @@ code {
   margin-top: 115px;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   overflow-x: hidden;
   overflow-y: scroll;
