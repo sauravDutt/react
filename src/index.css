@@ -10,6 +10,9 @@ body {
   background-color: #e0e0e0;
   height: 100vh;
 }
+body::-webkit-scrollbar {
+  width: 0px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -92,7 +95,7 @@ code {
 .mainArea {
   position: relative;
   width: 99%;
-  height: 100vh;
+  height: 89vh;
   margin: 0 auto;
   margin-top: 110px;
   display: flex;
@@ -103,14 +106,19 @@ code {
   border: 1px solid #00000028;
 
 }
+.mainArea::-webkit-scrollbar {
+  width: 0px;
+}
 .article-outter {
   margin: 15px;
   background-image: url('./img/gtownAbout.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  border: 1px solid #000;
   width: 350px;
   height: 450px;
+  background: url('./img/gtownAbout.jpg') linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  6px 6px 16px #94949485,
+             -6px -6px 16px #ffffff75;
 }
 .banner-outter {
   margin: 15px;
@@ -118,9 +126,11 @@ code {
   /* background-image: url('./img/gtownAbout.jpg');
   background-repeat: no-repeat;
   background-size: contain; */
-  border: 1px solid #000;
+  
   width: 500px;
   height: 450px;
+  box-shadow:  6px 6px 16px #94949485,
+  -6px -6px 16px #ffffff75;
 }
 /* @media screen and (max-width: 47px) {
   .lower {
