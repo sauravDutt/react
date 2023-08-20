@@ -8,6 +8,7 @@ const MainAreaOne = () => {
             <Article title="articleOne" />
             <Banner title="cat"/>
             <Article title="goku"/>
+            <Article title="blinders"/>
             <Banner title="me"/>
         </div>
     );
