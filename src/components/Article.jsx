@@ -1,9 +1,9 @@
 // import gtownAbout from '../img/gtownAbout.jpg'
 
-const Article = () => {
+const Article = ({title}) => {
 
     return(
-        <div className='article-outter'>
+        <div className={title ? title:'articleBoiler'}>
         
 
         </div>

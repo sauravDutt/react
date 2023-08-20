@@ -5,7 +5,7 @@ const MainAreaOne = () => {
 
     return(
         <div className="mainArea">
-            <Article />
+            <Article title="articleOne" />
             <Banner/>
             <Article />
             <Banner />
