@@ -10,4 +10,5 @@ const Article = ({title}) => {
     );
 }
 
+
 export default Article;

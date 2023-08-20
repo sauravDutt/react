@@ -131,14 +131,51 @@ code {
   box-shadow:  6px 6px 16px #94949485,
              -6px -6px 16px #ffffff75; */
 }
-.banner-outter {
-  background-color: #e0e0e0;
+
+.goku {
+  background-image: url('./img/goku.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 450px;
+  height: 350px;
+  border: 1px solid #000;
+  background-color: #fff;
+  /* background: url('./img/gtownAbout.jpg') linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  6px 6px 16px #94949485,
+             -6px -6px 16px #ffffff75; */
+}
+
+.bannerBoiler {
+  background-color: #ffffffd0;
   /* background-image: url('./img/gtownAbout.jpg');
   background-repeat: no-repeat;
   background-size: contain; */
   border: 1px solid #000;
   width: 530px;
-  height: 450px;
+  height: 390px;
+  /* box-shadow:  6px 6px 16px #94949485,
+  -6px -6px 16px #ffffff75; */
+}
+
+.me {
+  background-color: #ffffffd0;
+  background-image: url('./img/me.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #000;
+  width: 530px;
+  height: 390px;
+  /* box-shadow:  6px 6px 16px #94949485,
+  -6px -6px 16px #ffffff75; */
+}
+.cat{
+  background-color: #ffffffd0;
+  background-image: url('./img/cat.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #000;
+  width: 530px;
+  height: 390px;
   /* box-shadow:  6px 6px 16px #94949485,
   -6px -6px 16px #ffffff75; */
 }

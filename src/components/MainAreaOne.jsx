@@ -6,9 +6,9 @@ const MainAreaOne = () => {
     return(
         <div className="mainArea">
             <Article title="articleOne" />
-            <Banner/>
-            <Article />
-            <Banner />
+            <Banner title="cat"/>
+            <Article title="goku"/>
+            <Banner title="me"/>
         </div>
     );
 }

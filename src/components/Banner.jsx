@@ -1,8 +1,8 @@
 
-const Banner = () => {
+const Banner = ({title}) => {
 
     return(
-        <div className="banner-outter">
+        <div className={title ? title:'bannerBoiler'}>
 
         </div>
     );
