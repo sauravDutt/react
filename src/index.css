@@ -181,6 +181,19 @@ code {
   /* box-shadow:  6px 6px 16px #94949485,
   -6px -6px 16px #ffffff75; */
 }
+
+.gal {
+  background-color: #ffffffde;
+  background-image: url('./img/gal.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #000;
+  width: 530px;
+  height: 450px;
+  /* box-shadow:  6px 6px 16px #94949485,
+  -6px -6px 16px #ffffff75; */
+}
+
 .cat{
   background-color: #ffffffde;
   background-image: url('./img/cat.jpg');
