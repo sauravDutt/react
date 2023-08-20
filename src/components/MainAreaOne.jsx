@@ -1,12 +1,14 @@
 import Article from "./Article";
+import Banner from "./Banner";
 
 const MainAreaOne = () => {
 
     return(
         <div className="mainArea">
             <Article />
+            <Banner/>
             <Article />
-            <Article />
+            <Banner />
             <Article />
         </div>
     );

@@ -112,7 +112,16 @@ code {
   width: 350px;
   height: 450px;
 }
-
+.banner-outter {
+  margin: 15px;
+  background-color: #e0e0e0;
+  /* background-image: url('./img/gtownAbout.jpg');
+  background-repeat: no-repeat;
+  background-size: contain; */
+  border: 1px solid #000;
+  width: 500px;
+  height: 450px;
+}
 /* @media screen and (max-width: 47px) {
   .lower {
     font-size: 20px;
