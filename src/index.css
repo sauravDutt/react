@@ -98,9 +98,19 @@ code {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
   border: 1px solid #00000028;
 
+}
+.article-outter {
+  margin: 15px;
+  background-image: url('./img/gtownAbout.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #000;
+  width: 350px;
+  height: 450px;
 }
 
 /* @media screen and (max-width: 47px) {
