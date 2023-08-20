@@ -2,7 +2,7 @@
 const Banner = ({title}) => {
 
     return(
-        <div className={title ? title:'bannerBoiler'}>
+        <div className={title ? title:"bannerBoiler"}>
 
         </div>
     );

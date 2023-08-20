@@ -110,6 +110,8 @@ code {
   width: 0px;
 }
 
+
+/* These classnames are title prop values  (-- Start --)*/
 .articleBoiler {
   background-color: #eee;
   background-repeat: no-repeat;
@@ -127,9 +129,6 @@ code {
   height: 450px;
   border: 1px solid #000;
   background-color: #fff;
-  /* background: url('./img/gtownAbout.jpg') linear-gradient(145deg, #f0f0f0, #cacaca);
-  box-shadow:  6px 6px 16px #94949485,
-             -6px -6px 16px #ffffff75; */
 }
 
 .blinders {
@@ -140,9 +139,6 @@ code {
   height: 450px;
   border: 1px solid #000;
   background-color: #fff;
-  /* background: url('./img/gtownAbout.jpg') linear-gradient(145deg, #f0f0f0, #cacaca);
-  box-shadow:  6px 6px 16px #94949485,
-             -6px -6px 16px #ffffff75; */
 }
 
 .goku {
@@ -153,21 +149,12 @@ code {
   height: 450px;
   border: 1px solid #000;
   background-color: #fff;
-  /* background: url('./img/gtownAbout.jpg') linear-gradient(145deg, #f0f0f0, #cacaca);
-  box-shadow:  6px 6px 16px #94949485,
-             -6px -6px 16px #ffffff75; */
 }
-
 .bannerBoiler {
   background-color: #ffffffd0;
-  /* background-image: url('./img/gtownAbout.jpg');
-  background-repeat: no-repeat;
-  background-size: contain; */
   border: 1px solid #000;
   width: 530px;
   height: 390px;
-  /* box-shadow:  6px 6px 16px #94949485,
-  -6px -6px 16px #ffffff75; */
 }
 
 .me {
@@ -178,8 +165,6 @@ code {
   border: 1px solid #000;
   width: 530px;
   height: 450px;
-  /* box-shadow:  6px 6px 16px #94949485,
-  -6px -6px 16px #ffffff75; */
 }
 
 .gal {
@@ -190,8 +175,6 @@ code {
   border: 1px solid #000;
   width: 530px;
   height: 450px;
-  /* box-shadow:  6px 6px 16px #94949485,
-  -6px -6px 16px #ffffff75; */
 }
 
 .cat{
@@ -202,9 +185,12 @@ code {
   border: 1px solid #000;
   width: 530px;
   height: 450px;
-  /* box-shadow:  6px 6px 16px #94949485,
-  -6px -6px 16px #ffffff75; */
 }
+
+/* These classnames for title prop values  (-- End --)*/
+
+
+
 /* @media screen and (max-width: 47px) {
   .lower {
     font-size: 20px;
