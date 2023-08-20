@@ -137,7 +137,7 @@ code {
   background-repeat: no-repeat;
   background-size: contain;
   width: 350px;
-  height: 350px;
+  height: 450px;
   border: 1px solid #000;
   background-color: #fff;
   /* background: url('./img/gtownAbout.jpg') linear-gradient(145deg, #f0f0f0, #cacaca);
@@ -158,24 +158,24 @@ code {
 }
 
 .me {
-  background-color: #ffffffd0;
+  background-color: #ffffffda;
   background-image: url('./img/me.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   border: 1px solid #000;
   width: 530px;
-  height: 390px;
+  height: 450px;
   /* box-shadow:  6px 6px 16px #94949485,
   -6px -6px 16px #ffffff75; */
 }
 .cat{
-  background-color: #ffffffd0;
+  background-color: #ffffffde;
   background-image: url('./img/cat.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   border: 1px solid #000;
   width: 530px;
-  height: 390px;
+  height: 450px;
   /* box-shadow:  6px 6px 16px #94949485,
   -6px -6px 16px #ffffff75; */
 }
