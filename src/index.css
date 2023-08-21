@@ -123,11 +123,11 @@ code {
 }
 
 .articleOne {
-  background-image: url('./img/gtownAbout.png');
+  background-image: url('./img/aboutArt.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 350px;
-  height: 450px;
+  height: 350px;
   border: 1px solid #00000065;
   background-color: #fff;
 }
@@ -166,22 +166,13 @@ code {
   height: 390px;
 }
 
-.me {
-  background-color: #ffffffda;
-  background-image: url('./img/me.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid #00000065;
-  width: 530px;
-  height: 450px;
-}
+
 
 .gal {
   background-color: #ffffffde;
   background-image: url('./img/gal.png');
   background-repeat: no-repeat;
   background-size: contain;
-  border: 1px solid #00000065;
   width: 530px;
   height: 450px;
 }
@@ -191,7 +182,6 @@ code {
   background-image: url('./img/cat.png');
   background-repeat: no-repeat;
   background-size: contain;
-  border: 1px solid #00000065;
   width: 530px;
   height: 450px;
 }
