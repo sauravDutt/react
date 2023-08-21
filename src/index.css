@@ -141,7 +141,7 @@ code {
   background-color: #fff;
 }
 .blinders {
-  background-image: url('./img/blinders.jpg');
+  background-image: url('./img/blinders.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 350px;
@@ -168,7 +168,7 @@ code {
 
 .me {
   background-color: #ffffffda;
-  background-image: url('./img/me.jpg');
+  background-image: url('./img/me.png');
   background-repeat: no-repeat;
   background-size: contain;
   border: 1px solid #00000065;
@@ -178,7 +178,7 @@ code {
 
 .gal {
   background-color: #ffffffde;
-  background-image: url('./img/gal.jpg');
+  background-image: url('./img/gal.png');
   background-repeat: no-repeat;
   background-size: contain;
   border: 1px solid #00000065;
@@ -188,7 +188,7 @@ code {
 
 .cat{
   background-color: #ffffffde;
-  background-image: url('./img/cat.jpg');
+  background-image: url('./img/cat.png');
   background-repeat: no-repeat;
   background-size: contain;
   border: 1px solid #00000065;
