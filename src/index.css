@@ -95,7 +95,7 @@ code {
 
 .mainArea {
   position: relative;
-  width: 99%;
+  width: 80%;
   height: 75vh;
   margin: 0 auto;
   margin-top: 115px;
@@ -118,7 +118,7 @@ code {
   background-repeat: no-repeat;
   background-size: contain;
   width: 350px;
-  height: 450px;
+  height: 350px;
   border: 1px solid #00000065;
 }
 
@@ -136,7 +136,7 @@ code {
   background-repeat: no-repeat;
   background-size: contain;
   width: 350px;
-  height: 450px;
+  height: 350px;
   border: 1px solid #00000065;
   background-color: #fff;
 }
@@ -190,11 +190,8 @@ code {
 
 
 
-/* @media screen and (max-width: 47px) {
-  .lower {
-    font-size: 20px;
+@media screen and (max-width: 497px) {
+  .mainArea {
+    width: 99%;
   }
-  .secondFont {
-    font-size: 12px;
-  }
-} */
+}

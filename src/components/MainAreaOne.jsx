@@ -6,8 +6,8 @@ const MainAreaOne = () => {
     return(
         <div className="mainArea">
             <Article title="articleOne" />
-            <Banner title='gal' />
             <Article title="five" />
+            <Banner title='gal' />
             <Banner title="cat"/>
             <Article title="goku"/>
             <Article title="blinders"/>
