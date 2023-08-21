@@ -114,12 +114,12 @@ code {
 
 /* These classnames are title prop values  (-- Start --)*/
 .articleBoiler {
-  background-color: #eee;
+  background-color: #fff;
   background-repeat: no-repeat;
   background-size: contain;
   width: 350px;
   height: 450px;
-  border: 1px solid #000;
+  border: 1px solid #00000065;
 }
 
 .articleOne {
@@ -128,7 +128,7 @@ code {
   background-size: contain;
   width: 350px;
   height: 450px;
-  border: 1px solid #000;
+  border: 1px solid #00000065;
   background-color: #fff;
 }
 .five {
@@ -137,7 +137,7 @@ code {
   background-size: contain;
   width: 350px;
   height: 450px;
-  border: 1px solid #000;
+  border: 1px solid #00000065;
   background-color: #fff;
 }
 .blinders {
@@ -146,7 +146,7 @@ code {
   background-size: contain;
   width: 350px;
   height: 450px;
-  border: 1px solid #000;
+  border: 1px solid #00000065;
   background-color: #fff;
 }
 
@@ -156,12 +156,12 @@ code {
   background-size: contain;
   width: 350px;
   height: 450px;
-  border: 1px solid #000;
+  border: 1px solid #00000065;
   background-color: #fff;
 }
 .bannerBoiler {
   background-color: #ffffffd0;
-  border: 1px solid #000;
+  border: 1px solid #00000065;
   width: 530px;
   height: 390px;
 }
@@ -171,7 +171,7 @@ code {
   background-image: url('./img/me.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  border: 1px solid #000;
+  border: 1px solid #00000065;
   width: 530px;
   height: 450px;
 }
@@ -181,7 +181,7 @@ code {
   background-image: url('./img/gal.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  border: 1px solid #000;
+  border: 1px solid #00000065;
   width: 530px;
   height: 450px;
 }
@@ -191,7 +191,7 @@ code {
   background-image: url('./img/cat.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  border: 1px solid #000;
+  border: 1px solid #00000065;
   width: 530px;
   height: 450px;
 }
