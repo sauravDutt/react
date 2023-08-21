@@ -131,7 +131,15 @@ code {
   border: 1px solid #000;
   background-color: #fff;
 }
-
+.five {
+  background-image: url('./img/five.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 450px;
+  border: 1px solid #000;
+  background-color: #fff;
+}
 .blinders {
   background-image: url('./img/blinders.jpg');
   background-repeat: no-repeat;
