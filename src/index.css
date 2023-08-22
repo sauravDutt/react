@@ -54,8 +54,8 @@ code {
   z-index: 69;
   margin: 0;
   top: 0;
-  border-top: 1.5px solid #00000023;
-  border-bottom: 1.5px solid #00000023;
+  border-top: 1.5px solid #00000098;
+  border-bottom: 1.5px solid #00000098;
   padding: 10px 0;
   width: 99.9%;
   text-align: center;
@@ -147,7 +147,7 @@ code {
   background-size: contain;
   width: 350px;
   height: 450px;
-  border: 1px solid #00000065;
+  border: 1px solid #000000c2;
   background-color: #fff;
 }
 
@@ -157,7 +157,7 @@ code {
   background-size: contain;
   width: 350px;
   height: 450px;
-  border: 1px solid #00000065;
+  border: 1px solid #000000b2;
   background-color: #fff;
 }
 .bannerBoiler {
