@@ -5,11 +5,17 @@ const MainAreaOne = () => {
 
     return(
         <div className="mainArea">
-            <Article title="articleOne" />
-            <Article title="five" />
+
+            {/* These are normal article with an img div */}
+            <Article articleImg="articleOne" />
+            <Article articleImg="five" />
+
+            {/* These are banners */}
             <Banner title='gal' />
             <Banner title="cat"/>
-            <Article title="goku"/>
+
+            {/* These are custom article with background img  */}
+            <Article title="goku" />
             <Article title="blinders"/>
             <Article />
         </div>
