@@ -19,6 +19,7 @@ const MainAreaOne = () => {
             <Article />
 
             <Banner title={"one"} />
+            <Banner title={"two"} />
             <Article title="goku" />
         </div>
     );
