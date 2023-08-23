@@ -7,7 +7,7 @@ const NavBar = () => {
                 <div className="app-title">
                     <h1 className="brand-name">Gtown Journal</h1>
                     <h3 className="lower">
-                        SauravDutt<span className="secondFont">com</span>
+                     since 2023.
                     </h3>
                 </div>
             </div>
