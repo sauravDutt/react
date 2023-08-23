@@ -168,6 +168,14 @@ code {
 }
 
 
+.one {
+  background-color: #ffffffde;
+  background-image: url('./img/one.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 530px;
+  height: 450px;
+}
 
 .gal {
   background-color: #ffffffde;

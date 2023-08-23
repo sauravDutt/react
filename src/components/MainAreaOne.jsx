@@ -15,9 +15,11 @@ const MainAreaOne = () => {
             <Banner title="cat"/>
 
             {/* These are custom article with background img  */}
-            <Article title="goku" />
             <Article title="blinders"/>
             <Article />
+
+            <Banner title={"one"} />
+            <Article title="goku" />
         </div>
     );
 }
