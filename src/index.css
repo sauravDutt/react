@@ -181,7 +181,7 @@ code {
   background-color: #ffffffde;
   background-image: url('./img/two.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 530px;
   height: 450px;
 }
