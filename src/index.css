@@ -98,7 +98,8 @@ code {
   width: 80%;
   height: 75vh;
   margin: 0 auto;
-  margin-top: 115px;
+  margin-top: 96px;
+  padding-top: 25px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -120,7 +121,8 @@ code {
   width: 350px;
   overflow: hidden;
   height: 350px;
-  border: 1px solid #000000e7;
+  border-radius: 10px;
+  border: 2px solid #000000e7;
 }
 
 .articleOne {
@@ -157,7 +159,6 @@ code {
   background-size: contain;
   width: 350px;
   height: 450px;
-  border: 1px solid #000000b2;
   background-color: #fff;
 }
 .bannerBoiler {
