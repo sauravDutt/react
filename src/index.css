@@ -60,10 +60,12 @@ code {
   grid-template-columns: auto auto auto auto;
 }
 .button-outter {
-  height: 60px;
-  width: 60px;
+  cursor: pointer;
+  height: 55px;
+  width: 55px;
   border-radius: 50%;
-  border: 2px solid #0000008c;
+  border: 2px solid #00000031;
+  background-color: #f3f3f346;
 }
 
 .navbar-outter {
