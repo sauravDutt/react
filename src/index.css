@@ -187,6 +187,14 @@ code {
   width: 530px;
   height: 450px;
 }
+.three {
+  background-color: #ffffffde;
+  background-image: url('./img/three.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 530px;
+  height: 450px;
+}
 
 .gal {
   background-color: #ffffffde;
