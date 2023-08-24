@@ -1,11 +1,15 @@
 
-const Banner = ({title}) => {
-
-    return(
-        <div className={title ? title:"bannerBoiler"}>
-
-        </div>
-    );
+const Banner = ({className}) => {
+     
+    
+    if (className) {
+        return(
+            <div className={`bannerBoiler  ${className}`}>
+        
+            </div>
+        );
+        }
+        
 }
 
 export default Banner;

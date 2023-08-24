@@ -164,54 +164,32 @@ code {
   background-color: #fff;
 }
 .bannerBoiler {
-  background-color: #ffffffd0;
-  border: 1px solid #00000065;
-  width: 530px;
-  height: 390px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 2px solid #000;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 600px;
+  height: 550px;
 }
 
 
 .one {
-  background-color: #ffffffde;
   background-image: url('./img/one.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 530px;
-  height: 450px;
 }
 .two {
-  background-color: #ffffffde;
   background-image: url('./img/two.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 530px;
-  height: 450px;
 }
 .three {
-  background-color: #ffffffde;
   background-image: url('./img/three.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 530px;
-  height: 450px;
 }
 
 .gal {
-  background-color: #ffffffde;
   background-image: url('./img/gal.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 530px;
-  height: 450px;
 }
 
 .cat{
-  background-color: #ffffffde;
   background-image: url('./img/cat.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 530px;
-  height: 450px;
 }
 
 /* These classnames for title prop values  (-- End --)*/
