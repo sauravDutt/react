@@ -15,12 +15,13 @@ const MainAreaOne = () => {
             <Banner className="bannerBoiler cat" />
 
             {/* These are custom article with background img  */}
-            <Article title="blinders"/>
+            
             <Article />
 
             <Banner className="bannerBoiler one" />
             <Banner className="bannerBoiler two" />
             <Banner className="bannerBoiler three" />
+            <Article title="blinders"/>
             <Article title="goku" />
         </div>
     );
