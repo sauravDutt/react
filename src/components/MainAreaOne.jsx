@@ -20,8 +20,6 @@ const MainAreaOne = () => {
             <Banner className="bannerBoiler cat" />
 
             {/* These are custom article with background img  */}
-            
-            <Article />
 
             <Banner className="bannerBoiler one" />
             <Banner className="bannerBoiler two" />
