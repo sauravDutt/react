@@ -9,32 +9,32 @@ import SignUp from './components/SignUp';
 
 
 function App() {
-  const [login, setLogin] = useState(false);
-  const [signUp, setSignUp] = useState(false);
+  const [loginBtn, setLoginBtn] = useState(false);
+  const [signUpBtn, setSignUpBtn] = useState(false);
 
-  if(login) {
+  if(loginBtn) {
     return (
       <div className="App">
-      <Header setLogin={setLogin} setSignUp={setSignUp}/>
+      <Header setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn}/>
       <NavBar />
-      <LogIn setSignUp={setSignUp} setLogin={setLogin}/>
+      <LogIn setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn}/>
       
       </div>
     );
   }
-  if(signUp) {
+  if(signUpBtn) {
     return (
       <div className="App">
-      <Header setLogin={setLogin} setSignUp={setSignUp}/>
+      <Header setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn}/>
       <NavBar />
-      <SignUp setLogin={setLogin}/>
+      <SignUp setLoginBtn={setLoginBtn}/>
       
       </div>
     );
   } else {
     return (
       <div className="App">
-      <Header setLogin={setLogin} setSignUp={setSignUp}/>
+      <Header setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn}/>
       <NavBar />
       <MainAreaOne/>
       

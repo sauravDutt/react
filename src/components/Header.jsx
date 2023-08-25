@@ -3,15 +3,15 @@ import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import PostAddRoundedIcon from '@mui/icons-material/PostAddRounded';
 import StorefrontOutlinedIcon from '@mui/icons-material/StorefrontOutlined';
 
-const Header = ({setLogin, setSignUp}) => {
+const Header = ({setLoginBtn, setSignUpBtn}) => {
 
     const logInBtn = () => {
-        setLogin(true);
+        setLoginBtn(true);
     }
 
     const showHome = () => {
-        setLogin(false);
-        setSignUp(false);
+        setLoginBtn(false);
+        setSignUpBtn(false);
     }
 
     return(

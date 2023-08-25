@@ -18,11 +18,11 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const defaultTheme = createTheme();
 
-export default function LogIn({setSignUp, setLogin}) {
+export default function LogIn({setSignUpBtn, setLoginBtn}) {
 
   const showSignUp = () => {
-    setSignUp(true);
-    setLogin(false);
+    setSignUpBtn(true);
+    setLoginBtn(false);
   }
 
 
