@@ -5,13 +5,17 @@ import StorefrontOutlinedIcon from '@mui/icons-material/StorefrontOutlined';
 
 const Header = () => {
 
+    const logInBtn = () => {
+        console.log('button clicked')
+    }
+
     return(
         <div className="header-outter">
             <div className="buttons-outter">
                 <div className="button-outter"><HomeRoundedIcon fontSize='large' sx={{width: '100%'}}/></div>
                 <div className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></div>
                 <div className="button-outter"><StorefrontOutlinedIcon fontSize='large' sx={{width: '100%'}}/></div>
-                <div className="button-outter"><AccountCircleOutlinedIcon fontSize='large' sx={{width: '100%'}}/></div>
+                <div className="button-outter" onClick={logInBtn}><AccountCircleOutlinedIcon fontSize='large' sx={{width: '100%'}}/></div>
             </div>
         </div>
     );
