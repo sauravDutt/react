@@ -18,7 +18,14 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const defaultTheme = createTheme();
 
-export default function LogIn() {
+export default function LogIn({setSignUp, setLogin}) {
+
+  const showSignUp = () => {
+    setSignUp(true);
+    setLogin(false);
+  }
+
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -82,7 +89,7 @@ export default function LogIn() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="#" variant="body2" sx={{color: '#000', textDecoration: 'none'}}>
+                <Link href="#" onClick={showSignUp} variant="body2" sx={{color: '#000', textDecoration: 'none'}}>
                   {"Don't have an account? Sign Up"}
                 </Link>
               </Grid>
