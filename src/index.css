@@ -70,6 +70,17 @@ code {
   background-color: #f3f3f346;
 }
 
+.button-outter:hover {
+  background-color: #000000bb;
+  color: #fff;
+}
+.active {
+  border: 2px solid #000;
+}
+.online {
+  border: 2px solid rgb(6, 168, 6);
+}
+
 .navbar-outter {
   position: fixed;
   z-index: 69;
@@ -119,7 +130,7 @@ code {
 
 .mainArea {
   position: relative;
-  width: 80%;
+  width: 90%;
   height: 75vh;
   margin: 0 auto;
   margin-top: 96px;
