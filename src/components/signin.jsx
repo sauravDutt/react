@@ -10,8 +10,7 @@ import Box from '@mui/material/Box';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import NavBar from './NavBar';
-import Header from './Header';
+
 
 
 
@@ -41,7 +40,6 @@ export default function SignIn() {
             alignItems: 'center',
           }}
         >
-        <NavBar />
         <AccountCircleOutlinedIcon fontSize='large' sx={{mt:7 ,width: '100%', fontSize: 50}}/>
           
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
@@ -92,7 +90,6 @@ export default function SignIn() {
           </Box>
         </Box>
       </Container>
-      <Header />
     </ThemeProvider>
   );
 }
