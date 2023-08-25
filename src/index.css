@@ -178,24 +178,7 @@ code {
   border-bottom: 1px solid #000000f6;
   background-color: #fff;
 }
-.blinders {
-  background-image: url('./img/blinders.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 350px;
-  height: 450px;
-  border: 2px solid #000000c2;
-  background-color: #fff;
-}
 
-.goku {
-  background-image: url('./img/goku.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 350px;
-  height: 450px;
-  background-color: #fff;
-}
 .bannerBoiler {
   background-color: #fff;
   background-repeat: no-repeat;
@@ -216,6 +199,7 @@ code {
 }
 .community {
   background-image: url('./img/community.png');
+  margin-bottom: 30px;
 }
 .gal {
   background-image: url('./img/gal.png');
