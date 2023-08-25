@@ -1,8 +1,8 @@
 
 import Header from './components/Header';
+// import LogIn from './components/LogIn';
 import MainAreaOne from './components/MainAreaOne';
 import NavBar from './components/NavBar';
-// import SignIn from './components/SignIn';
 import './index.css';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <Header />
     <NavBar />
     <MainAreaOne/>
-    {/* <SignIn /> */}
+    {/* <LogIn /> */}
     </div>
   );
 }
