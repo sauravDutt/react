@@ -216,7 +216,9 @@ code {
 .three {
   background-image: url('./img/three.png');
 }
-
+.community {
+  background-image: url('./img/community.png');
+}
 .gal {
   background-image: url('./img/gal.png');
 }

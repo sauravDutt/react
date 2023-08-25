@@ -21,7 +21,7 @@ const MainAreaOne = () => {
             <Banner className="bannerBoiler one" />
             <Banner className="bannerBoiler two" />
             <Banner className="bannerBoiler three" />
-            <Article title="blinders"/>
+            <Banner className="bannerBoiler community"/>
             <Article title="goku" />
         </div>
     );
