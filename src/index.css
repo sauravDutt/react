@@ -198,8 +198,6 @@ code {
 }
 .bannerBoiler {
   background-color: #fff;
-  border-radius: 20px;
-  border: 1px dotted #000;
   background-repeat: no-repeat;
   background-size: contain;
   width: 600px;
@@ -250,6 +248,7 @@ code {
 }
 
 .cat{
+  border-left: 1px solid #000;
   background-image: url('./img/cat.png');
 }
 
