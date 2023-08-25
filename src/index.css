@@ -222,17 +222,30 @@ code {
 .gal {
   background-image: url('./img/gal.png');
   background-color: #fff;
-  border: 1px solid #000;
   background-repeat: no-repeat;
   background-size: contain;
   width: 80%;
   height: 500px;
 }
 .gal div {
+  background-color: #fff;
+  margin-top: 10%;
   width: 50%;
+  padding: 10px;
+  margin-left: 45%;
+}
+.gal div h1 {
+  margin: 0;
+  margin-left: 10px;
+  font-weight: 300;
+  margin-bottom: -5px;
+  padding: 0;
+  font-family: 'Logo';
 }
 .gal div p {
-  width: 99%;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
   text-align: justify;
 }
 
@@ -256,7 +269,8 @@ code {
     width: 90%;
   }
   .gal div {
-    margin-top: 85%;
+    margin-top: 90%;
+    width: 80%;
     margin-left: 20px;
   }
   .bannerBoiler {
