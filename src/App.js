@@ -2,7 +2,7 @@
 import Header from './components/Header';
 import MainAreaOne from './components/MainAreaOne';
 import NavBar from './components/NavBar';
-// import SignIn from './components/signin';
+// import SignIn from './components/SignIn';
 import './index.css';
 
 function App() {
