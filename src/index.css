@@ -199,7 +199,7 @@ code {
 .bannerBoiler {
   background-color: #fff;
   border-radius: 20px;
-  border: 2px solid #000;
+  border: 1px dotted #000;
   background-repeat: no-repeat;
   background-size: contain;
   width: 600px;
@@ -221,6 +221,19 @@ code {
 }
 .gal {
   background-image: url('./img/gal.png');
+  background-color: #fff;
+  border: 1px solid #000;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 80%;
+  height: 500px;
+}
+.gal div {
+  width: 50%;
+}
+.gal div p {
+  width: 99%;
+  text-align: justify;
 }
 
 .cat{
@@ -238,5 +251,15 @@ code {
   .button-outter {
     height: 45px;
     width: 45px;
+  }
+  .gal {
+    width: 90%;
+  }
+  .gal div {
+    margin-top: 85%;
+    margin-left: 20px;
+  }
+  .bannerBoiler {
+    height: 300px;
   }
 }

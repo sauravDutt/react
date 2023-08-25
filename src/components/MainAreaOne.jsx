@@ -11,7 +11,12 @@ const MainAreaOne = () => {
             <Article articleImg="five" />
 
             {/* These are banners */}
-            <Banner className="bannerBoiler gal" />
+            <div className="gal">
+                <div>
+                    <h1>Create</h1>
+                    <p>Expressive Illustrations, inspiring literature, convert them into non-fungible tokens.</p>
+                </div>
+            </div>
             <Banner className="bannerBoiler cat" />
 
             {/* These are custom article with background img  */}
