@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useState} from 'react';
 import Header from './components/Header';
 import LogIn from './components/LogIn';
 import MainAreaOne from './components/MainAreaOne';
@@ -11,6 +11,7 @@ import SignUp from './components/SignUp';
 function App() {
   const [loginBtn, setLoginBtn] = useState(false);
   const [signUpBtn, setSignUpBtn] = useState(false);
+  
 
   if(loginBtn) {
     return (
