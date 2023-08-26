@@ -41,6 +41,7 @@ function App() {
 
   console.log(newsData);
 
+  
   if(loginBtn) {
     return (
       <div className="App">
