@@ -14,6 +14,7 @@ function App() {
   // News
   const [newsData, setNewsData] = useState([]);
   const [showNews, setShowNews] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   //Login and SignUp
   const [loginBtn, setLoginBtn] = useState(false);
@@ -22,9 +23,15 @@ function App() {
 
   //Make api call to news api
   async function getNewsData() {
+    //Set loading boolean to true so that we know to show loading text
+    setLoading(true);
+
     //Make news api call using axios
-    const resp = await axios.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=59051ea4f46a456a89138ee2b8c878f3");
+    const resp = await axios.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=59051ea4f46a456a89138ee2b8c878f3");
     setNewsData(resp.data.articles);
+
+    //Set loading boolean to false so that we know to show news articles
+    setLoading(false);
     
   }
 
@@ -59,8 +66,8 @@ function App() {
       <div className="App">
       <Header setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn} setShowNews={setShowNews}/>
       <NavBar />
-      {/* <MainAreaOne/> */}
-        <div className='newsOutter'>
+      
+      {loading ? "Loading..." : <div className='newsOutter'>
           {newsData.map((news) => {
             return(
               <News news={news}/>
@@ -68,6 +75,7 @@ function App() {
             
           })}
         </div>
+      }
       
       </div>
     );
