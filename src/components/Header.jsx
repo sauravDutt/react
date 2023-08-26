@@ -3,13 +3,20 @@ import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import PostAddRoundedIcon from '@mui/icons-material/PostAddRounded';
 import NewspaperRoundedIcon from '@mui/icons-material/NewspaperRounded';
 
-const Header = ({setLoginBtn, setSignUpBtn}) => {
+const Header = ({setLoginBtn, setSignUpBtn, setShowNews}) => {
 
     const logInBtn = () => {
         setLoginBtn(true);
     }
 
     const showHome = () => {
+        setLoginBtn(false);
+        setSignUpBtn(false);
+        setShowNews(false);
+    }
+
+    const showNews = () => {
+        setShowNews(true);
         setLoginBtn(false);
         setSignUpBtn(false);
     }
@@ -19,7 +26,7 @@ const Header = ({setLoginBtn, setSignUpBtn}) => {
             <div className="buttons-outter">
                 <div className="button-outter" onClick={showHome}><HomeRoundedIcon fontSize='large' sx={{width: '100%'}}/></div>
                 <div className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></div>
-                <div className="button-outter"><NewspaperRoundedIcon fontSize='large' sx={{width: '100%'}}/></div>
+                <div className="button-outter" onClick={showNews}><NewspaperRoundedIcon fontSize='large' sx={{width: '100%'}}/></div>
                 <div className="button-outter" onClick={logInBtn}><AccountCircleOutlinedIcon fontSize='large' sx={{width: '100%'}}/></div>
             </div>
         </div>

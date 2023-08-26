@@ -239,6 +239,42 @@ code {
 /* These classnames for title prop values  (-- End --)*/
 
 
+.newsOutter {
+  width: 99%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 130px;
+  overflow-x: hidden;
+}
+
+.newsPost {
+  border: 2px solid #000;
+  width: 90%;
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.newsPost h1 {
+  margin: 0;
+  padding: 0;
+}
+.newsPost h4 {
+  float: right;
+  margin: 0;
+}
+.newsPost h5 {
+  margin: 0;
+}
+.newsPost p {
+  text-align: justify;
+}
+.newsPost a {
+  text-decoration: none;
+  color: #000;
+  font-style: bold;
+  font-weight: 600;
+}
 
 @media screen and (max-width: 497px) {
   .mainArea {
