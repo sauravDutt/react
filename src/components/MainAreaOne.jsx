@@ -13,8 +13,8 @@ const MainAreaOne = () => {
             {/* These are banners */}
             <div className="gal">
                 <div>
-                    <h1>Create</h1>
-                    <p>Expressive Illustrations, inspiring literature, convert them into non-fungible tokens.</p>
+                    <h1>Gtown Journal</h1>
+                    <p>A community of expressive illustrators, inspiring writers and creative content creators, all documenting Gtown with their art.</p>
                 </div>
             </div>
             <Banner className="bannerBoiler cat" />
