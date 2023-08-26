@@ -40,6 +40,7 @@ function App() {
   }, []);
 
   console.log(newsData);
+  
 
   if(loginBtn) {
     return (
