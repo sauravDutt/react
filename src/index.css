@@ -155,7 +155,7 @@ code {
   background-size: contain;
   width: 350px;
   overflow: hidden;
-  height: 450px;
+  height: 500px;
   border-radius: 10px;
   border: 2px solid #000000e7;
 }
@@ -182,6 +182,34 @@ code {
   height: 270px;
   border-bottom: 1px solid #000000d8;
   background-color: #fff;
+}
+
+.userTag{
+  width: 150px;
+  border: 2px solid #000;
+  height: 45px;
+  display: grid;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 20px 5px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.userTag:hover {
+  color: #fff;
+  background-color: #000;
+}
+.userTag img {
+  height: 35px;
+  border: 2px solid #000;
+  border-radius: 50px;
+}
+.userTag p {
+  margin-top: -5px;
+  width: 100%;
+  font-weight: 600;
 }
 
 .imgBoiler img {
@@ -284,6 +312,8 @@ code {
   font-style: bold;
   font-weight: 600;
 }
+
+
 
 @media screen and (max-width: 497px) {
   .mainArea {

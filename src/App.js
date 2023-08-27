@@ -15,15 +15,19 @@ const graphCMS = new GraphQLClient('https://api-ap-south-1.hygraph.com/v2/cllt4k
 
 const QUERY = gql`
 {
-    articles {
-      title,
-      description,
-      date,
-      img(locales: en, forceParentLocale: false) {
-        url
-      }
+  articles {
+    title,
+    description,
+    date,
+    img(locales: en, forceParentLocale: false) {
+      url
+    }
+    userName,
+    userImage {
+      url
     }
   }
+}
 `
 
 

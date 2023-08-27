@@ -10,6 +10,12 @@ const Article = ({post}) => {
             <h1>{post.title}</h1>
             <h4>{post.date}</h4>
             <p>{post.description}</p>
+            <div className="userTag">
+                <img src={post.userImage.url} alt={post.userName}/>
+                <p>
+                    {post.userName}
+                </p>
+            </div>
         </div>
     );
 }

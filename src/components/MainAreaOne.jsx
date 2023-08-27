@@ -4,7 +4,7 @@ import Banner from "./Banner";
 
 
 const MainAreaOne = ({articleData}) => {
-
+    console.log(articleData);
 
     return(
         <div className="mainArea">
@@ -12,6 +12,7 @@ const MainAreaOne = ({articleData}) => {
             {articleData?.map((post) => {
                 return(
                     <Article post={post} />
+
                 );
             })}            
             
