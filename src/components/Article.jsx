@@ -9,12 +9,10 @@ const Article = ({post}) => {
             </div>
             <h1>{post.title}</h1>
             <h4>{post.date}</h4>
-            <p>{post.description}</p>
+            <p><span className="bigQuots">" </span>{post.description}<span className="bigQuots"> "</span></p>
             <div className="userTag">
                 <img src={post.userImage.url} alt={post.userName}/>
-                <p>
-                    {post.userName}
-                </p>
+                <p>{post.userName}</p>
             </div>
         </div>
     );
