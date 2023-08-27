@@ -10,7 +10,9 @@ import SignUp from './components/SignUp';
 import News from './components/News';
 
 
+
 function App() {
+
   // News
   const [newsData, setNewsData] = useState([]);
   const [showNews, setShowNews] = useState(false);
@@ -35,11 +37,11 @@ function App() {
     
   }
 
-  useEffect(() => {
+  useEffect(() => { 
     getNewsData();
   }, []);
 
-  console.log(newsData);
+  // console.log(newsData);
 
   
   if(loginBtn) {
