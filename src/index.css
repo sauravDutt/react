@@ -159,12 +159,33 @@ code {
   border-radius: 10px;
   border: 2px solid #000000e7;
 }
-
+.articleBoiler h1 {
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 0;
+}
+.articleBoiler h4 {
+  margin: 0;
+  float: right;
+  margin-right: 5px;
+  margin-top: -5px;
+}
+.articleBoiler p {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: justify;
+}
 .imgBoiler {
   width: 100%;
   height: 270px;
   border-bottom: 1px solid #000000d8;
   background-color: #fff;
+}
+
+.imgBoiler img {
+  width: 100%;
 }
 
 .bannerBoiler {

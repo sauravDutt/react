@@ -1,47 +1,19 @@
-import { GraphQLClient, gql } from 'graphql-request';
-import { useState, useEffect} from 'react';
-// import Article from "./Article";
+
+import Article from "./Article";
 import Banner from "./Banner";
 
-const graphCMS = new GraphQLClient('https://api-ap-south-1.hygraph.com/v2/cllt4kd4j35f101ue560af6gk/master');
 
-const QUERY = gql`
-  {
-    articles{
-      title,
-      description,
-      img{
-        id,
-        url
-      },
-      date
-    }
-  }
-`
+const MainAreaOne = ({articleData}) => {
 
-const MainAreaOne = () => {
-    // Article data
-    const [article, setArticle] = useState([]);
-
-    async function getArticleData() {
-        setArticle(await graphCMS.request(QUERY));
-    }
-
-    useEffect(() => {
-        getArticleData()
-    }, []);
-
-    let articles = article.articles
-    console.log(articles)
 
     return(
         <div className="mainArea">
 
-            {/* {articles.map((post) => {
+            {articleData?.map((post) => {
                 return(
-                    <Article post={post}/>
+                    <Article post={post} />
                 );
-            })} */}
+            })}            
             
             {/* These are banners */}
             <div className="gal">

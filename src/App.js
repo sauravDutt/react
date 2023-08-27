@@ -1,4 +1,4 @@
-
+import { GraphQLClient, gql } from 'graphql-request';
 import { useState, useEffect} from 'react';
 import axios from 'axios';
 import Header from './components/Header';
@@ -11,7 +11,34 @@ import News from './components/News';
 
 
 
+const graphCMS = new GraphQLClient('https://api-ap-south-1.hygraph.com/v2/cllt4kd4j35f101ue560af6gk/master');
+
+const QUERY = gql`
+{
+    articles {
+      title,
+      description,
+      date,
+      img(locales: en, forceParentLocale: false) {
+        url
+      }
+    }
+  }
+`
+
+
 function App() {
+  // Article Data from GraphQL CMS tool
+  const [article, setArticle] = useState([]);
+
+  async function getArticleData() {
+      setArticle(await graphCMS.request(QUERY));
+  }
+
+
+
+  let articleData = article.articles;
+
 
   // News
   const [newsData, setNewsData] = useState([]);
@@ -39,6 +66,7 @@ function App() {
 
   useEffect(() => { 
     getNewsData();
+    getArticleData();
   }, []);
 
   // console.log(newsData);
@@ -87,7 +115,7 @@ function App() {
       <div className="App">
       <Header setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn} setShowNews={setShowNews}/>
       <NavBar />
-      <MainAreaOne/>
+      <MainAreaOne articleData={articleData}/>
 
       
       </div>
