@@ -11,7 +11,7 @@ const MainAreaOne = ({articleData}) => {
 
             {articleData?.map((post) => {
                 return(
-                    <Article post={post} />
+                    <Article post={post} /> 
 
                 );
             })}            
