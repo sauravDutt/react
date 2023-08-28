@@ -59,7 +59,7 @@ function App() {
     try {
       // ⛔️ TypeError: Failed to fetch
       // 👇️ incorrect or incomplete URL
-      const response = await fetch('http://timesofindia.indiatimes.com/rssfeedstopstories.cms?feedtype=sjson');
+      const response = await fetch('https://www.toptal.com/developers/feed2json/convert?url=https%3A%2F%2Ffeeds.feedburner.com%2Fndtvnews-top-stories');
   
       if (!response.ok) {
         throw new Error(`Error! status: ${response.status}`);
