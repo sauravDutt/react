@@ -7,14 +7,7 @@ const MainAreaOne = ({articleData}) => {
     console.log(articleData);
 
     return(
-        <div className="mainArea">
-
-            {articleData?.map((post) => {
-                return(
-                    <Article post={post} /> 
-
-                );
-            })}            
+        <div className="mainArea">         
             
             {/* These are banners */}
             <div className="gal">
@@ -31,6 +24,11 @@ const MainAreaOne = ({articleData}) => {
             <Banner className="bannerBoiler two" position="positionRight" bigText="bigText"/>
             <Banner className="bannerBoiler three" position="positionLeft" bigText="bigText"/>
             <Banner className="bannerBoiler community" position="positionRight" title="Join the Community" description='Join our exclusive online community by clicking on the sign in button below.'/>
+            {articleData?.map((post) => {
+                return(
+                    <Article post={post} /> 
+                );
+            })}   
         </div>
     );
 }

@@ -43,8 +43,6 @@ function App() {
 
   let articleData = article.articles;
 
-
-  // News
   // const [newsData, setNewsData] = useState({});
   const [showNews, setShowNews] = useState(false);
   // const [loading, setLoading] = useState(false);
@@ -53,28 +51,30 @@ function App() {
   const [loginBtn, setLoginBtn] = useState(false);
   const [signUpBtn, setSignUpBtn] = useState(false);
 
-  let result;
+  // News json variable -----  News Section Start ----------------------------------------------------------------------
+  // let result;
 
-  async function getNewsData() {
-    try {
-      // ⛔️ TypeError: Failed to fetch
-      // 👇️ incorrect or incomplete URL
-      const response = await fetch('https://www.toptal.com/developers/feed2json/convert?url=https%3A%2F%2Ffeeds.feedburner.com%2Fndtvnews-top-stories');
+  // async function getNewsData() {
+  //   try {
+  //     // ⛔️ TypeError: Failed to fetch
+  //     // 👇️ incorrect or incomplete URL
+  //     const response = await fetch('https://www.toptal.com/developers/feed2json/convert?url=https%3A%2F%2Ffeeds.feedburner.com%2Fndtvnews-top-stories');
   
-      if (!response.ok) {
-        throw new Error(`Error! status: ${response.status}`);
-      }
+  //     if (!response.ok) {
+  //       throw new Error(`Error! status: ${response.status}`);
+  //     }
   
-      result = await response.json();
-      return result;
-    } catch (err) {
-      console.log(err);
-    }
-  }
+  //     result = await response.json();
+  //     return result;
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // }
   
-  getNewsData();
-  console.log(result)
+  // getNewsData();
+  // console.log(result)
   
+  // News Section End --------------------------------------------------------------------------------------------------
 
   useEffect(() => {
     getArticleData();
