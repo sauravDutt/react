@@ -20,7 +20,7 @@ const MainAreaOne = ({articleData}) => {
             <div className="gal">
                 <div>
                     <h1>Gtown Journal</h1>
-                    <p>A community of expressive illustrators, inspiring writers and creative content creators, all documenting Gtown with their art.</p>
+                    <p>A community of expressive illustrators, inspiring writers and creative content creators, all documenting Gtown with their artwork.</p>
                 </div>
             </div>
             <Banner className="bannerBoiler cat" position="positionRight" title="Create" description="Create your personalised articles, illustrations and artwork. Tell your story !!"/>
