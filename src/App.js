@@ -45,7 +45,7 @@ function App() {
 
 
   // News
-  const [newsData, setNewsData] = useState({});
+  // const [newsData, setNewsData] = useState({});
   const [showNews, setShowNews] = useState(false);
   // const [loading, setLoading] = useState(false);
 
@@ -53,20 +53,34 @@ function App() {
   const [loginBtn, setLoginBtn] = useState(false);
   const [signUpBtn, setSignUpBtn] = useState(false);
 
+  let result;
+
+  async function getNewsData() {
+    try {
+      // ⛔️ TypeError: Failed to fetch
+      // 👇️ incorrect or incomplete URL
+      const response = await fetch('http://timesofindia.indiatimes.com/rssfeedstopstories.cms?feedtype=sjson');
+  
+      if (!response.ok) {
+        throw new Error(`Error! status: ${response.status}`);
+      }
+  
+      result = await response.json();
+      return result;
+    } catch (err) {
+      console.log(err);
+    }
+  }
+  
+  getNewsData();
+  console.log(result)
   
 
   useEffect(() => {
-    (async () => {
-      const response = await fetch(
-        "https://timesofindia.indiatimes.com/rssfeedstopstories.cms?feedtype=sjson"
-      );
-      const parsed = await response.json();
-      setNewsData(parsed);
-    })();
     getArticleData();
   }, []);
 
-  console.log(newsData);
+  // console.log(newsData);
   
   if(loginBtn) {
     return (
