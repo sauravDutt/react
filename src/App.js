@@ -1,13 +1,13 @@
 import { GraphQLClient, gql } from 'graphql-request';
 import { useState, useEffect} from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import Header from './components/Header';
 import LogIn from './components/LogIn';
 import MainAreaOne from './components/MainAreaOne';
 import NavBar from './components/NavBar';
 import './index.css';
 import SignUp from './components/SignUp';
-import News from './components/News';
+// import News from './components/News';
 
 
 
@@ -45,36 +45,28 @@ function App() {
 
 
   // News
-  const [newsData, setNewsData] = useState([]);
+  const [newsData, setNewsData] = useState({});
   const [showNews, setShowNews] = useState(false);
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
   //Login and SignUp
   const [loginBtn, setLoginBtn] = useState(false);
   const [signUpBtn, setSignUpBtn] = useState(false);
 
+  
 
-  //Make api call to news api
-  async function getNewsData() {
-    //Set loading boolean to true so that we know to show loading text
-    setLoading(true);
-
-    //Make news api call using axios
-    const resp = await axios.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=59051ea4f46a456a89138ee2b8c878f3");
-    setNewsData(resp.data.articles);
-
-    //Set loading boolean to false so that we know to show news articles
-    setLoading(false);
-    
-  }
-
-  useEffect(() => { 
-    getNewsData();
+  useEffect(() => {
+    (async () => {
+      const response = await fetch(
+        "https://timesofindia.indiatimes.com/rssfeedstopstories.cms?feedtype=sjson"
+      );
+      const parsed = await response.json();
+      setNewsData(parsed);
+    })();
     getArticleData();
   }, []);
 
-  // console.log(newsData);
-
+  console.log(newsData);
   
   if(loginBtn) {
     return (
@@ -102,7 +94,7 @@ function App() {
       <Header setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn} setShowNews={setShowNews}/>
       <NavBar />
       
-      {loading ? "Loading..." : <div className='newsOutter'>
+      {/* {loading ? "Loading..." : <div className='newsOutter'>
           {newsData.map((news) => {
             return(
               <News news={news}/>
@@ -110,7 +102,7 @@ function App() {
             
           })}
         </div>
-      }
+      } */}
       
       </div>
     );
