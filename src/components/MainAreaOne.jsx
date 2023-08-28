@@ -23,14 +23,14 @@ const MainAreaOne = ({articleData}) => {
                     <p>A community of expressive illustrators, inspiring writers and creative content creators, all documenting Gtown with their art.</p>
                 </div>
             </div>
-            <Banner className="bannerBoiler cat" />
+            <Banner className="bannerBoiler cat" position="positionRight" title="Create" description="Create your personalised articles, illustrations and artwork. Tell your story !!"/>
 
             {/* These are custom article with background img  */}
 
-            <Banner className="bannerBoiler one" />
-            <Banner className="bannerBoiler two" />
-            <Banner className="bannerBoiler three" />
-            <Banner className="bannerBoiler community"/>
+            <Banner className="bannerBoiler one" position="positionLeft" bigText="bigText"/>
+            <Banner className="bannerBoiler two" position="positionRight" bigText="bigText"/>
+            <Banner className="bannerBoiler three" position="positionLeft" bigText="bigText"/>
+            <Banner className="bannerBoiler community" position="positionRight" title="Join the Community" description='Join our exclusive online community by clicking on the sign in button below.'/>
         </div>
     );
 }
