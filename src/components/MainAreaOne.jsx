@@ -29,6 +29,7 @@ const MainAreaOne = ({articleData}) => {
                     <Article post={post} /> 
                 );
             })}   
+            <Banner className="narrow" />
         </div>
     );
 }
