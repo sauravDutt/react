@@ -96,7 +96,7 @@ function App() {
     return (
       <div className="App">
       <Header setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn} setShowNews={setShowNews}/>
-      <NavBar />
+      <NavBar /> 
       <SignUp setLoginBtn={setLoginBtn}/>
       
       </div>
