@@ -9,6 +9,29 @@ import './index.css';
 import SignUp from './components/SignUp';
 // import News from './components/News';
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyA7VT4A3YOi8qBsWKlIrDMT98YiYoepq3Q",
+  authDomain: "gtown-journal.firebaseapp.com",
+  projectId: "gtown-journal",
+  storageBucket: "gtown-journal.appspot.com",
+  messagingSenderId: "738237664082",
+  appId: "1:738237664082:web:30637bdda34eb7495f488b",
+  measurementId: "G-9QN1QBLE83"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+console.log(analytics);
 
 
 const graphCMS = new GraphQLClient('https://api-ap-south-1.hygraph.com/v2/cllt4kd4j35f101ue560af6gk/master');
