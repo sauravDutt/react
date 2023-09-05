@@ -3,7 +3,7 @@ const News = ({news}) => {
 
     return(
         <div className="newsPost">
-            <h1>{news.title}</h1>
+            {/* <h1>{news.title}</h1>
             <h4>{news.author}</h4>
             <h5>{news.publishedAt}</h5>
             <p>
@@ -12,7 +12,7 @@ const News = ({news}) => {
             <p>
                 {news.content}
             </p>
-            <a href={news.url} target="blank" >Read More</a>
+            <a href={news.url} target="blank" >Read More</a> */}
         </div>
     );
 }

@@ -1,18 +1,24 @@
 import { GraphQLClient, gql } from 'graphql-request';
 import { useState, useEffect} from 'react';
+
+import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
 // import axios from 'axios';
-import Header from './components/Header';
 import LogIn from './components/LogIn';
 import MainAreaOne from './components/MainAreaOne';
 import NavBar from './components/NavBar';
 import './index.css';
-import SignUp from './components/SignUp';
-// import News from './components/News';
+import News from './components/News';
 
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
+import PostAddRoundedIcon from '@mui/icons-material/PostAddRounded';
+import NewspaperRoundedIcon from '@mui/icons-material/NewspaperRounded';
 
 const graphCMS = new GraphQLClient('https://api-ap-south-1.hygraph.com/v2/cllt4kd4j35f101ue560af6gk/master');
  
 const QUERY = gql`
+
 {
   articles {
     title,
@@ -42,95 +48,28 @@ function App() {
 
   let articleData = article.articles;
 
-  // const [newsData, setNewsData] = useState({});
-  const [showNews, setShowNews] = useState(false);
-  // const [loading, setLoading] = useState(false);
-
-  //Login and SignUp
-  const [loginBtn, setLoginBtn] = useState(false);
-  const [signUpBtn, setSignUpBtn] = useState(false);
-
-  // News json variable -----  News Section Start ----------------------------------------------------------------------
-  // let result;
-
-  // async function getNewsData() {
-  //   try {
-  //     // ⛔️ TypeError: Failed to fetch
-  //     // 👇️ incorrect or incomplete URL
-  //     const response = await fetch('https://www.toptal.com/developers/feed2json/convert?url=https%3A%2F%2Ffeeds.feedburner.com%2Fndtvnews-top-stories');
-  
-  //     if (!response.ok) {
-  //       throw new Error(`Error! status: ${response.status}`);
-  //     }
-  
-  //     result = await response.json();
-  //     return result;
-  //   } catch (err) {
-  //     console.log(err);
-  //   }
-  // }
-  
-  // getNewsData();
-  // console.log(result)
-  
-  // News Section End --------------------------------------------------------------------------------------------------
-
   useEffect(() => {
     getArticleData();
   }, []);
 
-  // console.log(newsData);
-  
-  if(loginBtn) {
-    return (
-      <div className="App">
-      <Header setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn} setShowNews={setShowNews}/>
+  return(
+    <Router>
+      <div className="header-outter">
+          <div className="buttons-outter">
+            <Link to='/' className="button-outter"><HomeRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
+            <Link  to='/' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
+            <Link to ='/news'className="button-outter"><NewspaperRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
+            <Link to='/login' className="button-outter"><AccountCircleOutlinedIcon fontSize='large' sx={{width: '100%'}}/></Link>
+          </div>
+      </div>
       <NavBar />
-      <LogIn setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn}/>
-      
-      </div>
-    );
-  }
-  if(signUpBtn) {
-    return (
-      <div className="App">
-      <Header setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn} setShowNews={setShowNews}/>
-      <NavBar /> 
-      <SignUp setLoginBtn={setLoginBtn}/>
-      
-      </div>
-    );
-  } 
-  if(showNews) {
-    return(
-      <div className="App">
-      <Header setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn} setShowNews={setShowNews}/>
-      <NavBar />
-      
-      {/* {loading ? "Loading..." : <div className='newsOutter'>
-          {newsData.map((news) => {
-            return(
-              <News news={news}/>
-            );
-            
-          })}
-        </div>
-      } */}
-      
-      </div>
-    );
-  } else {
-    return (
-      <div className="App">
-      <Header setLoginBtn={setLoginBtn} setSignUpBtn={setSignUpBtn} setShowNews={setShowNews}/>
-      <NavBar />
-      <MainAreaOne articleData={articleData}/>
-
-      
-      </div>
-    );
-  }
-
+      <Routes>
+        <Route path='/' element={<MainAreaOne/>}/>
+        <Route path='/login' element={<LogIn/>} />
+        <Route path='/news' element={<News/>}/>
+      </Routes>
+    </Router>
+  );
   
 }
 
