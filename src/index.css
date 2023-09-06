@@ -341,8 +341,6 @@ code {
 }
 
 .dashBoard-outter {
-  width: 90%;
-  margin-left: 3%;
   margin-top: 120px;
   display: grid;
   grid-template-columns: auto;
@@ -351,6 +349,7 @@ code {
   box-shadow: 5px 5px 15px #0000001a;
   position: fixed;
   width: 90%;
+  margin-left: 3%;
   display: grid;
   border-radius: 15px;
   padding: 5px;
@@ -397,9 +396,21 @@ code {
 .userStats {
   z-index: 1;
   width: 100%;
-  margin-top: 150px;
-  height: 50vh;
-  border: 1px solid #000;
+  height: 100vh;
+}
+.userStats p{
+  width: 90%;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 25px;
+}
+.userStats p span {
+  font-family: 'Logo';
+  font-size: 25px;
+  font-weight: 300;
+}
+.backgroundImgDashboard {
+  width: 100%;
 }
 .one {
   background-image: url('./img/one.png');
