@@ -54,7 +54,6 @@ function App() {
   // useEffect(() => {
   //   getArticleData();
   // }, []);
-  console.log(userData.user.photoURL);
   return(
     <Router>
       <div className="header-outter">
