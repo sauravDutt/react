@@ -71,6 +71,25 @@ code {
   border-radius: 50%;
   background-color: #f3f3f346;
 }
+.button-outter-logout {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  height: 55px;
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #00fc0062;
+  background-color: #f3f3f346;
+}
+
+.logOutBtnImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
 
 .button-outter:hover {
   background-color: #000000bb;

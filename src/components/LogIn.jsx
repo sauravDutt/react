@@ -1,10 +1,25 @@
 
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+import {auth, provider} from '../firebase-config';
+import {signInWithPopup} from 'firebase/auth';
+import {useNavigate} from 'react-router-dom';
 
 
-export default function LogIn() {
 
+export default function LogIn({setIsAuth, setUserData}) {
 
+  let navigate = useNavigate();
+
+  const signInWithGoogle = () => {
+    signInWithPopup(auth, provider).then((result) => {
+      localStorage.setItem("isAuth", true);
+      setIsAuth(true);
+      navigate("/");
+      setUserData(result);
+      
+    });
+  }
+  
   return (
       <div className='login-outter'>
         <div className='loginContainer'>
@@ -12,7 +27,7 @@ export default function LogIn() {
           <p>
             To become a Gtown Journal content creater you first have to sign in with your google account.
           </p>
-          <button className='login-with-google-btn'>Signin with Google</button>
+          <button className='login-with-google-btn' onClick={signInWithGoogle}>Signin with Google</button>
         </div>
       </div>
   );
