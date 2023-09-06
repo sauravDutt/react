@@ -390,8 +390,8 @@ code {
   user-select: none;
 }
 .onlineDot {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   background-color: green;
   border-radius: 50%;
   position: absolute;
@@ -401,7 +401,7 @@ code {
 .userStats {
   z-index: 1;
   width: 100%;
-  height: 100vh;
+  margin-bottom: 250px;
 }
 .userStats p{
   width: 90%;
