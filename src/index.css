@@ -340,6 +340,63 @@ code {
   }
 }
 
+.dashBoard-outter {
+  width: 90%;
+  margin-left: 3%;
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: auto;
+}
+.userLogout {
+  box-shadow: 5px 5px 15px #0000001a;
+  position: fixed;
+  width: 90%;
+  display: grid;
+  border-radius: 15px;
+  padding: 5px;
+  grid-template-columns: auto auto;
+}
+
+.userLogout img {
+  border-radius: 50%;
+}
+
+.userDetails {
+  margin: 0;
+  padding: 0;
+}
+.userDetails h2 {
+  margin: 0;
+  padding: 0;
+}
+.userDetails p {
+  margin: 0;
+  padding: 0;
+}
+.userDetails button {
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+.onlineDot {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.userStats {
+  width: 100%;
+  margin-top: 150px;
+  height: 50vh;
+  border: 1px solid #000;
+}
 .one {
   background-image: url('./img/one.png');
 }

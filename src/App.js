@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import LogIn from './components/LogIn';
 import MainAreaOne from './components/MainAreaOne';
 import NavBar from './components/NavBar';
+import UserDashboardPage from './components/UserDashboardPage';
 import './index.css';
 import News from './components/News';
 
@@ -61,7 +62,9 @@ function App() {
             <Link to='/' className="button-outter"><HomeRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
             <Link to='/' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
             <Link to ='/news'className="button-outter"><NewspaperRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
-            {!isAuth ? <Link to='/login' className="button-outter"><AccountCircleOutlinedIcon fontSize='large' sx={{width: '100%'}}/></Link> : <Link className="button-outter-logout"><img src={userData.user.photoURL} alt="userImage" className='logOutBtnImg'/></Link>}
+            {!isAuth ? <Link to='/login' className="button-outter"><AccountCircleOutlinedIcon fontSize='large' sx={{width: '100%'}}/></Link> 
+              : 
+            <Link className="button-outter-logout" to='/dashboard'><img src={userData.user.photoURL} alt="userImage" className='logOutBtnImg'/></Link>}
           </div>
       </div>
       <NavBar />
@@ -69,6 +72,7 @@ function App() {
         <Route path='/' element={<MainAreaOne/>}/>
         <Route path='/login' element={<LogIn setIsAuth={setIsAuth} setUserData={setUserData}/>}/>
         <Route path='/news' element={<News/>}/>
+        <Route path='/dashboard' element={<UserDashboardPage setIsAuth={setIsAuth} userData={userData}/>} />
       </Routes>
     </Router>
   );
