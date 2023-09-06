@@ -1,9 +1,8 @@
-// import { GraphQLClient, gql } from 'graphql-request';
+
 import { useState} from 'react';
 
 import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-// import axios from 'axios';
 import LogIn from './components/LogIn';
 import MainAreaOne from './components/MainAreaOne';
 import NavBar from './components/NavBar';
@@ -16,45 +15,14 @@ import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import PostAddRoundedIcon from '@mui/icons-material/PostAddRounded';
 import NewspaperRoundedIcon from '@mui/icons-material/NewspaperRounded';
 
-// const graphCMS = new GraphQLClient('https://api-ap-south-1.hygraph.com/v2/cllt4kd4j35f101ue560af6gk/master');
- 
-// const QUERY = gql`
-
-// {
-//   articles {
-//     title,
-//     description,
-//     date,
-//     img(locales: en, forceParentLocale: false) {
-//       url
-//     }
-//     userName,
-//     userImage {
-//       url
-//     }
-//   }
-// }
-// `
 
 
 function App() {
-  // Article Data from GraphQL CMS tool
-  // const [article, setArticle] = useState([]);
 
   const [isAuth, setIsAuth] = useState(false);
   const [userData, setUserData] = useState([]);
 
-  // async function getArticleData() {
-  //     setArticle(await graphCMS.request(QUERY));
-  // }
-
-
-
-  // let articleData = article.articles;
-
-  // useEffect(() => {
-  //   getArticleData();
-  // }, []);
+  
   return(
     <Router>
       <div className="header-outter">
