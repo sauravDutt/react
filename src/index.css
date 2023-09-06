@@ -354,6 +354,8 @@ code {
   display: grid;
   border-radius: 15px;
   padding: 5px;
+  z-index: 69;
+  background-color: #fff;
   grid-template-columns: auto auto;
 }
 
@@ -380,6 +382,7 @@ code {
   padding: 5px;
   border-radius: 5px;
   cursor: pointer;
+  color: #000;
   user-select: none;
 }
 .onlineDot {
@@ -392,6 +395,7 @@ code {
   right: 20px;
 }
 .userStats {
+  z-index: 1;
   width: 100%;
   margin-top: 150px;
   height: 50vh;
