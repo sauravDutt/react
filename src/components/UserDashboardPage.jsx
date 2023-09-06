@@ -18,11 +18,13 @@ const UserDashboardPage = ({setIsAuth, userData}) => {
     return(
         <div className="dashBoard-outter">
             <div className="userLogout">
-                <img src={userData.user.photoURL} alt="User"/>
+                <div className='userImageDashboard-outter'>
+                    <img src={userData.user.photoURL} alt="User"/>
+                </div>
                 <div className='userDetails'>
                     <h2>{userData.user.displayName}</h2>
                     <p>{userData.user.email}</p>
-                    <button onClick={signOutUser}>Sign out</button>
+                    <button onClick={signOutUser}>Signout</button>
                 </div>
                 <div className='onlineDot'></div>
             </div>

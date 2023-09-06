@@ -349,21 +349,23 @@ code {
   box-shadow: 5px 5px 15px #0000001a;
   position: fixed;
   width: 90%;
-  margin-left: 3%;
+  margin-left: 4%;
   display: grid;
   border-radius: 15px;
   padding: 5px;
   z-index: 69;
   background-color: #fff;
-  grid-template-columns: auto auto;
+  grid-template-columns: 35% 65%;
 }
 
 .userLogout img {
   border-radius: 50%;
+  width: 69px;
 }
 
 .userDetails {
   margin: 0;
+  margin-left: -10%;
   padding: 0;
 }
 .userDetails h2 {
@@ -377,7 +379,10 @@ code {
 .userDetails button {
   margin-top: 10px;
   background-color: transparent;
-  border: 1px solid #000;
+  border: none;
+  font-family: 'Logo';
+  font-weight: 100;
+  font-size: 30px;
   padding: 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -408,6 +413,13 @@ code {
   font-family: 'Logo';
   font-size: 25px;
   font-weight: 300;
+}
+.userImageDashboard-outter {
+  border-right: 1px solid #000;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .backgroundImgDashboard {
   width: 100%;
