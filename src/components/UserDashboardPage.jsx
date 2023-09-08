@@ -1,7 +1,8 @@
 import {signOut} from 'firebase/auth'
 import {useNavigate} from 'react-router-dom';
 import { auth } from '../firebase-config';
-import gal from '../img/gal.png'
+// import gal from '../img/gal.png';
+import goku from '../img/goku.jpg';
 
 
 const UserDashboardPage = ({setIsAuth, userData}) => {
@@ -29,7 +30,7 @@ const UserDashboardPage = ({setIsAuth, userData}) => {
                 <div className='onlineDot'></div>
             </div>
             <div className='userStats'>
-                <img src={gal} className='backgroundImgDashboard' alt='background img'/>
+                <img src={goku} className='backgroundImgDashboard' alt='background img'/>
                 <p>
                     <span>Welcome </span>is simply dummy text of the printing and typesetting industry. 
                     <i>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</i>, 
