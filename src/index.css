@@ -402,6 +402,9 @@ code {
   z-index: 1;
   width: 100%;
   margin-bottom: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .userStats p{
   width: 90%;
@@ -422,7 +425,8 @@ code {
   align-items: center;
 }
 .backgroundImgDashboard {
-  width: 100%;
+  height: 369px;
+
 }
 .one {
   background-image: url('./img/one.png');
