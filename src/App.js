@@ -7,6 +7,7 @@ import LogIn from './components/LogIn';
 import MainAreaOne from './components/MainAreaOne';
 import NavBar from './components/NavBar';
 import UserDashboardPage from './components/UserDashboardPage';
+import CreateArticle from './components/CreateArticle';
 import './index.css';
 import News from './components/News';
 
@@ -28,7 +29,7 @@ function App() {
       <div className="header-outter">
           <div className="buttons-outter">
             <Link to='/' className="button-outter"><HomeRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
-            <Link to='/' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
+            {!isAuth ? <Link to='/login' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link> : <Link to='/create-article' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>}
             <Link to ='/news'className="button-outter"><NewspaperRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
             {!isAuth ? <Link to='/login' className="button-outter"><AccountCircleOutlinedIcon fontSize='large' sx={{width: '100%'}}/></Link> 
               : 
@@ -41,6 +42,7 @@ function App() {
         <Route path='/login' element={<LogIn setIsAuth={setIsAuth} setUserData={setUserData}/>}/>
         <Route path='/news' element={<News/>}/>
         <Route path='/dashboard' element={<UserDashboardPage setIsAuth={setIsAuth} userData={userData}/>} />
+        <Route path='/create-article' element={<CreateArticle/>}/>
       </Routes>
     </Router>
   );

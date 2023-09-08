@@ -1,7 +1,7 @@
 
 const CreateArticle = () => {
     return(
-        <div>
+        <div className="createArticle-outter">
             
         </div>
     );
