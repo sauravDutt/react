@@ -425,7 +425,7 @@ code {
   align-items: center;
 }
 .backgroundImgDashboard {
-  height: 369px;
+  width: 100%;
 
 }
 .one {
