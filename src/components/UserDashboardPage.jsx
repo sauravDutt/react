@@ -1,7 +1,5 @@
 import {signOut} from 'firebase/auth'
 import { auth } from '../firebase-config';
-// import gal from '../img/gal.png';
-import goku from '../img/goku.jpg';
 
 
 const UserDashboardPage = ({setIsAuth, userData}) => {
@@ -29,9 +27,8 @@ const UserDashboardPage = ({setIsAuth, userData}) => {
                 <div className='onlineDot'></div>
             </div>
             <div className='userStats'>
-                <img src={goku} className='backgroundImgDashboard' alt='background img'/>
                 <p>
-                    <span>Welcome</span> to simpler times, 
+                    <span>Welcome</span> to a simpler time, when Journalism was pure knowledge,  
                 </p>
             </div>
         </div>

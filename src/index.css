@@ -346,7 +346,7 @@ code {
   grid-template-columns: auto;
 }
 .userLogout {
-  box-shadow: 5px 5px 15px #0000001a;
+  box-shadow: 5px 5px 15px #00000038;
   position: fixed;
   width: 90%;
   margin-left: 4%;
@@ -354,7 +354,7 @@ code {
   border-radius: 15px;
   padding: 5px;
   z-index: 69;
-  background-color: #fff;
+  background-color: #ececec;
   grid-template-columns: 35% 65%;
 }
 
@@ -399,17 +399,22 @@ code {
   right: 20px;
 }
 .userStats {
+  background-image: url('./img/goku.jpg');
+  background-size: contain;
   z-index: 1;
-  width: 100%;
+  width: 90%;
+  height: 50vh;
+  margin: 0 auto;
   margin-bottom: 250px;
+  margin-top: 170px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .userStats p{
-  width: 90%;
+  width: 80%;
   text-align: justify;
-  margin: 0 auto;
+  margin-left: -20px;
   line-height: 25px;
 }
 .userStats p span {
