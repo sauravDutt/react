@@ -400,6 +400,8 @@ code {
 }
 .userStats {
   background-image: url('./img/goku.jpg');
+  background-repeat: no-repeat;
+
   background-size: contain;
   z-index: 1;
   width: 90%;
