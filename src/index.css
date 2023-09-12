@@ -354,7 +354,7 @@ code {
   border-radius: 15px;
   padding: 5px;
   z-index: 69;
-  background-color: #ececec;
+  background-color: #00000004;
   grid-template-columns: 35% 65%;
 }
 
