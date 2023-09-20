@@ -365,8 +365,9 @@ code {
 
 .userDetails {
   margin: 0;
-  margin-left: -10%;
-  padding: 0;
+  margin-left: -12%;
+  padding-top: 10px;
+  padding-left: 15px;
 }
 .userDetails h2 {
   margin: 0;
@@ -425,15 +426,13 @@ code {
   font-weight: 300;
 }
 .userImageDashboard-outter {
-  border-right: 1px solid #000;
-  width: 70%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .backgroundImgDashboard {
   width: 100%;
-
 }
 
 .news-outter {
