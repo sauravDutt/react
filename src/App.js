@@ -42,7 +42,7 @@ function App() {
         <Route path='/login' element={<LogIn setIsAuth={setIsAuth} setUserData={setUserData}/>}/>
         <Route path='/news' element={<News/>}/>
         <Route path='/dashboard' element={<UserDashboardPage setIsAuth={setIsAuth} userData={userData}/>} />
-        <Route path='/create-article' element={<CreateArticle/>}/>
+        <Route path='/create-article' element={<CreateArticle isAuth={isAuth}/>}/>
       </Routes>
     </Router>
   );

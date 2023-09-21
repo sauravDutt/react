@@ -1,5 +1,18 @@
+import { useEffect } from "react";
+import {useNavigate} from 'react-router-dom';
 
-const CreateArticle = () => {
+const CreateArticle = ({isAuth}) => {
+
+    let navigate = useNavigate();
+    
+    useEffect(() => {
+
+        if(!isAuth) {
+            navigate('/login');
+        }
+
+    }, []);
+
     return(
         <div className="createArticle-outter">
             <div></div>
