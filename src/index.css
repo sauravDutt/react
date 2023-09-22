@@ -476,10 +476,10 @@ code {
   height: 50px;
   position: fixed;
   bottom: 130px;
-  margin-left: 1.9%;
+  margin-left: 2.5%;
 }
 .chatbot-input input {
-  width: 79%;
+  width: 70%;
   font-size: 20px;
   padding: 5px;
   border-radius: 10px;
@@ -487,6 +487,13 @@ code {
 }
 .chatbot-input button {
   border: none;
+  color: #000;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: transparent;
 }
 .one {

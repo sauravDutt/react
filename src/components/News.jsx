@@ -10,7 +10,7 @@ const News = () => {
             </div>
             <div className="chatbot-input">
                 <input type='text'/>
-                <button><SendIcon fontSize='large'/></button>
+                <button><SendIcon fontSize='medium' sx={{width: '100%'}}/></button>
             </div>
         </div>
         
