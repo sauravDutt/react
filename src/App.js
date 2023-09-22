@@ -15,6 +15,8 @@ import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import PostAddRoundedIcon from '@mui/icons-material/PostAddRounded';
 import NewspaperRoundedIcon from '@mui/icons-material/NewspaperRounded';
+import CreateArticleForm from './components/CreateArticleForm';
+import UploadIllustration from './components/UploadIllustration';
 
 
 
@@ -29,7 +31,7 @@ function App() {
       <div className="header-outter">
           <div className="buttons-outter">
             <Link to='/' className="button-outter"><HomeRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
-            {!isAuth ? <Link to='/login' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link> : <Link to='/create-article' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>}
+            {!isAuth ? <Link to='/login' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link> : <Link to='/create' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>}
             <Link to ='/news'className="button-outter"><NewspaperRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
             {!isAuth ? <Link to='/login' className="button-outter"><AccountCircleOutlinedIcon fontSize='large' sx={{width: '100%'}}/></Link> 
               : 
@@ -42,7 +44,9 @@ function App() {
         <Route path='/login' element={<LogIn setIsAuth={setIsAuth} setUserData={setUserData}/>}/>
         <Route path='/news' element={<News/>}/>
         <Route path='/dashboard' element={<UserDashboardPage setIsAuth={setIsAuth} userData={userData} isAuth={isAuth}/>} />
-        <Route path='/create-article' element={<CreateArticle isAuth={isAuth}/>}/>
+        <Route path='/create' element={<CreateArticle isAuth={isAuth}/>}/>
+        <Route path='/create-article' element={<CreateArticleForm isAuth={isAuth}/>}/>
+        <Route path='/upload-illustration' element={<UploadIllustration isAuth={isAuth}/>}/>
       </Routes>
     </Router>
   );
