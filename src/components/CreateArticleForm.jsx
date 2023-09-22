@@ -16,8 +16,15 @@ const CreateArticleForm = ({isAuth}) => {
     return(
         <div className="form-outter">
             <h1>
-                Create Article form
+                Create an <sub> article</sub>
             </h1>
+            <div>
+                <label>Article title </label>
+                <input type="text"/>
+                <label>Article content</label>
+                <textarea></textarea>
+                <button>Post</button>
+            </div>
         </div>
     );
 }

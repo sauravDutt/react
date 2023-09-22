@@ -622,10 +622,55 @@ code {
 }
 
 .form-outter {
-  border: 1px solid #000;
-  width: 90%;
+  padding-top: 15px;
+  width: 80%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+.form-outter h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #00000059;
+}
+.form-outter h1 sub {
+  margin-left: -15px;
+  font-family: 'Logo';
+  font-weight: 100;
+  font-size: 40px;
+  color: #000;
+}
+.form-outter div {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 15px;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.form-outter div input, .form-outter textarea{
+  font-size: 17px;
+}
+
+.form-outter div label {
+  font-size: 17px;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+.form-outter div button {
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  width: 100px;
+  padding: 5px;
+  color: #000;
+  font-weight: 300;
+  letter-spacing: 5px;
 }
 
 
