@@ -400,22 +400,19 @@ code {
   right: 20px;
 }
 .userStats {
-  background-image: url('./img/goku.jpg');
-  background-repeat: no-repeat;
-
-  background-size: contain;
+  border: 1px solid #00000033;
   z-index: 1;
   width: 90%;
   height: 50vh;
   margin: 0 auto;
-  margin-bottom: 250px;
+  margin-bottom: 160px;
   margin-top: 170px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .userStats p{
-  width: 80%;
+  width: 60%;
   text-align: justify;
   margin-left: -20px;
   line-height: 25px;
@@ -425,6 +422,12 @@ code {
   font-size: 25px;
   font-weight: 300;
 }
+.userStats p img {
+  width: 110%;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+} 
 .userImageDashboard-outter {
   width: 80%;
   display: flex;

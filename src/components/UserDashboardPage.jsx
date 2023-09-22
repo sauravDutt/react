@@ -1,5 +1,6 @@
 import {signOut} from 'firebase/auth'
 import { auth } from '../firebase-config';
+import five from '../img/five.png'
 
 
 const UserDashboardPage = ({setIsAuth, userData}) => {
@@ -28,7 +29,8 @@ const UserDashboardPage = ({setIsAuth, userData}) => {
             </div>
             <div className='userStats'>
                 <p>
-                    <span>Welcome</span> to a simpler time, when Journalism was pure knowledge,  
+                    <span>Welcome</span> to <strong>Gtown Journal</strong>, an online community for fictional and non-fictional writers, expressive illustrators all documenting their town with their unique art.
+                    <img src={five} alt='five' />  
                 </p>
             </div>
         </div>
