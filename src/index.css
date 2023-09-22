@@ -545,19 +545,22 @@ code {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-around;
+  gap: 15px;
   width: 99%;
-  height: 77vh;
+  height: 72.5vh;
   margin: 0 auto;
   margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .createArticle-outter div {
-  width: 48vw;
+  width: 46vw;
   border-radius: 10px;
   border: 1px solid #000;
 }
 
 
-@media screen and (max-width: 497px) {
+@media screen and (max-width: 500px) {
   .mainArea {
     width: 99%;
   }
@@ -575,5 +578,11 @@ code {
   }
   .bannerBoiler {
     height: 300px;
+  }
+  .createArticle-outter {
+    grid-template-columns: auto;
+  }
+  .createArticle-outter div {
+    width: 93vw;
   }
 }

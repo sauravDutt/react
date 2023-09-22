@@ -11,7 +11,7 @@ const CreateArticle = ({isAuth}) => {
             navigate('/login');
         }
 
-    }, []);
+    });
 
     return(
         <div className="createArticle-outter">
