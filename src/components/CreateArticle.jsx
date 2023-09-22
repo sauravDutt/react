@@ -15,8 +15,16 @@ const CreateArticle = ({isAuth}) => {
 
     return(
         <div className="createArticle-outter">
-            <div></div>
-            <div></div>
+            <div>
+                <h1>
+                    Create an <span>article</span>
+                </h1>
+            </div>
+            <div>
+                <h1>
+                    Upload an <span>illustration</span>
+                </h1>
+            </div>
         </div>
     );
 }

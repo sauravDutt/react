@@ -1,9 +1,18 @@
-import {signOut} from 'firebase/auth'
+import {signOut} from 'firebase/auth';
 import { auth } from '../firebase-config';
-import five from '../img/five.png'
+import five from '../img/five.png';
+import { useEffect } from "react";
+import {useNavigate} from 'react-router-dom';
 
+const UserDashboardPage = ({setIsAuth, userData, isAuth}) => {
 
-const UserDashboardPage = ({setIsAuth, userData}) => {
+    let navigate = useNavigate();
+    
+    useEffect(() => {
+        if(!isAuth) {
+            navigate('/login');
+        }
+    });
 
     const signOutUser = () => {
         signOut(auth).then(() => {
@@ -29,7 +38,7 @@ const UserDashboardPage = ({setIsAuth, userData}) => {
             </div>
             <div className='userStats'>
                 <p>
-                    <span>Welcome</span> to <strong>Gtown Journal</strong>, an online community for fictional and non-fictional writers, expressive illustrators all documenting their town with their unique art.
+                    <span>Welcome</span> to <strong>Gtown Journal</strong>, an online community for fictional and non-fictional writers, expressive illustrators all documenting the town with their unique art.
                     <img src={five} alt='five' />  
                 </p>
             </div>

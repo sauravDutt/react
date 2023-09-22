@@ -557,11 +557,27 @@ code {
 }
 .createArticle-outter div {
   width: 46vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 10px;
   border: 1px solid #000;
+  cursor: pointer;
 }
-
-
+.createArticle-outter div:hover {
+  background-color: #000;
+  color: #fff;
+}
+.createArticle-outter div h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+.createArticle-outter div h1 span {
+  font-family: 'Logo';
+  font-weight: 300;
+  font-size: 52px;
+}
 @media screen and (max-width: 500px) {
   .mainArea {
     width: 99%;
