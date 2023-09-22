@@ -12,8 +12,7 @@ const UploadIllustration = ({isAuth}) => {
         }
 
     });
-
-
+    
     return(
         <div className="form-outter">
             <h1>Upload illustration form</h1>

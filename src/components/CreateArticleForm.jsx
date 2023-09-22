@@ -13,7 +13,6 @@ const CreateArticleForm = ({isAuth}) => {
 
     });
 
-
     return(
         <div className="form-outter">
             <h1>
