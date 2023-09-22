@@ -565,7 +565,7 @@ code {
   cursor: pointer;
 }
 .createArticle-outter div:hover {
-  background-color: #000;
+  background-color: #000000d3;
   color: #fff;
 }
 .createArticle-outter div h1 {
