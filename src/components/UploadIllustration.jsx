@@ -18,10 +18,10 @@ const UploadIllustration = ({isAuth}) => {
             <h1>Upload an <sub> Illutstration</sub></h1>
             <div>
                 <label>Upload a file </label>
-                <input type="file"/>
+                <input type="file" className="fileInput"/>
                 <label>Caption</label>
                 <input type="text"/>
-                <button>upload</button>
+                <button>Upload</button>
             </div>
         </div>
     );

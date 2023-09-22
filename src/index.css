@@ -170,12 +170,13 @@ code {
 
 /* These classnames are title prop values  (-- Start --)*/
 .articleBoiler {
+  padding: 5px;
+  padding-bottom: 10px;
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: contain;
   width: 350px;
   overflow: hidden;
-  height: 500px;
   border-radius: 10px;
   border: 2px solid #000000e7;
 }
@@ -215,7 +216,7 @@ code {
   cursor: pointer;
   border-radius: 20px;
   margin: 20px 15px;
-  background-color: #000000e0;
+  background-color: #000000c9;
   color: #fff;
   grid-template-columns: auto auto;
   justify-content: center;
@@ -625,7 +626,7 @@ code {
   padding-top: 15px;
   width: 80%;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 120px;
   border-radius: 10px;
 }
 .form-outter h1 {
@@ -651,16 +652,23 @@ code {
   padding: 10px;
 }
 
-.form-outter div input, .form-outter textarea{
+.form-outter div input, .form-outter div textarea{
   font-size: 17px;
 }
-
+.form-outter div textarea {
+  height: 150px;
+}
 .form-outter div label {
   font-size: 17px;
   margin: 0;
   letter-spacing: 3px;
 }
 
+.fileInput {
+  font-size: 17px;
+  margin: 0;
+  letter-spacing: 3px;
+}
 .form-outter div button {
   background-color: transparent;
   border: none;
