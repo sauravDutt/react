@@ -646,6 +646,7 @@ code {
   display: grid;
   grid-template-columns: auto;
   gap: 15px;
+  width: 90%;
   margin: 0 auto;
   justify-content: space-around;
   margin-bottom: 50px;
