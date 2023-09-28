@@ -629,20 +629,27 @@ code {
   margin-top: 120px;
   border-radius: 10px;
 }
-.form-outter h1 {
+.form-outter-illustration {
+  padding-top: 15px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 120px;
+  border-radius: 10px;
+}
+.form-outter h1, .form-outter-illustration h1{
   margin: 0;
   padding: 0;
   text-align: center;
   color: #00000059;
 }
-.form-outter h1 sub {
+.form-outter h1 sub, .form-outter-illustration h1 sub {
   margin-left: -15px;
   font-family: 'Logo';
   font-weight: 100;
   font-size: 40px;
   color: #000;
 }
-.form-outter div {
+.form-outter div{
   display: grid;
   grid-template-columns: auto;
   gap: 15px;
@@ -653,10 +660,21 @@ code {
   padding: 10px;
 }
 
-.form-outter div input, .form-outter div textarea{
+.form-outter-illustration div {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 15px;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.form-outter div input, .form-outter div textarea, .form-outter-illustration div input{
   font-size: 17px;
 }
-.form-outter div textarea {
+.form-outter div textarea{
   height: 150px;
 }
 .form-outter div label {
@@ -670,7 +688,7 @@ code {
   margin: 0;
   letter-spacing: 3px;
 }
-.form-outter div button {
+.form-outter div button, .form-outter-illustration div button {
   background-color: transparent;
   border: none;
   border-radius: 8px;
@@ -682,6 +700,9 @@ code {
   letter-spacing: 5px;
 }
 
+.form-outter-illustration div input {
+  width: 100%;
+}
 
 @media screen and (max-width: 500px) {
   .mainArea {

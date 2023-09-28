@@ -1,20 +1,20 @@
-import { useEffect } from "react";
-import {useNavigate} from 'react-router-dom';
+// import { useEffect } from "react";
+// import {useNavigate} from 'react-router-dom';
 
 const UploadIllustration = ({isAuth}) => {
 
-    let navigate = useNavigate();
+    // let navigate = useNavigate();
     
-    useEffect(() => {
+    // useEffect(() => {
 
-        if(!isAuth) {
-            navigate('/login');
-        }
+    //     if(!isAuth) {
+    //         navigate('/login');
+    //     }
 
-    });
+    // });
 
     return(
-        <div className="form-outter">
+        <div className="form-outter-illustration">
             <h1>Upload an <sub> Illutstration</sub></h1>
             <div>
                 <label>Upload a file </label>
