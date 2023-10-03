@@ -13,7 +13,7 @@ const MainAreaOne = () => {
         const getArticles = async () => {
             const data = await getDocs(articleCollectionRef);
             setArticleList(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
-        }
+        };
 
         getArticles();
     });
@@ -26,10 +26,10 @@ const MainAreaOne = () => {
             <div className="gal">
                 <div>
                     <h1>SauravDutt.com</h1>
-                    <p>A community of expressive illustrators, inspiring writers and creative content creators, all documenting Gtown with their artwork.</p>
+                    <p>Welcome to sauravdutt.com, a gallery of expressive illustrations, inspiring literature and maybe some poetry in the future. to know more about me go to <a href="https://about.sauravdutt.com/" target="blank">about.sauravdutt.com</a></p>
                 </div>
             </div>
-            <Banner className="bannerBoiler cat" position="positionRight" title="Create" description="Create your personalised articles, illustrations and artwork. Tell your story !!"/>
+            <Banner className="bannerBoiler cat" position="positionRight" title="Simba" description="Interducing Simba, my local Indian street cat born in March of 2021. Following are illustrations of my neighbourhood."/>
 
             {/* These are custom article with background img  */}
 
