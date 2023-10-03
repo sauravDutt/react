@@ -7,7 +7,6 @@ import LogIn from './components/LogIn';
 import MainAreaOne from './components/MainAreaOne';
 import NavBar from './components/NavBar';
 import UserDashboardPage from './components/UserDashboardPage';
-import CreateArticle from './components/CreateArticle';
 import './index.css';
 import News from './components/News';
 
@@ -16,7 +15,6 @@ import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import PostAddRoundedIcon from '@mui/icons-material/PostAddRounded';
 import ForumIcon from '@mui/icons-material/Forum';
 import CreateArticleForm from './components/CreateArticleForm';
-import UploadIllustration from './components/UploadIllustration';
 
 
 
@@ -44,9 +42,7 @@ function App() {
         <Route path='/login' element={<LogIn setIsAuth={setIsAuth} setUserData={setUserData}/>}/>
         <Route path='/news' element={<News/>}/>
         <Route path='/dashboard' element={<UserDashboardPage setIsAuth={setIsAuth} userData={userData} isAuth={isAuth}/>} />
-        <Route path='/create' element={<CreateArticle isAuth={isAuth}/>}/>
-        <Route path='/create-article' element={<CreateArticleForm isAuth={isAuth}/>}/>
-        <Route path='/upload-illustration' element={<UploadIllustration isAuth={isAuth}/>}/>
+        <Route path='/create' element={<CreateArticleForm isAuth={isAuth}/>}/>
       </Routes>
     </Router>
   );

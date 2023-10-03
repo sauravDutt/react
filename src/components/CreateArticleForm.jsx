@@ -30,12 +30,12 @@ const CreateArticleForm = ({isAuth}) => {
     return(
         <div className="form-outter">
             <h1>
-                Create an <sub> article</sub>
+                Leave a <sub> message</sub>
             </h1>
             <div>
-                <label>Article title </label>
+                <label>Message title </label>
                 <input type="text" onChange={(event) => {setTitle(event.target.value)}}/>
-                <label>Article content</label>
+                <label>Message content</label>
                 <textarea onChange={(event) => {setContent(event.target.value)}}></textarea>
                 <button onClick={createArticle}>Post</button>
             </div>

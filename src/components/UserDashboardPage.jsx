@@ -38,8 +38,11 @@ const UserDashboardPage = ({setIsAuth, userData, isAuth}) => {
             </div>
             <div className='userStats'>
                 <p>
-                    <span>Welcome</span> to <strong>Gtown Journal</strong>, an online community for fictional and non-fictional writers, expressive illustrators all documenting the town with their unique art.
+                    <span>Welcome</span> to <strong>SauravDutt.com</strong>, a portfolio website build to showcase expressive illustrations and storytelling artwork with inspirational pieces of literature and maybe poetry.
+                    <br/>
                     <img src={five} alt='five' />  
+                    <br/>
+                    Thank you,  <span>{userData.user.displayName}</span> for sparing some of your valuable time and making an effort, your kind words will go a long way.
                 </p>
             </div>
         </div>
