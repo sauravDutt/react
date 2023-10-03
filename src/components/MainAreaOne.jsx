@@ -9,6 +9,7 @@ const MainAreaOne = () => {
 
     const [articleList, setArticleList] = useState([]);
     const articleCollectionRef = collection(db, "article");
+    
     useEffect(() => {
         const getArticles = async () => {
             const data = await getDocs(articleCollectionRef);
