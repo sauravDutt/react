@@ -5,9 +5,9 @@ const NavBar = () => {
         <div className="navbar-outter">
             <div className="outBox">
                 <div className="app-title">
-                    <h1 className="brand-name">Gtown Journal</h1>
+                    <h1 className="brand-name">Saurav Dutt</h1>
                     <h3 className="lower">
-                        born in <b>2023</b>.
+                        a portfolio website build in <b>2023</b>.
                     </h3>
                 </div>
             </div>

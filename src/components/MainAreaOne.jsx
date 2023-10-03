@@ -25,7 +25,7 @@ const MainAreaOne = () => {
             {/* These are banners */}
             <div className="gal">
                 <div>
-                    <h1>Gtown Journal</h1>
+                    <h1>SauravDutt.com</h1>
                     <p>A community of expressive illustrators, inspiring writers and creative content creators, all documenting Gtown with their artwork.</p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ const MainAreaOne = () => {
             <Banner className="bannerBoiler one" position="positionLeft" bigText="bigText"/>
             <Banner className="bannerBoiler two" position="positionRight" bigText="bigText"/>
             <Banner className="bannerBoiler three" position="positionLeft" bigText="bigText"/>
-            <Banner className="bannerBoiler community" position="positionRight" title="Join the Community" description='Join our exclusive online community by clicking on the sign in button below.'/>
+            <Banner className="bannerBoiler community" position="positionRight" title="Leave me a message" description="To leave a message click on the sign in button below. You'r articles or messages will appear here ↓"/>
             {articleList?.map((post) => {
                 return(
                     <div className='articleBoiler'>

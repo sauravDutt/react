@@ -25,7 +25,7 @@ export default function LogIn({setIsAuth, setUserData}) {
         <div className='loginContainer'>
           <AccountCircleOutlinedIcon fontSize='large' sx={{mt:2, mb:2 ,width: '100%', fontSize: 50}}/>
           <p>
-            To become a Gtown Journal content creater you first have to sign in with your google account.
+            To leave a message you first need to sign in with your google account.
           </p>
           <button className='login-with-google-btn' onClick={signInWithGoogle}>Signin with Google</button>
         </div>
