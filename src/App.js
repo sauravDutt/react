@@ -1,15 +1,11 @@
-
 import { useState} from 'react';
-
 import {BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-
 import LogIn from './components/LogIn';
 import MainAreaOne from './components/MainAreaOne';
 import NavBar from './components/NavBar';
 import UserDashboardPage from './components/UserDashboardPage';
 import './index.css';
 import News from './components/News';
-
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import PostAddRoundedIcon from '@mui/icons-material/PostAddRounded';
