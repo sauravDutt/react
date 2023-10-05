@@ -30,7 +30,7 @@ const MainAreaOne = () => {
                     <p>Welcome to sauravdutt.com, a gallery of expressive illustrations, inspiring literature and maybe some poetry in the future. to know more about me go to <a href="https://about.sauravdutt.com/" target="blank">about.sauravdutt.com</a></p>
                 </div>
             </div>
-            <Banner className="bannerBoiler cat" position="positionRight" title="Simba" description="Interducing Simba, my local Indian street cat born in March of 2021. Following are illustrations of my neighbourhood."/>
+            <Banner className="bannerBoiler cat" position="positionRight" title="Simba" description="Interducing Simba, my local Indian street cat born in March of 2021. Following are illustrations of my neighbourhood ↓"/>
 
             {/* These are custom article with background img  */}
 
