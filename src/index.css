@@ -544,6 +544,24 @@ code {
   background-image: url('./img/cat.png');
 }
 
+.club {
+  background-image: url('./img/club.jpg');
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 400px;
+  height: 300px;
+  
+}
+.clubIn {
+  background-image: url('./img/clubIn.jpg');
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 400px;
+  height: 300px;
+}
+
 /* These classnames for title prop values  (-- End --)*/
 
 
