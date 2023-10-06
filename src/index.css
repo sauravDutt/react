@@ -562,6 +562,19 @@ code {
   height: 300px;
 }
 
+.gameBtn-info {
+  background-color: #fff;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gameBtn-info p{
+  width: 80%;
+}
+
 /* These classnames for title prop values  (-- End --)*/
 
 

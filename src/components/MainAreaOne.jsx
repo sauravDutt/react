@@ -38,6 +38,11 @@ const MainAreaOne = () => {
             <Banner className="bannerBoiler two" position="positionRight" bigText="bigText"/>
             <Banner className="bannerBoiler three" position="positionLeft" bigText="bigText"/>
             <div className="club"></div>
+            <div className="gameBtn-info">
+                <p>
+                
+                </p>
+            </div>
             <div className="clubIn"></div>
             <Banner className="bannerBoiler community" position="positionRight" title="Leave me a message" description="To leave a message click on the sign in button below. You'r articles or messages will appear here ↓"/>
             {articleList?.map((post) => {
