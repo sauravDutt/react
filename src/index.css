@@ -254,7 +254,7 @@ code {
   background-repeat: no-repeat;
   background-size: contain;
   width: 600px;
-  height: 40px;
+  height: 100px;
 }
 
 .bannerBoiler div {
@@ -573,7 +573,37 @@ code {
 
 .gameBtn-info p{
   width: 80%;
+  font-family: 'Logo';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
 }
+.gameBtn-info p h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-weight: 300;
+  margin-right: 10px;
+  color: #0000009c;
+}
+.gameBtn-info p span {
+  display: flex;
+  height: 25px;
+  padding: 5px;
+  width: 25px;
+  border: 1px solid #00000038;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-top: -10px;
+  border-radius: 50%;
+  background-color: #0000000a;
+}
+
 
 /* These classnames for title prop values  (-- End --)*/
 
