@@ -40,7 +40,7 @@ const MainAreaOne = () => {
             <div className="club"></div>
             <div className="gameBtn-info">
                 <p>
-                <h1>Gtown</h1>Click on the <span><SportsEsportsIcon fontSize='medium'/></span> button below to expore a Three js environment.
+                <h1>Golf⛳</h1>Click on the <span><SportsEsportsIcon fontSize='medium'/></span> button below to expore a Three js environment.
                 </p>
             </div>
             <div className="clubIn"></div>
