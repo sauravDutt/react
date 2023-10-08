@@ -764,6 +764,10 @@ code {
   width: 100%;
 }
 
+.mainCanvas {
+  margin-top: 95px;
+}
+
 @media screen and (max-width: 500px) {
   .mainArea {
     width: 99%;
