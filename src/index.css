@@ -763,10 +763,11 @@ code {
 .form-outter-illustration div input {
   width: 100%;
 }
-
-.mainCanvas {
-  margin-top: 95px;
+.golf-outter {
+  margin-top: 94px;
+  height: 88.59vh;
 }
+
 
 @media screen and (max-width: 500px) {
   .mainArea {

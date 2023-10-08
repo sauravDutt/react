@@ -1,11 +1,18 @@
 import { OrbitControls, Sphere } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import { useControls } from "leva";
 import { Suspense } from "react";
 
 const ReflectiveSphere = () => {
+
+    const tweakableProperties = useControls({
+        roughness: {value: 0.1, min: 0, max: 1},
+        metalness: {value: 1, min: 0, max: 1},
+    })
+
     return(
         <Sphere args={[1, 256, 256]}>
-            <meshStandardMaterial/>
+            <meshStandardMaterial {...tweakableProperties}/>
         </Sphere>
     )
 }
@@ -25,11 +32,14 @@ function ThreeScreen () {
 
 const Game = ()=> {
     return(
-        <Suspense fallback={null}>
-            <Canvas className="mainCanvas">
-                <ThreeScreen/>
-            </Canvas>
-        </Suspense>
+        <div className="golf-outter">
+            <Suspense fallback={null}>
+                <Canvas className="mainCanvas">
+                    <ThreeScreen/>
+                </Canvas>
+            </Suspense>
+        </div>
+        
     );
 }
 
