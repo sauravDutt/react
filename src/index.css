@@ -47,8 +47,8 @@ code {
   bottom: 35px;
   border-radius: 26px;
   background: #fff; 
-  box-shadow:  10px 10px 20px #afafaf83,
-             -10px -10px 20px #ffffff60;
+  box-shadow:  10px 10px 20px #afafaf3b,
+             -10px -10px 20px #ffffff31;
 }
 
 .buttons-outter {
@@ -151,7 +151,7 @@ code {
 .mainArea {
   position: relative;
   width: 90%;
-  height: 75vh;
+  height: 85vh;
   margin: 0 auto;
   margin-top: 96px;
   padding-top: 25px;
@@ -764,8 +764,8 @@ code {
   width: 100%;
 }
 .golf-outter {
-  margin-top: 94px;
-  height: 88.59vh;
+  margin-top: 93.4px;
+  height: 89.8vh;
 }
 
 

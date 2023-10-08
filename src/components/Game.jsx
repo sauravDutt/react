@@ -3,19 +3,19 @@ import { Canvas } from "@react-three/fiber";
 // import { useControls } from "leva";
 import { Suspense } from "react";
 
-const ReflectiveSphere = () => {
+// const ReflectiveSphere = () => {
 
-    // const tweakableProperties = useControls({
-    //     roughness: {value: 0.1, min: 0, max: 1},
-    //     metalness: {value: 1, min: 0, max: 1},
-    // })
+//     // const tweakableProperties = useControls({
+//     //     roughness: {value: 0.1, min: 0, max: 1},
+//     //     metalness: {value: 1, min: 0, max: 1},
+//     // })
 
-    return(
-        <Sphere args={[1, 256, 256]}>
-            <meshStandardMaterial roughness={0.1} metalness={1}/>
-        </Sphere>
-    )
-}
+//     return(
+//         <Sphere args={[1, 256, 256]}>
+//             <meshStandardMaterial roughness={0.1} metalness={1}/>
+//         </Sphere>
+//     )
+// }
 
 function ThreeScreen () {
 
@@ -29,7 +29,7 @@ function ThreeScreen () {
             <OrbitControls/>
 
             <Environment map={envMap} background/>
-            <ReflectiveSphere/>
+            {/* <ReflectiveSphere/> */}
         </>
     );
 }
