@@ -31,16 +31,13 @@ const MainAreaOne = () => {
                 </div>
             </div>
             <Banner className="bannerBoiler cat" position="positionRight" title="Simba" description="Interducing Simba, my local Indian street cat born in March of 2021. Following are illustrations of my neighbourhood ↓"/>
-
-            {/* These are custom article with background img  */}
-
             <Banner className="bannerBoiler one" position="positionLeft" bigText="bigText"/>
             <Banner className="bannerBoiler two" position="positionRight" bigText="bigText"/>
             <Banner className="bannerBoiler three" position="positionLeft" bigText="bigText"/>
             <div className="club"></div>
             <div className="gameBtn-info">
                 <p>
-                <h1>Golf⛳</h1>Click on the <span><SportsEsportsIcon fontSize='medium'/></span> button below to expore a Three js environment.
+                    <h1>Golf⛳</h1>Click on the <span><SportsEsportsIcon fontSize='medium'/></span> button below to expore a Three js environment.
                 </p>
             </div>
             <div className="clubIn"></div>
