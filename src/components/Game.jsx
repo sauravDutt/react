@@ -1,4 +1,4 @@
-import { Environment, OrbitControls, Sphere, useEnvironment } from "@react-three/drei";
+import { Environment, OrbitControls, useEnvironment } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 // import { useControls } from "leva";
 import { Suspense } from "react";
@@ -36,13 +36,16 @@ function ThreeScreen () {
 
 const Game = ()=> {
     return(
-        <div className="golf-outter">
-            <Suspense fallback={null}>
-                <Canvas className="mainCanvas">
-                    <ThreeScreen/>
-                </Canvas>
-            </Suspense>
+        <div className="game-section">
+            <div className="golf-outter">
+                <Suspense fallback={null}>
+                    <Canvas className="mainCanvas">
+                        <ThreeScreen/>
+                    </Canvas>
+                </Suspense>
+            </div>
         </div>
+        
         
     );
 }
