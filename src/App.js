@@ -8,7 +8,7 @@ import './index.css';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import PostAddRoundedIcon from '@mui/icons-material/PostAddRounded';
-import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+import GolfCourseIcon from '@mui/icons-material/GolfCourse';
 import CreateArticleForm from './components/CreateArticleForm';
 import Game from './components/Game';
 
@@ -26,7 +26,7 @@ function App() {
           <div className="buttons-outter">
             <Link to='/' className="button-outter"><HomeRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
             {!isAuth ? <Link to='/login' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link> : <Link to='/create' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>}
-            <Link to ='/game'className="button-outter"><SportsEsportsIcon fontSize='large' sx={{width: '100%'}}/></Link>
+            <Link to ='/game'className="button-outter"><GolfCourseIcon fontSize='large' sx={{width: '100%'}}/></Link>
             {!isAuth ? <Link to='/login' className="button-outter"><AccountCircleOutlinedIcon fontSize='large' sx={{width: '100%'}}/></Link> 
               : 
             <Link className="button-outter-logout" to='/dashboard'><img src={userData.user.photoURL} alt="userImage" className='logOutBtnImg'/></Link>}

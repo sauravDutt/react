@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 import Banner from "./Banner";
-import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
+import GolfCourseIcon from '@mui/icons-material/GolfCourse';
 import {getDocs, collection} from 'firebase/firestore';
 import { db } from "../firebase-config";
 
@@ -37,7 +37,7 @@ const MainAreaOne = () => {
             <div className="club"></div>
             <div className="gameBtn-info">
                 <p>
-                    <h1>Golf⛳</h1>Click on the <span><SportsEsportsIcon fontSize='medium'/></span> button below to expore a Three js environment.
+                    <h1>Golf⛳</h1>Click on the <span><GolfCourseIcon fontSize='medium'/></span> button below to expore a Three js environment.
                 </p>
             </div>
             <div className="clubIn"></div>
