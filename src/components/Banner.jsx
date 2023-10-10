@@ -1,5 +1,5 @@
 
-const Banner = ({className, position, title, bigText, description}) => {
+const Banner = ({className, position, title, description}) => {
      
     
     if (className) {

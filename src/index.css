@@ -765,7 +765,7 @@ code {
 }
 .game-section {
   margin-top: 99px;
-  height: 80vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -773,12 +773,9 @@ code {
 .golf-outter {
   width: 300px;
   height: 500px;
-  padding: 1px;
-  border-radius: 10px;
-
 }
 .golf-outter .mainCanvas {
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 

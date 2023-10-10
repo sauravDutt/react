@@ -31,9 +31,9 @@ const MainAreaOne = () => {
                 </div>
             </div>
             <Banner className="bannerBoiler cat" position="positionRight" title="Simba" description="Interducing Simba, my local Indian street cat born in March of 2021. Following are illustrations of my neighbourhood ↓"/>
-            <Banner className="bannerBoiler one" position="positionLeft" bigText="bigText"/>
-            <Banner className="bannerBoiler two" position="positionRight" bigText="bigText"/>
-            <Banner className="bannerBoiler three" position="positionLeft" bigText="bigText"/>
+            <Banner className="bannerBoiler one" position="positionLeft" title="" description=""/>
+            <Banner className="bannerBoiler two" position="positionRight" title="" description=""/>
+            <Banner className="bannerBoiler three" position="positionLeft" title="" description=""/>
             <div className="club"></div>
             <div className="gameBtn-info">
                 <p>
@@ -54,7 +54,7 @@ const MainAreaOne = () => {
                     </div>
                 );
             })}   
-            <Banner className="narrow" />
+            <Banner className="narrow" position="" title="" description=""/>
         </div>
     );
 }
