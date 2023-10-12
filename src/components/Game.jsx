@@ -45,7 +45,8 @@ const Game = ()=> {
                     </div>
                 </div>
                 <div className="info">
-
+                    <h1>Golf ⛳</h1>
+                    <p>XXXXXX XXXXX XXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX XXXXX</p>
                 </div>
             </div>
             

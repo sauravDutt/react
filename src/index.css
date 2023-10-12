@@ -787,6 +787,17 @@ code {
   width: 80%;
 }
 
+.info h1 {
+  font-family: 'Logo';
+  font-weight: 300;
+  margin-bottom: 0;
+  padding: 0;
+  color: #00000096;
+}
+.info p {
+  text-align: justify;
+  margin-top: 0px;
+}
 @media screen and (max-width: 500px) {
   .mainArea {
     width: 99%;
