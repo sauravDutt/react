@@ -1,7 +1,6 @@
 import { Environment, OrbitControls, useEnvironment } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 // import { useControls } from "leva";
-import { Suspense } from "react";
 
 // const ReflectiveSphere = () => {
 
@@ -37,17 +36,20 @@ function ThreeScreen () {
 const Game = ()=> {
     return(
         <div className="game-section">
-            <div className="golf-outter">
-                <Suspense fallback={null}>
-                    <Canvas className="mainCanvas">
-                        <ThreeScreen/>
-                    </Canvas>
-                </Suspense>
+            <div className="grid-two-part">
+                <div className="window">
+                    <div className="golf-outter">
+                        <Canvas className="mainCanvas">
+                            <ThreeScreen/>
+                        </Canvas>
+                    </div>
+                </div>
+                <div className="info">
+
+                </div>
             </div>
-        </div>
-        
-        
-    );
+            
+        </div>);
 }
 
 export default Game;
