@@ -775,6 +775,10 @@ code {
 .golf-outter {
   width: 150px;
   height: 250px;
+  border: 3px solid #00000023;
+  border-top-right-radius: 150px;
+  border-top-left-radius: 150px;
+  padding: 1px;
 }
 .golf-outter .mainCanvas {
   border-top-right-radius: 150px;
