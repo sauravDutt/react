@@ -787,8 +787,8 @@ code {
 .grid-two-part {
   display: grid;
   grid-template-columns: 50% 50%;
+  gap: 5px;
   padding: 15px;
-  width: 80%;
 }
 
 .info h1 {
