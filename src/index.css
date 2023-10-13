@@ -786,10 +786,11 @@ code {
 }
 .grid-two-part {
   display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 5px;
+  grid-template-columns: 50% 49%;
+  width: 350px;
   padding: 15px;
-  border-bottom: 2px solid #00000086;
+  border-bottom: 2px solid #0000003b;
+  border-top: 2px solid #0000003b;
 }
 
 .info h1 {
