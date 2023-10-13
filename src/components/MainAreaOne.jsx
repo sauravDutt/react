@@ -9,17 +9,13 @@ const MainAreaOne = () => {
 
     const [articleList, setArticleList] = useState([]);
     const articleCollectionRef = collection(db, "article");
-    
+    const getArticles = async () => {
+        const data = await getDocs(articleCollectionRef);
+        setArticleList(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
+    };
     useEffect(() => {
-        const getArticles = async () => {
-            const data = await getDocs(articleCollectionRef);
-            setArticleList(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
-        };
-
-        getArticles();
+        getArticles()
     });
-
-
     return(
         <div className="mainArea">         
             
@@ -36,15 +32,15 @@ const MainAreaOne = () => {
             <Banner className="bannerBoiler three" position="positionLeft" title="" description=""/>
             <div className="club"></div>
             <div className="gameBtn-info">
-                <p>
+                <section>
                     <h1>Golf⛳</h1>Click on the <span><GolfCourseIcon fontSize='medium'/></span> button below to expore a Three js environment.
-                </p>
+                </section>
             </div>
             <div className="clubIn"></div>
             <Banner className="bannerBoiler community" position="positionRight" title="Leave me a message" description="To leave a message click on the sign in button below. You'r articles or messages will appear here ↓"/>
             {articleList?.map((post) => {
                 return(
-                    <div className='articleBoiler'>
+                    <div className='articleBoiler' key={post.id}>
                         <h1>{post.title}</h1>
                         <p><span className="bigQuots">" </span>{post.content}<span className="bigQuots"> "</span></p>
                         <div className="userTag">

@@ -571,7 +571,7 @@ code {
   justify-content: center;
 }
 
-.gameBtn-info p{
+.gameBtn-info section{
   width: 80%;
   font-family: 'Logo';
   font-size: 20px;
@@ -582,7 +582,7 @@ code {
   flex-direction: row;
   align-content: center;
 }
-.gameBtn-info p h1 {
+.gameBtn-info section h1 {
   margin: 0;
   padding: 0;
   font-size: 40px;
@@ -590,7 +590,7 @@ code {
   margin-right: 10px;
   color: #0000009c;
 }
-.gameBtn-info p span {
+.gameBtn-info section span {
   display: flex;
   height: 25px;
   padding: 5px;
