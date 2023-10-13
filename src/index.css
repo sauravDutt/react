@@ -796,6 +796,7 @@ code {
 .info h1 {
   font-family: 'Logo';
   font-weight: 300;
+  line-height: 33px;
   margin-bottom: 0;
   padding: 0;
   color: #000000a4;
@@ -803,6 +804,7 @@ code {
 .info p {
   text-align: justify;
   margin-top: 0px;
+  width: 90%;
 }
 @media screen and (max-width: 500px) {
   .mainArea {

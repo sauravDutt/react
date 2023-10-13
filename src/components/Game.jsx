@@ -14,10 +14,10 @@ const Game = ()=> {
                     </div>
                 </div>
                 <div className="info">
-                    <h1>Golf ⛳</h1>
+                    <h1>Golf ⛳ Joint card for Handicapping</h1>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        This is a simple application built to calculate Handicap and keep scores.
+                        <br/><sub>* The users will have to enter <strong>PAR</strong> and <strong>yards</strong> for every hole, before playing the game.</sub>
                     </p>
                 </div>
             </div>
