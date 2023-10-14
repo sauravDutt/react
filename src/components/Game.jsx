@@ -14,7 +14,7 @@ const Game = ()=> {
                     </div>
                 </div>
                 <div className="info">
-                    <h1>Golf ⛳<br/>Joint card for Handicapping</h1>
+                    <h1>Golf ⛳<br/>joint card for Handicapping</h1>
                     <p>
                         Mark your strokes after every hole.
                         <br/><span>** The users will have to save a Golf Corse first (enter PAR and Yards for every hole), or can select one from their saved courses, before playing the game.</span>
