@@ -832,6 +832,9 @@ code {
   text-align: center;
   font-size: 13px;
 }
+input[type="number"] {
+  width: 22px;
+}
 @media screen and (max-width: 500px) {
   .mainArea {
     width: 99%;

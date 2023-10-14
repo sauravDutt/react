@@ -35,21 +35,21 @@ const Game = ()=> {
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><input type="number" maxLength="2" pattern="[0-9]*" /></td>
+                        <td><input type="number" pattern="[0-9]*" className="yardsInput"/></td>
+                        <td><input type="number" pattern="[0-9]*" /></td>
+                        <td><input type="number" pattern="[0-9]*" /></td>
+                        <td><input type="number" pattern="[0-9]*" /></td>
+                        <td><input type="number" pattern="[0-9]*" /></td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><input type="number" pattern="[0-9]*" /></td>
+                        <td><input type="number" pattern="[0-9]*" /></td>
+                        <td><input type="number" pattern="[0-9]*" /></td>
+                        <td><input type="number" pattern="[0-9]*" /></td>
+                        <td><input type="number" pattern="[0-9]*" /></td>
+                        <td><input type="number" pattern="[0-9]*" /></td>
                     </tr>
                     <tr>
                         <td>3</td>
