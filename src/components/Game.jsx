@@ -17,7 +17,7 @@ const Game = ()=> {
                     <h1>Golf ⛳<br/>joint card for Handicapping</h1>
                     <p>
                         Mark your strokes after every hole.
-                        <br/><span>** The users will have to save a Golf Corse first (enter PAR and Yards for every hole), or can select one from their saved courses, before playing the game.</span>
+                        <br/><span>** The users will have to enter PAR and Yards for every hole before playing their round.</span>
                     </p>
                 </div>
             </div>
