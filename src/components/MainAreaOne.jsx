@@ -33,7 +33,7 @@ const MainAreaOne = () => {
             <div className="club"></div>
             <div className="gameBtn-info">
                 <section>
-                    <h1>Golf⛳</h1>Click on the <span><GolfCourseIcon fontSize='medium'/></span> button below to access a free inbuilt golf scorecard.
+                    <h1>Golf⛳</h1>Click on the <span><GolfCourseIcon fontSize='medium'/></span> button below to access a joint card for handicapping while playing your round.
                 </section>
             </div>
             <div className="clubIn"></div>

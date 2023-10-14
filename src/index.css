@@ -263,8 +263,9 @@ code {
 .bannerBoiler div h1 {
   font-family: 'Logo';
   font-weight: 300;
-  line-height: 39px;
+  line-height: 25px;
   margin: 0;
+  margin-bottom: 10px;
   margin-top: 40px;
   margin-left: 5px;
 }
