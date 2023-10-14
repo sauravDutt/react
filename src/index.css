@@ -765,7 +765,7 @@ code {
   width: 100%;
 }
 .game-section {
-  margin-top: 99px;
+  margin-top: 96px;
   height: 75vh;
   display: flex;
   flex-direction: column;
@@ -789,9 +789,9 @@ code {
   display: grid;
   grid-template-columns: 50% 49%;
   width: 350px;
-  padding: 15px;
+  padding: 5px 15px;
+  padding-bottom: 30px;
   border-bottom: 2px solid #0000003b;
-  border-top: 2px solid #0000003b;
 }
 
 .info h1 {
@@ -819,7 +819,7 @@ code {
   font-size: 12px;
   margin: 0;
   padding: 0;
-  margin-top: -10px;
+  margin-top: -39px;
 }
 @media screen and (max-width: 500px) {
   .mainArea {
