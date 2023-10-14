@@ -774,8 +774,8 @@ code {
   gap: 15px;
 }
 .golf-outter {
-  width: 150px;
-  height: 250px;
+  width: 130px;
+  height: 230px;
   border: 3px solid #00000023;
   border-top-right-radius: 150px;
   border-top-left-radius: 150px;
@@ -792,6 +792,11 @@ code {
   padding: 5px 15px;
   padding-bottom: 30px;
   border-bottom: 2px solid #0000003b;
+}
+.window {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .info h1 {
