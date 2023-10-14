@@ -21,6 +21,10 @@ const Game = ()=> {
                     </p>
                 </div>
             </div>
+            <div className="golfCourse-btn-outter">
+                <button>Save a course</button>
+                <button>Saved courses</button>
+            </div>
             
         </div>);
 }
