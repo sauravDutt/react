@@ -21,9 +21,9 @@ const Game = ()=> {
                     </p>
                 </div>
             </div>
-            <div className="golfCourse-btn-outter">
-                <button>Save a course</button>
-                <button>Saved courses</button>
+            <p className="littleInfo">** The following is just a simple ledgure of your game.</p>
+            <div className="handicapping-table-outter">
+
             </div>
             
         </div>);

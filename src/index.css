@@ -810,20 +810,16 @@ code {
 .info p span {
   font-size: 13px;
 }
-.golfCourse-btn-outter button{
-  background-color: transparent;
-  border: 1px solid #0000005e;
-  border-radius: 10px;
-  color: #000;
-  margin: 5px;
-  padding: 5px 15px;
-  font-size: 14px;
-  cursor: pointer;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.handicapping-table-outter{
+  width: 100%;
+  height: 100%;
 }
-.golfCourse-btn-outter button:hover {
-  background-color: #000000b2;
-  color: #fff;
+.littleInfo {
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  margin-top: -10px;
 }
 @media screen and (max-width: 500px) {
   .mainArea {
