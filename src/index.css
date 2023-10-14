@@ -766,7 +766,7 @@ code {
 }
 .game-section {
   margin-top: 96px;
-  height: 75vh;
+  margin-bottom: 140px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -820,6 +820,12 @@ code {
   margin: 0;
   padding: 0;
   margin-top: -39px;
+}
+ th, td {
+  border: 1px solid #0000004b;
+  padding: 5px;
+  text-align: center;
+  font-size: 13px;
 }
 @media screen and (max-width: 500px) {
   .mainArea {
