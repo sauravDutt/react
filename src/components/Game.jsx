@@ -16,8 +16,8 @@ const Game = ()=> {
                 <div className="info">
                     <h1>Golf ⛳<br/>Joint card for Handicapping</h1>
                     <p>
-                        This is a simple application built to calculate Handicap and keep scores.
-                        <br/><sub>* The users will have to enter <strong>PAR</strong> and <strong>yards</strong> for every hole, before playing the game.</sub>
+                        Mark your strokes after every hole.
+                        <br/><span>** The users will have to save a Golf Corse first (enter PAR and Yards for every hole), or can select one from their saved courses, before playing the game.</span>
                     </p>
                 </div>
             </div>

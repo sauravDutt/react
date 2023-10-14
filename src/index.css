@@ -807,6 +807,10 @@ code {
   margin-top: 0px;
   width: 90%;
 }
+.info p span {
+  font-size: 13px;
+  line-height: 0px;
+}
 @media screen and (max-width: 500px) {
   .mainArea {
     width: 99%;
