@@ -7,10 +7,11 @@ import UserDashboardPage from './components/UserDashboardPage';
 import './index.css';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
-import PostAddRoundedIcon from '@mui/icons-material/PostAddRounded';
+import ForumIcon from '@mui/icons-material/Forum';
 import GolfCourseIcon from '@mui/icons-material/GolfCourse';
 import CreateArticleForm from './components/CreateArticleForm';
 import Game from './components/Game';
+import ChatBotOne from './components/ChatBotOne';
 
 
 
@@ -25,7 +26,7 @@ function App() {
       <div className="header-outter">
           <div className="buttons-outter">
             <Link to='/' className="button-outter"><HomeRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
-            {!isAuth ? <Link to='/login' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link> : <Link to='/create' className="button-outter"><PostAddRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>}
+            {!isAuth ? <Link to='/login' className="button-outter"><ForumIcon fontSize='large' sx={{width: '100%'}}/></Link> : <Link to='/chatbot' className="button-outter"><ForumIcon fontSize='large' sx={{width: '100%'}}/></Link>}
             <Link to ='/game'className="button-outter"><GolfCourseIcon fontSize='large' sx={{width: '100%'}}/></Link>
             {!isAuth ? <Link to='/login' className="button-outter"><AccountCircleOutlinedIcon fontSize='large' sx={{width: '100%'}}/></Link> 
               : 
@@ -39,6 +40,7 @@ function App() {
         <Route path='/game' element={<Game/>}/>
         <Route path='/dashboard' element={<UserDashboardPage setIsAuth={setIsAuth} userData={userData} isAuth={isAuth}/>} />
         <Route path='/create' element={<CreateArticleForm isAuth={isAuth}/>}/>
+        <Route path = '/chatbot' element={<ChatBotOne />}/>
       </Routes>
     </Router>
   );

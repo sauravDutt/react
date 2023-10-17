@@ -2,7 +2,7 @@ import {signOut} from 'firebase/auth';
 import { auth } from '../firebase-config';
 import five from '../img/five.png';
 import { useEffect } from "react";
-import {useNavigate} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 
 const UserDashboardPage = ({setIsAuth, userData, isAuth}) => {
 
@@ -43,6 +43,7 @@ const UserDashboardPage = ({setIsAuth, userData, isAuth}) => {
                     <img src={five} alt='five' />  
                     <br/>
                     Thank you,  <span>{userData.user.displayName}</span> for sparing some of your valuable time and making an effort, your kind words will go a long way.
+                    <Link to='/create' className='messageBtn'><strong className='messageBtn'> Leave a message.</strong></Link>
                 </p>
             </div>
         </div>
