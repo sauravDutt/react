@@ -1,9 +1,9 @@
 
 const ChatBotOne = () => {
     return(
-        <>
+        <div className="chatBot-outter">
 
-        </>
+        </div>
     )
 }
 
