@@ -7,7 +7,7 @@ import UserDashboardPage from './components/UserDashboardPage';
 import './index.css';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
-import ForumIcon from '@mui/icons-material/Forum';
+import BlurOnIcon from '@mui/icons-material/BlurOn';
 import GolfCourseIcon from '@mui/icons-material/GolfCourse';
 import CreateArticleForm from './components/CreateArticleForm';
 import Game from './components/Game';
@@ -26,7 +26,7 @@ function App() {
       <div className="header-outter">
           <div className="buttons-outter">
             <Link to='/' className="button-outter"><HomeRoundedIcon fontSize='large' sx={{width: '100%'}}/></Link>
-            {!isAuth ? <Link to='/login' className="button-outter"><ForumIcon fontSize='large' sx={{width: '100%'}}/></Link> : <Link to='/chatbot' className="button-outter"><ForumIcon fontSize='large' sx={{width: '100%'}}/></Link>}
+            {!isAuth ? <Link to='/login' className="button-outter"><BlurOnIcon fontSize='large' sx={{width: '100%'}}/></Link> : <Link to='/chatbot' className="button-outter"><BlurOnIcon fontSize='large' sx={{width: '100%'}}/></Link>}
             <Link to ='/game'className="button-outter"><GolfCourseIcon fontSize='large' sx={{width: '100%'}}/></Link>
             {!isAuth ? <Link to='/login' className="button-outter"><AccountCircleOutlinedIcon fontSize='large' sx={{width: '100%'}}/></Link> 
               : 
