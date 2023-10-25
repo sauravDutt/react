@@ -40,7 +40,7 @@ function App() {
         <Route path='/game' element={<Game/>}/>
         <Route path='/dashboard' element={<UserDashboardPage setIsAuth={setIsAuth} userData={userData} isAuth={isAuth}/>} />
         <Route path='/create' element={<CreateArticleForm isAuth={isAuth}/>}/>
-        <Route path = '/chatbot' element={<ChatBotOne />}/>
+        <Route path = '/chatbot' element={<ChatBotOne isAuth={isAuth}/>}/>
       </Routes>
     </Router>
   );
