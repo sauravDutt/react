@@ -478,7 +478,29 @@ code {
 .chatBot-outter div {
   height: 300px;
   border-radius: 10px;
-  background-color: #0000001f;
+  display: grid;
+}
+
+.div-right {
+  background-color: #00000005;
+}
+.oneImage-discover {
+  width: 240px;
+  margin-top: 60px;
+  margin-left: -89px;
+}
+.twoImage-discover {
+  width: 200px;
+  margin-top: 40px;
+}
+.left-discover {
+  width: 290px;
+  background-color: #00000005;
+  grid-template-columns: 75% 25%;
+}
+.right-discover {
+  grid-template-columns: 40% 60%;
+  background-color: transparent;
 }
 .one {
   background-image: url("./img/one.png");

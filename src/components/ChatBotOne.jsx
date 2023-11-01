@@ -13,9 +13,26 @@ const ChatBotOne = ({ isAuth }) => {
   return (
     <div className="chatBot-outter">
       <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div className="left-discover">
+        <div></div>
+        <div>
+          <img
+            className="oneImage-discover"
+            src={process.env.PUBLIC_URL + "/img/one.png"}
+            alt="Img"
+          />
+        </div>
+      </div>
+      <div className="right-discover">
+        <div>
+          <img
+            className="twoImage-discover"
+            src={process.env.PUBLIC_URL + "/img/two.png"}
+            alt="Img"
+          />
+        </div>
+        <div className="div-right"></div>
+      </div>
       <div></div>
       <div></div>
     </div>
