@@ -1,10 +1,10 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
-import { getFirestore } from 'firebase/firestore'
-import {getAuth, GoogleAuthProvider} from 'firebase/auth'
+import { getFirestore } from "firebase/firestore";
+import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
-// Code from line 8 to 10 are firebase analytics tool set 
+// Code from line 8 to 10 are firebase analytics tool set
 // import { getAnalytics } from "firebase/analytics";
 // const analytics = getAnalytics(app);
 // console.log(analytics);
@@ -21,15 +21,12 @@ const firebaseConfig = {
   storageBucket: "gtown-journal.appspot.com",
   messagingSenderId: "738237664082",
   appId: "1:738237664082:web:30637bdda34eb7495f488b",
-  measurementId: "G-9QN1QBLE83"
+  measurementId: "G-9QN1QBLE83",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-
-
 export const db = getFirestore(app);
 export const auth = getAuth(app);
 export const provider = new GoogleAuthProvider();
-

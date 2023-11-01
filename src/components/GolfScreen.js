@@ -15,21 +15,20 @@ import { Environment, OrbitControls, useEnvironment } from "@react-three/drei";
 //     )
 // }
 
-function GolfScreen () {
+function GolfScreen() {
+  const envMap = useEnvironment({ files: "/golf_course/golf.hdr" });
 
-    const envMap = useEnvironment({files: '/golf_course/golf.hdr'});
+  return (
+    <>
+      <ambientLight />
+      <pointLight position={[5, 5, 5]} />
+      <pointLight position={[-3, -3, 2]} />
+      <OrbitControls />
 
-    return(
-        <>
-            <ambientLight />
-            <pointLight position={[5, 5, 5]}/>
-            <pointLight position={[-3, -3, 2]}/>
-            <OrbitControls/>
-
-            <Environment map={envMap} background/>
-            {/* <ReflectiveSphere/> */}
-        </>
-    );
+      <Environment map={envMap} background />
+      {/* <ReflectiveSphere/> */}
+    </>
+  );
 }
 
-export default GolfScreen
+export default GolfScreen;
