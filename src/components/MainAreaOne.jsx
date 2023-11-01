@@ -32,7 +32,7 @@ const MainAreaOne = () => {
       <Banner
         className="bannerBoiler cat"
         position="positionRight"
-        title="Simba"
+        title="Curiosity"
         description="Interducing Simba, my local Indian street cat born in March of 2021. Following are illustrations of my neighbourhood ↓"
       />
       <Banner

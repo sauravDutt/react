@@ -16,6 +16,8 @@ const ChatBotOne = ({ isAuth }) => {
       <div></div>
       <div></div>
       <div></div>
+      <div></div>
+      <div></div>
     </div>
   );
 };
