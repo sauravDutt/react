@@ -12,11 +12,16 @@ import GolfCourseIcon from "@mui/icons-material/GolfCourse";
 import CreateArticleForm from "./components/CreateArticleForm";
 import Game from "./components/Game";
 import ChatBotOne from "./components/ChatBotOne";
+import { auth } from "./firebase-config";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
-  const [userData, setUserData] = useState([]);
 
+  const [user, setUser] = useState([]);
+
+  auth.onAuthStateChanged((user) => {
+    setUser(user);
+  });
   return (
     <Router>
       <div className="header-outter">
@@ -46,7 +51,7 @@ function App() {
           ) : (
             <Link className="button-outter-logout" to="/dashboard">
               <img
-                src={userData.user.photoURL}
+                src={user.photoURL}
                 alt="userImage"
                 className="logOutBtnImg"
               />
@@ -57,20 +62,11 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<MainAreaOne />} />
-        <Route
-          path="/login"
-          element={<LogIn setIsAuth={setIsAuth} setUserData={setUserData} />}
-        />
+        <Route path="/login" element={<LogIn setIsAuth={setIsAuth} />} />
         <Route path="/game" element={<Game />} />
         <Route
           path="/dashboard"
-          element={
-            <UserDashboardPage
-              setIsAuth={setIsAuth}
-              userData={userData}
-              isAuth={isAuth}
-            />
-          }
+          element={<UserDashboardPage setIsAuth={setIsAuth} isAuth={isAuth} />}
         />
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
         <Route path="/chatbot" element={<ChatBotOne isAuth={isAuth} />} />
