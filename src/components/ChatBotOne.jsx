@@ -12,6 +12,16 @@ const ChatBotOne = ({ isAuth }) => {
 
   return (
     <div className="chatBot-outter">
+      <div className="head-gtown">
+        <div className="img-head-gtown">
+          <img src={process.env.PUBLIC_URL + "/img/five.png"} alt="five" />
+        </div>
+        <div className="info-head-gtown">
+          <h1>Gtown</h1>
+          <span className="secondFont-head">journal.</span>
+          <button className="gtown-mint">mint</button>
+        </div>
+      </div>
       <div></div>
       <div className="left-discover">
         <div className="div-left"></div>

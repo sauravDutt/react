@@ -1,6 +1,5 @@
 import { signOut } from "firebase/auth";
 import { auth } from "../firebase-config";
-import five from "../img/five.png";
 import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
@@ -45,7 +44,7 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
           website build to showcase expressive illustrations and storytelling
           artwork with inspirational pieces of literature and maybe poetry.
           <br />
-          <img src={five} alt="five" />
+          <img src={process.env.PUBLIC_URL + "/img/five.png"} alt="five" />
           <br />
           Thank you, <span>{user.displayName}</span> for sparing some of your
           valuable time and making an effort, your kind words will go a long
