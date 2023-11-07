@@ -1,14 +1,14 @@
-import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+// import { useNavigate } from "react-router-dom";
+// import { useEffect } from "react";
 
 const ChatBotOne = ({ isAuth }) => {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
 
-  useEffect(() => {
-    if (!isAuth) {
-      navigate("/login");
-    }
-  });
+  // useEffect(() => {
+  //   if (!isAuth) {
+  //     navigate("/login");
+  //   }
+  // });
 
   return (
     <div className="chatBot-outter">

@@ -29,15 +29,9 @@ function App() {
           <Link to="/" className="button-outter">
             <HomeRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
-          {!isAuth ? (
-            <Link to="/login" className="button-outter">
-              <BlurOnIcon fontSize="large" sx={{ width: "100%" }} />
-            </Link>
-          ) : (
-            <Link to="/chatbot" className="button-outter">
-              <BlurOnIcon fontSize="large" sx={{ width: "100%" }} />
-            </Link>
-          )}
+          <Link to="/gtown" className="button-outter">
+            <BlurOnIcon fontSize="large" sx={{ width: "100%" }} />
+          </Link>
           <Link to="/game" className="button-outter">
             <GolfCourseIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
@@ -69,7 +63,7 @@ function App() {
           element={<UserDashboardPage setIsAuth={setIsAuth} isAuth={isAuth} />}
         />
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
-        <Route path="/chatbot" element={<ChatBotOne isAuth={isAuth} />} />
+        <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
       </Routes>
     </Router>
   );
