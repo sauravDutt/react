@@ -14,7 +14,7 @@ const ChatBotOne = ({ isAuth }) => {
     <div className="chatBot-outter">
       <div></div>
       <div className="left-discover">
-        <div></div>
+        <div className="div-left"></div>
         <div>
           <img
             className="oneImage-discover"

@@ -484,23 +484,23 @@ code {
 .div-right {
   background-color: #00000005;
 }
+.div-left {
+  background-color: #00000005;
+}
 .oneImage-discover {
   width: 240px;
+  margin-left: -120px;
   margin-top: 60px;
-  margin-left: -89px;
 }
 .twoImage-discover {
   width: 200px;
   margin-top: 40px;
 }
 .left-discover {
-  width: 290px;
-  background-color: #00000005;
-  grid-template-columns: 75% 25%;
+  grid-template-columns: 70% 30%;
 }
 .right-discover {
   grid-template-columns: 40% 60%;
-  background-color: transparent;
 }
 .one {
   background-image: url("./img/one.png");
