@@ -2,6 +2,7 @@
 // import { useEffect } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import InfoIcon from "@mui/icons-material/Info";
+
 const ChatBotOne = ({ isAuth }) => {
   // let navigate = useNavigate();
 
@@ -23,7 +24,9 @@ const ChatBotOne = ({ isAuth }) => {
           <button className="gtown-mint">mint</button>
           <div className="realpoint-branding-outter">
             <InfoIcon />
-            <InstagramIcon />
+            <a href="https://www.instagram.com/gtown_journal" target="blank">
+              <InstagramIcon className="gtown-btn" />
+            </a>
           </div>
         </div>
       </div>

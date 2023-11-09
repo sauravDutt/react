@@ -531,6 +531,9 @@ code {
   justify-content: center;
   padding: 0px;
 }
+.gtown-btn {
+  cursor: pointer;
+}
 .gtown-mint:hover {
   background-color: #000000b0;
 }
