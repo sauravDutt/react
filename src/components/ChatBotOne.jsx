@@ -1,6 +1,7 @@
 // import { useNavigate } from "react-router-dom";
 // import { useEffect } from "react";
-
+import InstagramIcon from "@mui/icons-material/Instagram";
+import InfoIcon from "@mui/icons-material/Info";
 const ChatBotOne = ({ isAuth }) => {
   // let navigate = useNavigate();
 
@@ -20,6 +21,10 @@ const ChatBotOne = ({ isAuth }) => {
           <h1>Gtown</h1>
           <span className="secondFont-head">journal.</span>
           <button className="gtown-mint">mint</button>
+          <div className="realpoint-branding-outter">
+            <InfoIcon />
+            <InstagramIcon />
+          </div>
         </div>
       </div>
       <div></div>
