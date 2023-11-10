@@ -2,6 +2,7 @@
 // import { useEffect } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import InfoIcon from "@mui/icons-material/Info";
+import { motion } from "framer-motion";
 
 const ChatBotOne = ({ isAuth }) => {
   // let navigate = useNavigate();
@@ -21,12 +22,23 @@ const ChatBotOne = ({ isAuth }) => {
         <div className="info-head-gtown">
           <h1>Gtown</h1>
           <span className="secondFont-head">journal.</span>
-          <button className="gtown-mint">mint</button>
+          <motion.button
+            className="gtown-mint"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.5 }}
+          >
+            mint
+          </motion.button>
           <div className="realpoint-branding-outter">
             <InfoIcon />
-            <a href="https://www.instagram.com/gtown_journal" target="blank">
+            <motion.a
+              href="https://www.instagram.com/gtown_journal"
+              target="blank"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.5 }}
+            >
               <InstagramIcon className="gtown-btn" />
-            </a>
+            </motion.a>
           </div>
         </div>
       </div>
