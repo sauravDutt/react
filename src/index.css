@@ -518,6 +518,7 @@ code {
   font-size: 25px;
   color: #fff;
   font-family: "Logo";
+  cursor: pointer;
 }
 .realpoint-branding-outter {
   height: 30px !important;
