@@ -520,6 +520,10 @@ code {
   font-family: "Logo";
   cursor: pointer;
 }
+.social-btns {
+  color: #000;
+  text-decoration: none;
+}
 .realpoint-branding-outter {
   height: 30px !important;
   width: 70px;

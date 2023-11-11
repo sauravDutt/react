@@ -13,6 +13,7 @@ import CreateArticleForm from "./components/CreateArticleForm";
 import Game from "./components/Game";
 import ChatBotOne from "./components/ChatBotOne";
 import { auth } from "./firebase-config";
+import InfoGtown from "./components/InfoGtown";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
@@ -64,6 +65,7 @@ function App() {
         />
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
         <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
+        <Route path="/gtown-info" element={<InfoGtown />} />
       </Routes>
     </Router>
   );

@@ -3,6 +3,7 @@
 import InstagramIcon from "@mui/icons-material/Instagram";
 import InfoIcon from "@mui/icons-material/Info";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const ChatBotOne = ({ isAuth }) => {
   // let navigate = useNavigate();
@@ -30,15 +31,24 @@ const ChatBotOne = ({ isAuth }) => {
             mint
           </motion.button>
           <div className="realpoint-branding-outter">
-            <InfoIcon />
-            <motion.a
-              href="https://www.instagram.com/gtown_journal"
+            <Link
+              className="social-btns"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.5 }}
+              to={"/gtown-info"}
+            >
+              <InfoIcon />
+            </Link>
+
+            <Link
+              className="social-btns"
+              to="https://www.instagram.com/gtown_journal"
               target="blank"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.5 }}
             >
               <InstagramIcon className="gtown-btn" />
-            </motion.a>
+            </Link>
           </div>
         </div>
       </div>
