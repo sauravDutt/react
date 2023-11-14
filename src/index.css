@@ -541,10 +541,11 @@ code {
 }
 .info-outter {
   background-color: #fff;
-  margin-top: 10px;
   z-index: 200;
   position: absolute;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .info-outter div {
   margin-top: 20px;
@@ -558,6 +559,10 @@ code {
 }
 .info-outter div img {
   width: 350px;
+  box-shadow: 5px 5px 5px #9494942f;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .div-right {
