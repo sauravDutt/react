@@ -539,6 +539,27 @@ code {
 .gtown-btn {
   cursor: pointer;
 }
+.info-outter {
+  background-color: #fff;
+  margin-top: 10px;
+  z-index: 200;
+  position: absolute;
+  width: 100%;
+}
+.info-outter div {
+  margin-top: 20px;
+}
+.info-outter div h1 {
+  font-size: 65px;
+  margin: 0;
+  font-weight: 300;
+  margin-left: 30px;
+  font-family: "logo";
+}
+.info-outter div img {
+  width: 350px;
+}
+
 .div-right {
   background-color: #00000005;
 }
