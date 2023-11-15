@@ -33,7 +33,7 @@ const MainAreaOne = () => {
         className="bannerBoiler cat"
         position="positionRight"
         title="Curiosity"
-        description="Interducing Simba, my local Indian street cat born in March of 2021. Following are illustrations of my neighbourhood ↓"
+        description="is a cat with endless resources, unquenchable thirst for knowledge and growth in this decentralised environment (internet), Skank Hunt"
       />
       <Banner
         className="bannerBoiler one"
