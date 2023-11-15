@@ -33,7 +33,7 @@ const MainAreaOne = () => {
         className="bannerBoiler cat"
         position="positionRight"
         title="Curiosity"
-        description="is a cat with endless resources, unquenchable thirst for knowledge and growth in this decentralised environment (internet), Skank Hunt"
+        description="is a cat with endless resources, unquenchable thirst for knowledge and growth in decentralised internet --Skank Hunt"
       />
       <Banner
         className="bannerBoiler one"
