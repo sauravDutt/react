@@ -6,19 +6,22 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useRef } from "react";
+import TheHistoriaDemo from "../TheHistoriaDemo.otf";
+import ConstructionIcon from "@mui/icons-material/Construction";
+import { Text } from "@react-three/drei";
 
 const Cube = () => {
   const ref = useRef();
   useFrame((state, delta) => {
     ref.current.rotation.y += delta;
     ref.current.rotation.x += delta;
-    ref.current.position.x = Math.sin(state.clock.elapsedTime) * 2;
+    ref.current.position.x = Math.sin(state.clock.elapsedTime) * 3.5;
   });
   return (
     <>
       <mesh position={[1, 0, 0]} ref={ref}>
         <boxGeometry args={[1, 1, 1]} />
-        <meshStandardMaterial color={"#fff"} />
+        <meshStandardMaterial color={"#ffffff4f"} />
       </mesh>
     </>
   );
@@ -28,13 +31,13 @@ const CubeTwo = () => {
   useFrame((state, delta) => {
     ref.current.rotation.y += delta;
     ref.current.rotation.x += delta / 2;
-    ref.current.position.x = Math.sin(state.clock.elapsedTime) * 2;
+    ref.current.position.x = Math.sin(state.clock.elapsedTime) * 3.5;
   });
   return (
     <>
       <mesh position={[1, 0, 0]} ref={ref}>
         <boxGeometry args={[1, 1, 1]} />
-        <meshStandardMaterial color={"#fff"} />
+        <meshStandardMaterial color={"#ffffff4f"} />
       </mesh>
     </>
   );
@@ -88,10 +91,37 @@ const ChatBotOne = ({ isAuth }) => {
       </div>
       <div className="banner-realpoint">
         <Canvas>
-          <directionalLight position={[0, 0, 2]} />
+          <directionalLight position={[0, 0, 4]} />
           <ambientLight />
+          <Text
+            scale={[1, 1, 1]}
+            color="#000017" // default
+            anchorX="center" // default
+            anchorY={-2} // default
+            font={TheHistoriaDemo}
+          >
+            ------X------
+          </Text>
           <Cube />
           <CubeTwo />
+          <Text
+            scale={[1, 1, 1]}
+            color="#000017" // default
+            anchorX="center" // default
+            anchorY={0.5} // default
+            font={TheHistoriaDemo}
+          >
+            ------X------
+          </Text>
+          <Text
+            scale={[1, 1, 1]}
+            color="#000017" // default
+            anchorX="center" // default
+            anchorY={1.5} // default
+            font={TheHistoriaDemo}
+          >
+            coming soon...
+          </Text>
         </Canvas>
       </div>
       <div className="left-discover">
