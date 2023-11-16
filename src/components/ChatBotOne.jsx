@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import TheHistoriaDemo from "../TheHistoriaDemo.otf";
-import ConstructionIcon from "@mui/icons-material/Construction";
 import { Text } from "@react-three/drei";
 
 const Cube = () => {
