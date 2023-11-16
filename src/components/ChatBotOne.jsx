@@ -23,6 +23,22 @@ const Cube = () => {
     </>
   );
 };
+const CubeTwo = () => {
+  const ref = useRef();
+  useFrame((state, delta) => {
+    ref.current.rotation.y += delta;
+    ref.current.rotation.x += delta / 2;
+    ref.current.position.x = Math.sin(state.clock.elapsedTime) * 2;
+  });
+  return (
+    <>
+      <mesh position={[1, 0, 0]} ref={ref}>
+        <boxGeometry args={[1, 1, 1]} />
+        <meshStandardMaterial color={"#fff"} />
+      </mesh>
+    </>
+  );
+};
 
 const ChatBotOne = ({ isAuth }) => {
   // let navigate = useNavigate();
@@ -75,6 +91,7 @@ const ChatBotOne = ({ isAuth }) => {
           <directionalLight position={[0, 0, 2]} />
           <ambientLight />
           <Cube />
+          <CubeTwo />
         </Canvas>
       </div>
       <div className="left-discover">
