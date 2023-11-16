@@ -4,6 +4,23 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import InfoIcon from "@mui/icons-material/Info";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { Canvas, useFrame } from "@react-three/fiber";
+import { useRef } from "react";
+
+const Cube = () => {
+  const ref = useRef();
+  useFrame((state, delta) => {
+    ref.current.rotation.x += delta;
+  });
+  return (
+    <>
+      <mesh position={[1, 0, 0]} ref={ref}>
+        <boxGeometry args={[1, 1, 1]} />
+        <meshStandardMaterial color={"#fff"} />
+      </mesh>
+    </>
+  );
+};
 
 const ChatBotOne = ({ isAuth }) => {
   // let navigate = useNavigate();
@@ -13,7 +30,6 @@ const ChatBotOne = ({ isAuth }) => {
   //     navigate("/login");
   //   }
   // });
-
   return (
     <div className="chatBot-outter">
       <div className="head-gtown">
@@ -52,7 +68,13 @@ const ChatBotOne = ({ isAuth }) => {
           </div>
         </div>
       </div>
-      <div className="banner-realpoint"></div>
+      <div className="banner-realpoint">
+        <Canvas>
+          <directionalLight position={[0, 0, 2]} />
+          <ambientLight />
+          <Cube />
+        </Canvas>
+      </div>
       <div className="left-discover">
         <div className="div-left"></div>
         <div>
