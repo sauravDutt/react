@@ -44,7 +44,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 69;
+  z-index: 369;
   width: 90%;
   height: 79px;
   margin-left: 4.9%;
@@ -279,7 +279,12 @@ code {
   width: 48%;
   float: right;
 }
-
+.banner-realpoint {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: -150px;
+  border: 2px solid #000;
+}
 .positionLeft {
   width: 30%;
 }
@@ -532,7 +537,6 @@ code {
   display: grid;
   gap: 10px;
   grid-template-columns: auto auto;
-
   justify-content: center;
   padding: 0px;
 }
@@ -549,6 +553,7 @@ code {
 }
 .info-outter div {
   margin-top: 20px;
+  margin-bottom: 110px;
 }
 .info-outter div h1 {
   font-size: 65px;

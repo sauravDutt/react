@@ -52,7 +52,7 @@ const ChatBotOne = ({ isAuth }) => {
           </div>
         </div>
       </div>
-      <div></div>
+      <div className="banner-realpoint"></div>
       <div className="left-discover">
         <div className="div-left"></div>
         <div>
