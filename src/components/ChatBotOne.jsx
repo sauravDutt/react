@@ -10,7 +10,9 @@ import { useRef } from "react";
 const Cube = () => {
   const ref = useRef();
   useFrame((state, delta) => {
+    ref.current.rotation.y += delta;
     ref.current.rotation.x += delta;
+    ref.current.position.x = Math.sin(state.clock.elapsedTime) * 2;
   });
   return (
     <>
