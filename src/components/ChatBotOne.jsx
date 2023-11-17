@@ -18,7 +18,7 @@ const Cube = () => {
   });
   return (
     <>
-      <mesh position={[1, 0, 0]} ref={ref}>
+      <mesh position={[0, -0.5, 0]} ref={ref}>
         <boxGeometry args={[1, 1, 1]} />
         <meshStandardMaterial color={"#ffffff4f"} />
       </mesh>
@@ -34,7 +34,7 @@ const CubeTwo = () => {
   });
   return (
     <>
-      <mesh position={[1, 0, 0]} ref={ref}>
+      <mesh position={[0, -0.5, 0]} ref={ref}>
         <boxGeometry args={[1, 1, 1]} />
         <meshStandardMaterial color={"#ffffff4f"} />
       </mesh>
@@ -96,10 +96,10 @@ const ChatBotOne = ({ isAuth }) => {
             scale={[1, 1, 1]}
             color="#000017" // default
             anchorX="center" // default
-            anchorY={-2} // default
+            anchorY={-3} // default
             font={TheHistoriaDemo}
           >
-            ------X------
+            ------------------X--
           </Text>
           <Cube />
           <CubeTwo />
@@ -107,16 +107,16 @@ const ChatBotOne = ({ isAuth }) => {
             scale={[1, 1, 1]}
             color="#000017" // default
             anchorX="center" // default
-            anchorY={0.5} // default
+            anchorY={1.4} // default
             font={TheHistoriaDemo}
           >
-            ------X------
+            ----------X----------
           </Text>
           <Text
             scale={[1, 1, 1]}
             color="#000017" // default
             anchorX="center" // default
-            anchorY={1.5} // default
+            anchorY={-2} // default
             font={TheHistoriaDemo}
           >
             coming soon...
