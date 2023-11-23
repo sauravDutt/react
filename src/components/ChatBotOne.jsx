@@ -57,8 +57,8 @@ const ChatBotOne = ({ isAuth }) => {
           <img src={process.env.PUBLIC_URL + "/img/five.png"} alt="five" />
         </div>
         <div className="info-head-gtown">
-          <h1>Gtown</h1>
-          <span className="secondFont-head">journal.</span>
+          <h1>Community</h1>
+          <span className="secondFont-head">bulletin.</span>
           <motion.button
             className="gtown-mint"
             whileHover={{ scale: 1.1 }}

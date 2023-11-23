@@ -19,21 +19,19 @@ const MainAreaOne = () => {
       {/* These are banners */}
       <div className="gal">
         <div>
-          <h1>SauravDutt.com</h1>
+          <h1>Gtownjournal.com</h1>
           <p>
-            A gallery of expressive illustrations, inspiring literature and
-            maybe some poetry in the future. To know more about me go to{" "}
-            <a href="https://about.sauravdutt.com/" target="blank">
-              about.sauravdutt.com
-            </a>
+            Gtown Journal, is a community (NFT collection), each illustration is
+            it's own unique NFT (Non Fungible Tokens),{" "}
+            <strong>each NFT holder is an editor of the Gtown Journal</strong>.
           </p>
         </div>
       </div>
       <Banner
         className="bannerBoiler cat"
         position="positionRight"
-        title="Curiosity"
-        description="is a cat with endless resources, unquenchable thirst for knowledge and growth in decentralised internet --Skank Hunt"
+        title="Community"
+        description="in Gtown Journal, we maintain a community treasury called the 'Gtown Journal Treasury' every editor(NFT holder) has a say in the collected fund."
       />
       <Banner
         className="bannerBoiler one"
@@ -68,8 +66,8 @@ const MainAreaOne = () => {
       <Banner
         className="bannerBoiler community"
         position="positionRight"
-        title="Leave me a message"
-        description="To leave a message click on the sign in button below. You'r articles or messages will appear here ↓"
+        title="Become an editor"
+        description="Join the community and mint a Gtown Journal NFT today. Following are some of the insights from our editors"
       />
       {articleList?.map((post) => {
         return (
