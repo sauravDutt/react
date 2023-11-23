@@ -264,7 +264,7 @@ code {
 .bannerBoiler div h1 {
   font-family: "Logo";
   font-weight: 300;
-  line-height: 25px;
+  line-height: 32px;
   margin: 0;
   margin-bottom: 10px;
   margin-top: 40px;
@@ -276,7 +276,7 @@ code {
   margin-top: -5px;
 }
 .positionRight {
-  width: 48%;
+  width: 45%;
   float: right;
 }
 .banner-realpoint {

@@ -66,8 +66,8 @@ const MainAreaOne = () => {
       <Banner
         className="bannerBoiler community"
         position="positionRight"
-        title="Become an editor"
-        description="Join the community and mint a Gtown Journal NFT today. Following are some of the insights from our editors"
+        title="Become an editor."
+        description="Join the community and mint a Gtown Journal NFT today. Following are some of the insights from our editors."
       />
       {articleList?.map((post) => {
         return (
