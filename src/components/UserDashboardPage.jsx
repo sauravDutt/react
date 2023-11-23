@@ -40,18 +40,23 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
       </div>
       <div className="userStats">
         <p>
-          <span>Welcome</span> to <strong>SauravDutt.com</strong>, a portfolio
-          website build to showcase expressive illustrations and storytelling
-          artwork with inspirational pieces of literature and maybe poetry.
+          <span>Welcome</span> to <strong>Gtown Journal</strong>, a portfolio of
+          a NFT Collection, a Community, a vision of decentralisation of art and
+          documenting the city. Mint an illustration and become a contributer.
           <br />
           <img src={process.env.PUBLIC_URL + "/img/five.png"} alt="five" />
           <br />
-          Thank you, <span>{user.displayName}</span> for sparing some of your
-          valuable time and making an effort, your kind words will go a long
-          way.
+          Thank you, <span>{user.displayName}</span> for taking time, we also
+          appriciate your interest in becoming an editor at the Gtown Journal,
+          please visit the gallery or any Gtown Journal exihibition near you.
+          <br />
+          <br />
           <Link to="/create" className="messageBtn">
             <strong className="messageBtn"> Leave a message.</strong>
           </Link>
+          <br />
+          **this message will be posted on the landing page.
+          <br />
         </p>
       </div>
     </div>
