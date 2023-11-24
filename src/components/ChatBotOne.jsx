@@ -1,24 +1,21 @@
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 // import { useEffect } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import InfoIcon from "@mui/icons-material/Info";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { useRef } from "react";
-import TheHistoriaDemo from "../TheHistoriaDemo.otf";
-import { Text } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
 
 const Cube = () => {
-  const ref = useRef();
-  useFrame((state, delta) => {
-    ref.current.rotation.y += delta;
-    ref.current.rotation.x += delta;
-    ref.current.position.x = Math.sin(state.clock.elapsedTime) * 3.5;
-  });
+  // const ref = useRef();
+  // useFrame((state, delta) => {
+  //   ref.current.rotation.y += delta;
+  //   ref.current.rotation.x += delta;
+  //   ref.current.position.x = Math.sin(state.clock.elapsedTime) * 3.5;
+  // });
   return (
     <>
-      <mesh position={[0, -0.5, 0]} ref={ref}>
+      <mesh position={[-1.5, 0.48, 0]}>
         <boxGeometry args={[1, 1, 1]} />
         <meshStandardMaterial color={"#ffffff4f"} />
       </mesh>
@@ -26,16 +23,16 @@ const Cube = () => {
   );
 };
 const CubeTwo = () => {
-  const ref = useRef();
-  useFrame((state, delta) => {
-    ref.current.rotation.y += delta;
-    ref.current.rotation.x += delta / 2;
-    ref.current.position.x = Math.sin(state.clock.elapsedTime) * 3.5;
-  });
+  // const ref = useRef();
+  // useFrame((state, delta) => {
+  //   ref.current.rotation.y += delta;
+  //   ref.current.rotation.x += delta / 2;
+  //   ref.current.position.x = Math.sin(state.clock.elapsedTime) * 3.5;
+  // });
   return (
     <>
-      <mesh position={[0, -0.5, 0]} ref={ref}>
-        <boxGeometry args={[1, 1, 1]} />
+      <mesh position={[1.5, 0.98, 0]}>
+        <boxGeometry args={[1, 2, 1]} />
         <meshStandardMaterial color={"#ffffff4f"} />
       </mesh>
     </>
@@ -43,7 +40,11 @@ const CubeTwo = () => {
 };
 
 const ChatBotOne = ({ isAuth }) => {
-  // let navigate = useNavigate();
+  let navigate = useNavigate();
+
+  const onClickFunction = () => {
+    navigate("/gtown-info");
+  };
 
   // useEffect(() => {
   //   if (!isAuth) {
@@ -63,19 +64,11 @@ const ChatBotOne = ({ isAuth }) => {
             className="gtown-mint"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.5 }}
+            onClick={onClickFunction}
           >
-            mint
+            Join
           </motion.button>
           <div className="realpoint-branding-outter">
-            <Link
-              className="social-btns"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.5 }}
-              to={"/gtown-info"}
-            >
-              <InfoIcon />
-            </Link>
-
             <Link
               className="social-btns"
               to="https://www.instagram.com/gtown_journal"
@@ -89,38 +82,14 @@ const ChatBotOne = ({ isAuth }) => {
         </div>
       </div>
       <div className="banner-realpoint">
-        <Canvas>
+        <Canvas camera={{ fov: 10, position: [12, 20, 20] }}>
+          <gridHelper args={[100, 100, "#00000067"]} />
           <directionalLight position={[0, 0, 4]} />
           <ambientLight />
-          <Text
-            scale={[1, 1, 1]}
-            color="#000017" // default
-            anchorX="center" // default
-            anchorY={-3} // default
-            font={TheHistoriaDemo}
-          >
-            ------------------X--
-          </Text>
+
           <Cube />
           <CubeTwo />
-          <Text
-            scale={[1, 1, 1]}
-            color="#000017" // default
-            anchorX="center" // default
-            anchorY={1.4} // default
-            font={TheHistoriaDemo}
-          >
-            ----------X----------
-          </Text>
-          <Text
-            scale={[1, 1, 1]}
-            color="#000017" // default
-            anchorX="center" // default
-            anchorY={-2} // default
-            font={TheHistoriaDemo}
-          >
-            coming soon...
-          </Text>
+          <OrbitControls />
         </Canvas>
       </div>
       <div className="left-discover">
