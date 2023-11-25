@@ -82,6 +82,7 @@ const ChatBotOne = ({ isAuth }) => {
         </div>
       </div>
       <div className="banner-realpoint">
+        <h1 className="mapHeding">map</h1>
         <Canvas camera={{ fov: 10, position: [12, 20, 20] }}>
           <gridHelper args={[100, 100, "#00000067"]} />
           <directionalLight position={[0, 0, 4]} />
@@ -97,7 +98,7 @@ const ChatBotOne = ({ isAuth }) => {
         <div>
           <img
             className="oneImage-discover"
-            src={process.env.PUBLIC_URL + "/img/one.png"}
+            src={process.env.PUBLIC_URL + "/img/dlf.png"}
             alt="Img"
           />
         </div>
