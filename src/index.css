@@ -304,13 +304,22 @@ code {
   color: rgba(0, 0, 0, 0.822);
   font-weight: 100;
   font-size: 40px;
-  z-index: 69;
+  z-index: 60;
   font-family: "Logo";
   transform: rotate(-5deg);
 }
+
+.centerPara {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
 .second {
   font-size: 30px;
-  color: rgb(98, 204, 12);
+  font-weight: 900;
+  color: rgb(10, 163, 36);
 }
 .positionLeft {
   width: 30%;
@@ -498,7 +507,7 @@ code {
   font-size: 16px;
 }
 .chatBot-outter {
-  margin: 100px auto;
+  margin: 120px auto;
   margin-bottom: 130px;
   width: 500px;
   padding: 0;
@@ -539,18 +548,21 @@ code {
   background-color: transparent;
   border: none;
   border-radius: 5px;
-  background-color: #000000d7;
-  width: 70px;
-  height: 45px;
+  background-color: #000000e5;
   margin: 0;
-  right: 20px;
-  top: 270px;
-  padding: 0;
+  right: 40px;
+  top: 130px;
+  padding: 10px;
   text-align: center;
   font-size: 25px;
   color: #fff;
   font-family: "Logo";
   cursor: pointer;
+}
+.mintBtn-text {
+  position: absolute;
+  top: 35px;
+  right: 10px;
 }
 .social-btns {
   color: #000;

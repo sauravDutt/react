@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
+import CreditCardIcon from "@mui/icons-material/CreditCard";
 
 const Cube = () => {
   // const ref = useRef();
@@ -66,7 +67,8 @@ const ChatBotOne = ({ isAuth }) => {
             whileTap={{ scale: 0.5 }}
             onClick={onClickFunction}
           >
-            Join
+            <CreditCardIcon fontSize="large" sx={{ width: "100%" }} />{" "}
+            <span className="mintBtn-text">mint</span>
           </motion.button>
           <div className="realpoint-branding-outter">
             <Link
@@ -97,6 +99,10 @@ const ChatBotOne = ({ isAuth }) => {
           <OrbitControls />
         </Canvas>
       </div>
+
+      <p className="centerPara">
+        Gtown live!, is an upcoming Gtown interactive map.
+      </p>
       <div className="left-discover">
         <div className="div-left"></div>
         <div>
