@@ -286,17 +286,31 @@ code {
   margin-top: -90px;
 }
 .mapHeding {
-  position: absolute;
-  top: 210px;
   margin: 0;
-  left: 20px;
+  display: flex;
+  height: 100px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -120px;
+  line-height: 31px;
+  background-color: #fff;
+  box-shadow: 8px 8px 8px #d0d0d0, -8px -8px 8px #f0f0f0;
+  margin-left: 20px;
+  width: 150px;
+  text-align: center;
+  overflow: hidden;
   padding: 0;
-  color: rgb(121, 121, 121);
-  font-weight: 300;
-  font-size: 90px;
+  color: rgba(0, 0, 0, 0.822);
+  font-weight: 100;
+  font-size: 40px;
   z-index: 69;
   font-family: "Logo";
   transform: rotate(-5deg);
+}
+.second {
+  font-size: 30px;
+  color: rgb(98, 204, 12);
 }
 .positionLeft {
   width: 30%;
@@ -530,7 +544,7 @@ code {
   height: 45px;
   margin: 0;
   right: 20px;
-  top: 260px;
+  top: 270px;
   padding: 0;
   text-align: center;
   font-size: 25px;

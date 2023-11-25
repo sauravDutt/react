@@ -81,8 +81,12 @@ const ChatBotOne = ({ isAuth }) => {
           </div>
         </div>
       </div>
+
+      <h1 className="mapHeding">
+        Gtown <span className="second"> live!</span>
+      </h1>
+      <br />
       <div className="banner-realpoint">
-        <h1 className="mapHeding">map</h1>
         <Canvas camera={{ fov: 10, position: [12, 20, 20] }}>
           <gridHelper args={[100, 100, "#00000067"]} />
           <directionalLight position={[0, 0, 4]} />
