@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router-dom";
 // import { useEffect } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import CreditCardIcon from "@mui/icons-material/CreditCard";
+import VpnKeySharpIcon from "@mui/icons-material/VpnKeySharp";
+import { motion } from "framer-motion";
 
 const Cube = () => {
   // const ref = useRef();
@@ -61,15 +61,7 @@ const ChatBotOne = ({ isAuth }) => {
         <div className="info-head-gtown">
           <h1>Community</h1>
           <span className="secondFont-head">bulletin.</span>
-          <motion.button
-            className="gtown-mint"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.5 }}
-            onClick={onClickFunction}
-          >
-            <CreditCardIcon fontSize="large" sx={{ width: "100%" }} />{" "}
-            <span className="mintBtn-text">mint</span>
-          </motion.button>
+
           <div className="realpoint-branding-outter">
             <Link
               className="social-btns"
@@ -82,6 +74,15 @@ const ChatBotOne = ({ isAuth }) => {
             </Link>
           </div>
         </div>
+        <motion.div
+          className="treasury-btn"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.5 }}
+          onClick={onClickFunction}
+        >
+          <VpnKeySharpIcon fontSize="large" sx={{ width: "100%" }} />
+          <p>Treasury</p>
+        </motion.div>
       </div>
 
       <h1 className="mapHeding">

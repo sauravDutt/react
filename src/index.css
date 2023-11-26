@@ -544,26 +544,37 @@ code {
   margin-left: 35px;
   margin-top: -110px;
 }
-.gtown-mint {
-  position: absolute;
-  display: grid;
-  width: 155px !important;
-  grid-template-columns: auto auto;
-  gap: 10px;
-  align-items: center;
+.heidBtn {
+  display: none;
+}
+.showBtn {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  display: block;
+}
+.treasury-btn {
+  background-color: #000;
+  color: #fff;
+  gap: -20px;
   justify-content: center;
-  border-radius: 5px;
-  background-color: transparent;
-  margin: 0;
-  right: 30px;
-  top: 270px;
-  padding: 0px 30px;
-  border: 3px dotted #00000081;
-  text-align: center;
-  font-size: 35px;
-  color: #000;
-  font-family: "Logo";
+  align-items: center;
+  width: 50px;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 250px;
   cursor: pointer;
+  right: 50px;
+  padding: 15px;
+  height: 70px !important;
+}
+.treasury-btn p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: -10px;
 }
 .social-btns {
   color: #000;
@@ -599,11 +610,17 @@ code {
   margin-bottom: 110px;
 }
 .info-outter div h1 {
-  font-size: 65px;
+  font-size: 40px;
   margin: 0;
   font-weight: 300;
   margin-left: 30px;
   font-family: "logo";
+}
+.info-outter p {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 .info-outter div img {
   width: 350px;

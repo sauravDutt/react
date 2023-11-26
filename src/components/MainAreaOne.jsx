@@ -23,7 +23,7 @@ const MainAreaOne = () => {
           <p>
             Gtown Journal, is a community (NFT collection), each illustration is
             it's own unique NFT (Non Fungible Tokens),{" "}
-            <strong>each NFT holder is an editor of the Gtown Journal</strong>.
+            <strong>each NFT holder is a member of the Gtown Journal</strong>.
           </p>
         </div>
       </div>
@@ -32,24 +32,28 @@ const MainAreaOne = () => {
         position="positionRight"
         title="Community"
         description="in Gtown Journal, we maintain a community treasury called the 'Gtown Journal Treasury' every editor(NFT holder) has a say in the collected fund."
+        heidBtn="heidBtn"
       />
       <Banner
         className="bannerBoiler one"
         position="positionLeft"
         title=""
         description=""
+        heidBtn="heidBtn"
       />
       <Banner
         className="bannerBoiler two"
         position="positionRight"
         title=""
         description=""
+        heidBtn="heidBtn"
       />
       <Banner
         className="bannerBoiler three"
         position="positionLeft"
         title=""
         description=""
+        heidBtn="heidBtn"
       />
       <div className="club"></div>
       <div className="gameBtn-info">
@@ -67,7 +71,9 @@ const MainAreaOne = () => {
         className="bannerBoiler community"
         position="positionRight"
         title="Become an editor."
-        description="Join the community and mint a Gtown Journal NFT today. Following are some of the insights from our editors."
+        description="Every art in the Gtown Journal, tells a story, a memory and a vision, of decentralized trade of inspiritional art and expressing the love for the city."
+        buttonText="join the editor dashbord"
+        heidBtn="showBtn"
       />
       {articleList?.map((post) => {
         return (
