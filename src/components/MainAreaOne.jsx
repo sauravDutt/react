@@ -91,7 +91,13 @@ const MainAreaOne = () => {
           </div>
         );
       })}
-      <Banner className="narrow" position="" title="" description="" />
+      <Banner
+        className="narrow"
+        position=""
+        title=""
+        description=""
+        heidBtn="heidBtn"
+      />
     </div>
   );
 };
