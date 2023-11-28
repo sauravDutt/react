@@ -506,15 +506,14 @@ code {
   gap: 40px;
   justify-content: center;
   align-items: center;
-  border: 1px solid #000;
   padding: 10px;
 }
 .play-outter div {
   margin-top: 10px;
-  border: 1px solid #000;
   border-radius: 10px;
   height: 320px;
   width: 350px;
+  box-shadow: 5px 5px 22px #a8a8a8, -5px -5px 22px #ffffff;
 }
 .news-outter h1 sup {
   font-family: "Logo";
