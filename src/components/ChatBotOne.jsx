@@ -4,7 +4,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import { Link } from "react-router-dom";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import VpnKeySharpIcon from "@mui/icons-material/VpnKeySharp";
+import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 import { motion } from "framer-motion";
 
 const Cube = () => {
@@ -80,8 +80,8 @@ const ChatBotOne = ({ isAuth }) => {
           whileTap={{ scale: 0.5 }}
           onClick={onClickFunction}
         >
-          <VpnKeySharpIcon fontSize="large" sx={{ width: "100%" }} />
-          <p>Treasury</p>
+          <AccountBalanceIcon fontSize="large" sx={{ width: "100%" }} />
+          <span>Treasury</span>
         </motion.div>
       </div>
 

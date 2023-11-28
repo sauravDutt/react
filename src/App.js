@@ -8,12 +8,12 @@ import "./index.css";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import BlurOnIcon from "@mui/icons-material/BlurOn";
-import GolfCourseIcon from "@mui/icons-material/GolfCourse";
 import CreateArticleForm from "./components/CreateArticleForm";
 import Game from "./components/Game";
 import ChatBotOne from "./components/ChatBotOne";
 import { auth } from "./firebase-config";
 import InfoGtown from "./components/InfoGtown";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
@@ -33,8 +33,8 @@ function App() {
           <Link to="/gtown" className="button-outter">
             <BlurOnIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
-          <Link to="/game" className="button-outter">
-            <GolfCourseIcon fontSize="large" sx={{ width: "100%" }} />
+          <Link to="/play" className="button-outter">
+            <PlayArrowIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           {!isAuth ? (
             <Link to="/login" className="button-outter">
@@ -58,7 +58,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainAreaOne />} />
         <Route path="/login" element={<LogIn setIsAuth={setIsAuth} />} />
-        <Route path="/game" element={<Game />} />
+        <Route path="/play" element={<Game />} />
         <Route
           path="/dashboard"
           element={<UserDashboardPage setIsAuth={setIsAuth} isAuth={isAuth} />}
