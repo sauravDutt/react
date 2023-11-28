@@ -497,23 +497,27 @@ code {
   width: 100%;
 }
 .play-outter {
+  width: 375px;
   margin: 0 auto;
-  margin-top: 94px;
-  overflow-x: hidden;
-  overflow-y: scroll;
+}
+.song-outter {
   display: grid;
   grid-template-columns: auto;
-  gap: 40px;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
 }
-.play-outter div {
-  margin-top: 10px;
+.margin-top-imp {
+  margin-top: 100px;
+}
+.songImg {
+  height: 300px;
+  width: 300px;
   border-radius: 10px;
-  height: 320px;
-  width: 350px;
-  box-shadow: 5px 5px 22px #a8a8a8, -5px -5px 22px #ffffff;
+  background-image: url("./img/jimCroce.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #f0f0f0;
 }
 .news-outter h1 sup {
   font-family: "Logo";

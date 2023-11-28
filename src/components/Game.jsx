@@ -1,10 +1,31 @@
+import { Container, Row, Col } from "react-bootstrap";
+import AudioPlayer from "react-h5-audio-player";
+import "react-h5-audio-player/lib/styles.css";
+const PlayerOutter = () => {
+  return (
+    <>
+      <Container>
+        <Row>
+          <Col lg={4}>
+            <AudioPlayer
+              src={process.env.PUBLIC_URL + "/songs/songOne.mp3"}
+              // other props here
+            />
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
+};
 const Game = () => {
   return (
-    <div div className="play-outter">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+    <div className="margin-top-imp">
+      <div className="song-outter">
+        <div className="songImg"></div>
+        <div div className="play-outter">
+          <PlayerOutter />
+        </div>
+      </div>
     </div>
   );
 };
