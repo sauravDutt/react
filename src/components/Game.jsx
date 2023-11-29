@@ -23,7 +23,7 @@ const Game = () => {
     <div className="margin-top-imp">
       <div className="song-outter">
         <div className="songImg"></div>
-        <div div className="play-outter">
+        <div className="play-outter">
           <PlayerOutter />
         </div>
       </div>

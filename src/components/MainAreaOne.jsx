@@ -4,6 +4,27 @@ import GolfCourseIcon from "@mui/icons-material/GolfCourse";
 import { getDocs, collection } from "firebase/firestore";
 import { db } from "../firebase-config";
 
+import { Container, Row, Col } from "react-bootstrap";
+import AudioPlayer from "react-h5-audio-player";
+import "react-h5-audio-player/lib/styles.css";
+const PlayerOutter = () => {
+  return (
+    <>
+      <Container>
+        <Row>
+          <Col lg={4}>
+            <AudioPlayer
+              src={process.env.PUBLIC_URL + "/songs/songOne.mp3"}
+              showFilledVolume
+              // other props here
+            />
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
+};
+
 const MainAreaOne = () => {
   const [articleList, setArticleList] = useState([]);
   const articleCollectionRef = collection(db, "article");
@@ -16,14 +37,20 @@ const MainAreaOne = () => {
   });
   return (
     <div className="mainArea">
+      <div className="song-outter">
+        <div className="songImg"></div>
+        <div className="play-outter">
+          <PlayerOutter />
+        </div>
+      </div>
       {/* These are banners */}
       <div className="gal">
         <div>
-          <h1>Gtownjournal.com</h1>
+          <h1>timeinabottle.wtf</h1>
           <p>
-            Gtown Journal, is a community (NFT collection), each illustration is
-            it's own unique NFT (Non Fungible Tokens),{" "}
-            <strong>each NFT holder is a member of the Gtown Journal</strong>.
+            Time in a Bottle, is a <strong>community</strong> (NFT collection),
+            each illustration is it's own unique NFT (Non Fungible Tokens), each
+            NFT holder is a <strong>member of "Time in a Bottle Co."</strong>.
           </p>
         </div>
       </div>
@@ -31,7 +58,7 @@ const MainAreaOne = () => {
         className="bannerBoiler cat"
         position="positionRight"
         title="Community"
-        description="in Gtown Journal, we maintain a community treasury called the 'Gtown Journal Treasury' every editor(NFT holder) has a say in the collected fund."
+        description="in Time in a Bottle, we maintain a community treasury called the 'Gtown Journal Treasury' every editor(NFT holder) has a say in the collected fund."
         heidBtn="heidBtn"
       />
       <Banner
