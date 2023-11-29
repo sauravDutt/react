@@ -82,8 +82,7 @@ const MainAreaOne = () => {
         heidBtn="heidBtn"
       />
       <div className="club"></div>
-      <div className="podcast-banner"></div>
-      <div className="clubIn"></div>
+
       <Banner
         className="bannerBoiler community"
         position="positionRight"
@@ -92,6 +91,11 @@ const MainAreaOne = () => {
         buttonText="join the editor dashbord"
         heidBtn="showBtn"
       />
+      <div className="podcast-banner">
+        <div></div>
+        <div></div>
+      </div>
+      <div className="clubIn"></div>
       {articleList?.map((post) => {
         return (
           <div className="articleBoiler" key={post.id}>
