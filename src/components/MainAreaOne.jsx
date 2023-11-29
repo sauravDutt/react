@@ -54,6 +54,12 @@ const MainAreaOne = () => {
         description="in Time in a Bottle, we maintain a community treasury called the 'Gtown Journal Treasury' every editor(NFT holder) has a say in the collected fund."
         heidBtn="heidBtn"
       />
+      <div className="song-outter">
+        <div className="songImg"></div>
+        <div className="play-outter">
+          <PlayerOutter />
+        </div>
+      </div>
       <Banner
         className="bannerBoiler one"
         position="positionLeft"
@@ -76,12 +82,7 @@ const MainAreaOne = () => {
         heidBtn="heidBtn"
       />
       <div className="club"></div>
-      <div className="song-outter">
-        <div className="songImg"></div>
-        <div className="play-outter">
-          <PlayerOutter />
-        </div>
-      </div>
+      <div className="podcast-banner"></div>
       <div className="clubIn"></div>
       <Banner
         className="bannerBoiler community"

@@ -529,6 +529,12 @@ code {
   grid-template-columns: auto;
   box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #f0f0f0;
 }
+.podcast-banner {
+  width: 370px;
+  height: 370px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
 .sceneOne {
   background-color: #0000000c;
   width: 360px;
