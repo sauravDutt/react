@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Banner from "./Banner";
-import GolfCourseIcon from "@mui/icons-material/GolfCourse";
 import { getDocs, collection } from "firebase/firestore";
 import { db } from "../firebase-config";
 
@@ -37,12 +36,6 @@ const MainAreaOne = () => {
   });
   return (
     <div className="mainArea">
-      <div className="song-outter">
-        <div className="songImg"></div>
-        <div className="play-outter">
-          <PlayerOutter />
-        </div>
-      </div>
       {/* These are banners */}
       <div className="gal">
         <div>
@@ -83,15 +76,11 @@ const MainAreaOne = () => {
         heidBtn="heidBtn"
       />
       <div className="club"></div>
-      <div className="gameBtn-info">
-        <section>
-          <h1>Golf⛳</h1>Click on the{" "}
-          <span>
-            <GolfCourseIcon fontSize="medium" />
-          </span>{" "}
-          button below to access a joint card for handicapping while playing
-          your round.
-        </section>
+      <div className="song-outter">
+        <div className="songImg"></div>
+        <div className="play-outter">
+          <PlayerOutter />
+        </div>
       </div>
       <div className="clubIn"></div>
       <Banner

@@ -510,6 +510,8 @@ code {
   display: grid;
   width: 355px;
   margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
   border-radius: 11px;
   background-color: #fffcf5;
   padding-bottom: 10px;
