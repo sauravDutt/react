@@ -39,9 +39,9 @@ const MainAreaOne = () => {
       {/* These are banners */}
       <div className="gal">
         <div>
-          <h1>timeinabottle.wtf</h1>
+          <h1>Gtownjournal.com</h1>
           <p>
-            Time in a Bottle, is a <strong>community</strong> (NFT collection),
+            Gtown Journal, is a <strong>community</strong> (NFT collection),
             each illustration is it's own unique NFT (Non Fungible Tokens), each
             NFT holder is a <strong>member of "Time in a Bottle Co."</strong>.
           </p>
@@ -51,7 +51,7 @@ const MainAreaOne = () => {
         className="bannerBoiler cat"
         position="positionRight"
         title="Community"
-        description="in Time in a Bottle, we maintain a community treasury called the 'Gtown Journal Treasury' every editor(NFT holder) has a say in the collected fund."
+        description="in Gtown Journal, we maintain a community treasury called the 'Gtown Journal Treasury' every editor(NFT holder) has a say in the collected fund."
         heidBtn="heidBtn"
       />
       <div className="song-outter">
