@@ -39,6 +39,11 @@ code {
   background-color: #fff;
 }
 
+.rhap_container {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
 .header-outter {
   position: fixed;
   display: flex;
@@ -497,15 +502,23 @@ code {
   width: 100%;
 }
 .play-outter {
-  width: 375px;
+  width: 350px;
   margin: 0 auto;
+  background-color: transparent;
 }
 .song-outter {
   display: grid;
+  width: 355px;
+  margin: 0 auto;
+  border-radius: 11px;
+  background-color: #fffcf5;
+  padding-bottom: 10px;
   grid-template-columns: auto;
+
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #f0f0f0;
 }
 .margin-top-imp {
-  margin-top: 100px;
+  margin-top: 115px;
 }
 .songImg {
   height: 300px;
@@ -517,7 +530,6 @@ code {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #f0f0f0;
 }
 .news-outter h1 sup {
   font-family: "Logo";
