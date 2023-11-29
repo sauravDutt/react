@@ -506,10 +506,6 @@ code {
   margin: 0 auto;
   background-color: transparent;
 }
-.play-outter-main {
-  position: absolute;
-  overflow: scroll;
-}
 .song-outter {
   display: grid;
   width: 355px;
@@ -521,6 +517,32 @@ code {
 
   box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #f0f0f0;
 }
+.song-outter-outter {
+  display: grid;
+  width: 355px;
+  margin: 0 auto;
+  border-radius: 11px;
+  background-color: #fff;
+  padding-bottom: 10px;
+  grid-template-columns: auto;
+  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #f0f0f0;
+}
+.sceneOne {
+  border: 1px solid #000;
+  width: 360px;
+  height: 360px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.comments-outter {
+  border: 1px solid #000;
+  width: 100%;
+  height: 300px;
+  margin: 20px 0px 20px 0px;
+}
+
 .margin-top-imp {
   margin-top: 115px;
 }
