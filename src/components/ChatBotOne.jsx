@@ -2,43 +2,8 @@ import { useNavigate } from "react-router-dom";
 // import { useEffect } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Link } from "react-router-dom";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 import { motion } from "framer-motion";
-
-const Cube = () => {
-  // const ref = useRef();
-  // useFrame((state, delta) => {
-  //   ref.current.rotation.y += delta;
-  //   ref.current.rotation.x += delta;
-  //   ref.current.position.x = Math.sin(state.clock.elapsedTime) * 3.5;
-  // });
-  return (
-    <>
-      <mesh position={[-1.5, 0.48, 0]}>
-        <boxGeometry args={[1, 1, 1]} />
-        <meshStandardMaterial color={"#ffffff4f"} />
-      </mesh>
-    </>
-  );
-};
-const CubeTwo = () => {
-  // const ref = useRef();
-  // useFrame((state, delta) => {
-  //   ref.current.rotation.y += delta;
-  //   ref.current.rotation.x += delta / 2;
-  //   ref.current.position.x = Math.sin(state.clock.elapsedTime) * 3.5;
-  // });
-  return (
-    <>
-      <mesh position={[1.5, 0.98, 0]}>
-        <boxGeometry args={[1, 2, 1]} />
-        <meshStandardMaterial color={"#ffffff4f"} />
-      </mesh>
-    </>
-  );
-};
 
 const ChatBotOne = ({ isAuth }) => {
   let navigate = useNavigate();
@@ -84,26 +49,6 @@ const ChatBotOne = ({ isAuth }) => {
           <span>Treasury</span>
         </motion.div>
       </div>
-
-      <h1 className="mapHeding">
-        Gtown <span className="second"> live!</span>
-      </h1>
-      <br />
-      <div className="banner-realpoint">
-        <Canvas camera={{ fov: 10, position: [12, 20, 20] }}>
-          <gridHelper args={[100, 100, "#00000067"]} />
-          <directionalLight position={[0, 0, 4]} />
-          <ambientLight />
-
-          <Cube />
-          <CubeTwo />
-          <OrbitControls />
-        </Canvas>
-      </div>
-
-      <p className="centerPara">
-        Gtown live!, is an upcoming Gtown interactive map.
-      </p>
       <div className="left-discover">
         <div className="div-left"></div>
         <div>
