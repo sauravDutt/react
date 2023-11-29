@@ -92,8 +92,8 @@ const MainAreaOne = () => {
         heidBtn="showBtn"
       />
       <div className="podcast-banner">
-        <div></div>
-        <div></div>
+        <div className="topBox"></div>
+        <div className="bottomBox"></div>
       </div>
       <div className="clubIn"></div>
       {articleList?.map((post) => {

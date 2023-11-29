@@ -534,11 +534,18 @@ code {
   height: 370px;
   display: grid;
   grid-template-columns: auto;
-  gap: 20px;
+  gap: 5px;
   margin: 0 auto;
 }
-.podcast-banner div {
-  border: 1px solid #000;
+.bottomBox {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 2px solid #000000af;
+}
+.topBox {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border: 2px solid #000000af;
 }
 .sceneOne {
   background-color: #0000000c;
