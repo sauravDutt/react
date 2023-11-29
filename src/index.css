@@ -659,16 +659,18 @@ code {
 }
 .treasury-btn {
   color: #000;
-  border: 1px solid #000;
-  width: 130px;
+  width: 140px;
+  border: 2px solid #000;
+  background-color: #fffcf5;
   padding: 5px 0px 5px 10px;
   font-size: 20px;
   grid-template-columns: 30% 70%;
   gap: 5px;
+  font-weight: 300;
   justify-content: left;
   align-items: center;
   position: absolute;
-  top: 320px;
+  top: 300px;
   cursor: pointer;
   right: 20px;
   overflow: hidden;
