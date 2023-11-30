@@ -546,9 +546,11 @@ code {
   border: 2px solid #000000af;
 }
 .sceneOne {
-  background-color: #0000000c;
+  background-image: url("./img/podcast.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 360px;
-  height: 360px;
+  height: 290px;
   border-radius: 10px;
   margin: 0 auto;
   margin-bottom: 30px;
