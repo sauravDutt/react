@@ -147,7 +147,6 @@ const MainAreaOne = () => {
           </div>
         );
       })}
-
       <h1 className="mapHeding">
         Gtown <span className="second"> live!</span>
       </h1>
