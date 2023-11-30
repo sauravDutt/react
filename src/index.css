@@ -158,14 +158,14 @@ code {
 
 .mainArea {
   position: relative;
-  width: 600px;
+  width: 400px;
   height: 85vh;
   margin: 0 auto;
   margin-top: 96px;
   padding-top: 25px;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -775,11 +775,10 @@ code {
   height: 500px;
 }
 .gal div {
-  background-color: #fff;
-  margin-top: 10%;
-  width: 50%;
+  background-color: #ffffffc0;
+  margin-top: 50%;
+  width: 300px;
   padding: 10px;
-  margin-left: 45%;
 }
 .gal div h1 {
   margin: 0;
