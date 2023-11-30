@@ -22,6 +22,7 @@ const Game = () => {
   return (
     <div className="margin-top-imp">
       <div className="podcast-outter">
+        <h1 className="podcastTitle">Gtown Journal podcast.</h1>
         <div className="sceneOne"></div>
         <div className="song-outter-outter">
           <div className="play-outter">

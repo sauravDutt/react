@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap");
+
 body {
   display: flex;
   flex-direction: column;
@@ -552,6 +554,13 @@ code {
   justify-content: center;
   align-items: center;
 }
+.podcastTitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
 .sceneOne {
   background-image: url("./img/podcast.png");
   background-repeat: no-repeat;
@@ -563,10 +572,13 @@ code {
   margin-bottom: 20px;
 }
 .comments-outter {
-  border: 1px solid #000;
-  width: 360px;
+  background-color: #5252521e;
+  border-radius: 10px;
+  padding: 5px;
+  width: 300px;
+  margin: 0 auto;
   margin-top: 25px;
-  height: 190px;
+  height: 80px;
 }
 
 .margin-top-imp {
