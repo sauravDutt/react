@@ -545,22 +545,28 @@ code {
   border-top-left-radius: 20px;
   border: 2px solid #000000af;
 }
+
+.podcast-outter {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+}
 .sceneOne {
   background-image: url("./img/podcast.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 360px;
-  height: 290px;
+  height: 280px;
   border-radius: 10px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
-
 .comments-outter {
-  border-top: 3px dotted #000;
-  width: 100%;
-  height: 300px;
-  margin: 20px 0px 20px 0px;
+  border: 1px solid #000;
+  width: 360px;
+  margin-top: 25px;
+  height: 190px;
 }
 
 .margin-top-imp {

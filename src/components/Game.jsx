@@ -21,13 +21,15 @@ const PlayerOutter = () => {
 const Game = () => {
   return (
     <div className="margin-top-imp">
-      <div className="sceneOne"></div>
-      <div className="song-outter-outter">
-        <div className="play-outter">
-          <PlayerOutter />
+      <div className="podcast-outter">
+        <div className="sceneOne"></div>
+        <div className="song-outter-outter">
+          <div className="play-outter">
+            <PlayerOutter />
+          </div>
         </div>
+        <div className="comments-outter"></div>
       </div>
-      <div className="comments-outter"></div>
     </div>
   );
 };
