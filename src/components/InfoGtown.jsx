@@ -1,4 +1,4 @@
-import LockOpenIcon from "@mui/icons-material/LockOpen";
+import LockIcon from "@mui/icons-material/Lock";
 
 const InfoGtown = () => {
   return (
@@ -16,7 +16,7 @@ const InfoGtown = () => {
       <div className="memberLogin-outter">
         <h1>member id.</h1>
         <div className="cardIcon">
-          <LockOpenIcon fontSize="large" sx={{ width: "100%" }} />
+          <LockIcon fontSize="large" sx={{ width: "100%" }} />
         </div>
         <input className="memberId" type="password" />
       </div>
