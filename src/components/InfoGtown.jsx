@@ -1,7 +1,9 @@
+import CreditCardIcon from "@mui/icons-material/CreditCard";
+
 const InfoGtown = () => {
   return (
     <div className="info-outter">
-      <div>
+      <div className="infoOneDiv">
         <h1>Gtown treasury</h1>
         <p>
           <strong>Gtown Journal Treasury</strong> is your share of the collected
@@ -10,6 +12,14 @@ const InfoGtown = () => {
           funds.
         </p>
         <img src={process.env.PUBLIC_URL + "/img/infoImg.png"} alt="info" />
+      </div>
+      <div className="memberLogin-outter">
+        <h1>member id.</h1>
+        <div className="cardIcon">
+          <CreditCardIcon fontSize="large" sx={{ width: "100%" }} />
+        </div>
+        <input className="memberId" type="password" />
+        <button>Check in</button>
       </div>
     </div>
   );
