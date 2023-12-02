@@ -14,8 +14,9 @@ const InfoGtown = () => {
         <img src={process.env.PUBLIC_URL + "/img/infoImg.png"} alt="info" />
         <p>
           Once a member has received a{" "}
-          <strong>Gtown Journal Membership Card</strong>, he/she can then enter
-          the member id in the fiel bellow and access the Treasury Dashboard.
+          <strong>Gtown Journal Membership Card</strong>, they can then enter
+          the Membership Credentials in the field provided below to access the
+          treasury dashboard.
         </p>
         <p>Following is a layout of the Treasury Dashboard.</p>
         <img
@@ -24,8 +25,9 @@ const InfoGtown = () => {
         />
         <p>
           The Treasury Dashboard, provides you with the total community fund
-          available and a secured members only chatroom to discuss how they want
-          to use the Gtown Journal Treasury.
+          available and a secured members only chatroom to discuss and allocate
+          funds and participate in the mantainance of a smooth cash flow in the
+          community.
         </p>
       </div>
       <div className="memberLogin-outter">
