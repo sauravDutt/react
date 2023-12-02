@@ -788,6 +788,65 @@ code {
   border-radius: 10px;
   border: 3px solid rgb(54, 221, 12);
 }
+
+.treasury-outter {
+  width: 370px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+}
+.treasury-head {
+  display: grid;
+  border-bottom: 2px solid #000;
+  grid-template-columns: 55% 45%;
+  height: 85px;
+}
+.treasury-head h1 {
+  font-family: "News";
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  margin-top: 15px;
+  text-align: center;
+}
+.treasury-amount {
+  width: 150px;
+  margin-top: 16px;
+  padding: 5px 0px 5px 0px;
+  border-radius: 5px;
+  border: 2px solid #000;
+}
+.treasury-amount h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+.setup-overlay {
+  top: 205px;
+  height: 260px;
+  width: 375px;
+  z-index: 69;
+  background-color: #ffffffe7;
+  background-image: url("./img/safeOutter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.treasury-art {
+  background-image: url("./img/setup.jpg");
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.treasury-groupchat-outter {
+  height: 400px;
+}
+
 .div-right {
   background-color: #00000005;
 }

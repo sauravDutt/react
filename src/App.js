@@ -14,6 +14,7 @@ import ChatBotOne from "./components/ChatBotOne";
 import { auth } from "./firebase-config";
 import InfoGtown from "./components/InfoGtown";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
+import TreasuryDashboard from "./components/TresuryDashboard";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
@@ -66,6 +67,7 @@ function App() {
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
         <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
         <Route path="/gtown-info" element={<InfoGtown />} />
+        <Route path="/treasury-dashboard" element={<TreasuryDashboard />} />
       </Routes>
     </Router>
   );
