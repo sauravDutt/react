@@ -9,7 +9,6 @@ const TreasuryDashboard = () => {
           </div>
         </div>
       </div>
-      <div className="setup-overlay"></div>
       <div className="treasury-art"></div>
       <div className="treasury-groupchat-outter"></div>
     </div>
