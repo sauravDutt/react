@@ -1,6 +1,13 @@
 import LockIcon from "@mui/icons-material/Lock";
+import { useNavigate } from "react-router-dom";
 
 const InfoGtown = () => {
+  let navigate = useNavigate();
+
+  const showTreasuryDasshboard = () => {
+    navigate("/treasury-dashboard");
+  };
+
   return (
     <div className="info-outter">
       <div className="infoOneDiv">
@@ -32,7 +39,7 @@ const InfoGtown = () => {
       </div>
       <div className="memberLogin-outter">
         <h1>member id.</h1>
-        <div className="cardIcon">
+        <div className="cardIcon" onClick={showTreasuryDasshboard}>
           <LockIcon fontSize="large" sx={{ width: "100%" }} />
         </div>
         <input className="memberId" type="password" />
