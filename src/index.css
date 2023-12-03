@@ -842,11 +842,35 @@ code {
   height: 400px;
   border: 2px solid #000;
   border-radius: 10px;
+  margin-bottom: 170px;
 }
 .treasury-pTag {
-  border: 1px solid #000;
   width: 180px;
   margin-left: 20px;
+}
+.treasury-pTag p {
+  text-align: center;
+  margin: 0;
+  margin-top: -10px;
+}
+.treasury-pTag div {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: center;
+  align-items: center;
+}
+.treasury-pTag div section {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #0b8626;
+  box-shadow: -1px -1px 2px 1px #0b862641;
+  margin-left: 20px;
+}
+.treasury-pTag div h2 {
+  font-weight: 300;
+  font-family: "Logo";
+  user-select: none;
 }
 .div-right {
   background-color: #00000005;

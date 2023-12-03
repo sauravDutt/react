@@ -11,7 +11,13 @@ const TreasuryDashboard = () => {
       </div>
       <div className="treasury-info-main">
         <div className="treasury-pTag">
-          <p></p>
+          <div>
+            <section></section> <h2>9G8T1969</h2>
+          </div>
+          <p>
+            ** At the top right is the Gtown Journal Treasury (Collected total).
+            Below we have a 24x7 real time Community Chat Room.
+          </p>
         </div>
         <div className="treasury-art"></div>
       </div>
