@@ -9,7 +9,12 @@ const TreasuryDashboard = () => {
           </div>
         </div>
       </div>
-      <div className="treasury-art"></div>
+      <div className="treasury-info-main">
+        <div className="treasury-pTag">
+          <p></p>
+        </div>
+        <div className="treasury-art"></div>
+      </div>
       <div className="treasury-groupchat-outter"></div>
     </div>
   );
