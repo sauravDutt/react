@@ -533,18 +533,18 @@ code {
 }
 .podcast-banner {
   width: 370px;
-  height: 300px;
+  height: 310px;
   background-image: url("./img/golfOne.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
 .podcast-banner-div {
-  margin-top: -35px;
   padding: 5px;
   background-color: #ffffffb9;
+  margin: 0;
 }
-.podcast-banner div h1 {
+.podcast-banner-div h1 {
   font-family: "Logo";
   margin: 0;
   padding: 0;

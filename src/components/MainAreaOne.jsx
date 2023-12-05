@@ -127,26 +127,25 @@ const MainAreaOne = () => {
         buttonText="join the editor dashbord"
         heidBtn="showBtn"
       />
-      <div className="podcast-banner">
-        <div className="podcast-banner-div">
-          <h1>Utility</h1>
-          <p>Gtown Journal, offers two utilities at the moment.</p>
-          <div className="buttons-banner-outter">
-            <div>
-              <section to="/gtown" className="button-outter">
-                <BlurOnIcon fontSize="large" sx={{ width: "100%" }} />
-              </section>
-              <p>Community Bulletin</p>
-            </div>
-            <div>
-              <section to="/play" className="button-outter">
-                <PlayArrowIcon fontSize="large" sx={{ width: "100%" }} />
-              </section>
-              <p>Podcast</p>
-            </div>
+      <div className="podcast-banner-div">
+        <h1>Utility</h1>
+        <p>Gtown Journal, offers two utilities at the moment.</p>
+        <div className="buttons-banner-outter">
+          <div>
+            <section to="/gtown" className="button-outter">
+              <BlurOnIcon fontSize="large" sx={{ width: "100%" }} />
+            </section>
+            <p>Community Bulletin</p>
+          </div>
+          <div>
+            <section to="/play" className="button-outter">
+              <PlayArrowIcon fontSize="large" sx={{ width: "100%" }} />
+            </section>
+            <p>Podcast</p>
           </div>
         </div>
       </div>
+      <div className="podcast-banner"></div>
       <div className="clubIn"></div>
       {articleList?.map((post) => {
         return (
