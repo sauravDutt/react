@@ -146,6 +146,7 @@ const MainAreaOne = () => {
         </div>
       </div>
       <div className="podcast-banner"></div>
+      <p className="comingSoonUtilities"> More utilities coming soon .</p>
       <div className="clubIn"></div>
       {articleList?.map((post) => {
         return (

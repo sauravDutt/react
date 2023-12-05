@@ -533,7 +533,7 @@ code {
 }
 .podcast-banner {
   width: 370px;
-  height: 310px;
+  height: 370px;
   background-image: url("./img/golfOne.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -571,10 +571,15 @@ code {
   grid-template-columns: auto auto;
   justify-content: center;
   align-items: center;
+  user-select: none;
+  gap: 5px;
 }
 .buttons-banner-outter div p {
   margin-top: 10px;
-  margin-right: 5px;
+  margin-right: 6px;
+}
+.comingSoonUtilities {
+  margin-top: -135px;
 }
 .podcast-outter {
   display: grid;
