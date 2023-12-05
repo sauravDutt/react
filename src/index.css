@@ -539,10 +539,10 @@ code {
   background-repeat: no-repeat;
   margin: 0 auto;
 }
-.podcast-banner div {
-  margin-top: -18px;
+.podcast-banner-div {
+  margin-top: -35px;
   padding: 5px;
-  background-color: #fff;
+  background-color: #ffffffb9;
 }
 .podcast-banner div h1 {
   font-family: "Logo";
@@ -554,6 +554,27 @@ code {
 .podcast-banner div p {
   text-align: center;
   margin-top: -15px;
+}
+.buttons-banner-outter {
+  width: 300px;
+  margin: 0 auto;
+  height: 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 0;
+  padding-bottom: 25px;
+}
+.buttons-banner-outter div {
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.buttons-banner-outter div p {
+  margin-top: 10px;
+  margin-right: 5px;
 }
 .podcast-outter {
   display: grid;

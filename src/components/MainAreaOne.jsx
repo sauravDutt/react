@@ -7,7 +7,8 @@ import { OrbitControls } from "@react-three/drei";
 import { Container, Row, Col } from "react-bootstrap";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
-
+import BlurOnIcon from "@mui/icons-material/BlurOn";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 const Cube = () => {
   // const ref = useRef();
   // useFrame((state, delta) => {
@@ -127,9 +128,23 @@ const MainAreaOne = () => {
         heidBtn="showBtn"
       />
       <div className="podcast-banner">
-        <div>
+        <div className="podcast-banner-div">
           <h1>Utility</h1>
           <p>Gtown Journal, offers two utilities at the moment.</p>
+          <div className="buttons-banner-outter">
+            <div>
+              <section to="/gtown" className="button-outter">
+                <BlurOnIcon fontSize="large" sx={{ width: "100%" }} />
+              </section>
+              <p>Community Bulletin</p>
+            </div>
+            <div>
+              <section to="/play" className="button-outter">
+                <PlayArrowIcon fontSize="large" sx={{ width: "100%" }} />
+              </section>
+              <p>Podcast</p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="clubIn"></div>
