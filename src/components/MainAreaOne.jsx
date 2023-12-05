@@ -127,8 +127,10 @@ const MainAreaOne = () => {
         heidBtn="showBtn"
       />
       <div className="podcast-banner">
-        <div className="topBox"></div>
-        <div className="bottomBox"></div>
+        <div>
+          <h1>Utility</h1>
+          <p>Gtown Journal, offers two utilities at the moment.</p>
+        </div>
       </div>
       <div className="clubIn"></div>
       {articleList?.map((post) => {

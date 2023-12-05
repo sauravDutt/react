@@ -533,23 +533,28 @@ code {
 }
 .podcast-banner {
   width: 370px;
-  height: 370px;
-  display: grid;
-  grid-template-columns: auto;
-  gap: 5px;
+  height: 300px;
+  background-image: url("./img/golfOne.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   margin: 0 auto;
 }
-.bottomBox {
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border: 2px solid #000000af;
+.podcast-banner div {
+  margin-top: -18px;
+  padding: 5px;
+  background-color: #fff;
 }
-.topBox {
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border: 2px solid #000000af;
+.podcast-banner div h1 {
+  font-family: "Logo";
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 40px;
 }
-
+.podcast-banner div p {
+  text-align: center;
+  margin-top: -15px;
+}
 .podcast-outter {
   display: grid;
   grid-template-columns: auto;
