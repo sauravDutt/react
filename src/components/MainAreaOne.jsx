@@ -77,9 +77,10 @@ const MainAreaOne = () => {
         <div>
           <h1>Gtownjournal.com</h1>
           <p>
-            Gtown Journal, is a <strong>community</strong> (NFT collection),
-            each illustration is it's own unique NFT (Non Fungible Tokens), each
-            NFT holder is a <strong>member of the "Gtown Journal".</strong>.
+            Gtown Journal, is a <strong>community</strong>, of fine art
+            enthusiasts, a decentralized network. A community built and run by
+            Gtown members. Scroll down to become a member of the{" "}
+            <strong>"Gtown Journal"</strong>.
           </p>
         </div>
       </div>
