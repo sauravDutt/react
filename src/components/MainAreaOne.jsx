@@ -123,9 +123,9 @@ const MainAreaOne = () => {
       <Banner
         className="bannerBoiler community"
         position="positionRight"
-        title="Become an editor."
+        title="Join the Gtownjournal's artists community."
         description="Every art in the Gtown Journal, tells a story, a memory and a vision, of decentralized trade of inspiritional art and expressing the love for the city."
-        buttonText="join the editor dashbord"
+        buttonText="Display your art."
         heidBtn="showBtn"
       />
       <div className="podcast-banner-div">
