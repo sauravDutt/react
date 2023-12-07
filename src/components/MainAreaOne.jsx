@@ -77,9 +77,9 @@ const MainAreaOne = () => {
         <div>
           <h1>Gtownjournal.com</h1>
           <p>
-            Gtown Journal, is a <strong>community</strong>, of fine art
-            enthusiasts, a decentralized network. A community built and run by
-            Gtown members. Scroll down to become a member of the{" "}
+            Gtown Journal, is a <strong>community</strong>, a consortium of fine
+            art enthusiasts, a decentralized network. A community built and run
+            by Gtown members. Scroll down to become a member of the{" "}
             <strong>"Gtown Journal"</strong>.
           </p>
         </div>
@@ -87,7 +87,7 @@ const MainAreaOne = () => {
       <Banner
         className="bannerBoiler cat"
         position="positionRight"
-        title="Community"
+        title="Consortium"
         description="in Gtown Journal, we maintain a community treasury called the 'Gtown Journal Treasury' every member has a say in the collected fund."
         heidBtn="heidBtn"
       />
