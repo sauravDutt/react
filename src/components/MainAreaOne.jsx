@@ -88,7 +88,7 @@ const MainAreaOne = () => {
         className="bannerBoiler cat"
         position="positionRight"
         title="Community"
-        description="in Gtown Journal, we maintain a community treasury called the 'Gtown Journal Treasury' every editor(NFT holder) has a say in the collected fund."
+        description="in Gtown Journal, we maintain a community treasury called the 'Gtown Journal Treasury' every member has a say in the collected fund."
         heidBtn="heidBtn"
       />
       <div className="song-outter">
