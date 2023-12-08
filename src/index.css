@@ -858,16 +858,14 @@ code {
 }
 .treasury-info-main {
   display: grid;
-  grid-template-columns: auto auto;
-  justify-content: space-between;
-}
-.treasury-art {
-  background-image: url("./img/safeOutter.png");
-  background-size: cover;
-  background-position: fixed;
+  height: 300px;
+  background-image: url("./img/golfMain\ .jpg");
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 150px;
-  height: 150px;
+  grid-template-columns: auto;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .treasury-groupchat-outter {
@@ -878,7 +876,13 @@ code {
 }
 .treasury-pTag {
   width: 180px;
-  margin-left: 20px;
+  margin-left: 150px;
+  margin-top: 160px;
+  border-radius: 19px;
+  background: #fff;
+  z-index: 50;
+  box-shadow: 3px 3px 8px #d0d0d07a, -3px -3px 8px #f0f0f07e;
+  padding: 15px;
 }
 .treasury-pTag p {
   text-align: center;

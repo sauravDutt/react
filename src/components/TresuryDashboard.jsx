@@ -16,7 +16,6 @@ const TreasuryDashboard = () => {
           </div>
           <p>** Below we have a 24x7 real time Community Chat Room.</p>
         </div>
-        <div className="treasury-art"></div>
       </div>
       <div className="treasury-groupchat-outter"></div>
     </div>
