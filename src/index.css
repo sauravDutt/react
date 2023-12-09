@@ -520,6 +520,18 @@ code {
 
   box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #f0f0f0;
 }
+
+.song-title {
+  text-align: center;
+  margin-top: -35px;
+}
+.song-title h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
 .song-outter-outter {
   display: grid;
   width: 355px;

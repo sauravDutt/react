@@ -93,6 +93,9 @@ const MainAreaOne = () => {
       />
       <div className="song-outter">
         <div className="songImg"></div>
+        <div className="song-title">
+          <h2>The Beginning - Podcast Episode 1</h2>
+        </div>
         <div className="play-outter">
           <PlayerOutter />
         </div>
