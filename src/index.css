@@ -515,7 +515,6 @@ code {
   margin-top: 10px;
   margin-bottom: 20px;
   border-radius: 11px;
-  background-color: #fffcf5;
   padding-bottom: 10px;
   grid-template-columns: auto;
 
@@ -631,7 +630,7 @@ code {
   border-radius: 20px;
   padding: 0px 10px 0px 10px;
   width: 90%;
-  background-color: #fffcf5;
+  background-color: #fff;
   display: grid;
   grid-template-columns: 20% 80%;
   justify-content: center;
@@ -644,10 +643,10 @@ code {
 }
 
 .songImg {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   border-radius: 10px;
-  background-image: url("./img/jimCroce.JPG");
+  background-image: url("./img/podcastIntro.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
