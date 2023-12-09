@@ -643,15 +643,14 @@ code {
 }
 
 .songImg {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 180px;
   border-radius: 10px;
   background-image: url("./img/podcastIntro.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
 }
 .news-outter h1 sup {
   font-family: "Logo";
