@@ -1,4 +1,15 @@
-const TreasuryDashboard = () => {
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
+const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
+  let navigate = useNavigate();
+  let userData;
+
+  useEffect(() => {
+    if (!isAuth) {
+      navigate("/login");
+    }
+  });
   return (
     <div className="treasury-outter">
       <div className="treasury-head">
@@ -17,7 +28,18 @@ const TreasuryDashboard = () => {
           <p>** Below we have a 24x7 real time Community Chat Room.</p>
         </div>
       </div>
-      <div className="treasury-groupchat-outter"></div>
+      <div className="treasury-groupchat-outter">
+        <div className="messages-outter"></div>
+        <div className="chat-input-outter">
+          <div className="chatroom-userInfo">
+            <img src={userImageUrl} alt="userImage" />
+            <h3>{userName}</h3>
+          </div>
+          <div className="message-textarea-outter">
+            <textarea />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

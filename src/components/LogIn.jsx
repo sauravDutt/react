@@ -11,7 +11,7 @@ export default function LogIn({ setIsAuth }) {
       localStorage.setItem("isAuth", true);
       localStorage.setItem("userName", result.user.displayName);
       setIsAuth(true);
-      navigate("/");
+      navigate("/dashboard");
     });
   };
 

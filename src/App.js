@@ -24,6 +24,11 @@ function App() {
   auth.onAuthStateChanged((user) => {
     setUser(user);
   });
+  let userData = [];
+  userData = user;
+  console.log(userData);
+  const userName = userData.displayName;
+  const userImageUrl = userData.photoURL;
   return (
     <Router>
       <div className="header-outter">
@@ -67,7 +72,16 @@ function App() {
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
         <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
         <Route path="/gtown-info" element={<InfoGtown />} />
-        <Route path="/treasury-dashboard" element={<TreasuryDashboard />} />
+        <Route
+          path="/treasury-dashboard"
+          element={
+            <TreasuryDashboard
+              isAuth={isAuth}
+              userName={userName}
+              userImageUrl={userImageUrl}
+            />
+          }
+        />
       </Routes>
     </Router>
   );
