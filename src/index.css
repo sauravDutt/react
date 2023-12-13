@@ -942,28 +942,28 @@ code {
 }
 .message-textarea-outter button {
   height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: 10px;
   border: none;
   background-color: transparent;
 }
 .treasury-pTag {
-  width: 180px;
-  margin-left: 160px;
-  margin-top: 180px;
+  width: 130px;
+  margin-left: 200px;
+  margin-top: 230px;
   border-radius: 19px;
   background: #fff;
   z-index: 50;
   box-shadow: 3px 3px 8px #d0d0d07a, -3px -3px 8px #f0f0f07e;
-  padding: 15px;
-}
-.treasury-pTag p {
-  text-align: center;
-  margin: 0;
-  margin-top: -10px;
+  padding: 5px;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 .treasury-pTag div {
   display: grid;
   grid-template-columns: 30% 70%;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .treasury-pTag div section {

@@ -25,7 +25,6 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           <div>
             <section></section> <h2>9G8T1969</h2>
           </div>
-          <p>** Below we have a 24x7 real time Community Chat Room.</p>
         </div>
       </div>
       <div className="treasury-groupchat-outter">
