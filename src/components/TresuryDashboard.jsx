@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import SendIcon from "@mui/icons-material/Send";
 
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   let navigate = useNavigate();
@@ -35,7 +36,10 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
             <h3>{userName}</h3>
           </div>
           <div className="message-textarea-outter">
-            <textarea />
+            <textarea></textarea>
+            <button>
+              <SendIcon fontSize="large" sx={{ width: "100%" }} />
+            </button>
           </div>
         </div>
       </div>

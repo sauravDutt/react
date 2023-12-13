@@ -913,10 +913,31 @@ code {
   margin-bottom: -10px;
 }
 .chatroom-userInfo h3 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   margin: 0;
   text-align: center;
+}
+.message-textarea-outter {
+  height: 90px;
+  display: grid;
+  grid-template-columns: 70% 20%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.message-textarea-outter div {
+  overflow: hidden;
+}
+.message-textarea-outter textarea {
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 180px !important;
+  height: 65px !important;
+}
+.message-textarea-outter button {
+  height: 50px;
+  border: none;
 }
 .treasury-pTag {
   width: 180px;
