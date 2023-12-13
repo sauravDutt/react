@@ -24,11 +24,12 @@ function App() {
   auth.onAuthStateChanged((user) => {
     setUser(user);
   });
-  let userData = [];
-  userData = user;
-  console.log(userData);
-  const userName = userData.displayName;
-  const userImageUrl = userData.photoURL;
+  var userName;
+  var userImageUrl;
+  if (isAuth) {
+    userName = user.displayName;
+    userImageUrl = user.photoURL;
+  }
   return (
     <Router>
       <div className="header-outter">

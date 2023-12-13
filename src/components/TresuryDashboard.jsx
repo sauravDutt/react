@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   let navigate = useNavigate();
-  let userData;
 
   useEffect(() => {
     if (!isAuth) {
