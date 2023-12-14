@@ -1,8 +1,15 @@
 import LockIcon from "@mui/icons-material/Lock";
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-const InfoGtown = () => {
+const InfoGtown = ({ isAuth }) => {
   let navigate = useNavigate();
+
+  useEffect(() => {
+    if (!isAuth) {
+      navigate("/login");
+    }
+  });
 
   const showTreasuryDasshboard = () => {
     navigate("/treasury-dashboard");
