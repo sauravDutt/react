@@ -567,6 +567,15 @@ code {
   text-align: center;
   margin-top: -15px;
 }
+.utilities-info {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.phoneNumber {
+  text-decoration: none;
+  color: #000;
+}
 .buttons-banner-outter {
   width: 300px;
   margin: 0 auto;

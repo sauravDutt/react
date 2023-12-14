@@ -23,8 +23,9 @@ export default function LogIn({ setIsAuth }) {
           sx={{ mt: 2, mb: 2, width: "100%", fontSize: 50 }}
         />
         <p>
-          To continue with the application you first need to sign in with your
-          google account.
+          To continue with this utility you first need to sign in with your
+          google account. The users will automaticaly sign out once they exit or
+          close the application.
         </p>
         <button className="login-with-google-btn" onClick={signInWithGoogle}>
           Signin with Google

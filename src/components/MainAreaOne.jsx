@@ -133,7 +133,18 @@ const MainAreaOne = () => {
       />
       <div className="podcast-banner-div">
         <h1>Utility</h1>
-        <p>Gtown Journal, offers two utilities at the moment.</p>
+        <p className="utilities-info">
+          Gtown Journal, offers two utilities at the moment. To become a Gtown
+          Journal Member visit our gallery at B 6/8, Park Drive Road, DLF City
+          5, Gurgaon, Haryana - 122009 or write us at{" "}
+          <a href="mailto:info@gtownjournal.com" className="phoneNumber">
+            <strong>info@gtownjournal.com</strong>
+          </a>{" "}
+          or feel free to call the front dest at{" "}
+          <a href="tel:+919958479837" className="phoneNumber">
+            <strong>+91 99584 79837</strong>.
+          </a>
+        </p>
         <div className="buttons-banner-outter">
           <div>
             <section to="/gtown" className="button-outter">
