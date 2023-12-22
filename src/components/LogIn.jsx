@@ -26,7 +26,7 @@ export default function LogIn({ setIsAuth }) {
         <p>
           To continue with this utility you first need to sign in with your
           google account. The users will automaticaly sign out once they exit or
-          close the application.
+          close the application, for security purposes.
         </p>
         <button className="login-with-google-btn" onClick={signInWithGoogle}>
           Signin with Google
