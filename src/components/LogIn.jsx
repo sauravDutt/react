@@ -18,6 +18,7 @@ export default function LogIn({ setIsAuth }) {
   return (
     <div className="login-outter">
       <div className="loginContainer">
+        <img src={process.env.PUBLIC_URL + "/img/club5.jpg"} alt="club5" />
         <AccountCircleOutlinedIcon
           fontSize="large"
           sx={{ mt: 2, mb: 2, width: "100%", fontSize: 50 }}

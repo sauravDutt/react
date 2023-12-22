@@ -341,7 +341,12 @@ code {
   background-color: #ffffff4f;
   text-align: center;
   padding: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
+}
+.loginContainer img {
+  width: 350px;
+  margin-top: -90px;
+  margin-bottom: -50px;
 }
 .loginContainer p {
   width: 90%;
