@@ -30,7 +30,7 @@ const ChatBotOne = ({ isAuth }) => {
           <div className="realpoint-branding-outter">
             <Link
               className="social-btns"
-              to="https://www.instagram.com/gtown_journal"
+              to="https://www.instagram.com/gtownjournal"
               target="blank"
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.5 }}
