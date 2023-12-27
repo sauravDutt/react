@@ -755,6 +755,9 @@ code {
   overflow: hidden;
   height: 40px !important;
 }
+.treasury-btn:hover {
+  border: 1px solid #000;
+}
 .treasury-btn p {
   margin: 0;
   padding: 0;
