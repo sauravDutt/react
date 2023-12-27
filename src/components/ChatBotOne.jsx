@@ -51,7 +51,7 @@ const ChatBotOne = ({ isAuth }) => {
       </div>
       <div className="left-discover">
         <div className="div-left">
-          <h1>Gurugram illustrations collection</h1>
+          <h1>Gurugram illustrations collection.</h1>
           <button>explore</button>
         </div>
         <div>
@@ -70,7 +70,10 @@ const ChatBotOne = ({ isAuth }) => {
             alt="Img"
           />
         </div>
-        <div className="div-right"></div>
+        <div className="div-right">
+          <h1>Hip hop collectables collection.</h1>
+          <button>explore</button>
+        </div>
       </div>
       <div></div>
       <div></div>
