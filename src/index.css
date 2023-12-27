@@ -699,11 +699,11 @@ code {
   gap: 10px;
 }
 .chatBot-outter div {
-  height: 300px;
   border-radius: 10px;
   display: grid;
 }
 .head-gtown {
+  height: 280px;
   grid-template-columns: 50% 40%;
   padding: 0px;
   margin: 0px;
@@ -769,7 +769,7 @@ code {
   height: 30px !important;
   width: 70px;
   margin: 0;
-  margin-top: -138px;
+  margin-top: -120px;
   display: grid;
   gap: 10px;
   grid-template-columns: auto auto;
@@ -1012,9 +1012,13 @@ code {
   margin-top: 40px;
 }
 .left-discover {
+  border: 2px solid #000;
+  width: 100%;
   grid-template-columns: 70% 30%;
 }
 .right-discover {
+  border: 2px solid #000;
+  width: 100%;
   grid-template-columns: 40% 60%;
 }
 .one {
