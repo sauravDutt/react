@@ -50,7 +50,10 @@ const ChatBotOne = ({ isAuth }) => {
         </motion.div>
       </div>
       <div className="left-discover">
-        <div className="div-left"></div>
+        <div className="div-left">
+          <h1>Gurugram illustrations collection</h1>
+          <button>explore</button>
+        </div>
         <div>
           <img
             className="oneImage-discover"

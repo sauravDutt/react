@@ -1002,6 +1002,29 @@ code {
 .div-left {
   background-color: #00000005;
 }
+.div-left h1 {
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-size: 40px;
+}
+.div-left button {
+  width: 80px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  margin-left: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #000000c4;
+  color: #fff;
+}
+.div-left button:hover {
+  background-color: #000;
+}
 .oneImage-discover {
   width: 220px;
   margin-left: -120px;
