@@ -67,8 +67,8 @@ const ChatBotOne = ({ isAuth }) => {
           alt="Img"
         />
         <div className="div-right">
-          {/* <h1>Hip hop collectables collection.</h1>
-          <button>explore</button> */}
+          <h1>Hip hop collectables collection.</h1>
+          <button>explore</button>
         </div>
       </div>
       <div></div>
