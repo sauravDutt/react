@@ -54,25 +54,21 @@ const ChatBotOne = ({ isAuth }) => {
           <h1>Gurugram illustrations collection.</h1>
           <button>explore</button>
         </div>
-        <div>
-          <img
-            className="oneImage-discover"
-            src={process.env.PUBLIC_URL + "/img/dlf.png"}
-            alt="Img"
-          />
-        </div>
+        <img
+          className="oneImage-discover"
+          src={process.env.PUBLIC_URL + "/img/dlf.png"}
+          alt="Img"
+        />
       </div>
       <div className="right-discover">
-        <div>
-          <img
-            className="twoImage-discover"
-            src={process.env.PUBLIC_URL + "/img/two.png"}
-            alt="Img"
-          />
-        </div>
+        <img
+          className="twoImage-discover"
+          src={process.env.PUBLIC_URL + "/img/two.png"}
+          alt="Img"
+        />
         <div className="div-right">
-          <h1>Hip hop collectables collection.</h1>
-          <button>explore</button>
+          {/* <h1>Hip hop collectables collection.</h1>
+          <button>explore</button> */}
         </div>
       </div>
       <div></div>

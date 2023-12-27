@@ -1059,12 +1059,11 @@ code {
 }
 .left-discover {
   border: 2px solid #000;
-  width: 95%;
   grid-template-columns: 70% 30%;
+  margin-left: -5px;
 }
 .right-discover {
   border: 2px solid #000;
-  width: 95%;
   grid-template-columns: 40% 60%;
 }
 .one {
