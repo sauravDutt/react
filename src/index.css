@@ -676,9 +676,9 @@ code {
 
 .songImg {
   height: 300px;
-  width: 200px;
+  width: 300px;
   border-radius: 10px;
-  background-image: url("./img/theBeginning\ .jpg");
+  background-image: url("./img/podcast.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
