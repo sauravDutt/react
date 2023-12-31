@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
+import PasswordIcon from "@mui/icons-material/Password";
 const PlayerOutter = () => {
   return (
     <>
@@ -29,7 +30,16 @@ const Game = () => {
             <PlayerOutter />
           </div>
         </div>
-        <div className="comments-outter"></div>
+        <div className="comments-outter">
+          <p>
+            * This is a members only Podcast please enter your membership id to
+            continue.
+          </p>
+          <div className="memberID-btn">
+            <PasswordIcon fontSize="large" sx={{ width: "100%" }} />
+            <input type="password" placeholder="Member ID"></input>
+          </div>
+        </div>
       </div>
     </div>
   );

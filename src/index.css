@@ -344,7 +344,7 @@ code {
   margin-bottom: 90px;
 }
 .loginContainer img {
-  width: 350px;
+  width: 370px;
   margin-top: -90px;
   margin-bottom: -50px;
 }
@@ -636,13 +636,18 @@ code {
 .comments-outter {
   background-color: #5252521e;
   border-radius: 10px;
-  padding: 5px;
   width: 300px;
   margin: 0 auto;
   margin-top: 25px;
-  height: 80px;
+  padding: 10px;
 }
-
+.comments-outter p {
+  text-align: center;
+}
+.comments-outter div {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
 .margin-top-imp {
   margin-top: 115px;
 }
@@ -748,6 +753,7 @@ code {
   padding-left: 10px;
   margin: 0;
   font-size: 20px;
+  background-color: transparent;
 }
 .treasury-btn {
   color: #000;
