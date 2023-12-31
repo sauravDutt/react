@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Link } from "react-router-dom";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
+import PasswordIcon from "@mui/icons-material/Password";
 import { motion } from "framer-motion";
 
 const ChatBotOne = ({ isAuth }) => {
@@ -39,6 +40,10 @@ const ChatBotOne = ({ isAuth }) => {
             </Link>
           </div>
         </div>
+        <motion.div className="memberID-btn">
+          <PasswordIcon fontSize="large" sx={{ width: "100%" }} />
+          <input type="password" placeholder="Member ID"></input>
+        </motion.div>
         <motion.div
           className="treasury-btn"
           whileHover={{ scale: 1.1 }}
