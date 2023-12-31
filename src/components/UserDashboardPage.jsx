@@ -40,9 +40,9 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
       </div>
       <div className="userStats">
         <p>
-          <span>Welcome</span> to <strong>Gtown Journal</strong>, a portfolio of
-          a NFT Collection, a Community, a vision of decentralisation of art and
-          documenting the city. Mint an illustration and become a contributer.
+          <span>Welcome</span> to <strong>Gtown Journal</strong>, a community, a
+          consortium of fine art enthusiasts and a decentralized network of like
+          mind Gtown citizens. Mint a membership card and become a contributer.
           <br />
           <img src={process.env.PUBLIC_URL + "/img/five.png"} alt="five" />
           <br />
@@ -57,6 +57,10 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
           <br />
           **this message will be posted on the landing page.
           <br />
+          <img src={process.env.PUBLIC_URL + "/img/club5.jpg"} alt="club5" />
+          <br />
+          Expolore the Gtown Journal Treasury and become a Gtown Journal Member,
+          visit the Community Bulletin &gt; Treasury &gt; Mint.
         </p>
       </div>
     </div>
