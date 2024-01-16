@@ -71,7 +71,8 @@ const MainAreaOne = () => {
     getArticles();
   });
   return (
-    <div className="mainArea">
+    <div className="mainArea-outter">
+         <div className="mainArea">
       {/* These are banners */}
       <div className="gal">
         <div>
@@ -206,6 +207,12 @@ const MainAreaOne = () => {
         heidBtn="heidBtn"
       />
     </div>
+
+    <div className="mainAreaTwo">
+
+    </div>
+    </div>
+   
   );
 };
 export default MainAreaOne;
