@@ -157,13 +157,23 @@ code {
   margin: 0;
   letter-spacing: 0.5px;
 }
-
+.mainAreaTwo {
+  border: 2px solid #000;
+  border-radius: 10px;
+  height: 80%;
+  margin: 0;
+  margin-top: 13px;
+}
+.mainArea-outter {
+  display: grid;
+  margin-top: 96px;
+  grid-template-columns: 35% 60%;
+}
 .mainArea {
   position: relative;
   width: 390px;
   height: 85vh;
   margin: 0 auto;
-  margin-top: 96px;
   padding-top: 25px;
   display: flex;
   flex-wrap: wrap;
@@ -1432,9 +1442,23 @@ input[type="number"] {
   border: none;
   text-align: center;
 }
+@media screen and (max-width: 1050px) {
+  .mainAreaTwo {
+    display: none;
+  }
+  .mainArea-outter {
+    grid-template-columns: auto;
+  }
+}
 @media screen and (max-width: 600px) {
   .mainArea {
     width: 99%;
+  }
+  .mainAreaTwo {
+    display: none;
+  }
+  .mainArea-outter {
+    grid-template-columns: auto;
   }
   .button-outter {
     height: 45px;
