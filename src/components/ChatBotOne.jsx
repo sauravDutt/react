@@ -1,9 +1,7 @@
 import { useNavigate } from "react-router-dom";
-// import { useEffect } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Link } from "react-router-dom";
 import SavingsRoundedIcon from "@mui/icons-material/SavingsRounded";
-import PasswordIcon from "@mui/icons-material/Password";
 import { motion } from "framer-motion";
 
 const ChatBotOne = ({ isAuth }) => {
@@ -13,11 +11,6 @@ const ChatBotOne = ({ isAuth }) => {
     navigate("/gtown-info");
   };
 
-  // useEffect(() => {
-  //   if (!isAuth) {
-  //     navigate("/login");
-  //   }
-  // });
   return (
     <div className="chatBot-outter">
       <div className="head-gtown">
@@ -26,9 +19,8 @@ const ChatBotOne = ({ isAuth }) => {
         </div>
         <div className="info-head-gtown">
           <h1>Community</h1>
-          <span className="secondFont-head">bulletin.</span>
 
-          <div className="realpoint-branding-outter">
+          <section className="realpoint-branding-outter">
             <Link
               className="social-btns"
               to="https://www.instagram.com/gtownjournal"
@@ -38,12 +30,9 @@ const ChatBotOne = ({ isAuth }) => {
             >
               <InstagramIcon className="gtown-btn" />
             </Link>
-          </div>
+          </section>
         </div>
-        <motion.div className="memberID-btn">
-          <PasswordIcon fontSize="large" sx={{ width: "100%" }} />
-          <input type="password" placeholder="Member ID"></input>
-        </motion.div>
+
         <motion.div
           className="treasury-btn"
           whileHover={{ scale: 1.1 }}
@@ -51,7 +40,7 @@ const ChatBotOne = ({ isAuth }) => {
           onClick={onClickFunction}
         >
           <SavingsRoundedIcon fontSize="large" sx={{ width: "100%" }} />
-          <span>Treasury</span>
+          <span>Treasury info</span>
         </motion.div>
       </div>
       <div className="left-discover">
