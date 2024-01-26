@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 // import { useEffect } from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Link } from "react-router-dom";
-import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
+import SavingsRoundedIcon from "@mui/icons-material/SavingsRounded";
 import PasswordIcon from "@mui/icons-material/Password";
 import { motion } from "framer-motion";
 
@@ -50,7 +50,7 @@ const ChatBotOne = ({ isAuth }) => {
           whileTap={{ scale: 0.5 }}
           onClick={onClickFunction}
         >
-          <AccountBalanceIcon fontSize="large" sx={{ width: "100%" }} />
+          <SavingsRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           <span>Treasury</span>
         </motion.div>
       </div>

@@ -23,8 +23,10 @@ const Game = () => {
   return (
     <div className="margin-top-imp">
       <div className="podcast-outter">
-        <h1 className="podcastTitle">episode - 1.</h1>
         <div className="sceneOne"></div>
+        <h1 className="podcastTitle">
+          24/7<span className="second">radio</span>
+        </h1>
         <div className="song-outter-outter">
           <div className="play-outter">
             <PlayerOutter />
