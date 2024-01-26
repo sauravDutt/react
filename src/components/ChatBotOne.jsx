@@ -43,6 +43,7 @@ const ChatBotOne = ({ isAuth }) => {
           <span>Treasury info</span>
         </motion.div>
       </div>
+      <div className="gtown-map-outter"></div>
       <div className="left-discover">
         <div className="div-left">
           <h1>Gurugram illustrations collection.</h1>
