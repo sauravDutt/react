@@ -25,7 +25,7 @@ const Game = () => {
       <div className="podcast-outter">
         <div className="sceneOne"></div>
         <h1 className="podcastTitle">
-          Gtown <span className="second">radio</span>
+          gtown<span className="second">radio</span>
         </h1>
         <div className="song-outter-outter">
           <div className="play-outter">
