@@ -718,7 +718,8 @@ code {
 }
 .head-gtown {
   height: 280px;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 55% 45%;
+  gap: 5px;
   padding: 0px;
   margin: 0px;
 }
@@ -726,6 +727,13 @@ code {
   margin: 0;
   padding: 0;
   width: 200px;
+}
+.info-head-gtown {
+  padding: 5px;
+  text-align: center;
+  height: 135px;
+  border-radius: 5px !important;
+  box-shadow: 5px 5px 15px #e3e3e39a, -5px -5px 15px #ffffff9f;
 }
 .info-head-gtown h1 {
   font-family: "Logo";
@@ -737,8 +745,7 @@ code {
   font-weight: 300;
   color: #0000004b;
   font-size: 20px;
-  margin-left: 35px;
-  margin-top: -70px;
+  margin-top: -42px;
 }
 .heidBtn {
   display: none;
@@ -792,7 +799,7 @@ code {
   text-decoration: none;
 }
 .realpoint-branding-outter {
-  margin-top: -70px;
+  margin-top: -10px;
   height: 50px;
   width: 50px;
   display: grid;

@@ -19,7 +19,7 @@ const ChatBotOne = ({ isAuth }) => {
         </div>
         <div className="info-head-gtown">
           <h1>Community</h1>
-
+          <span className="secondFont-head">bulletin.</span>
           <section className="realpoint-branding-outter">
             <Link
               className="social-btns"
