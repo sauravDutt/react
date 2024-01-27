@@ -48,8 +48,9 @@ const InfoGtown = ({ isAuth, user }) => {
           <div>
             <h2>Mint</h2>
             <p>
-              Mint your Gtown Membership Card, every Gtown member gets a spot in
-              the live Gtown map.
+              Mint your <strong>Gtown Journal Membership Card</strong> today, by
+              clicking on the "Mint" button below, every membership comes with a
+              unique block of land in the live map.
             </p>
           </div>
           <div>
