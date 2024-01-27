@@ -57,6 +57,11 @@ const InfoGtown = ({ isAuth, user }) => {
             <GtownMap />
           </div>
         </div>
+        <br />
+        <p>
+          **10% of every transaction on the gtown journal platfory goes in the
+          user's treasury dashboard <SavingsRoundedIcon />.
+        </p>
       </div>
       <div className="memberLogin-outter">
         <h2>{user.displayName}</h2>
@@ -65,6 +70,10 @@ const InfoGtown = ({ isAuth, user }) => {
         </div>
         <input className="memberId" type="password" placeholder="Member ID" />
       </div>
+      {/* <span className="lastSpan">
+        *enter your unique membership id, and press <SavingsRoundedIcon />{" "}
+        button to access treasury dashboard.
+      </span> */}
     </div>
   );
 };

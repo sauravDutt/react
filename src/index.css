@@ -863,8 +863,8 @@ code {
   border-radius: 10px;
   margin: 0 auto;
   padding: 10px;
-  font-size: 20px;
   margin-bottom: 150px;
+  font-size: 20px;
 }
 .memberLogin-outter h2 {
   font-family: "Logo";
@@ -878,6 +878,15 @@ code {
   border-radius: 5px;
   padding: 5px 10px 5px 10px;
 }
+/* 
+.lastSpan {
+  width: 70%;
+  position: absolute;
+  margin: 0 auto;
+  text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 150px;
+} */
 .cardIcon {
   width: 55px;
   height: 55px;
