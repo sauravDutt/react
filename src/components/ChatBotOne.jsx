@@ -3,6 +3,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import { Link } from "react-router-dom";
 import SavingsRoundedIcon from "@mui/icons-material/SavingsRounded";
 import { motion } from "framer-motion";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
 
 const ChatBotOne = ({ isAuth }) => {
   let navigate = useNavigate();
@@ -43,7 +45,14 @@ const ChatBotOne = ({ isAuth }) => {
           <span>Treasury info</span>
         </motion.div>
       </div>
-      <div className="gtown-map-outter"></div>
+      <div className="gtown-map-outter">
+        <Canvas camera={{ fov: 10, position: [0, 5, 20] }}>
+          <gridHelper args={[50, 50, "#00000067"]} />
+          <directionalLight position={[0, 0, 4]} />
+          <ambientLight />
+          <OrbitControls />
+        </Canvas>
+      </div>
       <div className="left-discover">
         <div className="div-left">
           <h1>Gurugram illustrations collection.</h1>
