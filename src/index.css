@@ -784,7 +784,8 @@ code {
   align-items: center;
   cursor: pointer;
   overflow: hidden;
-  height: 53px !important;
+  height: 55px !important;
+  line-height: 17px;
 }
 .treasury-btn:hover {
   border: 1px solid #000;
@@ -793,6 +794,22 @@ code {
   margin: 0;
   padding: 0;
 }
+
+.info-gtown-map {
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto;
+}
+.info-gtown-map div {
+  height: 300px;
+}
+.info-gtown-map div h2 {
+  font-weight: 300;
+  font-size: 25px;
+  margin-left: 33px;
+}
+
 .social-btns {
   color: #000000;
   margin: 0;

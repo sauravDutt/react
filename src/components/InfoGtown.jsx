@@ -1,6 +1,7 @@
-import LockIcon from "@mui/icons-material/Lock";
+import SavingsRoundedIcon from "@mui/icons-material/SavingsRounded";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import GtownMap from "./GtownMap";
 
 const InfoGtown = ({ isAuth }) => {
   let navigate = useNavigate();
@@ -43,13 +44,25 @@ const InfoGtown = ({ isAuth }) => {
           funds and participate in the mantainance of a smooth cash flow in the
           community.
         </p>
+        <div className="info-gtown-map">
+          <div>
+            <h2>Mint</h2>
+            <p>
+              Mint your Gtown Membership Card, every Gtown member gets a spot in
+              the live Gtown map.
+            </p>
+          </div>
+          <div>
+            <GtownMap />
+          </div>
+        </div>
       </div>
       <div className="memberLogin-outter">
-        <h1>member id.</h1>
+        <h1>Sign in</h1>
         <div className="cardIcon" onClick={showTreasuryDasshboard}>
-          <LockIcon fontSize="large" sx={{ width: "100%" }} />
+          <SavingsRoundedIcon fontSize="large" sx={{ width: "100%" }} />
         </div>
-        <input className="memberId" type="password" />
+        <input className="memberId" type="password" placeholder="Member ID" />
       </div>
     </div>
   );

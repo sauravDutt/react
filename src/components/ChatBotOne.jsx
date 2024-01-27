@@ -41,7 +41,7 @@ const ChatBotOne = ({ isAuth }) => {
           onClick={onClickFunction}
         >
           <SavingsRoundedIcon fontSize="large" sx={{ width: "100%" }} />
-          <span>Treasury info</span>
+          <span>Gtown treasury.</span>
         </motion.div>
       </div>
       <div className="gtown-map-outter">
