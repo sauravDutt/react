@@ -37,7 +37,7 @@ const CubeTwo = () => {
 const GtownMap = () => {
   return (
     <>
-      <Canvas camera={{ fov: 10, position: [0.5, 5, 20] }}>
+      <Canvas camera={{ fov: 10, position: [0, 1, 32] }}>
         <gridHelper args={[100, 100, "0x000000"]} />
         <directionalLight position={[0, 0, 4]} />
         <ambientLight />
