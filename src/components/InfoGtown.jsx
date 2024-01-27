@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import GtownMap from "./GtownMap";
 
-const InfoGtown = ({ isAuth }) => {
+const InfoGtown = ({ isAuth, user }) => {
   let navigate = useNavigate();
 
   useEffect(() => {
@@ -58,7 +58,8 @@ const InfoGtown = ({ isAuth }) => {
         </div>
       </div>
       <div className="memberLogin-outter">
-        <h1>Sign in</h1>
+        <h2>{user.displayName}</h2>
+        <img src={user.photoURL} alt="userImg" />
         <div className="cardIcon" onClick={showTreasuryDasshboard}>
           <SavingsRoundedIcon fontSize="large" sx={{ width: "100%" }} />
         </div>

@@ -72,7 +72,10 @@ function App() {
         />
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
         <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
-        <Route path="/gtown-info" element={<InfoGtown isAuth={isAuth} />} />
+        <Route
+          path="/gtown-info"
+          element={<InfoGtown isAuth={isAuth} user={user} />}
+        />
         <Route
           path="/treasury-dashboard"
           element={
