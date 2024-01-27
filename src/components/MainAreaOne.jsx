@@ -167,7 +167,9 @@ const MainAreaOne = () => {
         />
       </div>
 
-      <div className="mainAreaTwo"></div>
+      <div className="mainAreaTwo">
+        <GtownMap />
+      </div>
     </div>
   );
 };

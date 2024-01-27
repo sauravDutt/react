@@ -862,23 +862,15 @@ code {
 .memberLogin-outter {
   border-radius: 10px;
   margin: 0 auto;
-  width: 90%;
-  margin-top: 10px;
   padding: 10px;
   font-size: 20px;
   margin-bottom: 150px;
 }
 .memberLogin-outter h2 {
   font-family: "Logo";
-  font-size: 25px;
-  margin-left: 80px;
-  margin-top: 7px;
-  position: absolute;
+  font-size: 35px;
+  margin: 15px 5px;
   font-weight: 300;
-}
-.memberLogin-outter img {
-  width: 70px;
-  margin: 10px 5px;
 }
 .memberLogin-outter input {
   font-size: 25px;
@@ -896,7 +888,7 @@ code {
   position: absolute;
   margin-left: 250px;
   margin-top: -85px;
-  border-radius: 10px;
+  border-radius: 50px;
   border: 3px solid rgb(54, 221, 12);
 }
 
