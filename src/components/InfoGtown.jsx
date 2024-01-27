@@ -59,8 +59,14 @@ const InfoGtown = ({ isAuth, user }) => {
         </div>
         <br />
         <p>
-          **10% of every transaction on the gtown journal platfory goes in the
-          user's treasury dashboard <SavingsRoundedIcon />.
+          *20% of every user transaction, goes in the user's treasury dashboard,
+          enter your unique membership id below to access your{" "}
+          <SavingsRoundedIcon /> Dashboard.
+        </p>
+        <p>
+          *Users will automatically be signed out, on refreshing the page or
+          clossing the application for security purposes. The application does
+          not store userdata.
         </p>
       </div>
       <div className="memberLogin-outter">
