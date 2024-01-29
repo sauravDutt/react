@@ -1,5 +1,6 @@
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useLoader } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 const Cube = () => {
   // const ref = useRef();
@@ -33,6 +34,10 @@ const CubeTwo = () => {
     </>
   );
 };
+function ModelContent() {
+  const gltf = useLoader(GLTFLoader, "/model/practice.gltf");
+  return <primitive object={gltf.scene} />;
+}
 
 const GtownMap = () => {
   return (
@@ -41,9 +46,8 @@ const GtownMap = () => {
         <gridHelper args={[100, 100, "0x000000"]} />
         <directionalLight position={[0, 0, 4]} />
         <ambientLight />
-
+        <ModelContent />
         <Cube />
-        <CubeTwo />
         <OrbitControls />
       </Canvas>
     </>
