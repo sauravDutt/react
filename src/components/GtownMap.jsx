@@ -42,7 +42,7 @@ function ModelContent() {
 const GtownMap = () => {
   return (
     <>
-      <Canvas camera={{ fov: 10, position: [-50, 17, 77] }}>
+      <Canvas camera={{ fov: 10, position: [-30, 4, 70] }}>
         <gridHelper args={[100, 100, "0x000000"]} />
         <directionalLight position={[0, 0, 4]} />
         <directionalLight position={[0, 4.5, -5.2]} />

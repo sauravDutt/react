@@ -110,7 +110,11 @@ code {
 .online {
   border: 2px solid rgb(6, 168, 6);
 }
-
+.float-right {
+  position: absolute;
+  top: 16px;
+  right: 30px;
+}
 .navbar-outter {
   position: fixed;
   z-index: 69;

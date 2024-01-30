@@ -44,9 +44,6 @@ const ChatBotOne = ({ isAuth }) => {
           <span>Gtown treasury.</span>
         </motion.div>
       </div>
-      <div className="gtown-map-outter">
-        <GtownMap />
-      </div>
       <div className="left-discover">
         <div className="div-left">
           <h1>Gurugram illustrations collection.</h1>
@@ -68,6 +65,9 @@ const ChatBotOne = ({ isAuth }) => {
           <h1>Hip hop collectables collection.</h1>
           <button>explore</button>
         </div>
+      </div>
+      <div className="gtown-map-outter">
+        <GtownMap />
       </div>
       <div></div>
       <div></div>
