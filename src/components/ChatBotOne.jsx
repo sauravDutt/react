@@ -67,6 +67,7 @@ const ChatBotOne = ({ isAuth }) => {
         </div>
       </div>
       <div className="gtown-map-outter">
+        <div></div>
         <GtownMap />
       </div>
       <div></div>

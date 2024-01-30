@@ -842,6 +842,7 @@ code {
 }
 .infoOneDiv {
   margin-top: 10px;
+  margin-bottom: 150px;
 }
 .infoOneDiv h1 {
   font-size: 40px;
@@ -867,7 +868,7 @@ code {
   border-radius: 10px;
   margin: 0 auto;
   padding: 10px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   font-size: 20px;
 }
 .memberLogin-outter h2 {
@@ -917,7 +918,8 @@ code {
   display: grid;
   border-bottom: 2px solid #000;
   grid-template-columns: 55% 45%;
-  height: 85px;
+  height: 80px;
+  margin-bottom: 25px;
 }
 .treasury-head h1 {
   font-family: "News";
@@ -942,7 +944,7 @@ code {
 }
 .treasury-info-main {
   display: grid;
-  height: 300px;
+  height: 255px;
   background-image: url("./img/golfMain\ .jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -1120,7 +1122,12 @@ code {
 }
 .gtown-map-outter {
   border: 2px solid #000;
-  height: 350px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: auto;
+}
+.gtown-map-outter div {
+  height: 50px;
 }
 .left-discover {
   border: 2px solid #000;
