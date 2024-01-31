@@ -857,6 +857,12 @@ code {
   margin-bottom: 20px;
   text-align: justify;
 }
+.x-x {
+  font-weight: 300;
+  font-size: 30px;
+  font-family: "Logo";
+  text-align: center;
+}
 .infoOneDiv img {
   width: 350px;
   box-shadow: 5px 5px 5px #9494942f;
