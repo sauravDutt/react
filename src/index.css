@@ -863,6 +863,42 @@ code {
   font-family: "Logo";
   text-align: center;
 }
+
+.showcase-box {
+  height: 320px;
+  margin-top: 150px;
+  border-radius: 50px;
+  box-shadow: 15px 15px 49px #b8b8b885, -15px -15px 49px #ffffff;
+  overflow: hidden;
+}
+.showcase-box img {
+  margin-top: 45px;
+  margin-left: 42px;
+}
+.showcase-box p {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 80%;
+}
+.showcase-box h1 {
+  font-family: "logo";
+  font-weight: 600;
+  float: right;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+.showcase-box h1 span {
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 27px;
+}
+.showcase-box h3 {
+  text-align: center;
+}
+
 .infoOneDiv img {
   width: 350px;
   box-shadow: 5px 5px 5px #9494942f;
