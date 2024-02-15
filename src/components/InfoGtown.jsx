@@ -1,4 +1,4 @@
-import SavingsRoundedIcon from "@mui/icons-material/SavingsRounded";
+import FingerprintIcon from "@mui/icons-material/Fingerprint";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import GtownMap from "./GtownMap";
@@ -53,7 +53,7 @@ const InfoGtown = ({ isAuth, user }) => {
         <div className="memberLogin-outter">
           <h2>{user.displayName}</h2>
           <div className="cardIcon" onClick={showTreasuryDasshboard}>
-            <SavingsRoundedIcon fontSize="large" sx={{ width: "100%" }} />
+            <FingerprintIcon fontSize="large" sx={{ width: "100%" }} />
           </div>
           <input className="memberId" type="password" placeholder="Member ID" />
         </div>
