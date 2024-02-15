@@ -949,12 +949,9 @@ code {
 }
 
 .treasury-outter {
-  width: 370px;
-  margin: 0 auto;
-  margin-top: 100px;
-  display: grid;
-  grid-template-columns: auto;
-  gap: 10px;
+  margin-top: 90px;
+  height: 100vh;
+  background-color: #0000000c;
 }
 .treasury-head {
   display: grid;
