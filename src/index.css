@@ -950,9 +950,10 @@ code {
 
 .treasury-outter {
   margin-top: 90px;
-  height: 100vh;
+  height: 91vh;
   background-color: #0000000c;
 }
+
 .treasury-head {
   display: grid;
   border-bottom: 2px solid #000;
