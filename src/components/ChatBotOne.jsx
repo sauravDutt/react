@@ -47,7 +47,7 @@ const ChatBotOne = ({ isAuth }) => {
       <div className="left-discover">
         <div className="div-left">
           <h1>
-            Growing Gurugaon <span className="small">since 1985.</span>
+            DLF growing Gurugram <span className="small">since 1985.</span>
           </h1>
           <button>Read More</button>
         </div>
