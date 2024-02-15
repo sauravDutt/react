@@ -957,11 +957,23 @@ code {
   justify-content: center;
 }
 .treasury-dashboard-head {
-  border: 1px solid #000;
-  margin-top: 15px;
-  height: 50px;
-  width: 350px;
+  margin-top: 25px;
+  height: 65px;
+  width: 355px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
 }
+.treasury-dashboard-head div {
+  box-shadow: 2px 2px 5px #00000031;
+  width: 100px;
+  height: 50px;
+  z-index: 3;
+  border-radius: 15px;
+}
+
 .treasury-head {
   display: grid;
   border-bottom: 2px solid #000;

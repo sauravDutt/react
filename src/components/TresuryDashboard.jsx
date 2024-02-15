@@ -12,7 +12,10 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   });
   return (
     <div className="treasury-outter">
-      <div className="treasury-dashboard-head"></div>
+      <div className="treasury-dashboard-head">
+        <div></div>
+        <div></div>
+      </div>
       <div></div>
     </div>
   );
