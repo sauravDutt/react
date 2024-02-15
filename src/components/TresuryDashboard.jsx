@@ -10,7 +10,12 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
       navigate("/login");
     }
   });
-  return <div className="treasury-outter"></div>;
+  return (
+    <div className="treasury-outter">
+      <div className="treasury-dashboard-head"></div>
+      <div></div>
+    </div>
+  );
 };
 
 export default TreasuryDashboard;

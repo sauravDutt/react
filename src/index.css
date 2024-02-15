@@ -952,8 +952,15 @@ code {
   margin-top: 90px;
   height: 91vh;
   background-color: #0000000c;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
 }
-
+.treasury-dashboard-head {
+  border: 1px solid #000;
+  margin-top: 15px;
+  width: 350px;
+}
 .treasury-head {
   display: grid;
   border-bottom: 2px solid #000;
