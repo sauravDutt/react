@@ -959,6 +959,7 @@ code {
 .treasury-dashboard-head {
   border: 1px solid #000;
   margin-top: 15px;
+  height: 50px;
   width: 350px;
 }
 .treasury-head {
@@ -1117,13 +1118,16 @@ code {
   text-align: right;
   margin-right: 5px;
 }
+.small {
+  font-weight: 300;
+}
 .div-right button {
-  width: 80px;
+  width: 120px;
   height: 40px;
   margin: 0;
   padding: 0;
   font-size: 18px;
-  margin-left: 60%;
+  margin-left: 42%;
   border: none;
   border-radius: 10px;
   background-color: #000000c4;
@@ -1144,11 +1148,11 @@ code {
   font-size: 40px;
 }
 .div-left button {
-  width: 80px;
+  width: 120px;
   height: 40px;
   margin: 0;
   padding: 0;
-  margin-left: 15px;
+  margin-left: 8px;
   font-size: 18px;
   border: none;
   border-radius: 10px;

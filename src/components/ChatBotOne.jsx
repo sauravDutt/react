@@ -46,8 +46,10 @@ const ChatBotOne = ({ isAuth }) => {
       </div>
       <div className="left-discover">
         <div className="div-left">
-          <h1>Gurugram illustrations collection.</h1>
-          <button>explore</button>
+          <h1>
+            Growing Gurugaon <span className="small">since 1985.</span>
+          </h1>
+          <button>Read More</button>
         </div>
         <img
           className="oneImage-discover"
@@ -63,7 +65,7 @@ const ChatBotOne = ({ isAuth }) => {
         />
         <div className="div-right">
           <h1>Hip hop collectables collection.</h1>
-          <button>explore</button>
+          <button>Read More</button>
         </div>
       </div>
       <div className="gtown-map-outter">
