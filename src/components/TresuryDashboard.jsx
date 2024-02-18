@@ -23,7 +23,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           whileTap={{ scale: 0.5 }}
         ></motion.div>
       </div>
-      <div></div>
+      <div className="digitalArt-outter"></div>
     </div>
   );
 };

@@ -950,7 +950,7 @@ code {
 
 .treasury-outter {
   margin-top: 90px;
-  height: 91vh;
+  height: 86vh;
   background-color: #0000000c;
   display: grid;
   grid-template-columns: auto;
@@ -958,13 +958,23 @@ code {
 }
 .treasury-dashboard-head {
   margin-top: 25px;
-  height: 65px;
+  margin-bottom: 0px;
+  height: 85px;
   width: 355px;
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
+  border: 1px solid #000;
+}
+.digitalArt-outter {
+  height: 400px;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: -100px;
+  width: 345px;
+  box-shadow: 2px 2px 15px #0000001c;
 }
 .treasury-dashboard-head div {
   box-shadow: 2px 2px 5px #00000031;
