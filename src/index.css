@@ -969,11 +969,18 @@ code {
 }
 .digitalArt-outter {
   height: 400px;
+  overflow: hidden;
   border-radius: 25px;
   margin: 0 auto;
   margin-top: -100px;
   width: 345px;
   box-shadow: 2px 2px 25px #0000001c;
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 70% 25%;
+}
+.digitalArt-info {
+  border-top: 3px solid #00000010;
 }
 .treasury-dashboard-head div {
   box-shadow: 2px 2px 5px #00000031;
