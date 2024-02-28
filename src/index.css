@@ -985,6 +985,7 @@ code {
   padding: 0;
   padding-top: 3px;
   padding-left: 15px;
+  user-select: none;
 }
 .digitalArt-info h1 {
   margin: 0;
