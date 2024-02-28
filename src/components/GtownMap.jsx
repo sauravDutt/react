@@ -23,7 +23,7 @@ const Cube = () => {
 //   // useFrame((state, delta) => {
 //   //   ref.current.rotation.y += delta;
 //   //   ref.current.rotation.x += delta / 2;
-//   //   ref.current.position.x = Math.sin(state.clock.elapsedTime) * 3.5;
+//   //   ref.current.position.x = Math. sin(state.clock.elapsedTime) * 3.5;
 //   // });
 //   return (
 //     <>

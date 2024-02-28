@@ -1,7 +1,15 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import { Canvas, useLoader } from "@react-three/fiber";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import { OrbitControls } from "@react-three/drei";
 // import SendIcon from "@mui/icons-material/Send";
+
+function CarModalOne() {
+  const gltf = useLoader(GLTFLoader, "/model/Audi-R8.gltf");
+  return <primitive object={gltf.scene} />;
+}
 
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   let navigate = useNavigate();
@@ -11,6 +19,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
       navigate("/login");
     }
   });
+
   return (
     <div className="treasury-outter">
       <div className="treasury-dashboard-head">
@@ -24,7 +33,15 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
         ></motion.div>
       </div>
       <div className="digitalArt-outter">
-        <div></div>
+        <div>
+          <Canvas camera={{ fov: 10, position: [22, 15, 35] }}>
+            <gridHelper args={[100, 100, "0x000000"]} />
+            <directionalLight position={[0, 0, 4]} />
+            <directionalLight position={[0, 4.5, -5.2]} />
+            <CarModalOne />
+            <OrbitControls />
+          </Canvas>
+        </div>
         <div className="digitalArt-info"></div>
       </div>
     </div>
