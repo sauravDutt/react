@@ -6,6 +6,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { OrbitControls } from "@react-three/drei";
 import SkipNextIcon from "@mui/icons-material/SkipNext";
 import TouchAppIcon from "@mui/icons-material/TouchApp";
+import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
 // import SendIcon from "@mui/icons-material/Send";
 
 function CarModalOne() {
@@ -25,12 +26,26 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   return (
     <div className="treasury-outter">
       <div className="treasury-dashboard-head">
-        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.5 }}>
+        <motion.div
+          className="bidBtn"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.5 }}
+        >
           <TouchAppIcon fontSize="large" sx={{ width: "90%" }} />
           <h2>Bid</h2>
         </motion.div>
-        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.5 }}>
-          <h2>Next</h2>
+        <motion.div
+          className="nextBtn"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.5 }}
+        >
+          <SkipPreviousIcon fontSize="large" sx={{ width: "90%" }} />
+        </motion.div>
+        <motion.div
+          className="nextBtn"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.5 }}
+        >
           <SkipNextIcon fontSize="large" sx={{ width: "90%" }} />
         </motion.div>
       </div>
