@@ -34,7 +34,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
       </div>
       <div className="digitalArt-outter">
         <div>
-          <Canvas camera={{ fov: 10, position: [22, 15, 35] }}>
+          <Canvas camera={{ fov: 20, position: [7, 10, -20] }}>
             <gridHelper args={[100, 100, "0x000000"]} />
             <directionalLight position={[0, 0, 4]} />
             <directionalLight position={[0, 4.5, -5.2]} />
