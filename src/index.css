@@ -977,7 +977,7 @@ code {
   box-shadow: 2px 2px 25px #0000001c;
   display: grid;
   gap: 10px;
-  grid-template-rows: 70% 25%;
+  grid-template-rows: 69% 30%;
 }
 .digitalArt-info {
   border-top: 5px dotted #0000001e;
