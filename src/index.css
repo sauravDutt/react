@@ -981,6 +981,20 @@ code {
 }
 .digitalArt-info {
   border-top: 5px dotted #0000001e;
+  margin: 0;
+  padding: 0;
+  padding-top: 3px;
+  padding-left: 10px;
+}
+.digitalArt-info h1 {
+  margin: 0;
+  padding: 0;
+}
+.digitalArt-info p {
+  line-height: 15px;
+  margin: 0;
+  padding: 0;
+  width: 90%;
 }
 .treasury-dashboard-head div {
   box-shadow: 2px 2px 5px #00000031;

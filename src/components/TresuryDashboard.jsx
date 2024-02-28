@@ -35,14 +35,20 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
       <div className="digitalArt-outter">
         <div>
           <Canvas camera={{ fov: 20, position: [7, 10, -20] }}>
-            <gridHelper args={[100, 100, "0x000000"]} />
+            <gridHelper args={[50, 50, "0x000000"]} />
             <directionalLight position={[0, 0, 4]} />
             <directionalLight position={[0, 4.5, -5.2]} />
             <CarModalOne />
             <OrbitControls />
           </Canvas>
         </div>
-        <div className="digitalArt-info"></div>
+        <div className="digitalArt-info">
+          <h1>Audi R8</h1>
+          <p>
+            Nostrud ipsum mollit voluptate ullamco amet esse commodo consequat
+            labore nisi sunt.
+          </p>
+        </div>
       </div>
     </div>
   );
