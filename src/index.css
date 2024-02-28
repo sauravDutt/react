@@ -1004,7 +1004,7 @@ code {
   border-radius: 15px;
   display: grid;
   grid-template-columns: auto auto;
-  gap: 5px;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
   cursor: pointer;
