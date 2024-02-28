@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { Canvas, useLoader } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { OrbitControls } from "@react-three/drei";
+import SkipNextIcon from "@mui/icons-material/SkipNext";
+import TouchAppIcon from "@mui/icons-material/TouchApp";
 // import SendIcon from "@mui/icons-material/Send";
 
 function CarModalOne() {
@@ -23,14 +25,14 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   return (
     <div className="treasury-outter">
       <div className="treasury-dashboard-head">
-        <motion.div
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.5 }}
-        ></motion.div>
-        <motion.div
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.5 }}
-        ></motion.div>
+        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.5 }}>
+          <TouchAppIcon fontSize="large" sx={{ width: "90%" }} />
+          <h2>Bid</h2>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.5 }}>
+          <h2>Next</h2>
+          <SkipNextIcon fontSize="large" sx={{ width: "90%" }} />
+        </motion.div>
       </div>
       <div className="digitalArt-outter">
         <div>

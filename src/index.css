@@ -1002,6 +1002,22 @@ code {
   height: 50px;
   z-index: 3;
   border-radius: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.treasury-dashboard-head div:hover {
+  color: #fff;
+  background-color: #000000da;
+}
+.treasury-dashboard-head div h2 {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 5px;
 }
 
 .treasury-head {
