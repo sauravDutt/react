@@ -40,6 +40,10 @@ const InfoGtown = ({ isAuth, user }) => {
               clicking on the "Mint" button below, every membership comes with a
               unique block of land in the live map.
             </p>
+            <button>Mint a new membership card.</button>
+            <p>
+              *Membership fee - mint a new membership card at just ₹ 1,000.00{" "}
+            </p>
           </div>
           <div>
             <GtownMap />
