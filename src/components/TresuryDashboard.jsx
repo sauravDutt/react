@@ -7,6 +7,8 @@ import { OrbitControls } from "@react-three/drei";
 import SkipNextIcon from "@mui/icons-material/SkipNext";
 import TouchAppIcon from "@mui/icons-material/TouchApp";
 import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
+import InventoryIcon from "@mui/icons-material/Inventory";
+import SellIcon from "@mui/icons-material/Sell";
 // import SendIcon from "@mui/icons-material/Send";
 
 function CarModalOne() {
@@ -32,7 +34,20 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           whileTap={{ scale: 0.5 }}
         >
           <TouchAppIcon fontSize="large" sx={{ width: "90%" }} />
-          <h2>Bid</h2>
+        </motion.div>
+        <motion.div
+          className="nextBtn"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.5 }}
+        >
+          <InventoryIcon fontSize="large" sx={{ width: "90%" }} />
+        </motion.div>
+        <motion.div
+          className="nextBtn"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.5 }}
+        >
+          <SellIcon fontSize="large" sx={{ width: "90%" }} />
         </motion.div>
         <motion.div
           className="nextBtn"
