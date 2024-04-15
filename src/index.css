@@ -960,7 +960,7 @@ code {
 
 .treasury-outter {
   margin-top: 90px;
-  height: 86vh;
+  height: 110vh;
   background-color: #0000000c;
   display: grid;
   grid-template-columns: auto;
@@ -983,7 +983,7 @@ code {
   overflow: hidden;
   border-radius: 25px;
   margin: 0 auto;
-  margin-top: -100px;
+  margin-top: -220px;
   width: 345px;
   box-shadow: 2px 2px 25px #0000001c;
   display: grid;
@@ -1039,6 +1039,23 @@ code {
   cursor: pointer;
 }
 
+.memberCard-outter {
+  border-top: 5px dotted #000;
+  margin-top: -200px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card-outter {
+  margin-top: -90px;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+
+  box-shadow: 2px 2px 5px #00000031;
+}
 .treasury-head {
   display: grid;
   border-bottom: 2px solid #000;
