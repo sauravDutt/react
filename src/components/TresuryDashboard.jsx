@@ -84,7 +84,16 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
       </div>
 
       <div className="memberCard-outter">
-        <div className="card-outter"></div>
+        <div className="card-outter">
+          <div className="card-head">
+            <img src={userImageUrl} alt="UserImg"></img>
+            <div>
+              <h3>{userName}</h3>
+              <h2>4AS0831</h2>
+            </div>
+          </div>
+          <div className="greenDot"></div>
+        </div>
       </div>
     </div>
   );
