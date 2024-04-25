@@ -1,16 +1,9 @@
 import FingerprintIcon from "@mui/icons-material/Fingerprint";
-import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import GtownMap from "./GtownMap";
 
 const InfoGtown = ({ isAuth, user }) => {
   let navigate = useNavigate();
-
-  useEffect(() => {
-    if (!isAuth) {
-      navigate("/login");
-    }
-  });
 
   const showTreasuryDasshboard = () => {
     navigate("/treasury-dashboard");
@@ -18,9 +11,6 @@ const InfoGtown = ({ isAuth, user }) => {
 
   return (
     <div className="info-outter">
-      <div className="button-outter-logout float-right" to="/dashboard">
-        <img src={user.photoURL} alt="userImage" className="logOutBtnImg" />
-      </div>
       <div className="infoOneDiv">
         <h1>Gtown treasury</h1>
         <div className="treasury-info-main"></div>
@@ -55,7 +45,7 @@ const InfoGtown = ({ isAuth, user }) => {
           enter your unique membership id below to log in.
         </p>
         <div className="memberLogin-outter">
-          <h2>{user.displayName}</h2>
+          <h2>Enter member id to continue.</h2>
           <div className="cardIcon" onClick={showTreasuryDasshboard}>
             <FingerprintIcon fontSize="large" sx={{ width: "100%" }} />
           </div>

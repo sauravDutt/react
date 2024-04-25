@@ -926,7 +926,8 @@ code {
 .memberLogin-outter h2 {
   font-family: "Logo";
   font-size: 35px;
-  margin: 15px 5px;
+  margin: 15px 0px;
+  margin-left: -5px;
   font-weight: 300;
 }
 .memberLogin-outter input {
@@ -945,16 +946,17 @@ code {
   margin-bottom: 150px;
 } */
 .cardIcon {
-  width: 55px;
+  cursor: pointer;
+  width: 100px;
   height: 55px;
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-left: 250px;
-  margin-top: -85px;
-  border-radius: 50px;
+  right: 25px;
+  margin-top: 55px;
+  border-radius: 10px;
   border: 1px solid #0000003b;
 }
 
