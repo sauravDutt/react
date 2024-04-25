@@ -729,15 +729,15 @@ code {
 }
 .img-head-gtown img {
   margin: 0;
+  margin-left: 3px;
+  margin-top: -10px;
   padding: 0;
-  width: 200px;
+  width: 220px;
 }
 .info-head-gtown {
   padding: 5px;
   text-align: center;
   height: 135px;
-  border-radius: 5px !important;
-  box-shadow: 5px 5px 15px #e3e3e39a, -5px -5px 15px #ffffff9f;
 }
 .info-head-gtown h1 {
   font-family: "Logo";
@@ -1243,12 +1243,14 @@ code {
 .div-right h1 {
   height: 200px;
   margin: 0;
+  line-height: 35px;
   margin-top: 5px;
   font-size: 35px;
   text-align: right;
   margin-right: 5px;
 }
 .small {
+  font-size: 15px;
   font-weight: 300;
 }
 .div-right button {
@@ -1270,7 +1272,9 @@ code {
   background-color: #00000005;
 }
 .div-left h1 {
+  width: 150px;
   height: 200px;
+  line-height: 37px;
   margin: 0;
   padding: 0;
   margin-left: 5px;
