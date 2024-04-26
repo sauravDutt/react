@@ -986,7 +986,7 @@ code {
   overflow: hidden;
   border-radius: 25px;
   margin: 0 auto;
-  margin-top: -220px;
+  margin-top: -200px;
   width: 349px;
   box-shadow: 2px 2px 25px #0000001c;
   display: grid;
@@ -1046,15 +1046,16 @@ code {
 
 .memberCard-outter {
   border-top: 5px dotted #000;
-  margin-top: -200px;
+  margin-top: -170px;
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
+
 .card-outter {
-  margin-top: -90px;
+  margin-top: -97px;
   border-radius: 10px;
   width: 300px;
   height: 200px;
