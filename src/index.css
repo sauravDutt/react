@@ -987,7 +987,7 @@ code {
   border-radius: 25px;
   margin: 0 auto;
   margin-top: -220px;
-  width: 345px;
+  width: 349px;
   box-shadow: 2px 2px 25px #0000001c;
   display: grid;
   gap: 10px;
@@ -1006,10 +1006,12 @@ code {
   padding: 0;
 }
 .digitalArt-info p {
-  line-height: 15px;
+  line-height: 20px;
   margin: 0;
   padding: 0;
-  width: 90%;
+  margin-left: -4px;
+  width: 100%;
+  border: 1px;
 }
 .bidBtn {
   box-shadow: 2px 2px 5px #00000031;

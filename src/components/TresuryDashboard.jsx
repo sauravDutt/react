@@ -75,10 +75,11 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           </Canvas>
         </div>
         <div className="digitalArt-info">
-          <h1>Audi R8</h1>
+          <h1>incomplete R8</h1>
           <p>
-            Nostrud ipsum mollit voluptate ullamco amet esse commodo consequat
-            labore nisi sunt.
+            <strong>Digital Artwork</strong> - "The incomplete" collection,{" "}
+            <br />
+            by <i>Skank Hunt</i>
           </p>
         </div>
       </div>
