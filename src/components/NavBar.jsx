@@ -5,7 +5,8 @@ const NavBar = () => {
         <div className="app-title">
           <h1 className="brand-name">Gtown Journal</h1>
           <h3 className="lower">
-            a portfolio build in <b>2023</b>.
+            {" "}
+            11<sup>th</sup> day of May, <b>2024</b>.
           </h3>
         </div>
       </div>
