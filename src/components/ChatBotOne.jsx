@@ -1,6 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import { Link } from "react-router-dom";
 import SavingsRoundedIcon from "@mui/icons-material/SavingsRounded";
 import { motion } from "framer-motion";
 import GtownMap from "./GtownMap";
@@ -21,17 +19,7 @@ const ChatBotOne = ({ isAuth }) => {
         <div className="info-head-gtown">
           <h1>1/05/2024</h1>
           <span className="secondFont-head">bulletin.</span>
-          <section className="realpoint-branding-outter">
-            <Link
-              className="social-btns"
-              to="https://www.instagram.com/gtownjournal"
-              target="blank"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.5 }}
-            >
-              <InstagramIcon className="gtown-btn" />
-            </Link>
-          </section>
+          <section className="realpoint-branding-outter"></section>
         </div>
 
         <motion.div
