@@ -95,9 +95,9 @@ const MainAreaOne = () => {
         <Banner
           className="bannerBoiler community"
           position="positionRight"
-          title="Join the Gtownjournal's Editor's community."
-          description="Every art in the Gtown Journal, tells a story, a memory and a vision, of decentralized trade of inspirational art and expressing the love for the city."
-          buttonText="Become an Editor"
+          title="Join the Gtownjournal community."
+          description="Become a member and express your unique Art on the Gtown Journal Marketplace and Earn Rewards."
+          buttonText="Become an Member"
           heidBtn="showBtn"
         />
         <div className="podcast-banner-div">

@@ -19,7 +19,7 @@ const ChatBotOne = ({ isAuth }) => {
           <img src={process.env.PUBLIC_URL + "/img/five.png"} alt="five" />
         </div>
         <div className="info-head-gtown">
-          <h1>Community</h1>
+          <h1>1/05/2024</h1>
           <span className="secondFont-head">bulletin.</span>
           <section className="realpoint-branding-outter">
             <Link
