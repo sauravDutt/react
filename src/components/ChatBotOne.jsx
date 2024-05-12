@@ -19,7 +19,9 @@ const ChatBotOne = ({ isAuth }) => {
         <div className="info-head-gtown">
           <h1>1/05/2024</h1>
           <span className="secondFont-head">bulletin.</span>
-          <section className="realpoint-branding-outter"></section>
+          <section className="realpoint-branding-outter">
+            working prototype
+          </section>
         </div>
 
         <motion.div
