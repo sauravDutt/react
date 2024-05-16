@@ -55,8 +55,7 @@ const ChatBotOne = ({ isAuth }) => {
         />
         <div className="div-right">
           <h1>
-            Hip hop collectables collection.{" "}
-            <span className="small"> Digital Art Works</span>
+            Freestyle. <span className="small"> Digital Art Works</span>
           </h1>
           <button>Read More</button>
         </div>
