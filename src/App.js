@@ -15,6 +15,7 @@ import { auth } from "./firebase-config";
 import InfoGtown from "./components/InfoGtown";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import TreasuryDashboard from "./components/TresuryDashboard";
+import Freestyle from "./components/Freestyle";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
@@ -70,6 +71,7 @@ function App() {
           path="/dashboard"
           element={<UserDashboardPage setIsAuth={setIsAuth} isAuth={isAuth} />}
         />
+        <Route path="/freeStyle" element={<Freestyle />} />
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
         <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
         <Route path="/gtown-info" element={<InfoGtown />} />

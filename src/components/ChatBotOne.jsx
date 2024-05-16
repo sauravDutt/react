@@ -9,7 +9,9 @@ const ChatBotOne = ({ isAuth }) => {
   const onClickFunction = () => {
     navigate("/gtown-info");
   };
-
+  const onClickEnroll = () => {
+    navigate("/freeStyle");
+  };
   return (
     <div className="chatBot-outter">
       <div className="head-gtown">
@@ -56,7 +58,7 @@ const ChatBotOne = ({ isAuth }) => {
         />
         <div className="div-right">
           <h1>Freestyle independent artists</h1>
-          <button>Enroll</button>
+          <button onClick={onClickEnroll}>Enroll</button>
         </div>
       </div>
       <div className="gtown-map-outter">
