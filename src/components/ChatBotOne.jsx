@@ -55,7 +55,7 @@ const ChatBotOne = ({ isAuth }) => {
           alt="Img"
         />
         <div className="div-right">
-          <h1>Freestyle, independent artists</h1>
+          <h1>Freestyle independent artists</h1>
           <button>Enroll</button>
         </div>
       </div>
