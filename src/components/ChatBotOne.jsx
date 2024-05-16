@@ -17,7 +17,7 @@ const ChatBotOne = ({ isAuth }) => {
           <img src={process.env.PUBLIC_URL + "/img/five.png"} alt="five" />
         </div>
         <div className="info-head-gtown">
-          <h1>1/05/2024</h1>
+          <h1>16/05/2024</h1>
           <span className="secondFont-head">bulletin.</span>
           <section className="realpoint-branding-outter">
             working prototype
@@ -37,7 +37,8 @@ const ChatBotOne = ({ isAuth }) => {
       <div className="left-discover">
         <div className="div-left">
           <h1>
-            Good Time Journal. <span className="small"> by Gtown Journal</span>
+            Good time journalism.{" "}
+            <span className="small"> by Gtown Journal</span>
           </h1>
           <button>Read More</button>
         </div>
@@ -54,10 +55,8 @@ const ChatBotOne = ({ isAuth }) => {
           alt="Img"
         />
         <div className="div-right">
-          <h1>
-            Freestyle. <span className="small"> Digital Art Works</span>
-          </h1>
-          <button>Read More</button>
+          <h1>Freestyle, independent artists</h1>
+          <button>Enroll</button>
         </div>
       </div>
       <div className="gtown-map-outter">
