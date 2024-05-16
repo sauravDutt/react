@@ -47,8 +47,8 @@ const MainAreaOne = () => {
             <p>
               Gtown Journal, is a <strong>Digital Art Marketplace</strong> and a{" "}
               <strong>community</strong>, a consortium of fine art enthusiasts,
-              a decentralized network. A community built and run by Gtown
-              members. Become a member of the <strong>"Gtown Journal"</strong>.
+              a decentralized network. Become a member of the{" "}
+              <strong>"Gtown Journal"</strong>.
             </p>
           </div>
         </div>
