@@ -43,12 +43,12 @@ const MainAreaOne = () => {
         {/* These are banners */}
         <div className="gal">
           <div>
-            <h1>Gtownjournal.com</h1>
+            <h1>Goodtimejournal.com</h1>
             <p>
-              Gtown Journal, is a <strong>Digital Art Marketplace</strong> and a{" "}
-              <strong>community</strong>, a consortium of fine art enthusiasts,
-              a decentralized network. Become a member of the{" "}
-              <strong>"Gtown Journal"</strong>.
+              Good Time Journal, is a{" "}
+              <strong>Decentralised, Open source</strong> community of digital
+              artist, writers, illustraters, story tellers and a{" "}
+              <strong>consortium</strong> of art enthusiasts.
             </p>
           </div>
         </div>
@@ -104,9 +104,9 @@ const MainAreaOne = () => {
         <div className="podcast-banner-div">
           <h1>Utility</h1>
           <p className="utilities-info">
-            Gtown Journal, offers two utilities at the moment. To become a Gtown
-            Journal Member visit our gallery at B 6/8, Park Drive Road, DLF City
-            5, Gurgaon, Haryana - 122009 or write us at{" "}
+            Good Time Journal, offers two utilities at the moment. To become a
+            Gtown Journal Member visit our gallery at B 6/8, Park Drive Road,
+            DLF City 5, Gurgaon, Haryana - 122009 or write us at{" "}
             <a href="mailto:info@gtownjournal.com" className="phoneNumber">
               <strong>info@gtownjournal.com</strong>
             </a>{" "}
