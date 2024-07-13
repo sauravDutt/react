@@ -26,8 +26,8 @@ const MainAreaOne = () => {
             <h1>Goodtimejournal.com</h1>
             <p>
               Good Time Journal, is a <strong>Community</strong>, a{" "}
-              <strong>Consortium</strong> of Digital Creaters, Writers,
-              Illustraters, Story tellers and like minded fine art enthusiasts.
+              <strong>Consortium</strong> of Digital Creators, Writers,
+              Illustrators, Storytellers and like minded fine art enthusiasts.
             </p>
           </div>
         </div>
