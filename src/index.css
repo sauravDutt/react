@@ -297,8 +297,11 @@ code {
   margin-top: -5px;
 }
 .positionRight {
-  width: 45%;
+  width: 69%;
+  margin-top: 15px;
   float: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .banner-realpoint {
   border: 3px solid #0000009d;
@@ -342,6 +345,9 @@ code {
 }
 .positionLeft {
   width: 30%;
+}
+.positionLeftOne {
+  margin-left: 100px;
 }
 .login-outter {
   margin-top: 200px;
@@ -1335,6 +1341,12 @@ code {
 }
 .three {
   background-image: url("./img/three.png");
+}
+.four {
+  background-image: url("./img/goku.jpg");
+}
+.five {
+  background-image: url("./img/snape.jpg");
 }
 .community {
   background-image: url("./img/community.png");

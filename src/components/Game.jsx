@@ -51,6 +51,22 @@ const Game = () => {
           description=""
           heidBtn="heidBtn"
         />
+        <Banner
+          className="bannerBoiler four"
+          position="positionRight"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+
+        <Banner
+          className="bannerBoiler "
+          position="positionRight five"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <div className="snapeImg"></div>
         <div className="comments-outter">
           <p>
             * This is a members only Podcast please enter your membership id to
