@@ -588,6 +588,7 @@ code {
 .utilities-info {
   width: 90%;
   margin: 0 auto;
+  text-align: justify;
   margin-bottom: 15px;
 }
 .phoneNumber {
@@ -1312,6 +1313,7 @@ code {
   border: 2px solid #000;
   display: grid;
   width: 360px;
+  margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
   grid-template-columns: 70% 30%;
