@@ -41,8 +41,7 @@ const MainAreaOne = () => {
         <div className="left-discover">
           <div className="div-left">
             <h1>
-              Good time journalism.{" "}
-              <span className="small"> by Gtown Journal</span>
+              Good time journal. <span className="small"> Origin Story</span>
             </h1>
             <button>Read More</button>
           </div>
@@ -60,7 +59,7 @@ const MainAreaOne = () => {
           />
           <div className="div-right">
             <h1>Freestyle independent artists</h1>
-            <button>Enroll</button>
+            <button>Read More</button>
           </div>
         </div>
 
