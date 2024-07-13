@@ -66,6 +66,20 @@ const Game = () => {
           description=""
           heidBtn="heidBtn"
         />
+        <Banner
+          className="bannerBoiler "
+          position="positionLeft six"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoiler "
+          position="positionRight seven"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
         <div className="snapeImg"></div>
         <div className="comments-outter">
           <p>
