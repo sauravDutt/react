@@ -75,7 +75,16 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
       </div>
 
       <div className="memberCard-outter">
-        <div className="card-outter"></div>
+        <div className="card-outter">
+          <div className="treasury-head">
+            <h1>Treasury</h1>
+            <div>
+              <div className="treasury-amount">
+                <h2>£ 7,851.91</h2>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
