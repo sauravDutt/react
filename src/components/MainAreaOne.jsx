@@ -56,9 +56,34 @@ const MainAreaOne = () => {
           className="bannerBoiler cat"
           position="positionRight"
           title="Consortium"
-          description="in Gtown Journal, we maintain a community treasury called the 'Gtown Journal Treasury' every member has a say in the collected fund."
+          description="in Good Time Journal, we maintain a community treasury called the 'Good Time Treasury' every member has a say in the collected fund."
           heidBtn="heidBtn"
         />
+        <div className="left-discover">
+          <div className="div-left">
+            <h1>
+              Good time journalism.{" "}
+              <span className="small"> by Gtown Journal</span>
+            </h1>
+            <button>Read More</button>
+          </div>
+          <img
+            className="oneImage-discover"
+            src={process.env.PUBLIC_URL + "/img/dlf.png"}
+            alt="Img"
+          />
+        </div>
+        <div className="right-discover">
+          <img
+            className="twoImage-discover"
+            src={process.env.PUBLIC_URL + "/img/two.png"}
+            alt="Img"
+          />
+          <div className="div-right">
+            <h1>Freestyle independent artists</h1>
+            <button>Enroll</button>
+          </div>
+        </div>
         <div className="song-outter">
           <div className="songImg"></div>
           <div className="song-title">
@@ -149,17 +174,6 @@ const MainAreaOne = () => {
             </div>
           );
         })}
-        <h1 className="mapHeding">
-          Gtown <span className="second"> live!</span>
-        </h1>
-        <br />
-        <div className="banner-realpoint">
-          <GtownMap />
-        </div>
-
-        <p className="centerPara">
-          Gtown live!, is an upcoming Gtown interactive map.
-        </p>
         <Banner
           className="narrow"
           position=""

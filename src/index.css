@@ -1126,9 +1126,6 @@ code {
 .treasury-info-main {
   display: grid;
   height: 255px;
-  background-image: url("./img/golfMain\ .jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
   grid-template-columns: auto;
 
   justify-content: center;
@@ -1320,11 +1317,19 @@ code {
 }
 .left-discover {
   border: 2px solid #000;
+  display: grid;
+  width: 360px;
+  margin-bottom: 20px;
+  border-radius: 10px;
   grid-template-columns: 70% 30%;
 }
 .right-discover {
   border: 2px solid #000;
+  display: grid;
+  width: 360px;
+  border-radius: 10px;
   grid-template-columns: 40% 60%;
+  margin-bottom: 20px;
 }
 .one {
   background-image: url("./img/one.png");
@@ -1340,7 +1345,7 @@ code {
   margin-bottom: 30px;
 }
 .gal {
-  background-image: url("./img/gal.png");
+  background-image: url("./img/golfMain\ .jpg");
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1349,16 +1354,17 @@ code {
 }
 .gal div {
   background-color: #ffffffc0;
-  margin-top: 50%;
   width: 300px;
-  padding: 10px;
+  margin-top: 80%;
 }
 .gal div h1 {
   margin: 0;
   margin-left: 10px;
+  margin-top: -10px;
   font-weight: 300;
   margin-bottom: -5px;
   padding: 0;
+  letter-spacing: 2.5px;
   font-family: "Logo";
 }
 .gal div p {

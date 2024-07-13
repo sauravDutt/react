@@ -18,10 +18,10 @@ export default function LogIn({ setIsAuth }) {
   return (
     <div className="login-outter">
       <div className="loginContainer">
-        <img src={process.env.PUBLIC_URL + "/img/club5.jpg"} alt="club5" />
+        <img src={process.env.PUBLIC_URL + "/img/gal.png"} alt="club5" />
         <AccountCircleOutlinedIcon
           fontSize="large"
-          sx={{ mt: 2, mb: 2, width: "100%", fontSize: 50 }}
+          sx={{ mt: 7, mb: 1, width: "100%", fontSize: 50 }}
         />
         <p>
           To continue with this utility you first need to sign in with your
@@ -31,6 +31,9 @@ export default function LogIn({ setIsAuth }) {
         <button className="login-with-google-btn" onClick={signInWithGoogle}>
           Signin with Google
         </button>
+        <br />
+        <br />
+        <br />
       </div>
     </div>
   );

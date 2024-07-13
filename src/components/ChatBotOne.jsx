@@ -9,9 +9,6 @@ const ChatBotOne = ({ isAuth }) => {
   const onClickFunction = () => {
     navigate("/gtown-info");
   };
-  const onClickEnroll = () => {
-    navigate("/freeStyle");
-  };
   return (
     <div className="chatBot-outter">
       <div className="head-gtown">
@@ -35,31 +32,6 @@ const ChatBotOne = ({ isAuth }) => {
           <SavingsRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           <span>Gtown treasury.</span>
         </motion.div>
-      </div>
-      <div className="left-discover">
-        <div className="div-left">
-          <h1>
-            Good time journalism.{" "}
-            <span className="small"> by Gtown Journal</span>
-          </h1>
-          <button>Read More</button>
-        </div>
-        <img
-          className="oneImage-discover"
-          src={process.env.PUBLIC_URL + "/img/dlf.png"}
-          alt="Img"
-        />
-      </div>
-      <div className="right-discover">
-        <img
-          className="twoImage-discover"
-          src={process.env.PUBLIC_URL + "/img/two.png"}
-          alt="Img"
-        />
-        <div className="div-right">
-          <h1>Freestyle independent artists</h1>
-          <button onClick={onClickEnroll}>Enroll</button>
-        </div>
       </div>
       <div className="gtown-map-outter">
         <div></div>
