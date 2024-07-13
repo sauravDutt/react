@@ -297,11 +297,8 @@ code {
   margin-top: -5px;
 }
 .positionRight {
-  width: 69%;
-  margin-top: 15px;
+  width: 44%;
   float: right;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 .banner-realpoint {
   border: 3px solid #0000009d;
@@ -1351,12 +1348,20 @@ code {
 }
 .five {
   background-image: url("./img/snape.jpg");
+  margin-top: 25px;
+  width: 59%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .six {
   background-image: url("./img/one\ copy.png");
 }
 .seven {
   background-image: url("./img/pbOne.jpg");
+  margin-top: 15px;
+  width: 69%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .community {
   background-image: url("./img/community.png");
