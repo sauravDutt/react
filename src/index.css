@@ -269,8 +269,7 @@ code {
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 600px;
-  height: 450px;
+  width: 370px;
 }
 .narrow {
   background-color: #fff;
@@ -551,13 +550,15 @@ code {
 
 .song-outter-outter {
   display: grid;
-  width: 355px;
+  width: 100%;
   margin: 0 auto;
-  border-radius: 11px;
   background-color: #fff;
   padding-bottom: 10px;
+  position: fixed;
+  top: 84px;
+  z-index: 200;
   grid-template-columns: auto;
-  box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #f0f0f0;
+  border-bottom: 1.5px solid #0000008c;
 }
 .podcast-banner {
   width: 370px;
@@ -625,16 +626,7 @@ code {
   justify-content: center;
   align-items: center;
 }
-.podcastTitle {
-  font-family: "Logo";
-  font-weight: 300;
-  font-size: 38px;
-  margin: 0;
-  text-align: center;
-  margin-bottom: 5px;
-  margin-top: -25px;
-  padding: 0;
-}
+
 .sceneOne {
   background-image: url("./img/podcast.png");
   background-repeat: no-repeat;
@@ -643,6 +635,7 @@ code {
   height: 280px;
   border-radius: 10px;
   margin: 0 auto;
+  margin-top: 100px;
   margin-bottom: 20px;
 }
 .comments-outter {
@@ -1333,6 +1326,7 @@ code {
 }
 .one {
   background-image: url("./img/one.png");
+  margin-top: 25px;
 }
 .two {
   background-image: url("./img/two.png");
@@ -1342,7 +1336,7 @@ code {
 }
 .community {
   background-image: url("./img/community.png");
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 .gal {
   background-image: url("./img/golfMain\ .jpg");

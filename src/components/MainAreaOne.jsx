@@ -2,30 +2,10 @@ import { useEffect, useState } from "react";
 import Banner from "./Banner";
 import { getDocs, collection } from "firebase/firestore";
 import { db } from "../firebase-config";
-import { Container, Row, Col } from "react-bootstrap";
-import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import BlurOnIcon from "@mui/icons-material/BlurOn";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import GtownMap from "./GtownMap";
-
-const PlayerOutter = () => {
-  return (
-    <>
-      <Container>
-        <Row>
-          <Col lg={4}>
-            <AudioPlayer
-              src={process.env.PUBLIC_URL + "/songs/songOne.mp3"}
-              showFilledVolume
-              // other props here
-            />
-          </Col>
-        </Row>
-      </Container>
-    </>
-  );
-};
 
 const MainAreaOne = () => {
   const [articleList, setArticleList] = useState([]);
@@ -84,46 +64,15 @@ const MainAreaOne = () => {
             <button>Enroll</button>
           </div>
         </div>
-        <div className="song-outter">
-          <div className="songImg"></div>
-          <div className="song-title">
-            <h2>
-              <strong>Video Introduction</strong> #1
-            </h2>
-          </div>
-          <div className="play-outter">
-            <PlayerOutter />
-          </div>
-        </div>
-        <Banner
-          className="bannerBoiler one"
-          position="positionLeft"
-          title=""
-          description=""
-          heidBtn="heidBtn"
-        />
-        <Banner
-          className="bannerBoiler two"
-          position="positionRight"
-          title=""
-          description=""
-          heidBtn="heidBtn"
-        />
-        <Banner
-          className="bannerBoiler three"
-          position="positionLeft"
-          title=""
-          description=""
-          heidBtn="heidBtn"
-        />
+
         <div className="club"></div>
 
         <Banner
           className="bannerBoiler community"
           position="positionRight"
-          title="Join the Gtownjournal community."
-          description="Become a member and express your unique Art on the Gtown Journal Marketplace and Earn Rewards."
-          buttonText="Become an Member"
+          title="Good time journal editorial board."
+          description="Become an editor at the 'Good Time Journal', in three easy steps."
+          buttonText="START"
           heidBtn="showBtn"
         />
         <div className="podcast-banner-div">
@@ -145,13 +94,13 @@ const MainAreaOne = () => {
               <section to="/gtown" className="button-outter">
                 <BlurOnIcon fontSize="large" sx={{ width: "100%" }} />
               </section>
-              <p>Community Bulletin</p>
+              <p>Designer's Marketplace</p>
             </div>
             <div>
               <section to="/play" className="button-outter">
                 <PlayArrowIcon fontSize="large" sx={{ width: "100%" }} />
               </section>
-              <p>Podcast</p>
+              <p>Open Mic</p>
             </div>
           </div>
         </div>

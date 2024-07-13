@@ -2,7 +2,6 @@ import { useNavigate } from "react-router-dom";
 import SavingsRoundedIcon from "@mui/icons-material/SavingsRounded";
 import { motion } from "framer-motion";
 import GtownMap from "./GtownMap";
-
 const ChatBotOne = ({ isAuth }) => {
   let navigate = useNavigate();
 

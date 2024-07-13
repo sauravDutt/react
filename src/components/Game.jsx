@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import PasswordIcon from "@mui/icons-material/Password";
+import Banner from "./Banner";
 const PlayerOutter = () => {
   return (
     <>
@@ -24,14 +25,32 @@ const Game = () => {
     <div className="margin-top-imp">
       <div className="podcast-outter">
         <div className="sceneOne"></div>
-        <h1 className="podcastTitle">
-          gtown<span className="second">radio</span>
-        </h1>
         <div className="song-outter-outter">
           <div className="play-outter">
             <PlayerOutter />
           </div>
         </div>
+        <Banner
+          className="bannerBoiler one"
+          position="positionLeft"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoiler two"
+          position="positionRight"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoiler three"
+          position="positionLeft"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
         <div className="comments-outter">
           <p>
             * This is a members only Podcast please enter your membership id to
