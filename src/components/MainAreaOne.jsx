@@ -105,8 +105,7 @@ const MainAreaOne = () => {
           </div>
         </div>
         <div className="podcast-banner"></div>
-        <p className="comingSoonUtilities"> More utilities coming soon .</p>
-        <div className="clubIn"></div>
+        <p className="comingSoonUtilities"> More utilities coming soon.</p>
         {articleList?.map((post) => {
           return (
             <div className="articleBoiler" key={post.id}>
