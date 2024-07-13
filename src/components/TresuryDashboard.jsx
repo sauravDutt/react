@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Canvas, useLoader } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
@@ -17,14 +15,6 @@ function CarModalOne() {
 }
 
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
-  let navigate = useNavigate();
-
-  useEffect(() => {
-    if (!isAuth) {
-      navigate("/login");
-    }
-  });
-
   return (
     <div className="treasury-outter">
       <div className="treasury-dashboard-head">
@@ -90,7 +80,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
             <img src={userImageUrl} alt="UserImg"></img>
             <div>
               <h3>{userName}</h3>
-              <h2>4AS0831</h2>
+              <h2>Sign in</h2>
             </div>
           </div>
           <div className="greenDot"></div>

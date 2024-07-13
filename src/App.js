@@ -38,7 +38,7 @@ function App() {
           <Link to="/" className="button-outter">
             <HomeRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
-          <Link to="/gtown" className="button-outter">
+          <Link to="/designer_marketplace" className="button-outter">
             <BlurOnIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           <Link to="/play" className="button-outter">
@@ -76,7 +76,7 @@ function App() {
         <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
         <Route path="/gtown-info" element={<InfoGtown />} />
         <Route
-          path="/treasury-dashboard"
+          path="/designer_marketplace"
           element={
             <TreasuryDashboard
               isAuth={isAuth}
