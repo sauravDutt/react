@@ -80,6 +80,27 @@ const Game = () => {
           description=""
           heidBtn="heidBtn"
         />
+        <Banner
+          className="bannerBoilerBig "
+          position="positionCenter eight"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoilerBig "
+          position="positionCenter nine"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoilerBig "
+          position="positionCenter ten"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
         <div className="snapeImg"></div>
         <div className="comments-outter">
           <p>

@@ -271,6 +271,11 @@ code {
   background-size: contain;
   width: 370px;
 }
+.bannerBoilerBig {
+  background-color: #fff;
+  width: 100%;
+  height: 300px;
+}
 .narrow {
   background-color: #fff;
   background-repeat: no-repeat;
@@ -299,6 +304,9 @@ code {
 .positionRight {
   width: 44%;
   float: right;
+}
+.positionCenter {
+  height: 257px;
 }
 .banner-realpoint {
   border: 3px solid #0000009d;
@@ -1328,6 +1336,27 @@ code {
   background-image: url("./img/pbOne.jpg");
   margin-top: 15px;
   width: 69%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.eight {
+  background-image: url("./img/outih.png");
+  margin-top: 15px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.nine {
+  background-image: url("./img/batman.png");
+  margin-top: 15px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ten {
+  background-image: url("./img/tpb.png");
+  margin-top: 15px;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: contain;
 }
