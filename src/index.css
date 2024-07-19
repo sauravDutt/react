@@ -991,7 +991,7 @@ code {
   padding: 0 10px;
 }
 .digitalArt-outter {
-  height: 400px;
+  height: 410px;
   overflow: hidden;
   border-radius: 25px;
   margin: 0 auto;
@@ -1000,26 +1000,29 @@ code {
   box-shadow: 2px 2px 25px #0000001c;
   display: grid;
   gap: 10px;
-  grid-template-rows: 69% 30%;
+  grid-template-rows: 65% 40%;
 }
 .digitalArt-info {
   border-top: 5px dotted #0000001e;
   margin: 0;
   padding: 0;
+  margin: 0 auto;
+
   padding-top: 3px;
   padding-left: 15px;
   user-select: none;
 }
 .digitalArt-info h1 {
   margin: 0;
+  margin-bottom: 3px;
   padding: 0;
 }
 .digitalArt-info p {
   line-height: 20px;
   margin: 0;
   padding: 0;
-  margin-left: -4px;
-  width: 100%;
+
+  width: 95%;
   border: 1px;
 }
 .bidBtn {
