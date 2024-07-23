@@ -78,8 +78,8 @@ const MainAreaOne = () => {
           <p className="utilities-info">
             Good Time Journal, offers two utilities at the moment. To become a
             Good Time Journal Member write us at{" "}
-            <a href="mailto:info@gtownjournal.com" className="phoneNumber">
-              <strong>info@gtownjournal.com</strong>
+            <a href="mailto:skankhunt.69s@gmail.com" className="phoneNumber">
+              <strong>skankhunt.69s@gmail.com</strong>
             </a>{" "}
             or feel free to call the front dest at{" "}
             <a href="tel:+919958479837" className="phoneNumber">
