@@ -52,6 +52,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
       <div className="main-artwork-outter">
         <DigitalArt />
         <DigitalArtOne />
+        <div className="littleWidth"></div>
       </div>
 
       <div className="memberCard-outter">

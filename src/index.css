@@ -1007,6 +1007,16 @@ code {
   height: 0px;
   background-color: #ffffff00;
 }
+.littleWidth {
+  height: 415px;
+  overflow: hidden;
+  border-radius: 25px;
+  background-color: transparent;
+  margin: 0 auto;
+  margin-left: 20px;
+  margin-right: 25px;
+  width: 20px;
+}
 .digitalArt-outter {
   height: 415px;
   overflow: hidden;
