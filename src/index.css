@@ -186,9 +186,6 @@ code {
   overflow-x: hidden;
   overflow-y: scroll;
 }
-.mainArea::-webkit-scrollbar {
-  width: 0px;
-}
 
 /* These classnames are title prop values  (-- Start --)*/
 .articleBoiler {
@@ -1007,6 +1004,13 @@ code {
   height: 0px;
   background-color: #ffffff00;
 }
+.mainArea::-webkit-scrollbar {
+  width: 0px;
+}
+.main-artwork-outter::-webkit-scrollbar-button {
+  color: #000;
+  background-color: #000;
+}
 .littleWidth {
   height: 415px;
   overflow: hidden;
@@ -1015,7 +1019,7 @@ code {
   margin: 0 auto;
   margin-left: 20px;
   margin-right: 25px;
-  width: 20px;
+  width: 5px;
 }
 .digitalArt-outter {
   height: 415px;
