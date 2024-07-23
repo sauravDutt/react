@@ -6,6 +6,7 @@ import StorageIcon from "@mui/icons-material/Storage";
 import SellIcon from "@mui/icons-material/Sell";
 import PasswordIcon from "@mui/icons-material/Password";
 import DigitalArt from "./DigitalArt";
+import DigitalArtOne from "./DigitalArtOne";
 // import SendIcon from "@mui/icons-material/Send";
 
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
@@ -48,7 +49,10 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           <SkipNextIcon fontSize="large" sx={{ width: "90%" }} />
         </motion.div>
       </div>
-      <DigitalArt />
+      <div className="main-artwork-outter">
+        <DigitalArt />
+        <DigitalArtOne />
+      </div>
 
       <div className="memberCard-outter">
         <div className="card-outter">

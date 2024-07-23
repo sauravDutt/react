@@ -990,13 +990,27 @@ code {
   align-items: center;
   padding: 0 10px;
 }
+.main-artwork-outter {
+  margin-top: -140px;
+  width: 100%;
+  display: flex;
+
+  overflow: hidden;
+  overflow-x: scroll;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  height: 490px;
+}
 .digitalArt-outter {
   height: 415px;
   overflow: hidden;
   border-radius: 25px;
   margin: 0 auto;
-  margin-top: -150px;
-  width: 349px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 349px !important;
   box-shadow: 2px 2px 25px #0000001c;
   display: grid;
   gap: 10px;
