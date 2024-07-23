@@ -991,7 +991,7 @@ code {
   padding: 0 10px;
 }
 .digitalArt-outter {
-  height: 410px;
+  height: 415px;
   overflow: hidden;
   border-radius: 25px;
   margin: 0 auto;
@@ -1000,7 +1000,7 @@ code {
   box-shadow: 2px 2px 25px #0000001c;
   display: grid;
   gap: 10px;
-  grid-template-rows: 65% 40%;
+  grid-template-rows: 62% 40%;
 }
 .digitalArt-info {
   border-top: 5px dotted #0000001e;
@@ -1014,7 +1014,8 @@ code {
 }
 .digitalArt-info h1 {
   margin: 0;
-  margin-bottom: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: 0;
 }
 .digitalArt-info p {
