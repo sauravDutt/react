@@ -979,6 +979,7 @@ code {
   justify-content: center;
 }
 .treasury-dashboard-head {
+  margin: 0 auto;
   margin-top: 25px;
   margin-bottom: 0px;
   height: 85px;
