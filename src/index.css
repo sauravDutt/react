@@ -1299,6 +1299,7 @@ code {
   width: 120px;
   height: 40px;
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   margin-left: 8px;
   font-size: 18px;
@@ -1314,6 +1315,12 @@ code {
   width: 220px;
   margin-left: -120px;
   margin-top: -5px;
+  /* margin-top: 380%; */
+}
+.oneImage-discover-new {
+  width: 220px;
+  margin-left: -120px;
+  margin-top: 300%;
 }
 .twoImage-discover {
   width: 200px;
@@ -1336,6 +1343,14 @@ code {
   margin-bottom: 20px;
   border-radius: 10px;
   grid-template-columns: 70% 30%;
+}
+
+.originPtag {
+  width: 90%;
+  text-align: justify;
+  margin-left: 5px;
+  margin-top: -15px;
+  margin-bottom: 25px;
 }
 .right-discover {
   border: 2px solid #000;

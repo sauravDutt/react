@@ -7,9 +7,24 @@ import BlurOnIcon from "@mui/icons-material/BlurOn";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import GtownMap from "./GtownMap";
 
+const OriginStoryContent = () => {
+  return (
+    <p className="originPtag">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged.
+    </p>
+  );
+};
+
 const MainAreaOne = () => {
   const [articleList, setArticleList] = useState([]);
   const articleCollectionRef = collection(db, "article");
+  const [isOpen, setIsOpen] = useState(false);
+
   const getArticles = async () => {
     const data = await getDocs(articleCollectionRef);
     setArticleList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
@@ -43,10 +58,13 @@ const MainAreaOne = () => {
             <h1>
               Good time journal. <span className="small"> Origin Story</span>
             </h1>
-            <button>Read More</button>
+            {isOpen ? <OriginStoryContent /> : null}
+            <button onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? "Read Less" : "Read More"}
+            </button>
           </div>
           <img
-            className="oneImage-discover"
+            className={isOpen ? "oneImage-discover-new" : "oneImage-discover"}
             src={process.env.PUBLIC_URL + "/img/dlf.png"}
             alt="Img"
           />
