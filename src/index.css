@@ -1401,6 +1401,20 @@ code {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.eleven {
+  background-image: url("./img/twelve.png");
+  margin-top: 15px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.twelve {
+  background-image: url("./img/eleven.png");
+  margin-top: 15px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .ten {
   background-image: url("./img/tpb.png");
   margin-top: 15px;

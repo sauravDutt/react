@@ -89,7 +89,22 @@ const Game = () => {
         />
         <Banner
           className="bannerBoilerBig "
+          position="positionCenter eleven"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoilerBig "
           position="positionCenter nine"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+
+        <Banner
+          className="bannerBoilerBig "
+          position="positionCenter twelve"
           title=""
           description=""
           heidBtn="heidBtn"
