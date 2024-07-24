@@ -1291,7 +1291,7 @@ code {
   line-height: 37px;
   margin: 0;
   padding: 0;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-top: 5px;
   font-size: 40px;
 }
@@ -1307,9 +1307,6 @@ code {
   border-radius: 10px;
   background-color: #000000c4;
   color: #fff;
-}
-.div-left button:hover {
-  background-color: #000;
 }
 .oneImage-discover {
   width: 220px;
@@ -1348,8 +1345,8 @@ code {
 .originPtag {
   width: 90%;
   text-align: justify;
-  margin-left: 5px;
-  margin-top: -15px;
+  margin-left: 10px;
+  margin-top: -25px;
   margin-bottom: 25px;
 }
 .right-discover {
