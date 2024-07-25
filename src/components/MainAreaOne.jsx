@@ -7,6 +7,7 @@ import "react-h5-audio-player/lib/styles.css";
 import BlurOnIcon from "@mui/icons-material/BlurOn";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import GtownMap from "./GtownMap";
+import useMeasure from "react-use-measure";
 
 const OriginStoryContent = () => {
   return (
@@ -21,6 +22,7 @@ const OriginStoryContent = () => {
 };
 
 const MainAreaOne = () => {
+  let [ref, { height }] = useMeasure();
   const [articleList, setArticleList] = useState([]);
   const articleCollectionRef = collection(db, "article");
   const [isOpen, setIsOpen] = useState(false);
@@ -54,26 +56,26 @@ const MainAreaOne = () => {
             description="in Good Time Journal, we maintain a community treasury called the 'Good Time Treasury' every member has a say in the collected fund."
             heidBtn="heidBtn"
           />
-          <motion.div
-            className="left-discover"
-            key={isOpen}
-            initial={{ height: 300 }}
-            animate={{ height: "auto" }}
-          >
-            <div className="div-left">
-              <h1>
-                Good time journal. <span className="small"> Origin Story</span>
-              </h1>
-              {isOpen ? <OriginStoryContent /> : null}
-              <button onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? "Read Less" : "Read More"}
-              </button>
+          <motion.div style={{ marginBottom: "35px" }} animate={{ height }}>
+            <div ref={ref} className="left-discover">
+              <div className="div-left">
+                <h1>
+                  Good time journal.{" "}
+                  <span className="small"> Origin Story</span>
+                </h1>
+                {isOpen ? <OriginStoryContent /> : null}
+                <button onClick={() => setIsOpen(!isOpen)}>
+                  {isOpen ? "Read Less" : "Read More"}
+                </button>
+              </div>
+              <img
+                className={
+                  isOpen ? "oneImage-discover-new" : "oneImage-discover"
+                }
+                src={process.env.PUBLIC_URL + "/img/dlf.png"}
+                alt="Img"
+              />
             </div>
-            <img
-              className={isOpen ? "oneImage-discover-new" : "oneImage-discover"}
-              src={process.env.PUBLIC_URL + "/img/dlf.png"}
-              alt="Img"
-            />
           </motion.div>
           <div className="right-discover">
             <img
