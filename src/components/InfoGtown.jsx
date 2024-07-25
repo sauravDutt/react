@@ -25,8 +25,11 @@ const InfoGtown = ({ setIsAuth }) => {
           <div>
             <h2>Become an Editor</h2>
             <p>
-              Join the Editorial board by simply, submit an original article and
-              an illustration.
+              Join the Editorial board by simply, submit an original article
+              with an illustration. an illustration.
+            </p>
+            <p>
+              Sign in with your google account and navigate back to this page.
             </p>
             <button
               className="login-with-google-btn"
