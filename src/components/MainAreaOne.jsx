@@ -35,7 +35,7 @@ const MainAreaOne = () => {
     getArticles();
   });
   return (
-    <MotionConfig transition={{ duration: 1 }}>
+    <MotionConfig transition={{ duration: 0.3 }}>
       <div className="mainArea-outter">
         <div className="mainArea">
           {/* These are banners */}
