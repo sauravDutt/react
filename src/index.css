@@ -1107,6 +1107,24 @@ code {
   height: 80px;
   margin-bottom: 25px;
 }
+.treasury-head-new {
+  display: grid;
+  border-bottom: 2px solid #00000018;
+  align-items: center;
+  grid-template-columns: auto auto;
+  height: 80px;
+  margin-bottom: 25px;
+}
+.treasury-head-new h1 {
+  font-family: "News";
+  font-weight: 300;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  margin-top: 15px;
+  text-align: center;
+}
 .treasury-head h1 {
   font-family: "News";
   font-weight: 300;

@@ -112,8 +112,8 @@ const MainAreaOne = () => {
                 <strong>skankhunt.69s@gmail.com</strong>
               </a>{" "}
               or feel free to call the front dest at{" "}
-              <a href="tel:+919958479837" className="phoneNumber">
-                <strong>+91 99584 79837</strong>.
+              <a href="tel:+447909452498" className="phoneNumber">
+                <strong>+44 79094 52498</strong>.
               </a>
             </p>
             <div className="buttons-banner-outter">

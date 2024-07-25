@@ -57,7 +57,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
 
       <div className="memberCard-outter">
         <div className="card-outter">
-          <div className="treasury-head">
+          <div className="treasury-head-new">
             <h1>Treasury</h1>
             <div>
               <div className="treasury-amount">
