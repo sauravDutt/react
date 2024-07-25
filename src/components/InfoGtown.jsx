@@ -1,14 +1,9 @@
-import FingerprintIcon from "@mui/icons-material/Fingerprint";
 import { useNavigate } from "react-router-dom";
 import GtownMap from "./GtownMap";
 import { auth, provider } from "../firebase-config";
 import { signInWithPopup } from "firebase/auth";
 const InfoGtown = ({ setIsAuth }) => {
   let navigate = useNavigate();
-
-  const showTreasuryDasshboard = () => {
-    navigate("/treasury-dashboard");
-  };
 
   const signInWithGoogle = () => {
     signInWithPopup(auth, provider).then((result) => {
