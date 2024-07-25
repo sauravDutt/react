@@ -808,22 +808,15 @@ code {
 }
 .info-gtown-map div {
   height: 320px;
+  width: 369px;
 }
 .info-gtown-map div h2 {
   font-weight: 300;
   font-size: 25px;
-  margin-left: 33px;
+  margin-left: 20px;
 }
 .info-gtown-map button {
   margin-left: 20px;
-  background-color: #fff;
-  letter-spacing: 2px;
-  color: 1px solid #000;
-  border: none;
-  box-shadow: 10px 10px 20px #b8b8b850, -10px -10px 20px #ffffff79;
-  border-radius: 5px;
-  padding: 15px;
-  margin-bottom: 20px;
 }
 .social-btns {
   color: #000000;
@@ -852,12 +845,12 @@ code {
   position: absolute;
   width: 100%;
   display: grid;
+  margin-top: -10px;
   grid-template-columns: auto;
   align-items: center;
   justify-content: center;
 }
 .infoOneDiv {
-  margin-top: 10px;
   margin-bottom: 150px;
 }
 .infoOneDiv h1 {
@@ -1110,7 +1103,7 @@ code {
 .treasury-head {
   display: grid;
   border-bottom: 2px solid #00000018;
-  grid-template-columns: 50% 50%;
+  align-items: center;
   height: 80px;
   margin-bottom: 25px;
 }
@@ -1137,12 +1130,7 @@ code {
   margin: 0 auto;
 }
 .treasury-info-main {
-  display: grid;
-  height: 255px;
-  grid-template-columns: auto;
-
-  justify-content: center;
-  align-items: center;
+  height: 30px;
 }
 
 .treasury-groupchat-outter {
