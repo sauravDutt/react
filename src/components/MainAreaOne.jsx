@@ -57,7 +57,7 @@ const MainAreaOne = () => {
           <motion.div
             className="left-discover"
             key={isOpen}
-            initial={{ height: 0 }}
+            initial={{ height: 300 }}
             animate={{ height: "auto" }}
           >
             <div className="div-left">
