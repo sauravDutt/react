@@ -77,7 +77,7 @@ const MainAreaOne = () => {
               />
             </div>
           </motion.div>
-          <div className="right-discover">
+          {/* <div className="right-discover">
             <img
               className="twoImage-discover"
               src={process.env.PUBLIC_URL + "/img/two.png"}
@@ -87,7 +87,7 @@ const MainAreaOne = () => {
               <h1>Freestyle independent artists</h1>
               <button>Read More</button>
             </div>
-          </div>
+          </div> */}
 
           <div className="club"></div>
 
