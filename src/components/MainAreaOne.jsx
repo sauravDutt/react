@@ -15,7 +15,7 @@ const OriginStoryContent = () => {
       <strong>Good Time Journal</strong> or formerly known as{" "}
       <i>"The Gtown Journal"</i>, is a portfolio of a freelance Product Designer
       and a consortium of like minded creators. The funds collectively generated
-      by the platform will be used to organise good time events or parties. To
+      by the platform will be use to organise good time events or parties. To
       become a member feel free to write us or call us.
     </p>
   );
