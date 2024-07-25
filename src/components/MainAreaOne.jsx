@@ -12,11 +12,11 @@ import useMeasure from "react-use-measure";
 const OriginStoryContent = () => {
   return (
     <p className="originPtag">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but
-      also the leap.
+      <strong>Good Time Journal</strong> or formerly known as{" "}
+      <i>"The Gtown Journal"</i>, is a portfolio of a freelance Product Designer
+      and a consortium of like minded creators. The funds collectively generated
+      by the platform will be used to organise good time events or parties. To
+      become a member feel free to write us or call us.
     </p>
   );
 };
