@@ -10,7 +10,7 @@ const PlayerOutter = () => {
         <Row>
           <Col lg={4}>
             <AudioPlayer
-              src={process.env.PUBLIC_URL + "/songs/MainAudio.mp3"}
+              src={process.env.PUBLIC_URL + "/songs/backgroundMusic.mp3"}
               showFilledVolume
               // other props here
             />
