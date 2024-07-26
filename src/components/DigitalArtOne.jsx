@@ -37,7 +37,7 @@ const DigitalArtOne = () => {
         </Canvas>
       </div>
       <div className="digitalArt-info">
-        <h1>practice</h1>
+        <h1>practice One</h1>
         <p>
           <strong>Digital Artwork</strong> - "The practice" collection, <br />
           by <i>Skank Hunt</i>
