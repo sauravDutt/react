@@ -2,8 +2,6 @@ import { useNavigate } from "react-router-dom";
 import GtownMap from "./GtownMap";
 import { auth, provider } from "../firebase-config";
 import { signInWithPopup } from "firebase/auth";
-import { Center } from "@react-three/drei";
-import { bottomNavigationActionClasses } from "@mui/material";
 
 const InfoGtown = ({ setIsAuth, isAuth }) => {
   let navigate = useNavigate();
