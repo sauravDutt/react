@@ -2,7 +2,8 @@ import { useNavigate } from "react-router-dom";
 import GtownMap from "./GtownMap";
 import { auth, provider } from "../firebase-config";
 import { signInWithPopup } from "firebase/auth";
-const InfoGtown = ({ setIsAuth }) => {
+
+const InfoGtown = ({ setIsAuth, isAuth }) => {
   let navigate = useNavigate();
 
   const signInWithGoogle = () => {
@@ -12,6 +13,27 @@ const InfoGtown = ({ setIsAuth }) => {
       setIsAuth(true);
       navigate("/dashboard");
     });
+  };
+
+  const ShowGoogleBtn = () => {
+    return (
+      <button className="login-with-google-btn" onClick={signInWithGoogle}>
+        Signin
+      </button>
+    );
+  };
+
+  const UploadArticle = () => {
+    return (
+      <div
+        style={{
+          border: "1px solid #000",
+          height: "60px",
+          width: "90%",
+          margin: "0 auto",
+        }}
+      ></div>
+    );
   };
 
   return (
@@ -31,12 +53,7 @@ const InfoGtown = ({ setIsAuth }) => {
             <p>
               Sign in with your google account and navigate back to this page.
             </p>
-            <button
-              className="login-with-google-btn"
-              onClick={signInWithGoogle}
-            >
-              Signin
-            </button>
+            {isAuth ? <UploadArticle /> : <ShowGoogleBtn />}
           </div>
           <div>
             <GtownMap />

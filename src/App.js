@@ -74,7 +74,10 @@ function App() {
         <Route path="/freeStyle" element={<Freestyle />} />
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
         <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
-        <Route path="/gtown-info" element={<InfoGtown />} />
+        <Route
+          path="/gtown-info"
+          element={<InfoGtown setIsAuth={setIsAuth} isAuth={isAuth} />}
+        />
         <Route
           path="/designer_marketplace"
           element={
