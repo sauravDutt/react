@@ -841,7 +841,7 @@ code {
 }
 .info-outter {
   background-color: #fff;
-  z-index: 200;
+  z-index: 201;
   position: absolute;
   width: 100%;
   display: grid;
