@@ -28,7 +28,8 @@ const InfoGtown = ({ setIsAuth, isAuth }) => {
           gap: "20px",
         }}
       >
-        <h2 style={{ marginTop: "10px", marginBottom: "0px" }}>Step Two</h2>
+        <h2 style={{ marginTop: "15px", marginBottom: "0px", marginLeft: "-7px", fontSize: "24px" }}>Submit an article and win</h2>
+        <h2 style={{ margin: "0px", padding: "5px", float:"right", position:"absolute", top:"155px", right: "35px", fontWeight: "500", borderRadius: "5px", color: "#fff", backgroundColor: "#000" }}>£ 5</h2>
         <p
           style={{
             marginTop: "-5px",
@@ -40,7 +41,7 @@ const InfoGtown = ({ setIsAuth, isAuth }) => {
         <input type="text" className="articleTitle"></input>
 
         <textarea className="textAreaArticle" cols={35}></textarea>
-        <button style={{ marginTop: "-10px", width: "100px" }}>Submit</button>
+        <button style={{ margin:"0px", marginTop: "-25px", width: "100px" }}>Submit</button>
       </div>
     );
   };
