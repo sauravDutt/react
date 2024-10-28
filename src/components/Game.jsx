@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-// import AudioPlayer from "react-h5-audio-player";
-import ReactPlayer from 'react-player'
+import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import PasswordIcon from "@mui/icons-material/Password";
 import Banner from "./Banner";
@@ -10,14 +9,10 @@ const PlayerOutter = () => {
       <Container>
         <Row>
           <Col lg={4}>
-            {/* <AudioPlayer
+            <AudioPlayer
               src={process.env.PUBLIC_URL + "/songs/backgroundMusic.mp3"}
               showFilledVolume
               // other props here
-            /> */}
-            <ReactPlayer
-              url={process.env.PUBLIC_URL + "/songs/backgroundMusic.mp3"}
-              light={process.env.PUBLIC_URL + "/logo192.png"}
             />
           </Col>
         </Row>
