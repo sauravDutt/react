@@ -65,6 +65,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
               </div>
             </div>
           </div>
+          
           <div className="comments-outter">
             <p>
               * This is a members only Utility, enter your membership id to
