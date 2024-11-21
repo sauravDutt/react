@@ -405,9 +405,12 @@ gap: 0px;
 }
 
 .bts-card {
-  border: 3px solid #0000002f;
+  border: 3px solid #000;
   border-radius: 10px;
   margin: 4px;
+}
+.bts-card button {
+  border: 1px solid #000;
 }
 
 .loginContainer {

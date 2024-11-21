@@ -9,6 +9,13 @@ const BtsCard = () => {
 }
 
 const Bts = () => {
+
+    const showBtn = () => {
+        return(
+            <></>
+        )
+
+    }
     return(
         <div className="btsOutter-outter">
             <div className="btsOutter">
@@ -19,7 +26,9 @@ const Bts = () => {
             </div>
             
             <div className="bts-products-div">
-                <BtsCard/>
+                <BtsCard>
+                    <button onClick={showBtn}>button One</button>
+                </BtsCard>
                 <BtsCard/>
             </div>
         </div>
