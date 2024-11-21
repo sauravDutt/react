@@ -1,4 +1,13 @@
 
+
+const BtsCard = () => {
+    return(
+        <>
+        <div className="bts-card"></div>
+        </>
+    )
+}
+
 const Bts = () => {
     return(
         <div className="btsOutter-outter">
@@ -10,7 +19,8 @@ const Bts = () => {
             </div>
             
             <div className="bts-products-div">
-
+                <BtsCard/>
+                <BtsCard/>
             </div>
         </div>
     )

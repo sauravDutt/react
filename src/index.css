@@ -379,12 +379,14 @@ code {
   margin-left: 15px;
 }
 .bts-products-div {
-  border-top: 2px solid #0000006e;
-  border-bottom: 2px solid #0000006e;
   margin-top: 40px;
   height: 420px;
+  display: grid;
+grid-template-columns: 20% 80%;
+gap: 0px;
   margin-bottom: 132px;
   overflow: hidden;
+  overflow-x: scroll;
 }
 .bts-content-div h2 {
   font-weight: 300;
@@ -401,6 +403,13 @@ code {
   margin-top: -20px;
   margin-right: 5px;
 }
+
+.bts-card {
+  border: 3px solid #0000002f;
+  border-radius: 10px;
+  margin: 4px;
+}
+
 .loginContainer {
   width: 90%;
   margin: 0 auto;
