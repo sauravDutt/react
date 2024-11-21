@@ -149,6 +149,7 @@ const MainAreaOne = () => {
               </div>
             );
           })}
+          <p>click here for <a href="/bts">behind the scenes</a></p>
           <Banner
             className="narrow"
             position=""
