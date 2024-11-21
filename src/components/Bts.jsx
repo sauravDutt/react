@@ -27,9 +27,8 @@ const Bts = () => {
             
             <div className="bts-products-div">
                 <BtsCard>
-                    <button onClick={showBtn}>button One</button>
                 </BtsCard>
-                <BtsCard/>
+                <BtsCard> </BtsCard>
             </div>
         </div>
     )
