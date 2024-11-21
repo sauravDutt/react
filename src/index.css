@@ -358,6 +358,47 @@ code {
 .login-outter {
   margin-top: 200px;
 }
+.btsOutter {
+
+  box-shadow: 5px 5px 15px #1c1c1c25;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 120px;
+  height: 300px;
+  width: 340px;
+  background-color: #00000000;
+  background-image: url("./img/on3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bts-content-div {
+  position: absolute;
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 228px;
+  margin-left: 15px;
+}
+.bts-products-div {
+  border: 1px solid #000;
+  margin-top: 32px;
+  height: 400px;
+  margin-bottom: 132px;
+}
+.bts-content-div h2 {
+  font-weight: 300;
+  padding: 0;
+  margin: 5px;
+
+  margin-top: 15px;
+  font-family: 'logo';
+  letter-spacing: 2px;
+}
+.bts-content-div p {
+  float: right;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-right: 5px;
+}
 .loginContainer {
   width: 90%;
   margin: 0 auto;

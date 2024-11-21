@@ -16,6 +16,7 @@ import InfoGtown from "./components/InfoGtown";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import TreasuryDashboard from "./components/TresuryDashboard";
 import Freestyle from "./components/Freestyle";
+import Bts from "./components/Bts";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
@@ -74,6 +75,7 @@ function App() {
         <Route path="/freeStyle" element={<Freestyle />} />
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
         <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
+        <Route path="/bts" element={<Bts/>} />
         <Route 
           path="/gtown-info"
           element={<InfoGtown setIsAuth={setIsAuth} isAuth={isAuth} />}
