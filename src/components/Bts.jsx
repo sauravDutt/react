@@ -10,12 +10,7 @@ const BtsCard = () => {
 
 const Bts = () => {
 
-    const showBtn = () => {
-        return(
-            <></>
-        )
-
-    }
+  
     return(
         <div className="btsOutter-outter">
             <div className="btsOutter">
