@@ -423,12 +423,17 @@ gap: 0px;
 .bts-btn-outter div {
   background-color: #f9f9f911;
   background-image: url('./img/projects.png');
+  box-shadow: 5px 5px 15px #1d1d1d25;
   background-repeat: no-repeat;
   background-size: cover;
   width: 70px;
   height: 70px;
   border-radius: 5px;
   cursor: pointer;
+}
+.bts-btn-outter div:hover {
+  background-color: #000;
+  background-image: url('./img/projectsWhite.png');
 }
 .loginContainer {
   width: 90%;
