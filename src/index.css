@@ -405,11 +405,31 @@ gap: 0px;
 }
 
 .bts-card {
-  border: 3px solid #000;
-  border-radius: 10px;
   margin: 4px;
 }
-
+.bts-card-one {
+  margin: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: -1px 9px 18px 0px rgba(0, 0, 0, 0.052);
+}
+.bts-btn-outter {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bts-btn-outter div {
+  background-color: #f9f9f911;
+  background-image: url('./img/projects.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .loginContainer {
   width: 90%;
   margin: 0 auto;
