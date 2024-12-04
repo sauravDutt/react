@@ -15,9 +15,7 @@ const Bts = () => {
             <div className="bts-products-div">
                 <div className="bts-card">
                     <div className="bts-btn-outter">
-                        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.5 }}>
-
-                        </motion.div>
+                        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.5 }}></motion.div>
                         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.5 }}></motion.div>
                         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.5 }}></motion.div>
                         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.5 }}></motion.div>
