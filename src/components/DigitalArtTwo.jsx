@@ -1,11 +1,11 @@
 import { OrbitControls } from "@react-three/drei";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import { Canvas, useLoader } from "@react-three/fiber";
+// import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import { Canvas } from "@react-three/fiber";
 
-function ChairModalOne() {
-  const gltf = useLoader(GLTFLoader, "/model/chairdesignone.gltf");
-  return <primitive object={gltf.scene} />;
-}
+// function ChairModalOne() {
+// //   const gltf = useLoader(GLTFLoader, "/model/chairdesignone.gltf");
+// //   return <primitive object={gltf.scene} />;
+// }
 const DigitalArtTwo = () => {
   return (
     <div className="digitalArt-outter">
@@ -14,7 +14,7 @@ const DigitalArtTwo = () => {
           <gridHelper args={[50, 50, "0x000000"]} />
           <directionalLight position={[0, 0, 4]} />
           <directionalLight position={[0, 4.5, -5.2]} />
-          <ChairModalOne />
+          {/* <ChairModalOne /> */}
           <OrbitControls />
         </Canvas>
       </div>
