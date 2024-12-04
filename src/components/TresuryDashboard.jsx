@@ -7,6 +7,7 @@ import SellIcon from "@mui/icons-material/Sell";
 import PasswordIcon from "@mui/icons-material/Password";
 import DigitalArt from "./DigitalArt";
 import DigitalArtOne from "./DigitalArtOne";
+import DigitalArtTwo from "./DigitalArtTwo";
 // import SendIcon from "@mui/icons-material/Send";
 
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
@@ -52,6 +53,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
       <div className="main-artwork-outter">
         <DigitalArt />
         <DigitalArtOne />
+        <DigitalArtTwo />
         <div className="littleWidth"></div>
       </div>
 
