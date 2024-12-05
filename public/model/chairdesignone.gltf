@@ -24,21 +24,21 @@
   "nodes": [
     {
       "matrix": [
-        0.836046,
-        0.103658,
-        -0.538778,
+        0.948872,
+        0.178818,
+        -0.260126,
         0,
-        -0.258476,
-        0.940605,
-        -0.220121,
+        -0.213851,
+        0.970302,
+        -0.11306,
         0,
-        0.48396,
-        0.323293,
-        0.813182,
+        0.232184,
+        0.162908,
+        0.958933,
         0,
-        0.727751,
-        0.509406,
-        1.32565,
+        0.333919,
+        0.258459,
+        1.54623,
         1
       ],
       "camera": 0,
@@ -132,40 +132,17 @@
       }
     },
     {
-      "name": "polished mahogany 2d",
+      "name": "color",
       "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 0
-        },
         "baseColorFactor": [
-          1,
-          1,
-          1,
+          0.796078,
+          0.823529,
+          0.937255,
           1
         ],
         "metallicFactor": 0,
-        "roughnessFactor": 0.19
+        "roughnessFactor": 0.17
       }
-    }
-  ],
-  "textures": [
-    {
-      "sampler": 0,
-      "source": 0
-    }
-  ],
-  "images": [
-    {
-      "uri": "chairdesignone_img0.jpg"
-    }
-  ],
-  "samplers": [
-    {
-      "magFilter": 9729,
-      "minFilter": 9729,
-      "wrapS": 10497,
-      "wrapT": 10497,
-      "name": "DefaultSampler"
     }
   ],
   "bufferViews": [
