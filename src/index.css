@@ -419,6 +419,13 @@ code {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+.bts-card-one p {
+  margin-left: 4px;
+}
+.smallText {
+  font-size: 14px;
+  color: rgb(13, 114, 13);
+}
 .bts-btn-outter {
   height: 100%;
   display: grid;
