@@ -387,7 +387,6 @@ code {
   height: 420px;
   display: grid;
   grid-template-columns: auto;
-  border: 1px solid #000;
 gap: 0px;
   margin-bottom: 132px;
   overflow: hidden;
