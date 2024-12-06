@@ -25,6 +25,9 @@ const Bts = () => {
                     <img src={process.env.PUBLIC_URL + "/img/Part2.png"} alt="Img" srcset="" />
                     <img src={process.env.PUBLIC_URL + "/img/ChairDesignOne.png"} alt="img" srcset="" className="floatRight"/>
                     <img src={process.env.PUBLIC_URL + "/img/glass.png"} alt="Img" srcset="" />
+                    <img src={process.env.PUBLIC_URL + "/img/download.png"} alt="Img" srcset="" className="floatRight"/>
+                    <img src={process.env.PUBLIC_URL + "/img/crosstrainerOne.png"} alt="Img" srcset="" />
+                    <img src={process.env.PUBLIC_URL + "/img/crosstrainerTwo.png"} alt="Img" srcset="" className="floatRight"/>
                 </div>
             </div>
         </div>
