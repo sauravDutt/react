@@ -387,8 +387,6 @@ code {
   height: 420px;
   display: grid;
   grid-template-columns: auto;
-gap: 0px;
-  margin-bottom: 132px;
   overflow: hidden;
   overflow-x: scroll;
 }
@@ -413,10 +411,11 @@ gap: 0px;
 }
 .bts-card-one {
   margin: 5px;
-  border: 3px solid #0000007c;
+  margin-bottom: 0px;
+  border: 3px solid #0000006c;
   padding: 10px 1px;
-  margin-bottom: 20px;
   border-radius: 10px;
+  height: 210px;
   overflow-x: hidden;
   overflow-y: scroll;
 }
