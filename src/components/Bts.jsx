@@ -29,6 +29,7 @@ const Bts = () => {
                     <img src={process.env.PUBLIC_URL + "/img/crosstrainerOne.png"} alt="Img" srcset="" />
                     <img src={process.env.PUBLIC_URL + "/img/crosstrainerTwo.png"} alt="Img" srcset="" className="floatRight"/>
                     <p>Product Design, <span className="smallText">2024-2025</span></p>
+                    <img src={process.env.PUBLIC_URL + "/img/csc.png"} alt="Img" srcset="" />
                 </div>
                 
             </div>
