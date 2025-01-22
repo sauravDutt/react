@@ -3,6 +3,8 @@ import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import PasswordIcon from "@mui/icons-material/Password";
 import Banner from "./Banner";
+
+
 const PlayerOutter = () => {
   return (
     <>
