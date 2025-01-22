@@ -420,7 +420,8 @@ code {
   overflow-y: scroll;
 }
 .bts-card-one p {
-  margin-left: 4px;
+  margin-top: 35px;
+  margin-left: 20px;
 }
 .smallText {
   font-size: 14px;
