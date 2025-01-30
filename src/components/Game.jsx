@@ -19,7 +19,6 @@ const PlayerOutter = () => {
           </Col>
         </Row>
       </Container>
-      
     </>
   );
 };
