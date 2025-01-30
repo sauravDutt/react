@@ -13,12 +13,13 @@ const PlayerOutter = () => {
           <Col lg={4}>
             <AudioPlayer
               src={process.env.PUBLIC_URL + "/songs/backgroundMusic.mp3"}
-              showFilledVolume
+              showFilledVolume 
               // other props here
             />
           </Col>
         </Row>
       </Container>
+      
     </>
   );
 };
