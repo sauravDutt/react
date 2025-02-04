@@ -36,7 +36,7 @@ const InfoGtown = ({ setIsAuth, isAuth }) => {
             marginBottom: "5px",
           }}
         >
-          Give your article a topic.
+          Give your Artwork a title.
         </p>
         <input type="text" className="articleTitle"></input>
 
@@ -49,10 +49,9 @@ const InfoGtown = ({ setIsAuth, isAuth }) => {
   const ShowGoogleBtn = () => {
     return (
       <div>
-        <h2>Become an Editor</h2>
+        <h2>Become an Member</h2>
         <p>
-          Join the Editorial board by simply, submit an original article with an
-          illustration.
+          Join the Good Time Journal today by simply, submitting an original digital artwork with a theory explaining the artwork.
         </p>
         <p>Sign in with your google account and navigate back to this page.</p>
 
@@ -68,7 +67,7 @@ const InfoGtown = ({ setIsAuth, isAuth }) => {
       <div className="infoOneDiv">
         <div className="treasury-info-main"></div>
         <div className="treasury-head">
-          <h1>editorial board</h1>
+          <h1>membership board</h1>
         </div>
         <div className="info-gtown-map">
           <div>{isAuth ? <UploadArticle /> : <ShowGoogleBtn />}</div>
