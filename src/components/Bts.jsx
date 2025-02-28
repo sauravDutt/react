@@ -5,12 +5,15 @@ const Bts = () => {
 
     return(
         <div className="btsOutter-outter">
+            <div className="btsOutter-boxs">
             <div className="btsOutter">
             <div className="bts-content-div">
                 <h2>behind the scenes.</h2>
                 <p>21 / 11 / 2024</p>
             </div>
             </div>
+            </div>
+           
             
             <div className="bts-products-div">
                 {/* <div className="bts-card">
