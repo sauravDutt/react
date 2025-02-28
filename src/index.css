@@ -362,9 +362,8 @@ code {
 
   box-shadow: 5px 5px 15px #1c1c1c25;
   border-radius: 5px;
-  margin: 0 auto;
   margin-top: 100px;
-  margin-left: 10%;
+  left: 30px;
   height: 300px;
   position: fixed;
   width: 340px;
@@ -385,7 +384,9 @@ code {
   margin-right: 5px;
 }
 .bts-products-div {
+  margin: 0 auto;
   margin-top: 40px;
+  width: 90%;
   display: grid;
   grid-template-columns: auto;
   overflow: hidden;
