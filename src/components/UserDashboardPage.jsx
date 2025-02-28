@@ -1,17 +1,29 @@
 import { signOut } from "firebase/auth";
 import { auth } from "../firebase-config";
 import { useEffect } from "react";
+import { getDocs, collection } from "firebase/firestore";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
+import { db } from "../firebase-config";
+
 const UserDashboardPage = ({ setIsAuth, isAuth }) => {
   let navigate = useNavigate();
+  const [articleList, setArticleList] = useState([]);
+  const articleCollectionRef = collection(db, "article");
 
   useEffect(() => {
     if (!isAuth) {
       navigate("/login");
     }
   });
+  const getArticles = async () => {
+      const data = await getDocs(articleCollectionRef);
+      setArticleList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+    };
+    useEffect(() => {
+      getArticles();
+    });
 
   const [user, setUser] = useState([]);
   const signOutUser = () => {
@@ -58,6 +70,22 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
           <img src={process.env.PUBLIC_URL + "/img/club5.jpg"} alt="club5" />
           <br />
         </p>
+        {articleList?.map((post) => {
+            return (
+              <div className="articleBoiler" key={post.id}>
+                <h1>{post.title}</h1>
+                <p>
+                  <span className="bigQuots">" </span>
+                  {post.content}
+                  <span className="bigQuots"> "</span>
+                </p>
+                <div className="userTag">
+                  <img src={post.author.photoUrl} alt={post.author.name} />
+                  <p>{post.author.name}</p>
+                </div>
+              </div>
+            );
+          })}
       </div>
     </div>
   );

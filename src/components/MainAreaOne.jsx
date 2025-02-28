@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Banner from "./Banner";
-import { getDocs, collection } from "firebase/firestore";
-import { db } from "../firebase-config";
+
 import { motion, MotionConfig } from "framer-motion";
 import "react-h5-audio-player/lib/styles.css";
 // import BlurOnIcon from "@mui/icons-material/BlurOn";
@@ -24,17 +23,10 @@ const OriginStoryContent = () => {
 
 const MainAreaOne = () => {
   let [ref, { height }] = useMeasure();
-  const [articleList, setArticleList] = useState([]);
-  const articleCollectionRef = collection(db, "article");
+  
   const [isOpen, setIsOpen] = useState(false);
 
-  const getArticles = async () => {
-    const data = await getDocs(articleCollectionRef);
-    setArticleList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-  };
-  useEffect(() => {
-    getArticles();
-  });
+ 
   return (
     <MotionConfig transition={{ duration: 0.5 }}>
       <div className="mainArea-outter">
@@ -135,31 +127,10 @@ const MainAreaOne = () => {
             </div>
           </div> */}
           <div className="podcast-banner"></div>
-          <p className="comingSoonUtilities">click here for <a href="/bts">behind the scenes</a></p>
-          {articleList?.map((post) => {
-            return (
-              <div className="articleBoiler" key={post.id}>
-                <h1>{post.title}</h1>
-                <p>
-                  <span className="bigQuots">" </span>
-                  {post.content}
-                  <span className="bigQuots"> "</span>
-                </p>
-                <div className="userTag">
-                  <img src={post.author.photoUrl} alt={post.author.name} />
-                  <p>{post.author.name}</p>
-                </div>
-              </div>
-            );
-          })}
+          <p p className="comingSoonUtilities">click here for <a href="/bts">behind the scenes</a></p>
+          
          
-          <Banner
-            className="narrow"
-            position=""
-            title=""
-            description=""
-            heidBtn="heidBtn"
-          />
+          <br/>
         </div>
 
         <div className="mainAreaTwo">
