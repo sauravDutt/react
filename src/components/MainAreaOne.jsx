@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Banner from "./Banner";
-
 import { motion, MotionConfig } from "framer-motion";
 import "react-h5-audio-player/lib/styles.css";
 // import BlurOnIcon from "@mui/icons-material/BlurOn";
@@ -127,8 +126,9 @@ const MainAreaOne = () => {
             </div>
           </div> */}
           <div className="podcast-banner"></div>
+         
           <p p className="comingSoonUtilities">click here for <a href="/bts">behind the scenes</a></p>
-          
+          <br/>
          
           <br/>
         </div>
