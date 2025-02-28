@@ -4,8 +4,8 @@ import { getDocs, collection } from "firebase/firestore";
 import { db } from "../firebase-config";
 import { motion, MotionConfig } from "framer-motion";
 import "react-h5-audio-player/lib/styles.css";
-import BlurOnIcon from "@mui/icons-material/BlurOn";
-import PlayArrowIcon from "@mui/icons-material/PlayArrow";
+// import BlurOnIcon from "@mui/icons-material/BlurOn";
+// import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import GtownMap from "./GtownMap";
 import useMeasure from "react-use-measure";
 import DigitalArt from "./DigitalArt";
@@ -15,15 +15,9 @@ import DigitalArtTwo from "./DigitalArtTwo";
 const OriginStoryContent = () => {
   return (
     <p className="originPtag">
-      <strong>Good Time Journal</strong>, formerly known as{" "}
-      <i>"Gtown Journal"</i>, is an online <strong>Consortium</strong> of Digital Creators (illustrators, graphic designers, product designers, artists, etc.), a decentralized platform for <strong>transparent trade of original digital ideas</strong> (intellectual property), and a community driven by creativity, innovation, and storytelling. 
-      <br/>
-      All the Good Time Journal members will have access to the marketplace where they can upload their digital art. The artwork will then go under a background check, the literature review or the context or the theory behind the creation will be carefully investigated, and a verified sign will be released. After this, the member will be allowed to set a value for their artwork. 10 percent of every artwork sold will be stored in an online treasure, and access will be provided to all the members where they can vote where the collected treasure will be spent. 
-      <br/>To become a member expore the{" "}
-      <strong>
-        <i>Utility</i> 
-      </strong>{" "}
-      section below.
+      <strong>Good Time Products</strong>, formerly known as{" "}
+      <i>"Good Time Products"</i>, is an online <strong>Consortium</strong> of Digital Creators (illustrators, graphic designers, product designers, artists, etc.), a decentralized platform for <strong>transparent trade of original digital ideas</strong> (intellectual property), and a community driven by creativity, innovation, and storytelling. 
+      
     </p>
   );
 };
@@ -112,7 +106,7 @@ const MainAreaOne = () => {
             buttonText="START"
             heidBtn="showBtn"
           />
-          <div className="podcast-banner-div">
+          {/* <div className="podcast-banner-div">
             <h1>Utility</h1>
             <p className="utilities-info">
               Good Time Produts, offer two utilities at the moment. To become a
@@ -139,9 +133,9 @@ const MainAreaOne = () => {
                 <p>Open Mic</p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="podcast-banner"></div>
-          <p className="comingSoonUtilities"> More utilities coming soon.</p>
+          <p className="comingSoonUtilities">click here for <a href="/bts">behind the scenes</a></p>
           {articleList?.map((post) => {
             return (
               <div className="articleBoiler" key={post.id}>
@@ -158,7 +152,7 @@ const MainAreaOne = () => {
               </div>
             );
           })}
-          <p>click here for <a href="/bts">behind the scenes</a></p>
+         
           <Banner
             className="narrow"
             position=""
