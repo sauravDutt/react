@@ -8,6 +8,9 @@ import BlurOnIcon from "@mui/icons-material/BlurOn";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import GtownMap from "./GtownMap";
 import useMeasure from "react-use-measure";
+import DigitalArt from "./DigitalArt";
+import DigitalArtOne from "./DigitalArtOne";
+import DigitalArtTwo from "./DigitalArtTwo";
 
 const OriginStoryContent = () => {
   return (
@@ -60,6 +63,12 @@ const MainAreaOne = () => {
             description="in Good Time Products, we maintain a community treasury called the 'Good Time Treasury' every member has a say in the collected fund."
             heidBtn="heidBtn"
           />
+          <div className="main-artwork-two-outter">
+        <DigitalArt />
+        <DigitalArtOne />
+        <DigitalArtTwo />
+        <div className="littleWidth"></div>
+      </div>
           <motion.div style={{ marginBottom: "35px" }} animate={{ height }}>
             <div ref={ref} className="left-discover">
               <div className="div-left">

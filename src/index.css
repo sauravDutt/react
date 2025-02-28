@@ -1091,6 +1091,23 @@ code {
   height: 0px;
   background-color: #ffffff00;
 }
+.main-artwork-two-outter {
+  margin-top: -30px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 490px;
+}
+.main-artwork-two-outter::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: #ffffff00;
+}
 .mainArea::-webkit-scrollbar {
   width: 0px;
 }
