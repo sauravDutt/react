@@ -45,9 +45,9 @@ const MainAreaOne = () => {
           {/* These are banners */}
           <div className="gal">
             <div>
-              <h1>Goodtimejournal.com</h1>
+              <h1>Goodtimeproducts.com</h1>
               <p>
-                Good Time Journal, is a <strong>Community</strong>, a{" "}
+                Good Time Products, is a <strong>Community</strong>, a{" "}
                 <strong>Consortium</strong> of Digital Creators, Writers,
                 Illustrators, Storytellers and like minded fine art enthusiasts.
               </p>
@@ -57,14 +57,14 @@ const MainAreaOne = () => {
             className="bannerBoiler cat"
             position="positionRight"
             title="Consortium"
-            description="in Good Time Journal, we maintain a community treasury called the 'Good Time Treasury' every member has a say in the collected fund."
+            description="in Good Time Products, we maintain a community treasury called the 'Good Time Treasury' every member has a say in the collected fund."
             heidBtn="heidBtn"
           />
           <motion.div style={{ marginBottom: "35px" }} animate={{ height }}>
             <div ref={ref} className="left-discover">
               <div className="div-left">
                 <h1>
-                  Good time journal.{" "}
+                  Good time products.{" "}
                   <span className="small"> Origin Story</span>
                 </h1>
                 {isOpen ? <OriginStoryContent /> : null}
@@ -98,15 +98,15 @@ const MainAreaOne = () => {
           <Banner
             className="bannerBoiler community"
             position="positionRight"
-            title="Good time journal membership."
-            description="Become a'Good Time Journal Member', in three easy steps."
+            title="Good times product designer."
+            description="Become a'Good Time Products designer', in three easy steps."
             buttonText="START"
             heidBtn="showBtn"
           />
           <div className="podcast-banner-div">
             <h1>Utility</h1>
             <p className="utilities-info">
-              Good Time Journal, offers two utilities at the moment. To become a
+              Good Time Produts, offer two utilities at the moment. To become a
               Good Time Journal Member write us at{" "}
               <a href="mailto:skankhunt.69s@gmail.com" className="phoneNumber">
                 <strong>skankhunt.69s@gmail.com</strong>
