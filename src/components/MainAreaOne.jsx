@@ -13,8 +13,8 @@ import DigitalArtTwo from "./DigitalArtTwo";
 const OriginStoryContent = () => {
   return (
     <p className="originPtag">
-      <strong>Good Time Products</strong>, formerly known as{" "}
-      <i>"Good Time Products"</i>, is an online <strong>Consortium</strong> of Digital Creators (illustrators, graphic designers, product designers, artists, etc.), a decentralized platform for <strong>transparent trade of original digital ideas</strong> (intellectual property), and a community driven by creativity, innovation, and storytelling. 
+      <strong>Good Time </strong>, formerly known as{" "}
+      <i>"Good Time Journal"</i>, is an online <strong>Consortium</strong> of Digital Creators (illustrators, graphic designers, product designers, artists, etc.), a decentralized platform for <strong>transparent trade of original digital ideas</strong> (intellectual property), and a community driven by creativity, innovation, and storytelling. 
       
     </p>
   );
@@ -33,32 +33,33 @@ const MainAreaOne = () => {
           {/* These are banners */}
           <div className="gal">
             <div>
-              <h1>Goodtimeproducts.com</h1>
+              <h1>Goodtime.work</h1>
               <p>
-                Good Time Products, is a <strong>Community</strong>, a{" "}
+                Good Time, is a <strong>Community</strong>, a{" "}
                 <strong>Consortium</strong> of Digital Creators, Writers,
                 Illustrators, Storytellers and like minded fine art enthusiasts.
               </p>
             </div>
           </div>
-          <Banner
-            className="bannerBoiler cat"
-            position="positionRight"
-            title="Consortium"
-            description="in Good Time Products, we maintain a community treasury called the 'Good Time Treasury' every member has a say in the collected fund."
-            heidBtn="heidBtn"
-          />
+          
           <div className="main-artwork-two-outter">
         <DigitalArt />
         <DigitalArtOne />
         <DigitalArtTwo />
         <div className="littleWidth"></div>
       </div>
+      <Banner
+            className="bannerBoiler cat"
+            position="positionRight"
+            title="Consortium"
+            description="in Good Time, we maintain a community treasury called the 'Good Time Treasury' every member has a say in the collected fund."
+            heidBtn="heidBtn"
+          />
           <motion.div style={{ marginBottom: "35px" }} animate={{ height }}>
             <div ref={ref} className="left-discover">
               <div className="div-left">
                 <h1>
-                  Good time products.{" "}
+                  Good time .{" "}
                   <span className="small"> Origin Story</span>
                 </h1>
                 {isOpen ? <OriginStoryContent /> : null}
@@ -92,8 +93,8 @@ const MainAreaOne = () => {
           <Banner
             className="bannerBoiler community"
             position="positionRight"
-            title="Good times product designer."
-            description="Become a'Good Time Products designer', in three easy steps."
+            title="Good time designer."
+            description="Become a'Good Time designer', in three easy steps."
             buttonText="START"
             heidBtn="showBtn"
           />
