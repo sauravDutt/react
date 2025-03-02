@@ -3,7 +3,7 @@ const NavBar = () => {
     <div className="navbar-outter">
       <div className="outBox">
         <div className="app-title">
-          <h1 className="brand-name">Good Time </h1>
+          <h1 className="brand-name">Good Time<span className="secondfont">.work</span> </h1>
           <h3 className="lower">
             a portfolio build in <b>2024</b>.
           </h3>

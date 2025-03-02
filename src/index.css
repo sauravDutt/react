@@ -367,6 +367,10 @@ code {
   align-items: center;
   position: fixed;
 }
+.secondfont {
+  font-family: "Logo";
+  font-weight: 300;
+}
 
 .btsOutter {
   box-shadow: 5px 5px 15px #1c1c1c25;
