@@ -14,7 +14,7 @@ const OriginStoryContent = () => {
   return (
     <p className="originPtag">
       <strong>Good Time </strong>, formerly known as{" "}
-      <i>"Good Time Journal"</i>, is an online <strong>Consortium</strong> of Digital Creators (illustrators, graphic designers, product designers, artists, etc.), a decentralized platform for <strong>transparent trade of original digital ideas</strong> (intellectual property), and a community driven by creativity, innovation, and storytelling. 
+      <i>"Good Time Journal"</i>, is an online portfolio of an indipendent product designer and a web developer. The platform is also a marketplace for transparent trade of intilectual properties (designs) and innovative redesigned daily use products. 
       
     </p>
   );
@@ -35,9 +35,7 @@ const MainAreaOne = () => {
             <div>
               <h1>Goodtime.work</h1>
               <p>
-                Good Time, is a <strong>Community</strong>, a{" "}
-                <strong>Consortium</strong> of Digital Creators, Writers,
-                Illustrators, Storytellers and like minded fine art enthusiasts.
+                Good Time, is a portfolio of an indipendent product designer, an online marketplace for indipendenet product design and ready to ship products.
               </p>
             </div>
           </div>
@@ -52,7 +50,7 @@ const MainAreaOne = () => {
             className="bannerBoiler cat"
             position="positionRight"
             title="Consortium"
-            description="in Good Time, we maintain a community treasury called the 'Good Time Treasury' every member has a say in the collected fund."
+            description="in Good Time, we maintain a community treasury called the 'Good Time Treasury' portion of every sale goes to the treasury."
             heidBtn="heidBtn"
           />
           <motion.div style={{ marginBottom: "35px" }} animate={{ height }}>
@@ -89,15 +87,7 @@ const MainAreaOne = () => {
           </div> */}
 
           <div className="club"></div>
-
-          <Banner
-            className="bannerBoiler community"
-            position="positionRight"
-            title="Good time designer."
-            description="Become a'Good Time designer', in three easy steps."
-            buttonText="START"
-            heidBtn="showBtn"
-          />
+          
           {/* <div className="podcast-banner-div">
             <h1>Utility</h1>
             <p className="utilities-info">

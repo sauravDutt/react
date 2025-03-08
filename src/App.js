@@ -12,7 +12,6 @@ import CreateArticleForm from "./components/CreateArticleForm";
 import Game from "./components/Game";
 import ChatBotOne from "./components/ChatBotOne";
 import { auth } from "./firebase-config";
-import InfoGtown from "./components/InfoGtown";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import TreasuryDashboard from "./components/TresuryDashboard";
 import Freestyle from "./components/Freestyle";
@@ -76,10 +75,7 @@ function App() {
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
         <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
         <Route path="/bts" element={<Bts/>} />
-        <Route 
-          path="/gtown-info"
-          element={<InfoGtown setIsAuth={setIsAuth} isAuth={isAuth} />}
-        />
+       
         <Route
           path="/designer_marketplace"
           element={
