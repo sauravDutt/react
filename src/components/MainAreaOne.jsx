@@ -14,7 +14,7 @@ const OriginStoryContent = () => {
   return (
     <p className="originPtag">
       <strong>Good Time </strong>, formerly known as{" "}
-      <i>"Good Time Journal"</i>, is an online portfolio of an indipendent product designer and a web developer. The platform is also a marketplace for transparent trade of intilectual properties (designs) and innovative redesigned daily use products. 
+      <i>"Good Time Journal"</i>, is an online portfolio of an indipendent product designer + web developer. The platform is also a marketplace for transparent trade of intilectual properties (designs) and innovative redesigned daily use products. 
       
     </p>
   );
@@ -87,7 +87,7 @@ const MainAreaOne = () => {
           </div> */}
 
           <div className="club"></div>
-          
+
           {/* <div className="podcast-banner-div">
             <h1>Utility</h1>
             <p className="utilities-info">
