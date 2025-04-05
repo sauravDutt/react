@@ -131,6 +131,41 @@ code {
   width: auto;
   line-height: 35px;
 }
+
+.sauravDutt-projects {
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 100%;
+  overflow-y: scroll;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto;
+  padding-top: 10px;
+  justify-content: space-around;
+  position: absolute;
+}
+.default {
+  background-color: #fffffffb;
+  border-radius: 10px;
+  width: 380px;
+  height: 170px;
+  margin: 10px;
+  margin-bottom: 15px;
+  z-index: 10;
+}
+.last {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: auto;
+
+}
+.last div {
+  text-align: center;
+  height: 80px;
+}
 .brand-name {
   user-select: none;
   font-family: "News";
@@ -424,8 +459,6 @@ z-index: 699;
   margin-bottom: 140px;
   padding: 10px 1px;
   border-radius: 10px;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 .bts-card-one p {
   margin-top: 35px;
@@ -1064,7 +1097,7 @@ z-index: 699;
 
 .treasury-outter {
   margin-top: 90px;
-  height: 135vh;
+  height: 158vh;
   background-color: #0000000c;
   display: grid;
   grid-template-columns: auto;
@@ -1553,6 +1586,20 @@ z-index: 699;
 }
 .ten {
   background-image: url("./img/tpb.png");
+  margin-top: 15px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.nineOne {
+  background-image: url("./img/911Main.png");
+  margin-top: 15px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.scarface {
+  background-image: url("./img/scarface.png");
   margin-top: 15px;
   width: 100%;
   background-repeat: no-repeat;

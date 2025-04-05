@@ -13,6 +13,16 @@ import DigitalArtTwo from "./DigitalArtTwo";
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   return (
     <div className="treasury-outter">
+      <div className="sauravDutt-projects">
+        <div className="default"></div>
+        <div className="default"></div>
+        <div className="default last">
+          <div></div>
+          <div>
+            <p>Work in progress ...</p>
+          </div>
+        </div>
+      </div>
       <div className="treasury-dashboard-head">
         <motion.div
           className="bidBtn"
