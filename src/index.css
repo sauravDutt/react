@@ -148,18 +148,20 @@ code {
   position: absolute;
 }
 .default {
-  background-color: #fffffffb;
-  border-radius: 10px;
-  width: 380px;
+  background-color: #ffffff;
+  width: 360px;
   height: 170px;
+  border-radius: 5px;
   margin: 10px;
   margin-bottom: 15px;
+  box-shadow: 5px 5px 15px #1c1c1c1a;
   z-index: 10;
 }
 .last {
   background-color: transparent;
   display: grid;
   grid-template-columns: auto;
+  box-shadow: none;
 
 }
 .last div {
