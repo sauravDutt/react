@@ -14,8 +14,27 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   return (
     <div className="treasury-outter">
       <div className="sauravDutt-projects">
-        <div className="default"></div>
-        <div className="default"></div>
+        <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <h1>Chair Design</h1>
+        </motion.div>
+        <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <h1>Hand Tools</h1>
+        </motion.div>
+        <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <h1>Human Centred Design</h1>
+        </motion.div>
         <div className="default last">
           <div></div>
           <div>

@@ -136,7 +136,7 @@ code {
   margin: 0px;
   margin-top: 10px;
   margin-bottom: 10px;
-  height: 200px;
+  height: 210px;
   width: 100%;
   overflow-y: scroll;
   padding: 0;
@@ -156,6 +156,11 @@ code {
   margin-bottom: 15px;
   box-shadow: 5px 5px 15px #1c1c1c1a;
   z-index: 10;
+}
+.default h1 {
+  margin: 0;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 .last {
   background-color: transparent;
@@ -1099,7 +1104,7 @@ z-index: 699;
 
 .treasury-outter {
   margin-top: 90px;
-  height: 158vh;
+  height: 160vh;
   background-color: #0000000c;
   display: grid;
   grid-template-columns: auto;
