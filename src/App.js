@@ -19,6 +19,7 @@ import Bts from "./components/Bts";
 import ChairDesign from "./components/ChairDesign";
 import ToolsDesign from "./components/ToolsDesign";
 import HumanCentredDesign from "./components/HumanCentredDesign";
+import LCAestimationInCD from "./components/LCAestimationInCD";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
@@ -81,6 +82,7 @@ function App() {
         <Route path="/chair" element={<ChairDesign/>} />
         <Route path="/tools" element={<ToolsDesign/>}/>
         <Route path="/hcd" element={<HumanCentredDesign/>}/>
+        <Route path="/lca_estimation_in_conceptual_design" element={<LCAestimationInCD/>}/>
         <Route
           path="/designer_marketplace"
           element={

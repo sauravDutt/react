@@ -23,6 +23,9 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   const showFolioHcd = () => {
     navigate("/hcd")
   }
+  const showFolioLCA = () => {
+    navigate("/lca_estimation_in_conceptual_design")
+  }
   return (
     <div className="treasury-outter">
       <div className="sauravDutt-projects">
@@ -50,6 +53,15 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
         >
           <h1>Human Centred Design</h1>
         </motion.div>
+        <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={showFolioLCA}
+        >
+          <h1>LCA estimation in conceptual design.</h1>
+        </motion.div>
+        
         <div className="default last">
           <div></div>
           <div>
