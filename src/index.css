@@ -1101,7 +1101,37 @@ z-index: 699;
   border-radius: 10px;
   border: 1px solid #0000003b;
 }
-
+.Folio-outter {
+  z-index: 100;
+  position: absolute;
+  display: grid;
+  padding-top: 20px;
+  grid-template-columns: auto;
+  justify-content: space-around;
+  padding-bottom: 130px;
+  background-color: #fff;
+  height: 100vh;
+  overflow-y: scroll;
+  width: 100%;
+  gap: 20px;
+}
+.seconfont {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+.folioTitle {
+  user-select: none;
+  font-family: "News";
+  font-weight: 300;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  margin-top: 6px;
+}
+.Folio-outter div {
+  width: 380px;
+  height: 500px;
+}
 .treasury-outter {
   margin-top: 90px;
   height: 160vh;

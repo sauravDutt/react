@@ -8,9 +8,21 @@ import PasswordIcon from "@mui/icons-material/Password";
 import DigitalArt from "./DigitalArt";
 import DigitalArtOne from "./DigitalArtOne";
 import DigitalArtTwo from "./DigitalArtTwo";
+import { useNavigate } from "react-router-dom";
 // import SendIcon from "@mui/icons-material/Send";
 
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
+  let navigate = useNavigate();
+
+  const showFolioChair = () => {
+    navigate("/chair");
+  }
+  const showFolioTools = () => {
+    navigate("/tools");
+  }
+  const showFolioHcd = () => {
+    navigate("/hcd")
+  }
   return (
     <div className="treasury-outter">
       <div className="sauravDutt-projects">
@@ -18,6 +30,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
+          onClick={showFolioChair}
         >
           <h1>Chair Design</h1>
         </motion.div>
@@ -25,6 +38,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
+          onClick={showFolioTools}
         >
           <h1>Hand Tools</h1>
         </motion.div>
@@ -32,6 +46,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
+          onClick={showFolioHcd}
         >
           <h1>Human Centred Design</h1>
         </motion.div>
