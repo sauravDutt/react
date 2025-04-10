@@ -10,7 +10,7 @@ const DigitalArt = () => {
   return (
     <div className="digitalArt-outter">
       <div>
-        <Canvas camera={{ fov: 20, position: [7, 10, -20] }}>
+        <Canvas camera={{ fov: 15, position: [7, 10, -20] }}>
           <gridHelper args={[50, 50, "0x000000"]} />
           <directionalLight position={[0, 0, 4]} />
           <directionalLight position={[0, 4.5, -5.2]} />
