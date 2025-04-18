@@ -1107,13 +1107,13 @@ z-index: 699;
   display: grid;
   padding-top: 20px;
   grid-template-columns: auto;
-  justify-content: space-around;
+  justify-content: center;
   padding-bottom: 130px;
   background-color: #fff;
   height: 100vh;
   overflow-y: scroll;
   width: 100%;
-  gap: 20px;
+  gap: 10px;
 }
 .seconfont {
   font-family: 'Courier New', Courier, monospace;
@@ -1129,8 +1129,13 @@ z-index: 699;
   margin-top: 6px;
 }
 .Folio-outter div {
-  width: 380px;
-  height: 500px;
+  width: 500px;
+  border: 1px solid #000;
+  margin: 0;
+}
+.tools-first-div {
+  border: 1px solid #000;
+  height: 400px;
 }
 .treasury-outter {
   margin-top: 90px;
@@ -2024,5 +2029,14 @@ input[type="number"] {
   }
   .chatBot-outter {
     width: 370px;
+  }
+  .Folio-outter div {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Folio-outter div {
+    width: 350px;
   }
 }
