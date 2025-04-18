@@ -37,6 +37,10 @@ const Bts = () => {
                     <img src={process.env.PUBLIC_URL + "/img/idea0.png"} alt="Img" srcset="" />
                     <img src={process.env.PUBLIC_URL + "/img/cereal.png"} alt="Img" srcset="" />
                     <img src={process.env.PUBLIC_URL + "/img/v6.png"} alt="Img" srcset="" className="floatRight"/>
+                    <img src={process.env.PUBLIC_URL + "/img/deskOne.png"} alt="Img" srcset="" />
+                    <img src={process.env.PUBLIC_URL + "/img/desk.png"} alt="Img" srcset=""  className="floatRight"/>
+                    <img src={process.env.PUBLIC_URL + "/img/deskThree.png"} alt="Img" srcset="" />
+                    <img src={process.env.PUBLIC_URL + "/img/handTools.png"} alt="Img" srcset=""  className="floatRight"/>
                     <img src={process.env.PUBLIC_URL + "/img/scarface.png"} alt="Img" srcset="" />
                     <img src={process.env.PUBLIC_URL + "/img/911Main.png"} alt="Img" srcset=""className="floatRight" />
                 </div>
