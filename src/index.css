@@ -1130,11 +1130,13 @@ z-index: 699;
 }
 .Folio-outter div {
   width: 500px;
-  border: 1px solid #000;
   margin: 0;
 }
+.firstDiv-psychology {
+  background-image: url('./img/rename.png');
+  background-size: contain;
+}
 .tools-first-div {
-  border: 1px solid #000;
   height: 400px;
 }
 .treasury-outter {
