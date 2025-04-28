@@ -37,9 +37,9 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   //   }
   // ];
 
-  const showTDashboard = () => {
+  // const showTDashboard = () => {
 
-  }
+  // }
   return (
     <div className="treasury-outter">
       <div className="sauravDutt-projects">
