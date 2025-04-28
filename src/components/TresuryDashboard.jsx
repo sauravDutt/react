@@ -50,6 +50,9 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           onClick={showFolioChair}
         >
           <h1>Chair design</h1>
+          <div className="folio-card-icon-outter">
+           < SchoolRoundedIcon fontSize="medium"/> <h3>Uni work</h3>
+          </div>
         </motion.div>
         <motion.div 
           className="default"
