@@ -442,7 +442,7 @@ code {
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
 }
 
 .btsOutter {
@@ -474,7 +474,7 @@ code {
   grid-template-columns: auto;
   overflow: hidden;
   overflow-x: scroll;
-}
+} 
 .bts-content-div h2 {
   font-weight: 300;
   padding: 0;
@@ -496,8 +496,8 @@ code {
 }
 .bts-card-one {
   margin: 5px;
-z-index: 699;
-  margin-top: 400px;
+z-index: 20;
+  margin-top: 450px;
   margin-bottom: 140px;
   padding: 10px 1px;
   border-radius: 10px;
