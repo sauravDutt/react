@@ -9,6 +9,7 @@ const ToolsDesign = () => {
             <div className="tools-4"></div>
             <div className="tools-5"></div>
             <div className="tools-6"></div>
+            <div className="tools-6-1"></div>
             <div className="tools-7"></div>
             <div className="tools-8"></div>
             <div className="tools-9"></div>

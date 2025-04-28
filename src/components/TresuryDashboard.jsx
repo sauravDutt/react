@@ -29,21 +29,23 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   return (
     <div className="treasury-outter">
       <div className="sauravDutt-projects">
+      <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={showFolioTools}
+        >
+          
+          <img className="folio-cardImg" src={process.env.PUBLIC_URL + "/img/handToolsOutter.png"} alt="handToolImg" />
+          <h1>Hand tools</h1>
+        </motion.div>
         <motion.div 
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
           onClick={showFolioChair}
         >
-          <h1>Chair Design</h1>
-        </motion.div>
-        <motion.div 
-          className="default"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.9 }}
-          onClick={showFolioTools}
-        >
-          <h1>Hand Tools</h1>
+          <h1>Chair design</h1>
         </motion.div>
         <motion.div 
           className="default"
@@ -51,7 +53,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           whileTap={{ scale: 0.9 }}
           onClick={showFolioHcd}
         >
-          <h1>Human Centred Design</h1>
+          <h1>Human centred design</h1>
         </motion.div>
         <motion.div 
           className="default"
@@ -59,7 +61,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           whileTap={{ scale: 0.9 }}
           onClick={showFolioLCA}
         >
-          <h1>LCA estimation in conceptual design.</h1>
+          <h1>life cycle analysis estimation in conceptual design.</h1>
         </motion.div>
         
         <div className="default last">
