@@ -81,7 +81,7 @@ function App() {
         <Route path="/bts" element={<Bts/>} />
         <Route path="/chair" element={<ChairDesign/>} />
         <Route path="/tools" element={<ToolsDesign/>}/>
-        <Route path="/self_assessment" element={<HumanCentredDesign/>}/>
+        <Route path="/hcd" element={<HumanCentredDesign/>}/>
         <Route path="/lca_estimation_in_conceptual_design" element={<LCAestimationInCD/>}/>
         <Route
           path="/designer_marketplace"

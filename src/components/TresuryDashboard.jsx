@@ -47,10 +47,11 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
-          onClick={showFolioChair}
+          onClick={showFolioHcd}
         >
-          <h1>Chair design</h1>
-          <div className="folio-card-icon-outter">
+          <img className="folio-cardImg" src={process.env.PUBLIC_URL + "/img/deskOne.png"} alt="handToolImg" />
+          <h1 className="hcdTitle">human centred design</h1>
+          <div className="folio-card-icon-outter-hcd">
            < SchoolRoundedIcon fontSize="medium"/> <h3>Uni work</h3>
           </div>
         </motion.div>
@@ -58,17 +59,21 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
-          onClick={showFolioHcd}
+          onClick={showFolioChair}
         >
-          <h1>Human centred design</h1>
+          <h1>Chair design</h1>
+          <div className="folio-card-icon-outter">
+           < SchoolRoundedIcon fontSize="medium"/> <h3>Uni work</h3>
+          </div>
         </motion.div>
+        
         <motion.div 
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
           onClick={showFolioLCA}
         >
-          <h1>life cycle analysis estimation in conceptual design.</h1>
+          <h1>life cycle assessment estimation in conceptual design.</h1>
         </motion.div>
         
         <div className="default last">
