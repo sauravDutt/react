@@ -167,6 +167,21 @@ code {
   line-height: 40px;
   font-weight: 300;
 }
+.folio-card-icon-outter{
+  width: 110px;
+  margin: 0;
+  margin-left: 15px;
+  bottom: 40px;
+  position: absolute;
+}
+.folio-card-icon-outter h3 {
+  margin: 0;
+  font-weight: 300;
+  float: right;
+  margin-right: 12px;
+  margin-top: 2px;
+  font-size: 18px;
+}
 .last {
   background-color: transparent;
   display: grid;

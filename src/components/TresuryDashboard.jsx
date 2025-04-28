@@ -9,6 +9,7 @@ import DigitalArt from "./DigitalArt";
 import DigitalArtOne from "./DigitalArtOne";
 import DigitalArtTwo from "./DigitalArtTwo";
 import { useNavigate } from "react-router-dom";
+import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded'; 
 // import SendIcon from "@mui/icons-material/Send";
 
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
@@ -38,6 +39,9 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
           
           <img className="folio-cardImg" src={process.env.PUBLIC_URL + "/img/handToolsOutter.png"} alt="handToolImg" />
           <h1>Hand tools</h1>
+          <div className="folio-card-icon-outter">
+           < SchoolRoundedIcon fontSize="medium"/> <h3>Uni work</h3>
+          </div>
         </motion.div>
         <motion.div 
           className="default"
