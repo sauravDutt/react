@@ -1113,11 +1113,21 @@ z-index: 699;
   height: 100vh;
   overflow-y: scroll;
   width: 100%;
-  gap: 10px;
 }
 .seconfont {
   font-family: 'Courier New', Courier, monospace;
   font-size: 25px;
+}
+
+.Folio-outter div {
+  width: 500px;
+  margin: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.folioTitle-outter {
+  height: 100px !important;
 }
 .folioTitle {
   user-select: none;
@@ -1128,17 +1138,57 @@ z-index: 699;
   padding: 0;
   margin-top: 6px;
 }
-.Folio-outter div {
-  width: 500px;
-  margin: 0;
-}
 .firstDiv-psychology {
   background-image: url('./img/rename.png');
   background-size: contain;
 }
-.tools-first-div {
-  height: 400px;
+.tools-1 {
+  background-image: url("./img/toolOne.png");
 }
+.tools-2 {
+  background-image: url("./img/toolTwo.png");
+}
+.tools-3 {
+  background-image: url("./img/toolThree.png");
+}
+.tools-4 {
+  background-image: url("./img/toolfour.png");
+}
+.tools-5 {
+  background-image: url("./img/toolfive.png");
+}
+.tools-6 {
+  background-image: url("./img/toolsix.png");
+}
+.tools-7 {
+  background-image: url("./img/toolSeven.png");
+}
+.tools-8 {
+  background-image: url("./img/toolEight.png");
+}
+.tools-9 {
+  background-image: url("./img/toolNine.png");
+}
+.tools-10 {
+  background-image: url("./img/toolTen.png");
+}
+.tools-11 {
+  background-image: url("./img/toolEleven.png");
+}
+.tools-12 {
+  background-image: url("./img/toolTwelve.png");
+}
+.tools-13 {
+  background-image: url("./img/ToolThirteen.png");
+}
+.tools-14 {
+  background-image: url("./img/toolFourteen.png");
+}
+.tools-15 {
+  background-image: url("./img/toolFifteen.png");
+}
+
+
 .treasury-outter {
   margin-top: 90px;
   height: 160vh;
@@ -2034,6 +2084,7 @@ input[type="number"] {
   }
   .Folio-outter div {
     width: 380px;
+  
   }
 }
 
