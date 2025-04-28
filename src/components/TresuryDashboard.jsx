@@ -10,7 +10,6 @@ import DigitalArtOne from "./DigitalArtOne";
 import DigitalArtTwo from "./DigitalArtTwo";
 import { useNavigate } from "react-router-dom";
 import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded'; 
-import Password from 'primereact/password';
 // import DesignServicesIcon from '@mui/icons-material/DesignServices';
 // import SendIcon from "@mui/icons-material/Send";
 
@@ -29,14 +28,18 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   const showFolioLCA = () => {
     navigate("/lca_estimation_in_conceptual_design")
   }
-  var log = [
-    {
-      memberId: "4ASO831"
-    },
-    {
-      memberId: "4ASO953"
-    }
-  ]
+  // var log = [
+  //   {
+  //     memberId: "4ASO831"
+  //   },
+  //   {
+  //     memberId: "4ASO953"
+  //   }
+  // ];
+
+  const showTDashboard = () => {
+
+  }
   return (
     <div className="treasury-outter">
       <div className="sauravDutt-projects">
@@ -155,7 +158,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
             </p>
             <div className="memberID-btn">
               <PasswordIcon fontSize="large" sx={{ width: "100%" }} />
-              <Password />
+              <input type="password" name="memberID" id="password" />
             </div>
           </div>
         </div>
