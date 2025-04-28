@@ -170,9 +170,9 @@ code {
 .folio-card-icon-outter{
   width: 110px;
   margin: 0;
+  margin-top: 75px;
   margin-left: 15px;
   bottom: 40px;
-  position: absolute;
 }
 .folio-card-icon-outter h3 {
   margin: 0;
