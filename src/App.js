@@ -18,7 +18,6 @@ import Freestyle from "./components/Freestyle";
 import Bts from "./components/Bts";
 import ChairDesign from "./components/ChairDesign";
 import ToolsDesign from "./components/ToolsDesign";
-import HumanCentredDesign from "./components/HumanCentredDesign";
 import LCAestimationInCD from "./components/LCAestimationInCD";
 
 function App() {
@@ -81,7 +80,6 @@ function App() {
         <Route path="/bts" element={<Bts/>} />
         <Route path="/chair" element={<ChairDesign/>} />
         <Route path="/tools" element={<ToolsDesign/>}/>
-        <Route path="/hcd" element={<HumanCentredDesign/>}/>
         <Route path="/lca_estimation_in_conceptual_design" element={<LCAestimationInCD/>}/>
         <Route
           path="/designer_marketplace"

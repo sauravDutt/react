@@ -11,9 +11,6 @@ const Bts = () => {
       const showFolioTools = () => {
         navigate("/tools");
       }
-      const showFolioHcd = () => {
-        navigate("/hcd")
-      }
       const showFolioLCA = () => {
         navigate("/lca_estimation_in_conceptual_design")
       }
