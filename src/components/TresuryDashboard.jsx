@@ -8,26 +8,12 @@ import PasswordIcon from "@mui/icons-material/Password";
 import DigitalArt from "./DigitalArt";
 import DigitalArtOne from "./DigitalArtOne";
 import DigitalArtTwo from "./DigitalArtTwo";
-import { useNavigate } from "react-router-dom";
-import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded'; 
 // import DesignServicesIcon from '@mui/icons-material/DesignServices';
 // import SendIcon from "@mui/icons-material/Send";
 
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
-  let navigate = useNavigate();
 
-  const showFolioChair = () => {
-    navigate("/chair");
-  }
-  const showFolioTools = () => {
-    navigate("/tools");
-  }
-  const showFolioHcd = () => {
-    navigate("/hcd")
-  }
-  const showFolioLCA = () => {
-    navigate("/lca_estimation_in_conceptual_design")
-  }
+
   // var log = [
   //   {
   //     memberId: "4ASO831"
@@ -42,60 +28,6 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
   // }
   return (
     <div className="treasury-outter">
-      <div className="sauravDutt-projects">
-      <motion.div 
-          className="default"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.9 }}
-          onClick={showFolioTools}
-        >
-          
-          <img className="folio-cardImg" src={process.env.PUBLIC_URL + "/img/handToolsOutter.png"} alt="handToolImg" />
-          <h1>Hand tools</h1>
-          <div className="folio-card-icon-outter">
-           < SchoolRoundedIcon fontSize="medium"/> <h3>Uni work</h3>
-          </div>
-        </motion.div>
-        <motion.div 
-          className="default"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.9 }}
-          onClick={showFolioHcd}
-        >
-          <img className="folio-cardImg" src={process.env.PUBLIC_URL + "/img/deskOne.png"} alt="handToolImg" />
-          <h1 className="hcdTitle">human centred design</h1>
-          <div className="folio-card-icon-outter-hcd">
-           < SchoolRoundedIcon fontSize="medium"/> <h3>Uni work</h3>
-          </div>
-        </motion.div>
-        <motion.div 
-          className="default"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.9 }}
-          onClick={showFolioChair}
-        >
-          <h1>Chair design</h1>
-          <div className="folio-card-icon-outter">
-           < SchoolRoundedIcon fontSize="medium"/> <h3>Uni work</h3>
-          </div>
-        </motion.div>
-        
-        <motion.div 
-          className="default"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.9 }}
-          onClick={showFolioLCA}
-        >
-          <h1>life cycle assessment estimation in conceptual design.</h1>
-        </motion.div>
-        
-        <div className="default last">
-          <div></div>
-          <div>
-            <p>Work in progress ...</p>
-          </div>
-        </div>
-      </div>
       <div className="treasury-dashboard-head">
         <motion.div
           className="bidBtn"

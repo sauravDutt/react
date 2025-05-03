@@ -1,8 +1,22 @@
 // import { motion } from "framer-motion";
-
+import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
+import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded'; 
 
 const Bts = () => {
-
+    let navigate = useNavigate();
+    const showFolioChair = () => {
+        navigate("/chair");
+      }
+      const showFolioTools = () => {
+        navigate("/tools");
+      }
+      const showFolioHcd = () => {
+        navigate("/hcd")
+      }
+      const showFolioLCA = () => {
+        navigate("/lca_estimation_in_conceptual_design")
+      }
     return(
         <div className="btsOutter-outter">
             <div className="btsOutter-boxs">
@@ -14,7 +28,42 @@ const Bts = () => {
             </div>
             </div>
            
-            
+            <div className="sauravDutt-projects">
+      <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={showFolioTools}
+        >
+          
+          <img className="folio-cardImg" src={process.env.PUBLIC_URL + "/img/handToolsOutter.png"} alt="handToolImg" />
+          <h1>Hand tools</h1>
+          <div className="folio-card-icon-outter">
+           < SchoolRoundedIcon fontSize="medium"/> <h3>Uni work</h3>
+          </div>
+        </motion.div>
+        
+        <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={showFolioChair}
+        >
+          <h1>Chair design</h1>
+          <div className="folio-card-icon-outter">
+           < SchoolRoundedIcon fontSize="medium"/> <h3>Uni work</h3>
+          </div>
+        </motion.div>
+        
+        <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={showFolioLCA}
+        >
+          <h1>life cycle assessment estimation in conceptual design.</h1>
+        </motion.div>
+      </div>
             <div className="bts-products-div">
                 {/* <div className="bts-card">
                     <div className="bts-btn-outter">

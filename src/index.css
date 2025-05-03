@@ -134,18 +134,18 @@ code {
 
 .sauravDutt-projects {
   margin: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
   height: 210px;
+  border-top: 2px solid #00000045;
+  border-bottom: 2px solid #00000045;
   width: 100%;
   overflow-y: scroll;
   padding: 0;
   display: grid;
   gap: 10px;
   grid-template-columns: auto;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   justify-content: space-around;
-  position: absolute;
 }
 .default {
   background-color: #ffffff;
@@ -437,12 +437,12 @@ code {
 }
 .btsOutter-boxs {
   width: 100%;
-  margin-top: 100px;
   display: grid;
+  margin-top: 140px;
+  margin-bottom: 35px;
   grid-template-columns: auto;
   justify-content: center;
   align-items: center;
-  position: absolute;
 }
 
 .btsOutter {
@@ -468,12 +468,12 @@ code {
 }
 .bts-products-div {
   margin: 0 auto;
-  margin-top: 40px;
   width: 90%;
   display: grid;
   grid-template-columns: auto;
   overflow: hidden;
   overflow-x: scroll;
+  margin-top: 20px;
 } 
 .bts-content-div h2 {
   font-weight: 300;
@@ -497,7 +497,6 @@ code {
 .bts-card-one {
   margin: 5px;
 z-index: 20;
-  margin-top: 450px;
   margin-bottom: 140px;
   padding: 10px 1px;
   border-radius: 10px;
@@ -1181,13 +1180,7 @@ z-index: 20;
   margin-right: 2px;
   z-index: 1;
 }
-.hcdTitle {
-  position: absolute;
-  width: 200px;
-  margin-left: 22px !important;
-  margin-top: 25px !important;
-  line-height: 25px !important; 
-}
+
 .tools-1 {
   background-image: url("./img/toolOne.png");
 }
@@ -1240,7 +1233,7 @@ z-index: 20;
 
 .treasury-outter {
   margin-top: 90px;
-  height: 160vh;
+  height: 130vh;
   background-color: #0000000c;
   display: grid;
   grid-template-columns: auto;
