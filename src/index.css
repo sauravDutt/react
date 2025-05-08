@@ -134,9 +134,8 @@ code {
 
 .sauravDutt-projects {
   margin: 0px;
-  height: 210px;
-  border-top: 2px solid #00000045;
-  border-bottom: 2px solid #00000045;
+  margin-bottom: 25px;
+  height: 200px;
   width: 100%;
   overflow-y: scroll;
   padding: 0;
@@ -441,8 +440,7 @@ code {
   margin-top: 140px;
   margin-bottom: 35px;
   grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .btsOutter {
@@ -450,6 +448,8 @@ code {
   border-radius: 5px;
   height: 300px;
   width: 340px;
+  margin: 0 auto;
+  margin-bottom: 20px;
   background-color: #00000000;
   background-image: url("./img/mainFolioPicture.png");
   background-repeat: no-repeat;
