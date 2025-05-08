@@ -19,6 +19,17 @@ const Bts = () => {
           
             <div className="btsOutter-boxs">
             <div className="sauravDutt-projects">
+            <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={showFolioLCA}
+        >
+          <h1>life cycle assessment estimation in conceptual design.</h1>
+          <div className="folio-card-icon-outter-lca">
+           < SchoolRoundedIcon fontSize="medium"/> <h3>Individual Project</h3>
+          </div>
+        </motion.div>
       <motion.div 
           className="default"
           whileHover={{ scale: 1.05 }}
@@ -45,14 +56,7 @@ const Bts = () => {
           </div>
         </motion.div>
         
-        <motion.div 
-          className="default"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.9 }}
-          onClick={showFolioLCA}
-        >
-          <h1>life cycle assessment estimation in conceptual design.</h1>
-        </motion.div>
+        
       </div>
             <div className="btsOutter">
             <div className="bts-content-div">
