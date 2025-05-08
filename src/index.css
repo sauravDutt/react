@@ -1161,7 +1161,7 @@ z-index: 20;
   justify-content: center;
   padding-bottom: 130px;
   background-color: #fff;
-  height: 100vh;
+  height: 178vh;
   overflow-y: scroll;
   width: 100%;
 }
@@ -1891,7 +1891,13 @@ z-index: 20;
   border-radius: 50%;
   background-color: #0000000a;
 }
-
+.page {
+  height: 60vh !important;
+  margin-top: -20;
+  background-image: url(./img/Untitled\ design.svg);
+  background-size: cover;
+  background-repeat: repeat;
+}
 /* These classnames for title prop values  (-- End --)*/
 
 .newsOutter {

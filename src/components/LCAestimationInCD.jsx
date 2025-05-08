@@ -11,8 +11,8 @@ const LCAestimationInCD = () => {
                     <button>Try Application</button>
                 </div>
             </div>
-            <div></div>
-            <div></div>
+            <div className="page"></div>
+            <div className="page"></div>
             <div></div>
         </div>
     )
