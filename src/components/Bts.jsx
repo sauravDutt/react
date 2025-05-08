@@ -25,7 +25,7 @@ const Bts = () => {
           whileTap={{ scale: 0.9 }}
           onClick={showFolioLCA}
         >
-          <h1>life cycle assessment estimation in conceptual design.</h1>
+          <h1 className="lca-title"><i>" life cycle assessment calculator "</i> for estimation in conceptual design.</h1>
           <div className="folio-card-icon-outter-lca">
            < SchoolRoundedIcon fontSize="medium"/> <h3>Individual Project</h3>
           </div>
