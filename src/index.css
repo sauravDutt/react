@@ -1175,7 +1175,39 @@ z-index: 20;
   margin: 0;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 100px;
+}
+.lca-banner {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 200px !important;
+  margin-top: -130px !important;
+}
+.lca-banner div {
+  height: 100%;
+  border-radius: 10px;
+}
+.right-lca {
+  background-color: #00ff1e44;
+}
+.right-lca h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+
+}
+.right-lca button {
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  margin-left: 57px;
+  margin-top: 23px;
 }
 .folioTitle-outter {
   height: 100px !important;
