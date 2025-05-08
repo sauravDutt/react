@@ -1167,7 +1167,7 @@ z-index: 20;
 }
 .seconfont {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .Folio-outter div {
@@ -1183,8 +1183,8 @@ z-index: 20;
   border-radius: 15px;
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 200px !important;
-  margin-top: -130px !important;
+  height: 235px !important;
+  margin-top: -50px !important;
 }
 .lca-banner div {
   height: 100%;
@@ -1198,7 +1198,11 @@ z-index: 20;
   font-size: 20px;
   font-weight: 600;
   margin-left: 10px;
-
+}
+.right-lca p {
+  margin: 0;
+  width: 150px;
+  margin-left: 10px;
 }
 .right-lca button {
   background-color: transparent;
