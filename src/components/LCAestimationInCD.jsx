@@ -9,7 +9,6 @@ const LCAestimationInCD = () => {
                 <div className="right-lca">
                     <h1>Life <br/>Cycle <br/>Assessment <br/>Calculator</h1>
                     <p>for estimation in conceptual design.</p>
-                    <button>Try Application</button>
                 </div>
             </div>
             <div className="page"></div>
