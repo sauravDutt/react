@@ -1,29 +1,18 @@
 import { signOut } from "firebase/auth";
 import { auth } from "../firebase-config";
 import { useEffect } from "react";
-import { getDocs, collection } from "firebase/firestore";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-import { db } from "../firebase-config";
 
 const UserDashboardPage = ({ setIsAuth, isAuth }) => {
   let navigate = useNavigate();
-  const [articleList, setArticleList] = useState([]);
-  const articleCollectionRef = collection(db, "article");
 
   useEffect(() => {
     if (!isAuth) {
       navigate("/login");
     }
   });
-  const getArticles = async () => {
-      const data = await getDocs(articleCollectionRef);
-      setArticleList(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-    };
-    useEffect(() => {
-      getArticles();
-    });
 
   const [user, setUser] = useState([]);
   const signOutUser = () => {
@@ -50,7 +39,7 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
         </div>
         <div className="onlineDot"></div>
       </div>
-      <div className="userStats">
+      {/* <div className="userStats">
         <p>
           <span>Dashboard</span>
           <br />
@@ -86,7 +75,7 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
               </div>
             );
           })}
-      </div>
+      </div> */}
     </div>
   );
 };

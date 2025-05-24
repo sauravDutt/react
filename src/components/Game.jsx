@@ -1,31 +1,31 @@
-import { Container, Row, Col } from "react-bootstrap";
-import AudioPlayer from "react-h5-audio-player";
-import "react-h5-audio-player/lib/styles.css";
-import PasswordIcon from "@mui/icons-material/Password";
-import Banner from "./Banner";
+// import { Container, Row, Col } from "react-bootstrap";
+// import AudioPlayer from "react-h5-audio-player";
+// import "react-h5-audio-player/lib/styles.css";
+// import PasswordIcon from "@mui/icons-material/Password";
+// import Banner from "./Banner";
 
 
-const PlayerOutter = () => {
-  return (
-    <>
-      <Container>
-        <Row>
-          <Col lg={4}>
-            <AudioPlayer
-              src={process.env.PUBLIC_URL + "/songs/backgroundMusic.mp3"}
-              showFilledVolume 
-              // other props here
-            />
-          </Col>
-        </Row>
-      </Container>
-    </>
-  );
-};
+// const PlayerOutter = () => {
+//   return (
+//     <>
+//       <Container>
+//         <Row>
+//           <Col lg={4}>
+//             <AudioPlayer
+//               src={process.env.PUBLIC_URL + "/songs/backgroundMusic.mp3"}
+//               showFilledVolume 
+//               // other props here
+//             />
+//           </Col>
+//         </Row>
+//       </Container>
+//     </>
+//   );
+// };
 const Game = () => {
   return (
     <div className="margin-top-imp">
-      <div className="podcast-outter">
+      {/* <div className="podcast-outter">
         <div className="sceneOne"></div>
         <div className="song-outter-outter">
           <div className="play-outter">
@@ -143,7 +143,7 @@ const Game = () => {
             <input type="password" placeholder="Member ID"></input>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
