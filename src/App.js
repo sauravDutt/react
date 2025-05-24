@@ -7,12 +7,12 @@ import UserDashboardPage from "./components/UserDashboardPage";
 import "./index.css";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
-import BlurOnIcon from "@mui/icons-material/BlurOn";
+import StoreRoundedIcon from '@mui/icons-material/StoreRounded';
 import CreateArticleForm from "./components/CreateArticleForm";
 import Game from "./components/Game";
 import ChatBotOne from "./components/ChatBotOne";
 import { auth } from "./firebase-config";
-import PlayArrowIcon from "@mui/icons-material/PlayArrow";
+import CachedRoundedIcon from '@mui/icons-material/CachedRounded';
 import TreasuryDashboard from "./components/TresuryDashboard";
 import Freestyle from "./components/Freestyle";
 import Bts from "./components/Bts";
@@ -42,10 +42,10 @@ function App() {
             <HomeRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           <Link to="/designer_marketplace" className="button-outter">
-            <BlurOnIcon fontSize="large" sx={{ width: "100%" }} />
+            <StoreRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           <Link to="/play" className="button-outter">
-            <PlayArrowIcon fontSize="large" sx={{ width: "100%" }} />
+            <CachedRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           {!isAuth ? (
             <Link to="/login" className="button-outter">

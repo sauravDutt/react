@@ -6,16 +6,15 @@ import "react-h5-audio-player/lib/styles.css";
 // import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import GtownMap from "./GtownMap";
 import useMeasure from "react-use-measure";
-import DigitalArt from "./DigitalArt";
-import DigitalArtOne from "./DigitalArtOne";
-import DigitalArtTwo from "./DigitalArtTwo";
+// import DigitalArt from "./DigitalArt";
+// import DigitalArtOne from "./DigitalArtOne";
+// import DigitalArtTwo from "./DigitalArtTwo";
 
 const OriginStoryContent = () => {
   return (
     <p className="originPtag">
-      <strong>Good Time </strong>, formerly known as{" "}
-      <i>"Good Time Journal"</i>, is  an online Consortium of Digital Creators (illustrators, graphic designers, product designers, artists etc), a decentralised platform for transparent trade of original digital ideas (intellectual property), a community driven by creativity, innovation and storytelling. 
-      
+      <strong>Good Time Design</strong>, or <strong>"GTB"</strong> is an online platform for independent designers who are at an early stage of Product development. 
+      the Life Cycle Assessment Calculator illustrates and analyses every step of a product's (concept's) life cycle.
     </p>
   );
 };
@@ -35,17 +34,18 @@ const MainAreaOne = () => {
             <div>
               <h1>Goodtime.design</h1>
               <p>
-                Good Time Design, is a design Marketplace for independent designers to showcase and sell their work.
+                Good Time Design, is a design Marketplace for independent designers to showcase and sell their work. <br/>
+                <span className="smallText-two">10% of every transaction goes to the community <strong>treasury</strong>. </span>
               </p>
             </div>
           </div>
-          
+{/*           
           <div className="main-artwork-two-outter">
         <DigitalArt />
         <DigitalArtOne />
         <DigitalArtTwo />
         <div className="littleWidth"></div>
-      </div>
+      </div> */}
       <Banner
             className="bannerBoiler cat"
             position="positionRight"

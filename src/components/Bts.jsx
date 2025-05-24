@@ -2,7 +2,28 @@
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded'; 
+ import { Container, Row, Col } from "react-bootstrap";
+ import AudioPlayer from "react-h5-audio-player";
+ import "react-h5-audio-player/lib/styles.css";
 
+
+const PlayerOutter = () => {
+  return (
+    <>
+      <Container>
+        <Row>
+          <Col lg={4}>
+            <AudioPlayer
+              src={process.env.PUBLIC_URL + "/songs/backgroundMusic.mp3"}
+              showFilledVolume 
+              // other props here
+            />
+          </Col>
+        </Row>
+      </Container>
+    </>
+  );
+};
 const Bts = () => {
     let navigate = useNavigate();
     const showFolioChair = () => {
@@ -16,7 +37,11 @@ const Bts = () => {
       }
     return(
         <div className="btsOutter-outter">
-          
+          <div className="song-outter-outter">
+          <div className="play-outter">
+            <PlayerOutter />
+          </div>
+        </div>
             <div className="btsOutter-boxs">
             <div className="sauravDutt-projects">
             <motion.div 
