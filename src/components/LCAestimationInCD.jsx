@@ -3,7 +3,7 @@
 const LCAestimationInCD = () => {
     return(
         <div className="Folio-outter">
-            <div><h1 className="folioTitle">GoodTime<span className="seconfont">/LCAC</span></h1></div>
+            <div><h1 className="folioTitle">GoodTime Design<span className="seconfont">/LCAC</span></h1></div>
             <div className="lca-banner">
                 <div></div>
                 <div className="right-lca">

@@ -33,9 +33,9 @@ const MainAreaOne = () => {
           {/* These are banners */}
           <div className="gal">
             <div>
-              <h1>Goodtime.work</h1>
+              <h1>Goodtime.design</h1>
               <p>
-                Good Time, is an online Consortium of Digital Creators, a decentralised platform for transparent trade of original digital ideas, a community driven by creativity, innovation and storytelling.
+                Good Time Design, is an online Consortium of Digital Creators, a decentralised platform for transparent trade of original digital ideas, a community driven by creativity, innovation and storytelling.
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@ const MainAreaOne = () => {
             <div ref={ref} className="left-discover">
               <div className="div-left">
                 <h1>
-                  Good time .{" "}
+                  good time. design{" "}
                   <span className="small"> Origin Story</span>
                 </h1>
                 {isOpen ? <OriginStoryContent /> : null}
