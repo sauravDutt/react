@@ -380,6 +380,7 @@ code {
 .bannerBoiler div h1 {
   font-family: "Logo";
   font-weight: 300;
+
   line-height: 32px;
   margin: 0;
   margin-bottom: 10px;
@@ -388,7 +389,6 @@ code {
 }
 .bannerBoiler div p {
   width: 90%;
-  margin: 0 auto;
   margin-top: -5px;
 }
 .positionRight {

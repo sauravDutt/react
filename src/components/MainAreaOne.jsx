@@ -35,7 +35,7 @@ const MainAreaOne = () => {
             <div>
               <h1>Goodtime.design</h1>
               <p>
-                Good Time Design, is an online Consortium of Digital Creators, a decentralised platform for transparent trade of original digital ideas, a community driven by creativity, innovation and storytelling.
+                Good Time Design, is a design Marketplace for independent designers to showcase and sell their work.
               </p>
             </div>
           </div>
@@ -49,8 +49,8 @@ const MainAreaOne = () => {
       <Banner
             className="bannerBoiler cat"
             position="positionRight"
-            title="Consortium"
-            description="in Good Time, we maintain a community treasury called the 'Good Time Treasury' portion of every sale goes to the treasury."
+            title="lca calculator"
+            description="Life Cycle Assessment Calculator, provies an estimation of conceptual design. This utility illustrates and analyses every step of a product's(design) life cycle."
             heidBtn="heidBtn"
           />
           <motion.div style={{ marginBottom: "35px" }} animate={{ height }}>
