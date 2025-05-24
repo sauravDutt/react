@@ -6,7 +6,7 @@ const NavBar = () => {
           
           <h1 className="brand-name">Good Time Design</h1>
           <h3 className="lower">
-            a portfolio build in <b>2024</b>.
+            a portfolio build in <strong>2025</strong>.
           </h3>
           
         </div>
