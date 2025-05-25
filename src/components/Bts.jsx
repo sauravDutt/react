@@ -42,7 +42,7 @@ const Bts = () => {
             <PlayerOutter />
           </div>
         </div>
-            <div className="btsOutter-boxs">
+          <div className="btsOutter-boxs">
             <div className="sauravDutt-projects">
             <motion.div 
           className="default"
@@ -52,7 +52,7 @@ const Bts = () => {
         >
           <h1 className="lca-title"><i>" life cycle assessment calculator "</i> for estimation in conceptual design.</h1>
           <div className="folio-card-icon-outter-lca">
-           < SchoolRoundedIcon fontSize="medium"/> <h3>Individual Project</h3>
+          <h3>Saurav Dutt</h3>
           </div>
         </motion.div>
       <motion.div 
