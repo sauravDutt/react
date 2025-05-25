@@ -13,8 +13,9 @@ import useMeasure from "react-use-measure";
 const OriginStoryContent = () => {
   return (
     <p className="originPtag">
-      <strong>Good Time Design</strong>, or <strong>"GTB"</strong> is an online platform for independent designers who are at an early stage of Product development. 
-      the Life Cycle Assessment Calculator illustrates and analyses every step of a product's (concept's) life cycle.
+      <strong>Good Time Design</strong>, or <strong>"GTB"</strong> is an online platform for independent designers in the early stages of product development. The Life Cycle Assessment Calculator utility illustrates and analyses every step of a product's (concept's) life cycle.
+      <br/>
+      <span className="smallText-two">Designs that meet the <strong>GTB estimate criteria</strong> are offered a chance to be listed in the GTB marketplace, and the designer will receive 90% of the returns from the design.</span>
     </p>
   );
 };
@@ -34,7 +35,7 @@ const MainAreaOne = () => {
             <div>
               <h1>Goodtime.design</h1>
               <p>
-                Good Time Design, is a design Marketplace for independent designers to showcase and sell their work. <br/>
+                Good Time Design is a marketplace for independent designers to showcase and sell their work.. <br/>
                 <span className="smallText-two">10% of every transaction goes to the community <strong>treasury</strong>. </span>
               </p>
             </div>
@@ -50,7 +51,7 @@ const MainAreaOne = () => {
             className="bannerBoiler cat"
             position="positionRight"
             title="lca calculator"
-            description="Life Cycle Assessment Calculator, provies an estimation of conceptual design. This utility illustrates and analyses every step of a product's(design) life cycle."
+            description="The Life Cycle Assessment Calculator estimates the conceptual design. This utility illustrates and analyses each step of a product's life cycle."
             heidBtn="heidBtn"
           />
           <motion.div style={{ marginBottom: "35px" }} animate={{ height }}>
