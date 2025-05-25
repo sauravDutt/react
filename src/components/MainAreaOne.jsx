@@ -15,7 +15,7 @@ const OriginStoryContent = () => {
     <p className="originPtag">
       <strong>Good Time Design</strong>, or <strong>"GTD"</strong> is an online platform for independent designers in the early stages of product development. The Life Cycle Assessment Calculator utility illustrates and analyses every step of a product's (concept's) life cycle.
       <br/>
-      <span className="smallText-two">Designs that meet the <strong>GTD estimate criteria</strong> are offered a chance to be listed in the GTB marketplace, and the designer will receive 90% of the returns from the design.</span>
+      <span className="smallText-two">Designs that meet the <strong>GTD estimate criteria</strong> are offered a chance to be listed in the GTB marketplace.</span>
     </p>
   );
 };
@@ -59,7 +59,7 @@ const MainAreaOne = () => {
               <div className="div-left">
                 <h1>
                   good time. design{" "}
-                  <span className="small"> Origin Story</span>
+                  <span className="small"> About</span>
                 </h1>
                 {isOpen ? <OriginStoryContent /> : null}
                 <button onClick={() => setIsOpen(!isOpen)}>
