@@ -87,7 +87,6 @@ const MainAreaOne = () => {
             </div>
           </div> */}
 
-          <div className="club"></div>
 
           {/* <div className="podcast-banner-div">
             <h1>Utility</h1>
