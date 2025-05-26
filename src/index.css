@@ -865,7 +865,7 @@ z-index: 20;
   margin-bottom: 10px;
 }
 .margin-top-imp {
-  margin-top: 115px;
+  margin-top: 80px;
 }
 .timeInaBottle {
   height: 75px;
@@ -1381,6 +1381,37 @@ z-index: 20;
   padding-left: 15px;
   user-select: none;
 }
+.lcac-outter {
+  border-bottom: 1.5px solid #0000008c;
+  height: 65px;
+  z-index: 70;
+  margin-top: 10px;
+  background-color: #ffffff;
+  width: 100%;
+  position: fixed;
+}
+.lcac-outter h1 {
+  text-align: center;
+  font-weight: 300;
+  margin: 0;
+  font-family: 'logo';
+}
+.tag-calculator {
+  width: 90%;
+  text-align: center;
+  padding: 0;
+  padding-left: 10px;
+  color: #7b7b7b7e;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  height: 30px;
+  margin-left: 7%;
+  margin-top: 25px;
+  z-index: 70;
+  position: fixed;
+}
 .digitalArt-info h1 {
   margin: 0;
   margin-top: 5px;
@@ -1649,7 +1680,7 @@ z-index: 20;
 .div-left h1 {
   width: 140px;
   height: 200px;
-  line-height: 37px;
+  line-height: 42px;
   margin: 0;
   padding: 0;
   margin-left: 10px;
