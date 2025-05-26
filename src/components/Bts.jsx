@@ -5,6 +5,7 @@ import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
  import { Container, Row, Col } from "react-bootstrap";
  import AudioPlayer from "react-h5-audio-player";
  import "react-h5-audio-player/lib/styles.css";
+ import Banner from './Banner'
 
 
 const PlayerOutter = () => {
@@ -90,8 +91,7 @@ const Bts = () => {
             </div>
             </div>
             </div>
-           
-            
+
             <div className="bts-products-div">
                 {/* <div className="bts-card">
                     <div className="bts-btn-outter">
@@ -102,6 +102,7 @@ const Bts = () => {
                     </div>
                 </div> */}
                 <div className="bts-card-one"> 
+                  
                     <img src={process.env.PUBLIC_URL + "/img/Part2.png"} alt="Img" srcset="" />
                     <img src={process.env.PUBLIC_URL + "/img/ChairDesignOne.png"} alt="img" srcset="" className="floatRight"/>
                     <img src={process.env.PUBLIC_URL + "/img/glass.png"} alt="Img" srcset="" />
@@ -121,7 +122,106 @@ const Bts = () => {
                     <img src={process.env.PUBLIC_URL + "/img/scarface.png"} alt="Img" srcset="" />
                     <img src={process.env.PUBLIC_URL + "/img/911Main.png"} alt="Img" srcset=""className="floatRight" />
                 </div>
-                
+                <Banner
+          className="bannerBoiler one"
+          position="positionLeft"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoiler two"
+          position="positionRight"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoiler three"
+          position="positionLeft"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoiler four"
+          position="positionRight"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+
+        <Banner
+          className="bannerBoiler "
+          position="positionRight five"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoiler "
+          position="positionLeft six"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoiler "
+          position="positionRight seven"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoilerBig "
+          position="positionCenter eight"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoilerBig "
+          position="positionCenter eleven"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoilerBig "
+          position="positionCenter nine"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+
+        <Banner
+          className="bannerBoilerBig "
+          position="positionCenter twelve"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoilerBig "
+          position="positionCenter ten"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+          className="bannerBoilerBig "
+          position="positionCenter scarface"
+          title=""
+          description=""
+          heidBtn="heidBtn"
+        />
+        <Banner
+        className="bannerBoilerBig "
+        position="positionCenter nineOne"
+        title=""
+        description=""
+        heidBtn="heidBtn"
+      />
             </div>
         </div>
     )
