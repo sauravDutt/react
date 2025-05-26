@@ -28,7 +28,7 @@ const Game = () => {
       <div className="lcac-outter">
         <h1>life cycle assessment</h1>
       </div>
-      <div className="tag-calculator">Calculator</div>
+      <div className="tag-calculator"><strong>Calculator</strong></div>
       {/* <div className="podcast-outter">
         <div className="sceneOne"></div>
         <div className="song-outter-outter">
