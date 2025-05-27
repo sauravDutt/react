@@ -164,7 +164,7 @@ code {
   margin-left: 15px;
   font-family: 'logo';
   font-size: 30px;
-  line-height: 40px;
+ line-height: 40px;
   font-weight: 300;
 }
 
@@ -1938,9 +1938,6 @@ z-index: 20;
 .page {
   height: 60vh !important;
   margin-top: -15px !important;
-  background-image: url(./img/Untitled\ design.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
   overflow: scroll;
 }
 .page p {
