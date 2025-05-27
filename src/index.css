@@ -1165,7 +1165,7 @@ z-index: 20;
   justify-content: center;
   padding-bottom: 130px;
   background-color: #fff;
-  height: 178vh;
+  height: 180vh;
   overflow-y: scroll;
   width: 100%;
 }
@@ -1188,7 +1188,7 @@ z-index: 20;
   display: grid;
   grid-template-columns: 50% 50%;
   height: 205px !important;
-  margin-top: -50px !important;
+  margin-top: -35px !important;
 }
 .lca-banner div {
   height: 100%;
@@ -1376,14 +1376,13 @@ z-index: 20;
   margin: 0;
   padding: 0;
   margin: 0 auto;
-
   padding-top: 3px;
   padding-left: 15px;
   user-select: none;
 }
 .lcac-outter {
-  border-bottom: 1.5px solid #0000008c;
-  height: 67px;
+  box-shadow: 5px 5px 5px #d4d4d44a;
+  height: 75px;
   z-index: 70;
   margin-top: 5px;
   background-color: #ffffff;
@@ -1402,15 +1401,23 @@ z-index: 20;
   text-align: center;
   padding: 0;
   padding-left: 10px;
-  color: #7b7b7b7e;
+  color: #3cb417c1;
   font-weight: 300;
   letter-spacing: 1px;
   padding-top: 20px;
   height: 30px;
   margin-left: 7%;
-  margin-top: 22.5px;
+  margin-top: -40px;
   z-index: 70;
   position: fixed;
+}
+.lcac-main-outter {
+  border: 1px solid #000;
+  background-color: transparent;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  margin-top: 105px;
 }
 .digitalArt-info h1 {
   margin: 0;
