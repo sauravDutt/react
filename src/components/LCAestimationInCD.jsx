@@ -19,7 +19,19 @@ Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Br
 </p>
                 <h2>Introduction to Life Cycle Assessment</h2>
             </div>
-            <div className="page"></div>
+            <div className="page">
+                <p>
+                    Life Cycle Assessment is used to analise the different stages in a Product's Life Cycle in order to assess it's impact on the environment.
+                    <br/><br/>
+                    There are 4 main stages in a life cycle assessment :-<br/>
+                        <strong>1. Extracting and Processing the raw material</strong><br/>
+                        <strong>2. Manufacturing and Packaging your product<br/>
+                        3. Using your product<br/>
+                        4. Desposing of it<br/></strong>
+                    <br/>
+
+                </p>
+            </div>
         </div>
     )
 }
