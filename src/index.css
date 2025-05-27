@@ -168,18 +168,13 @@ code {
 }
 
 .folio-card-icon-outter-lca {
-  width: 180px;
   margin: 0;
   float: right;
-  margin-left: 15px;
-  bottom: 40px;
+  margin-right: 20px;
 }
 .folio-card-icon-outter-lca h3 {
   margin: 0;
   font-weight: 400;
-  float: right;
-  margin-right: 12px;
-  margin-top: 9px;
   font-size: 18px;
 }
 .folio-card-icon-outter-hcd{
@@ -207,7 +202,6 @@ code {
 .folio-card-icon-outter h3 {
   margin: 0;
   font-weight: 300;
-  float: right;
   margin-right: 12px;
   margin-top: 2px;
   font-size: 18px;
@@ -771,11 +765,13 @@ z-index: 20;
 }
 .podcast-banner {
   width: 370px;
-  height: 370px;
+  height: 270px;
   background-image: url("./img/golfOne.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-top: -55px;
+  margin-bottom: 100px;
 }
 .podcast-banner-div {
   padding: 5px;

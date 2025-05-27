@@ -15,7 +15,6 @@ import { auth } from "./firebase-config";
 import CachedRoundedIcon from '@mui/icons-material/CachedRounded';
 import TreasuryDashboard from "./components/TresuryDashboard";
 import Freestyle from "./components/Freestyle";
-import Bts from "./components/Bts";
 import LCAestimationInCD from "./components/LCAestimationInCD";
 
 function App() {
@@ -75,7 +74,6 @@ function App() {
         <Route path="/freeStyle" element={<Freestyle />} />
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
         <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
-        <Route path="/bts" element={<Bts/>} />
         <Route path="/lca_estimation_in_conceptual_design" element={<LCAestimationInCD/>}/>
         <Route
           path="/designer_marketplace"

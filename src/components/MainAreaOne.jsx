@@ -134,11 +134,6 @@ let navigate = useNavigate();
             </div>
           </div> */}
           <div className="podcast-banner"></div>
-         
-          <p p className="comingSoonUtilities">click here for <a href="/bts">behind the scenes</a></p>
-          <br/>
-         
-          <br/>
         </div>
 
         <div className="mainAreaTwo">
