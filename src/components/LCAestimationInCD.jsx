@@ -13,7 +13,7 @@ const LCAestimationInCD = () => {
             </div>
             <div style={{width: '330px', height: '320px', margin:'0 auto',marginTop:'30px', padding: '10px'}}>
                 <Youtube id='cYOC8_jJcII'/>
-                <p style={{fontSize: "12px", color: '#00000092'}}>*Braskem, 2015. Life Cycle Assessment. [Online] <br/>
+                <p style={{fontSize: "12px", color: '#00000092'}}>Braskem, 2015. Life Cycle Assessment. [Online] <br/>
 Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Braskem" target="blank" style={{color: '#000'}}>https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Braskem</a>
 
 </p>
@@ -44,6 +44,14 @@ Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Br
                     3. Production of Waist products<br/>
                         3.1. Sometime we can use these waste products as raw material for something else.<br/>
                         3.2. Most of the time it's useless (have to be disposed of)<br/>
+                    <br/>
+                    <strong>3. Impact of using a Product</strong><br/>
+                    When considering the impact of using a product, we need to lookat 2 things;<br/>
+                    3.1. <strong>How much damage it does during it's lifetime</strong><br/>
+                    example; How pollutin driving a car is or How much damage fertisisers do.<br/>
+                    3.2 <strong>How long the product is used for</strong>
+                    <br/><br/>
+                    <strong>4. How we dispose of the product.</strong><br/>
                 </p>
             </div>
         </div>
