@@ -6,6 +6,7 @@ import "react-h5-audio-player/lib/styles.css";
 // import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import GtownMap from "./GtownMap";
 import useMeasure from "react-use-measure";
+import { useNavigate } from "react-router-dom";
 // import DigitalArt from "./DigitalArt";
 // import DigitalArtOne from "./DigitalArtOne";
 // import DigitalArtTwo from "./DigitalArtTwo";
@@ -24,7 +25,10 @@ const MainAreaOne = () => {
   let [ref, { height }] = useMeasure();
   
   const [isOpen, setIsOpen] = useState(false);
-
+let navigate = useNavigate();
+      const showFolioLCA = () => {
+        navigate("/lca_estimation_in_conceptual_design")
+      }
  
   return (
     <MotionConfig transition={{ duration: 0.5 }}>
@@ -75,6 +79,19 @@ const MainAreaOne = () => {
               />
             </div>
           </motion.div>
+          <div className="sauravDutt-projects">
+            <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={showFolioLCA}
+        >
+          <h1 className="lca-title"><i>" life cycle assessment calculator "</i> for estimation in conceptual design.</h1>
+          <div className="folio-card-icon-outter-lca">
+          <h3>Saurav Dutt</h3>
+          </div>
+        </motion.div>
+      </div>
           {/* <div className="right-discover">
             <img
               className="twoImage-discover"
