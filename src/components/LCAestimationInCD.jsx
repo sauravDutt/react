@@ -11,7 +11,7 @@ const LCAestimationInCD = () => {
                     <p>for estimation in conceptual design.</p>
                 </div>
             </div>
-            <div style={{width: '330px', height: '320px', margin:'0 auto',marginTop:'20px', padding: '10px'}}>
+            <div style={{width: '330px', height: '320px', margin:'0 auto',marginTop:'30px', padding: '10px'}}>
                 <Youtube id='cYOC8_jJcII'/>
                 <p style={{fontSize: "12px", color: '#00000092'}}>*Braskem, 2015. Life Cycle Assessment. [Online] <br/>
 Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Braskem" target="blank" style={{color: '#000'}}>https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Braskem</a>
@@ -20,8 +20,6 @@ Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Br
                 <h2>Introduction to Life Cycle Assessment</h2>
             </div>
             <div className="page"></div>
-            <div className="page"></div>
-            <div></div>
         </div>
     )
 }
