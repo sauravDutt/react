@@ -3,7 +3,7 @@ import Youtube from "react-youtube-embed";
 const LCAestimationInCD = () => {
     return(
         <div className="Folio-outter">
-            <div><h1 className="folioTitle">GoodTime Design<span className="seconfont">/LCAC</span></h1></div>
+            <div><h1 className="folioTitle">Good Time Design<span className="seconfont">/LCAC</span></h1></div>
             <div className="lca-banner">
                 <div></div>
                 <div className="right-lca">

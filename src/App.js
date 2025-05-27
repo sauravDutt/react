@@ -16,8 +16,6 @@ import CachedRoundedIcon from '@mui/icons-material/CachedRounded';
 import TreasuryDashboard from "./components/TresuryDashboard";
 import Freestyle from "./components/Freestyle";
 import Bts from "./components/Bts";
-import ChairDesign from "./components/ChairDesign";
-import ToolsDesign from "./components/ToolsDesign";
 import LCAestimationInCD from "./components/LCAestimationInCD";
 
 function App() {
@@ -78,8 +76,6 @@ function App() {
         <Route path="/create" element={<CreateArticleForm isAuth={isAuth} />} />
         <Route path="/gtown" element={<ChatBotOne isAuth={isAuth} />} />
         <Route path="/bts" element={<Bts/>} />
-        <Route path="/chair" element={<ChairDesign/>} />
-        <Route path="/tools" element={<ToolsDesign/>}/>
         <Route path="/lca_estimation_in_conceptual_design" element={<LCAestimationInCD/>}/>
         <Route
           path="/designer_marketplace"
