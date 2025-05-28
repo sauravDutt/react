@@ -52,6 +52,52 @@ Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Br
                     3.2 <strong>How long the product is used for</strong>
                     <br/><br/>
                     <strong>4. How we dispose of the product.</strong><br/>
+                    If we placed in landfill, then we have taken up space that could have been used for nature, and chemicals might seep out into the surrounding ecosystems.<br/>
+                    If we burn the waste products, they might release pollutents into the atmosphere.<br/>
+                    We also have to consider the enery used to transport these waste items.<br/><br/>
+                    Life Cycle Assessment of a Plastic Bag.<br/><br/>
+                    <table>
+                        <tr>
+                            <td>
+                                LCA Stages
+                            </td>
+                            <td>Plastic Bag</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                1. Raw Materials
+                            </td>
+                            <td>
+                                The raw material for a plastic bag is, Crude Oil, which is a finite resource and needs to be seperated using 
+                                Fractional Distillation.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                2. Manufacturing and Packaging 
+                            </td>
+                            <td>
+                                For manufacturing of the plastic bag the hydrocarbons from Fractional distillation, will need to be cracked to make Alkenes and then these can undergo polymerisation to make plastic.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                3. Using the Product 
+                            </td>
+                            <td>
+                                In general plastic bags can be used multiple times.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                4. Disposing of the product
+                            </td>
+                            <td>
+                                they are <strong>not Biodegradable</strong> so they take up space in landfill or they might get into wild and harm animals.
+                            </td>
+                        </tr>
+                    </table>
+
                 </p>
             </div>
         </div>
