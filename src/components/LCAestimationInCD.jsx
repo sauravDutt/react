@@ -32,7 +32,7 @@ Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Br
                         </strong>
                     <br/>
                     <strong>1. Extracting and Processing the raw materials</strong><br/>
-                    Extracting the raw materials, from nature we often directly damage the local enfironment
+                    Extracting the raw materials, from nature we often directly damage the local environment
                     for example; Cutting down forests for wood or Digging huge mines for minerals.<br/>
                     Processing the raw materials, indirectly damages the environment, because of the huge amount of energy required
                     like for example; Extracting metals from their ores, Fractinal Distillation of CRUDE oil for Plastic.. etc..
@@ -97,11 +97,14 @@ Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Br
                             </td>
                         </tr>
                     </table>
-
+                    <br/><br/>
+                    LImitations of Life Cycle Assessments <br/><br/>
+                    Making products involves loads of different steps, and it can be almost impossible to actualy quantify all of them.
+                    it's very difficult to answer, How much energy was used or how many pollutions were produced and so on..
                 </p>
             </div>
         </div>
     )
 }
 
-export default LCAestimationInCD;
+export default LCAestimationInCD;   
