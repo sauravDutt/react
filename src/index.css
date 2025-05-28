@@ -1379,20 +1379,21 @@ z-index: 20;
   user-select: none;
 }
 .lcac-outter {
-  margin-top: 100px;
+  margin-top: 115px;
   width: 100%;
   user-select: none;
 }
 .lcac-outter h1 {
   font-weight: 100;
   margin: 0;
-  font-size: 20px;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
 }
 .second-font {
   font-family: 'logo';
   font-weight: 300;
   font-size: 25px;
-  margin-left: 10px;
 }
 .lcac-main-outter {
   background-color: transparent;
