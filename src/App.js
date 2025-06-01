@@ -41,7 +41,7 @@ function App() {
           <Link to="/designer_marketplace" className="button-outter">
             <StoreRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
-          <Link to="/play" className="button-outter">
+          <Link to="/lcac" className="button-outter">
             <CachedRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           {!isAuth ? (
@@ -66,7 +66,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainAreaOne />} />
         <Route path="/login" element={<LogIn setIsAuth={setIsAuth} />} />
-        <Route path="/play" element={<Game />} />
+        <Route path="/lcac" element={<Game />} />
         <Route
           path="/dashboard"
           element={<UserDashboardPage setIsAuth={setIsAuth} isAuth={isAuth} />}
