@@ -25,11 +25,11 @@ const MainAreaOne = () => {
   let [ref, { height }] = useMeasure();
   
   const [isOpen, setIsOpen] = useState(false);
-let navigate = useNavigate();
+  let navigate = useNavigate();
       const showFolioLCA = () => {
         navigate("/lca_estimation_in_conceptual_design")
       }
- 
+  
   return (
     <MotionConfig transition={{ duration: 0.5 }}>
       <div className="mainArea-outter">
@@ -39,7 +39,7 @@ let navigate = useNavigate();
             <div>
               <h1>Goodtime.design</h1>
               <p>
-                Good Time Design is a marketplace for independent designers to showcase and sell their work.. <br/>
+                Good Time Design is a conceptual design marketplace for independent designers to showcase and sell their work.. <br/>
                 <span className="smallText-two">10% of every transaction goes to the community <strong>treasury</strong>. </span>
               </p>
             </div>
