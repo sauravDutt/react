@@ -100,7 +100,17 @@ Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Br
                     <br/><br/>
                     LImitations of Life Cycle Assessments <br/><br/>
                     Making products involves loads of different steps, and it can be almost impossible to actualy quantify all of them.
-                    it's very difficult to answer, How much energy was used or how many pollutions were produced and so on..
+                    it's very difficult to answer, How much energy was used or how many pollutions were produced and so on. <strong>Good Time Design</strong> solves this problem by introducing life cycle assessment calcularoer.
+                    <br/>
+                    Our Life Cycle Assessment Calculator (LCAC), takes in a good render of the Peoduct's CAD and outputs an estimate of the entire product's life cycle, a report covering all the phases of a life cycle, i.e <br/>
+                    <ul>
+                        <li>Extracting and Peocessing of raw materials.</li>
+                        <li>Manufacturing and Packaging of product.</li>
+                        <li>Impact of using the product</li>
+                        <li>How the product is disposed or recycled</li>
+                    </ul>
+                    The application meets the ISO 1404 and ISO 14044, standards that provide the framework and requirements for conduction life cycle assessments.
+
                 </p>
             </div>
         </div>
