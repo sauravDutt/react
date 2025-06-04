@@ -98,7 +98,7 @@ Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Br
                         </tr>
                     </table>
                     <br/><br/>
-                    LImitations of Life Cycle Assessments <br/><br/>
+                    Gap in Life Cycle Assessment<br/><br/>
                     Making products involves loads of different steps, and it can be almost impossible to actualy quantify all of them.
                     it's very difficult to answer, How much energy was used or how many pollutions were produced and so on. <strong>Good Time Design</strong> solves this problem by introducing life cycle assessment calcularoer.
                     <br/>
@@ -110,6 +110,18 @@ Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Br
                         <li>How the product is disposed or recycled</li>
                     </ul>
                     The application meets the ISO 1404 and ISO 14044, standards that provide the framework and requirements for conduction life cycle assessments.
+                    <ul>
+                        <li>ISO 14040
+                            <ul>
+                                <li>Outlines the principles and framework of LCA</li>
+                            </ul>
+                        </li>
+                        <li>ISO 14044
+                            <ul>
+                                <li>Specifies the requirements and guidelines for each phase of the LCA process</li>
+                            </ul>
+                        </li>
+                    </ul>
 
                 </p>
             </div>
