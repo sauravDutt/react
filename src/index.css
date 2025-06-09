@@ -1185,7 +1185,7 @@ z-index: 20;
   border-radius: 15px;
   display: grid;
   grid-template-columns: 65% 35%;
-  height: 205px !important;
+  height: 220px !important;
   margin-top: -30px !important;
 }
 .lca-banner div {
@@ -1193,18 +1193,18 @@ z-index: 20;
   border-radius: 10px;
 }
 .right-lca {
-  margin-top: 120px !important;
+  margin-top: 125px !important;
   background-color: #00ff1e44;
-  height: 120px !important;
+  height: 95px !important;
 }
 .right-lca h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   margin-left: 10px;
 }
 
-.rig
+
 .right-lca button {
   background-color: transparent;
   border: 1px solid #000;
