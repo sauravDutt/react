@@ -1378,6 +1378,101 @@ z-index: 20;
   padding-left: 15px;
   user-select: none;
 }
+.lcac-file-upload {
+  border: 1px solid #000;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 0 auto;
+}
+
+
+.drop-zone {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.drag-files,
+.drop-files {
+  border-radius: inherit;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 300ms;
+}
+
+.selected {
+  position: relative;
+}
+.selected img {
+  width: 300px;
+}
+
+.actions {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: color-mix(in srgb, white, transparent 90%);
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  gap: 10px;
+  font-size: 0.7em;
+  backdrop-filter: blur(1px);
+}
+
+.actions button {
+  border-radius: 3px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  padding: 10px 15px;
+}
+
+.uploaded-txt {
+  background-color: rgb(34, 116, 135);
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.upload-btn {
+  background-color: rgb(34, 135, 34);
+}
+
+.cancel-btn {
+  background-color: rgb(135, 34, 34);
+}
+
+.drop-files {
+  background-color: #343333;
+  color: #545353;
+}
+
+.container img {
+  width: 100%;
+  display: block;
+  border-radius: inherit;
+}
+
+.uploaded-url {
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  word-wrap: break-word;
+  margin: 10px 0;
+  color: orange;
+  text-decoration: underline;
+}
+
 .lcac-outter {
   user-select: none;
   margin-top: 110px;
@@ -1403,7 +1498,7 @@ z-index: 20;
   width: 100%;
   height: 200px;
   position: absolute;
-  margin-top: 105px;
+  margin-top: 19px;
 }
 .digitalArt-info h1 {
   margin: 0;
