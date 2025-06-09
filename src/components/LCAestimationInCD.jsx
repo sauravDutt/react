@@ -9,7 +9,7 @@ const LCAestimationInCD = () => {
                     <img src={process.env.PUBLIC_URL + "/img/lcaImg.png"} className="lcaImg-one" alt="LCA" />
                 </div>
                 <div className="right-lca">
-                    <h1>Life <br/>Cycle <br/>Assessment <br/>Calculator</h1>
+                    <h1>Life Cycle <br/>Assessment <br/>Calculator</h1>
                 </div>
             </div>
             <div style={{width: '330px', height: '320px', margin:'0 auto',marginTop:'30px', padding: '10px'}}>

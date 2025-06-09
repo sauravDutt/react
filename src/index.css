@@ -1184,7 +1184,7 @@ z-index: 20;
   overflow: hidden;
   border-radius: 15px;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 65% 35%;
   height: 205px !important;
   margin-top: -30px !important;
 }
@@ -1199,15 +1199,12 @@ z-index: 20;
 }
 .right-lca h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   margin-left: 10px;
 }
-.right-lca p {
-  margin: 0;
-  width: 150px;
-  margin-left: 10px;
-}
+
+.rig
 .right-lca button {
   background-color: transparent;
   border: 1px solid #000;
@@ -1428,7 +1425,7 @@ z-index: 20;
   font-size: 0.7em;
 }
 .lcaImg-one {
-  width: 270px;
+  width: 310px;
 }
 .actions button {
   border-radius: 3px;
