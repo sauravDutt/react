@@ -97,7 +97,10 @@ Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Br
                             </td>
                         </tr>
                     </table>
-                    <br/><br/>
+                    <br/>
+                    <img src={process.env.PUBLIC_URL + "/img/lcaImg.png"} className="lcaImg-one" alt="LCA" />
+                    <br/>
+                     <br/>
                     Gap in Life Cycle Assessment<br/><br/>
                     Making products involves loads of different steps, and it can be almost impossible to actualy quantify all of them.
                     it's very difficult to answer, How much energy was used or how many pollutions were produced and so on. <strong>Good Time Design</strong> solves this problem by introducing life cycle assessment calculator.

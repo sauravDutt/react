@@ -1425,7 +1425,9 @@ z-index: 20;
   gap: 10px;
   font-size: 0.7em;
 }
-
+.lcaImg-one {
+  width: 270px;
+}
 .actions button {
   border-radius: 3px;
   border: 1px solid transparent;
