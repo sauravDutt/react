@@ -1379,7 +1379,8 @@ z-index: 20;
   user-select: none;
 }
 .lcac-file-upload {
-  border: 1px solid #000;
+  border: 1px solid #0000005b;
+  border-radius: 10px;
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
@@ -1398,8 +1399,9 @@ z-index: 20;
 .drag-files,
 .drop-files {
   border-radius: inherit;
-  width: 100%;
-  height: 140px;
+  width: 350px;
+  overflow: hidden;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1445,16 +1447,16 @@ z-index: 20;
 }
 
 .upload-btn {
-  background-color: rgb(34, 135, 34);
+  background-color: rgb(23, 150, 23);
 }
 
 .cancel-btn {
-  background-color: rgb(135, 34, 34);
+  background-color: rgb(188, 27, 27);
 }
 
 .drop-files {
-  background-color: #343333;
-  color: #545353;
+  background-color: #ffffffb9;
+  color: #000000;
 }
 
 .container img {
