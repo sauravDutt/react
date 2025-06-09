@@ -1193,7 +1193,9 @@ z-index: 20;
   border-radius: 10px;
 }
 .right-lca {
+  margin-top: 120px !important;
   background-color: #00ff1e44;
+  height: 120px !important;
 }
 .right-lca h1 {
   font-family: Arial, Helvetica, sans-serif;

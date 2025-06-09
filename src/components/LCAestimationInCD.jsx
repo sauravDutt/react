@@ -5,10 +5,11 @@ const LCAestimationInCD = () => {
         <div className="Folio-outter">
             <div><h1 className="folioTitle">Good Time Design<span className="seconfont">/LCAC</span></h1></div>
             <div className="lca-banner">
-                <div></div>
+                <div>
+                    <img src={process.env.PUBLIC_URL + "/img/lcaImg.png"} className="lcaImg-one" alt="LCA" />
+                </div>
                 <div className="right-lca">
                     <h1>Life <br/>Cycle <br/>Assessment <br/>Calculator</h1>
-                    <p>for estimation in conceptual design.</p>
                 </div>
             </div>
             <div style={{width: '330px', height: '320px', margin:'0 auto',marginTop:'30px', padding: '10px'}}>
@@ -98,7 +99,7 @@ Available at: <a href="https://www.youtube.com/watch?v=cYOC8_jJcII&ab_channel=Br
                         </tr>
                     </table>
                     <br/>
-                    <img src={process.env.PUBLIC_URL + "/img/lcaImg.png"} className="lcaImg-one" alt="LCA" />
+                    
                     <br/>
                      <br/>
                     Gap in Life Cycle Assessment<br/><br/>
