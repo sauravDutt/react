@@ -754,8 +754,12 @@ z-index: 20;
   padding: 0;
 }
 .cad-info {
-  width: 350px;
   margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #00000009;
+  padding: 1px;
+  margin-bottom: 100px;
 }
 .cad-info h4 {
   font-weight: 300;
