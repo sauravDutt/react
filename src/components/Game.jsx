@@ -79,12 +79,15 @@ const Game = () => {
           </div>
         )}
       </div>
+      <div className="cad-info">
+          <h4>Upload a good render of your CAD, in the box above.</h4>
+        </div>
       {uploadedURL && (
         <a target="_blank" href={uploadedURL}>
           <span className="uploaded-url">{uploadedURL}</span>
         </a>
       )}
-        <div className="cad-info">
+        <div className="cad-info-two">
           <h4>Upload a good render of your CAD, in the box above.</h4>
         </div>
         </div>
