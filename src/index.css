@@ -753,6 +753,13 @@ z-index: 20;
   margin: 0;
   padding: 0;
 }
+.cad-info {
+  width: 350px;
+  margin: 0 auto;
+}
+.cad-info h4 {
+  font-weight: 300;
+}
 
 .song-outter-outter {
   display: grid;

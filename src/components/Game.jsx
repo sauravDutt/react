@@ -84,8 +84,11 @@ const Game = () => {
           <span className="uploaded-url">{uploadedURL}</span>
         </a>
       )}
-        
+        <div className="cad-info">
+          <h4>Upload a good render of your CAD, in the box above.</h4>
         </div>
+        </div>
+        
         
       </div>
   );
