@@ -1511,6 +1511,7 @@ z-index: 20;
   height: 200px;
   position: absolute;
   margin-top: 21px;
+  margin-bottom: 100px;
 }
 .digitalArt-info h1 {
   margin: 0;
