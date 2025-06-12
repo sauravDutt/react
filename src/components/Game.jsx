@@ -88,7 +88,7 @@ const Game = () => {
         </a>
       )}
         <div className="cad-info-two">
-          <h4>Upload a good render of your CAD, in the box above.</h4>
+          <h5>*Please upload a good render of your conceptual design's CAD design in the box above to get a .</h5>
         </div>
         </div>
         
