@@ -782,6 +782,7 @@ z-index: 20;
 }
 .cad-info-two-one {
   border: 1px solid #000;
+  cursor: pointer;
   width: 150px;
   border-radius: 5px;
   height: 55px;
