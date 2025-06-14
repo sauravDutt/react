@@ -768,8 +768,6 @@ z-index: 20;
   padding: 1px;
 }
 .cad-info-two {
-  margin-bottom: 100px;
-  background-color: #00000009;
   padding: 1px;
   padding: 5px;
 }
@@ -805,6 +803,11 @@ z-index: 20;
 }
 .cad-info h4 {
   font-weight: 300;
+  padding: 5px;
+  margin: 0;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
 }
 
 .song-outter-outter {

@@ -81,13 +81,7 @@ const Game = () => {
       </div>
       <div className="cad-info">
           <h4>Upload a good render of your CAD, in the box above.</h4>
-        </div>
-      {uploadedURL && (
-        <a target="_blank" href={uploadedURL}>
-          <span className="uploaded-url">{uploadedURL}</span>
-        </a>
-      )}
-        <div className="cad-info-two">
+          <div className="cad-info-two">
           <h5>*Please upload a good render of your conceptual design's CAD design in the box above to get a Life Cycle Assessment estimate for your design.</h5>
           <div className="cad-info-two-one">
             <h3>Basic <span className="secondFont-two">Plan</span></h3>
@@ -97,6 +91,13 @@ const Game = () => {
               className="green-dot-top" />
           </div>
         </div>
+        </div>
+      {uploadedURL && (
+        <a target="_blank" href={uploadedURL}>
+          <span className="uploaded-url">{uploadedURL}</span>
+        </a>
+      )}
+        
       </div>
         
         
