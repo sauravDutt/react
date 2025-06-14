@@ -89,11 +89,18 @@ const Game = () => {
       )}
         <div className="cad-info-two">
           <h5>*Please upload a good render of your conceptual design's CAD design in the box above to get a Life Cycle Assessment estimate for your design.</h5>
+          <div className="cad-info-two-one">
+            <h3>Basic <span className="secondFont-two">Plan</span></h3>
+            <img 
+              src={process.env.PUBLIC_URL + "/img/greenDot.png"}
+              alt="Img" 
+              className="green-dot-top" />
+          </div>
         </div>
-        </div>
-        
-        
       </div>
+        
+        
+    </div>
   );
 };
 export default Game;

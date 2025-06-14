@@ -250,6 +250,14 @@ td {
   margin: 0;
   letter-spacing: 0.5px;
 }
+.secondFont-two {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
 .mainAreaTwo {
   border: 2px solid #000;
   border-radius: 10px;
@@ -771,6 +779,28 @@ z-index: 20;
   margin-left: 20px;
   text-align: left;
   width: 240px;
+}
+.cad-info-two-one {
+  border: 1px solid #000;
+  width: 150px;
+  border-radius: 5px;
+  height: 55px;
+  float: right;
+  margin-right: 10px;
+  margin-top: -75px;
+}
+.cad-info-two-one h3 {
+  margin: 0;
+  position: absolute;
+  margin-top: 20px;
+  color: #000000b7;
+  font-size: 30px;
+  margin-left: 5px;
+}
+.green-dot-top {
+  width: 12px;
+  float: right;
+  margin: 5px;
 }
 .cad-info h4 {
   font-weight: 300;
