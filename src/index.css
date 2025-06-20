@@ -1552,16 +1552,19 @@ z-index: 20;
   cursor: pointer;
   padding: 5px;
   margin-top: 62px;
-  border: 1px solid #0000007d;
+  background-color: #000000e4;
+  color: #fff;
+  border: none;
   grid-template-columns: auto;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
 }
 .prompt-area button:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   border: none;
+  border: 1px solid #0000007d;
 }
 .lcac-outter {
   user-select: none;
