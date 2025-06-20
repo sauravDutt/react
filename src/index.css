@@ -1536,7 +1536,7 @@ z-index: 20;
   grid-template-columns: auto;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .prompt-area textarea {
   font-size: 15px;
@@ -1550,13 +1550,18 @@ z-index: 20;
   position: absolute;
   right: 35px;
   cursor: pointer;
+  padding: 5px;
   margin-top: 62px;
   border: 1px solid #0000007d;
   grid-template-columns: auto;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-
+}
+.prompt-area button:hover {
+  background-color: #000;
+  color: #fff;
+  border: none;
 }
 .lcac-outter {
   user-select: none;
