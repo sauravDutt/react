@@ -1530,7 +1530,34 @@ z-index: 20;
   color: orange;
   text-decoration: underline;
 }
+.prompt-area {
+  height: 150px;
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.prompt-area textarea {
+  font-size: 15px;
+  width: 320px;
+  height: 90px;
+  padding: 10px;
+}
+.prompt-area button {
+  width: 40px;
+  display: grid;
+  position: absolute;
+  right: 35px;
+  cursor: pointer;
+  margin-top: 62px;
+  border: 1px solid #0000007d;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 
+}
 .lcac-outter {
   user-select: none;
   margin-top: 115px;

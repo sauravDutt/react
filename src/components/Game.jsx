@@ -1,5 +1,6 @@
 import { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
+import SendIcon from '@mui/icons-material/Send';
 
 const Game = () => {
   const [dataURL, setDataURL] = useState(null)
@@ -27,6 +28,7 @@ const Game = () => {
   const selectedFile = acceptedFiles[0]
   console.log(selectedFile)
   console.log(dataURL)
+  console.log(setUploadedURL)
   return (
     <div className="margin-top-imp">
       <div className="lcac-outter">
@@ -36,7 +38,7 @@ const Game = () => {
         <div className="lcac-file-upload">
             {dataURL ? (
           <div className="selected">
-            <img src={dataURL} />
+            <img src={dataURL} alt="img"/>
             <div className="actions">
               {uploadedURL ? (
                 <span className="uploaded-txt">Uploaded!</span>
@@ -79,6 +81,10 @@ const Game = () => {
           </div>
         )}
       </div>
+      <div className="prompt-area">
+        <textarea name="prompt" id="cadDescription" placeholder="Describe you CAD ....."></textarea>
+        <button><SendIcon/></button>
+      </div>
       <div className="cad-info">
           <h4>Upload a good render of your CAD, in the box above.</h4>
           <div className="cad-info-two">
@@ -93,7 +99,7 @@ const Game = () => {
         </div>
         </div>
       {uploadedURL && (
-        <a target="_blank" href={uploadedURL}>
+        <a target="_blank" href={uploadedURL} rel="noreferrer">
           <span className="uploaded-url">{uploadedURL}</span>
         </a>
       )}
