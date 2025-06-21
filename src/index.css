@@ -806,10 +806,9 @@ z-index: 20;
   padding: 5px;
   margin: 0;
   margin-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #000;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000000bd;
 }
-
 .song-outter-outter {
   display: grid;
   width: 100%;
@@ -1542,6 +1541,8 @@ z-index: 20;
   font-size: 15px;
   width: 320px;
   height: 90px;
+  border: 2px solid #000;
+  border-radius: 10px;
   padding: 10px;
 }
 .prompt-area button {

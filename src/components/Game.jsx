@@ -75,7 +75,7 @@ const Game = () => {
               </div>
             ) : (
               <div className="drag-files">
-                Drop your files here or click to browse
+                Drop your CAD here or click to browse
               </div>
             )}
           </div>
@@ -86,7 +86,7 @@ const Game = () => {
         <button><SendIcon/></button>
       </div>
       <div className="cad-info">
-          <h4>Upload a good render of your CAD and a description.</h4>
+          <h4>Upload your .gltf or .obj file in the box above</h4>
           <div className="cad-info-two">
           <h5>*Please upload a good render of your conceptual design's CAD design in the box above to get a Life Cycle Assessment estimate for your design.</h5>
           <div className="cad-info-two-one">
