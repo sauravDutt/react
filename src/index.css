@@ -1540,7 +1540,7 @@ z-index: 20;
 .prompt-area textarea {
   font-size: 15px;
   width: 320px;
-  height: 90px;
+  height: 20px;
   border: 2px solid #000;
   border-radius: 10px;
   padding: 10px;
