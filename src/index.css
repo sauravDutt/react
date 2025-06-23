@@ -1546,8 +1546,14 @@ z-index: 20;
   padding: 10px;
 }
 .cad-details-div {
-  border: 1px solid #000;
-  height: 30px;
+  display: flex;
+  gap: 10px;
+}
+.cad-details-div input {
+  border: 1px solid #000 !important;
+  border-radius: 5px;
+  padding: 3px;
+
 }
 .prompt-area button {
   width: 40px;
