@@ -1553,7 +1553,10 @@ z-index: 20;
   border: 1px solid #000 !important;
   border-radius: 5px;
   padding: 3px;
-
+}
+.cad-details-div button{
+  background-color: green;
+  margin-top: -3px !important;
 }
 .prompt-area button {
   width: 40px;

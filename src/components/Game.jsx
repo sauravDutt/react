@@ -88,9 +88,14 @@ const Game = () => {
           </label>
           <input type="number" name="height" id="CADheight" />
           <label>
+            Length
+          </label>
+          <input type="number" name="width" id="CADwidth" />
+          <label>
             Width
           </label>
           <input type="number" name="width" id="CADwidth" />
+          <button><SendIcon/></button>
         </div>
         <textarea name="prompt" id="cadDescription" placeholder="Describe you CAD ....."></textarea>
         <button><SendIcon/></button>
