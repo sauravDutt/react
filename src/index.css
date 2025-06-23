@@ -1540,10 +1540,14 @@ z-index: 20;
 .prompt-area textarea {
   font-size: 15px;
   width: 320px;
-  height: 30px;
+  height: 35px;
   border: 2px solid #000;
   border-radius: 10px;
   padding: 10px;
+}
+.cad-details-div {
+  border: 1px solid #000;
+  height: 30px;
 }
 .prompt-area button {
   width: 40px;
