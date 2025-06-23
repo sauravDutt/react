@@ -82,6 +82,9 @@ const Game = () => {
         )}
       </div>
       <div className="prompt-area">
+        <div>
+          
+        </div>
         <textarea name="prompt" id="cadDescription" placeholder="Describe you CAD ....."></textarea>
         <button><SendIcon/></button>
       </div>
