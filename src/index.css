@@ -920,6 +920,7 @@ z-index: 20;
 }
 .margin-top-imp {
   margin-top: 80px;
+  height: 100vh;
 }
 .timeInaBottle {
   height: 75px;
@@ -1530,7 +1531,8 @@ z-index: 20;
   text-decoration: underline;
 }
 .prompt-area {
-  height: 150px;
+  padding: 5px;
+  height: 227px;
   display: grid;
   grid-template-columns: auto;
   align-items: center;
@@ -1548,24 +1550,28 @@ z-index: 20;
 .cad-details-div {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 .cad-details-div input {
   border: 1px solid #000 !important;
   border-radius: 5px;
   padding: 3px;
 }
-.cad-details-div button{
-  background-color: green;
-  margin-top: -3px !important;
+.cadFileSelecter {
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 5px;
+  padding-left: 10px;
+  align-items: center;
 }
 .prompt-area button {
-  width: 40px;
+  width: 100px;
   display: grid;
-  position: absolute;
-  right: 35px;
   cursor: pointer;
   padding: 5px;
-  margin-top: 62px;
   background-color: #000000e4;
   color: #fff;
   border: none;

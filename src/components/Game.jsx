@@ -95,7 +95,9 @@ const Game = () => {
             Width
           </label>
           <input type="number" name="width" id="CADwidth" />
-          <button><SendIcon/></button>
+        </div>
+        <div className="cadFileSelecter">
+          <input type="file" name="cadFile" id="CADfile" />
         </div>
         <textarea name="prompt" id="cadDescription" placeholder="Describe you CAD ....."></textarea>
         <button><SendIcon/></button>
