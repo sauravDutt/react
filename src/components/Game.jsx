@@ -103,9 +103,9 @@ const Game = () => {
         <button><SendIcon/></button>
       </div>
       <div className="cad-info">
-          <h4>Upload your .gltf or .obj file in the box above</h4>
+          <h4></h4>
           <div className="cad-info-two">
-          <h5>*Please upload a good render of your conceptual design's CAD design in the box above to get a Life Cycle Assessment estimate for your design.</h5>
+          <h5>*Please upload a good render of your CAD in the box above, specify the diamentions and upload your .glb file. Describe your conceptual design and press the submit button.</h5>
           <div className="cad-info-two-one">
             <h3>Basic <span className="secondFont-two">Plan</span></h3>
             <img 
