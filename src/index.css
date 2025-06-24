@@ -1532,7 +1532,7 @@ z-index: 20;
 }
 .prompt-area {
   padding: 5px;
-  height: 227px;
+  height: 237px;
   display: grid;
   grid-template-columns: auto;
   align-items: center;
@@ -1579,6 +1579,7 @@ z-index: 20;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  margin-left: 244px;
 }
 .prompt-area button:hover {
   background-color: #fff;
