@@ -103,7 +103,7 @@ const Game = () => {
         <button><SendIcon/></button>
       </div>
       <div className="cad-info">
-          <h4></h4>
+          <h4>-</h4>
           <div className="cad-info-two">
           <h5>*Please upload a good render of your CAD in the box above, specify the diamentions and upload your .glb file. Describe your conceptual design and press the submit button.</h5>
           <div className="cad-info-two-one">

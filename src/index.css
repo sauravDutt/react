@@ -807,7 +807,7 @@ z-index: 20;
   margin: 0;
   margin-top: 20px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #000000bd;
+  border-bottom: 3px dotted #000000bd;
 }
 .song-outter-outter {
   display: grid;
