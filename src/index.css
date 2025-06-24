@@ -1568,7 +1568,7 @@ z-index: 20;
   align-items: center;
 }
 .prompt-area button {
-  width: 100px;
+  width: 50px;
   display: grid;
   cursor: pointer;
   padding: 5px;
@@ -1579,7 +1579,7 @@ z-index: 20;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  margin-left: 244px;
+  margin-left: 290px;
 }
 .prompt-area button:hover {
   background-color: #fff;
