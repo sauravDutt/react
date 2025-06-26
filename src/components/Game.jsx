@@ -96,6 +96,14 @@ const Game = () => {
           </label>
           <input type="number" name="width" id="CADwidth" />
         </div>
+        <br/>
+        <label for="materials">Choose a Material:</label>
+        <select id="materials" name="materials">
+          <option value="aluminum">Aluminum</option>
+          <option value="brass">Brass</option>
+          <option value="bronze">Bronze</option>
+          <option value="iron">Iron</option>
+        </select>
         <div className="cadFileSelecter">
           <input type="file" name="cadFile" id="CADfile" />
         </div>

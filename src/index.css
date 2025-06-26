@@ -1532,12 +1532,12 @@ z-index: 20;
 }
 .prompt-area {
   padding: 5px;
-  height: 237px;
+  height: 337px;
   display: grid;
   grid-template-columns: auto;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .prompt-area textarea {
   font-size: 15px;
