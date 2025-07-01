@@ -102,7 +102,14 @@ const Game = () => {
           <option value="aluminum">Aluminum</option>
           <option value="brass">Brass</option>
           <option value="bronze">Bronze</option>
-          <option value="iron">Iron</option>
+          <option value="copper">Copper</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="steel">Steel</option>
+          <option value="stainless">Stainless</option>
+          <option value="titanium">Titanium</option>
+
         </select>
         <div className="cadFileSelecter">
           <input type="file" name="cadFile" id="CADfile" />
