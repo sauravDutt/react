@@ -1532,12 +1532,11 @@ z-index: 20;
 }
 .prompt-area {
   padding: 5px;
-  height: 337px;
+  height: 355px;
   display: grid;
   grid-template-columns: auto;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15px;
 }
 .prompt-area textarea {
   font-size: 15px;
@@ -1580,6 +1579,8 @@ z-index: 20;
   justify-content: center;
   border-radius: 10px;
   margin-left: 290px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .prompt-area button:hover {
   background-color: #fff;
