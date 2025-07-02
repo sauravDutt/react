@@ -1,7 +1,21 @@
 import { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import SendIcon from '@mui/icons-material/Send';
-
+import Select from 'react-select';
+import makeAnimated from 'react-select/animated';
+const animatedComponents = makeAnimated();
+const options = [
+  { value: 'aluminum', label: 'Aluminum' },
+  { value: 'brass', label: 'Brass' },
+  { value: 'bronze', label: 'Bronze' },
+  { value: 'copper', label: 'Copper' },
+  { value: 'copper', label: 'Platinum' },
+  { value: 'copper', label: 'Gold' },
+  { value: 'copper', label: 'Silver' },
+  { value: 'copper', label: 'Stainless' },
+  { value: 'copper', label: 'Steel' },
+  { value: 'copper', label: 'Titanium' }
+]
 const Game = () => {
   const [dataURL, setDataURL] = useState(null)
   const [uploadedURL, setUploadedURL] = useState(null)
@@ -98,7 +112,8 @@ const Game = () => {
         </div>
         <br/>
         <label for="materials">Choose a Material:</label>
-        <select id="materials" name="materials">
+        {/* <select id="materials" name="materials">
+          <option>Metal</option>
           <option value="aluminum">Aluminum</option>
           <option value="brass">Brass</option>
           <option value="bronze">Bronze</option>
@@ -108,9 +123,14 @@ const Game = () => {
           <option value="silver">Silver</option>
           <option value="steel">Steel</option>
           <option value="stainless">Stainless</option>
-          <option value="titanium">Titanium</option>
-
-        </select>
+          <option value="titanium">Titanium</option> */}
+          <Select
+            closeMenuOnSelect={false}
+            components={animatedComponents}
+            isSearchable="true"
+            isMulti="true"
+            options={options}
+          />
         <div className="cadFileSelecter">
           <input type="file" name="cadFile" id="CADfile" />
         </div>
