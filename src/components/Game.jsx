@@ -131,16 +131,13 @@ const Game = () => {
             isMulti="true"
             options={options}
           />
-        <div className="cadFileSelecter">
-          <input type="file" name="cadFile" id="CADfile" />
-        </div>
         <textarea name="prompt" id="cadDescription" placeholder="Describe you CAD ....."></textarea>
         <button><SendIcon/></button>
       </div>
       <div className="cad-info">
           {/* <h4>-</h4> */}
           <div className="cad-info-two">
-          <h5>*Please upload a good render of your CAD in the box above, specify the diamentions and upload your .glb file. Describe your conceptual design and press the submit button.</h5>
+          <h5>*Please upload a .glTF file  of your CAD in the box above, specify the diamentions and describe your conceptual design and press the submit button.</h5>
           <div className="cad-info-two-one">
             <h3>Basic <span className="secondFont-two">Plan</span></h3>
             <img 

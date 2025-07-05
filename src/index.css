@@ -1556,16 +1556,7 @@ z-index: 20;
   border-radius: 5px;
   padding: 3px;
 }
-.cadFileSelecter {
-  height: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: grid;
-  grid-template-columns: auto;
-  gap: 5px;
-  padding-left: 10px;
-  align-items: center;
-}
+
 .prompt-area button {
   width: 50px;
   display: grid;
