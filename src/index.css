@@ -1532,7 +1532,7 @@ z-index: 20;
 }
 .prompt-area {
   padding: 5px;
-  height: 335px;
+  min-height: 335px;
   display: grid;
   grid-template-columns: auto;
   align-items: center;
