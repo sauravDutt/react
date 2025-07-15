@@ -670,12 +670,39 @@ z-index: 20;
   margin: 0px;
   padding: 10px;
   width: 170px;
+  display: grid;
+  grid-template-columns: auto;
+  height: 120px;
   border-radius: 5px;
   margin-left: 125%;
+  margin-top: 25px;
+}
+.smallText-user {
+  font-size: 25px;
+}
+.userDetails-two h2 {
+  font-family: 'logo';
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 .userDetails-two button {
-  float: right;
-  margin-top: 30px;
+  box-shadow: 5px 5px 15px #00000019;
+  padding: 2px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  margin-left: 120px;
+  border: none;
+}
+.userDetails-two button:hover {
+  background-color: green;
+  color: #fff;
 }
 .userDetails h2 {
   margin: 0;

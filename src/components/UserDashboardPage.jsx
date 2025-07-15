@@ -3,7 +3,7 @@ import { auth } from "../firebase-config";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const UserDashboardPage = ({ setIsAuth, isAuth }) => {
   let navigate = useNavigate();
@@ -41,9 +41,8 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
       </div>
       <div className="userLogout-two">
         <div className="userDetails-two">
-          <h2>Survey</h2>
-          <p>Take a survey</p>
-          <button onClick={signOutUser}>survey</button>
+          <h2>" <span className="smallText-user">take a survey.</span>"</h2>
+          <button onClick={signOutUser}><ArrowForwardIcon/> </button>
         </div>
       </div>
       {/* <div className="userStats">
