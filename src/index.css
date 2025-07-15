@@ -689,9 +689,9 @@ z-index: 20;
   padding: 0px;
 }
 .userDetails-two button {
-  box-shadow: 5px 5px 15px #00000019;
+  box-shadow: 2.5px 2.5px 10px #00000017;
   padding: 2px;
-  background-color: #ffffffb1;
+  background-color: #ffffff47;
   border-radius: 10px;
   margin-top: 15px;
   cursor: pointer;
