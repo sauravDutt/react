@@ -15,6 +15,11 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
   });
 
   const [user, setUser] = useState([]);
+
+  const showSurvey = () => {
+    console.log("Click")
+  }
+
   const signOutUser = () => {
     signOut(auth).then(() => {
       localStorage.clear();
@@ -42,7 +47,7 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
       <div className="userLogout-two">
         <div className="userDetails-two">
           <h2>" <span className="smallText-user">take a survey.</span>"</h2>
-          <button onClick={signOutUser}><ArrowForwardIcon/> </button>
+          <button onClick={showSurvey}><ArrowForwardIcon/> </button>
         </div>
       </div>
       {/* <div className="userStats">
