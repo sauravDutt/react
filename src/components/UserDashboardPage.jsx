@@ -39,6 +39,13 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
         </div>
         <div className="onlineDot"></div>
       </div>
+      <div className="userLogout-two">
+        <div className="userDetails-two">
+          <h2>Survey</h2>
+          <p>Take a survey</p>
+          <button onClick={signOutUser}>survey</button>
+        </div>
+      </div>
       {/* <div className="userStats">
         <p>
           <span>Dashboard</span>

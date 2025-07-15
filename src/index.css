@@ -640,6 +640,21 @@ z-index: 20;
   grid-template-columns: 35% 65%;
 }
 
+.userLogout-two {
+  box-shadow: 5px 5px 15px #00000038;
+  position: fixed;
+  width: 90%;
+  height: 200px;
+  margin-left: 4%;
+  display: grid;
+  border-radius: 15px;
+  padding: 5px;
+  z-index: 69;
+  margin-top: 200px;
+  background-color: #fafafa;
+  grid-template-columns: 35% 65%;
+}
+
 .userLogout img {
   border-radius: 50%;
   width: 69px;
@@ -650,6 +665,17 @@ z-index: 20;
   margin-left: -12%;
   padding-top: 10px;
   padding-left: 15px;
+}
+.userDetails-two {
+  margin: 0px;
+  padding: 10px;
+  width: 170px;
+  border-radius: 5px;
+  margin-left: 150%;
+}
+.userDetails-two button {
+  float: right;
+  margin-top: 30px;
 }
 .userDetails h2 {
   margin: 0;
