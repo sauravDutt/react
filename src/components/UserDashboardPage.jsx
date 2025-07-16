@@ -46,6 +46,12 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
       </div>
       <div className="userLogout-two">
         <div className="userDetails-two">
+          <img 
+            className="bestChair-img"
+            src={process.env.PUBLIC_URL + "/img/bestChair.png"}
+            alt="Img"
+            srcset="" 
+            />
           <h2>" <span className="smallText-user">take a survey.</span>"</h2>
           <button onClick={showSurvey}><ArrowForwardIcon/> </button>
         </div>

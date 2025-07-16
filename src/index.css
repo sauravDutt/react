@@ -675,10 +675,16 @@ z-index: 20;
   height: 120px;
   border-radius: 5px;
   margin-left: 125%;
-  margin-top: 25px;
+  margin-top: 17px;
 }
 .smallText-user {
   font-size: 25px;
+}
+.bestChair-img {
+  width: 250px;
+  left: 10px;
+  top: 47px;
+  position: absolute;
 }
 .userDetails-two h2 {
   font-family: 'logo';
