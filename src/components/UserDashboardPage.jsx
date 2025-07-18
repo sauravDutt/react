@@ -15,11 +15,18 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
     }
   });
 
+  const openInNewTab = (url) => {
+  const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+  if (newWindow) newWindow.opener = null
+  }
   const [user, setUser] = useState([]);
 
   const showSurvey = () => {
     console.log("Click")
-    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfE7lmUdsCEiFFDyraMf1ovMkP1u0qAbCLZRf4iMHOQIEUk3A/viewform?usp=dialog";
+    openInNewTab("https://docs.google.com/forms/d/e/1FAIpQLSfE7lmUdsCEiFFDyraMf1ovMkP1u0qAbCLZRf4iMHOQIEUk3A/viewform?usp=dialog");
+  }
+  const showSurveyLCA = () => {
+    openInNewTab("https://docs.google.com/forms/d/e/1FAIpQLSfJ7ubsoQYA5zEoKaYAA7msqYXEaOXURW8392BAnRMzoYtd1Q/viewform?usp=dialog");
   }
 
   const signOutUser = () => {
@@ -57,7 +64,7 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
           <h2>" <span className="smallText-user">take a survey.</span>"</h2>
           <div className="grid-class">
             <button onClick={showSurvey}><StoreRoundedIcon/> </button>
-            <button onClick={showSurvey} className="twoBtnBTS"><CachedRoundedIcon/> </button>
+            <button onClick={showSurveyLCA} className="twoBtnBTS"><CachedRoundedIcon/> </button>
             <div></div>
           </div>
         </div>
