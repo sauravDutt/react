@@ -674,7 +674,7 @@ z-index: 20;
   grid-template-columns: auto;
   height: 120px;
   border-radius: 5px;
-  margin-left: 110px;
+  margin-left: 120px;
   margin-top: -20px;
 }
 .smallText-user {
@@ -687,6 +687,7 @@ z-index: 20;
   gap: 30px;
   justify-content: center;
   width: 200px;
+  z-index: 69;
 }
 .grid-class button:hover {
   background-color: #000;
