@@ -18,6 +18,7 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
 
   const showSurvey = () => {
     console.log("Click")
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfE7lmUdsCEiFFDyraMf1ovMkP1u0qAbCLZRf4iMHOQIEUk3A/viewform?usp=dialog";
   }
 
   const signOutUser = () => {
