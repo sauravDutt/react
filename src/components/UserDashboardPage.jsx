@@ -3,7 +3,8 @@ import { auth } from "../firebase-config";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import CachedRoundedIcon from '@mui/icons-material/CachedRounded';
+import StoreRoundedIcon from '@mui/icons-material/StoreRounded';
 
 const UserDashboardPage = ({ setIsAuth, isAuth }) => {
   let navigate = useNavigate();
@@ -54,7 +55,11 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
             srcset="" 
             />
           <h2>" <span className="smallText-user">take a survey.</span>"</h2>
-          <button onClick={showSurvey}><ArrowForwardIcon/> </button>
+          <div className="grid-class">
+            <button onClick={showSurvey}><StoreRoundedIcon/> </button>
+            <button onClick={showSurvey} className="twoBtnBTS"><CachedRoundedIcon/> </button>
+            <div></div>
+          </div>
         </div>
       </div>
       {/* <div className="userStats">
