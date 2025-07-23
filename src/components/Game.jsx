@@ -1,8 +1,11 @@
 import { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
-import SendIcon from '@mui/icons-material/Send';
+import SendIcon from '@mui/icons-material/Send'; 
 import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
+import {STLLoader} from 'three/examples/jsm/loaders/STLLoader';
+import {useLoader} from '@react-three/fiber';
+
 const animatedComponents = makeAnimated();
 const options = [
   { value: 'aluminum', label: 'Aluminum' },
@@ -17,6 +20,9 @@ const options = [
   { value: 'copper', label: 'Titanium' }
 ]
 const Game = () => {
+
+  
+
   const [dataURL, setDataURL] = useState(null)
   const [uploadedURL, setUploadedURL] = useState(null)
   const onDrop = useCallback(acceptedFiles => {
@@ -41,8 +47,28 @@ const Game = () => {
 
   const selectedFile = acceptedFiles[0]
   console.log(selectedFile)
-  // console.log(dataURL)
+  console.log(dataURL)
   // console.log(setUploadedURL)
+
+  const CalculateSTLDimensions = ({ url }) => {
+  const loader = useLoader(STLLoader, url);
+  loader.load(url, (geometry) => {
+    // Compute the bounding box
+    geometry.computeBoundingBox();
+    const boundingBox = geometry.boundingBox;
+
+    // Get the dimensions
+    const width = boundingBox.max.x - boundingBox.min.x;
+    const height = boundingBox.max.y - boundingBox.min.y;
+    const depth = boundingBox.max.z - boundingBox.min.z;
+
+    console.log('Width:', width);
+    console.log('Height:', height);
+    console.log('Depth:', depth);
+    });
+
+    return null;
+  };
   return (
     <div className="margin-top-imp">
       <div className="lcac-outter">
@@ -60,6 +86,7 @@ const Game = () => {
               ) : (
                 <button
                   // onClick={uploadImage}
+                  onClick={CalculateSTLDimensions}
                   className="upload-btn"
                 >
                   Upload
