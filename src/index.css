@@ -1544,8 +1544,8 @@ z-index: 20;
 .selected {
   position: relative;
 }
-.selected img {
-  width: 300px;
+.selected h1 {
+  width: 320px;;
 }
 
 .actions {

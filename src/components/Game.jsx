@@ -41,8 +41,8 @@ const Game = () => {
 
   const selectedFile = acceptedFiles[0]
   console.log(selectedFile)
-  console.log(dataURL)
-  console.log(setUploadedURL)
+  // console.log(dataURL)
+  // console.log(setUploadedURL)
   return (
     <div className="margin-top-imp">
       <div className="lcac-outter">
@@ -52,7 +52,8 @@ const Game = () => {
         <div className="lcac-file-upload">
             {dataURL ? (
           <div className="selected">
-            <img src={dataURL} alt="img"/>
+            <h1>{selectedFile.name}</h1>
+            <br/><br/>
             <div className="actions">
               {uploadedURL ? (
                 <span className="uploaded-txt">Uploaded!</span>
