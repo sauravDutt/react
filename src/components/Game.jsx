@@ -21,10 +21,17 @@ const options = [
 ]
 const Game = () => {
 
-  
+  const runLCAC = () => {
+    const pyodide = window.pyodide;
+    console.log(pyodide.runPython(
+      `
+        print('Python Script is Running ');
+      `
+    ))
+  }
 
   const [dataURL, setDataURL] = useState(null)
-  const [uploadedURL, setUploadedURL] = useState(null)
+  // const [uploadedURL, setUploadedURL] = useState(null)
   const onDrop = useCallback(acceptedFiles => {
      acceptedFiles.forEach(file => {
       const reader = new FileReader()
@@ -51,23 +58,23 @@ const Game = () => {
   // console.log(setUploadedURL)
 
   const CalculateSTLDimensions = ({ url }) => {
-  const loader = useLoader(STLLoader, url);
-  loader.load(url, (geometry) => {
-    // Compute the bounding box
-    geometry.computeBoundingBox();
-    const boundingBox = geometry.boundingBox;
+    const loader = useLoader(STLLoader, url);
+    loader.load(url, (geometry) => {
+      // Compute the bounding box
+      geometry.computeBoundingBox();
+      const boundingBox = geometry.boundingBox;
 
-    // Get the dimensions
-    const width = boundingBox.max.x - boundingBox.min.x;
-    const height = boundingBox.max.y - boundingBox.min.y;
-    const depth = boundingBox.max.z - boundingBox.min.z;
+      // Get the dimensions
+      const width = boundingBox.max.x - boundingBox.min.x;
+      const height = boundingBox.max.y - boundingBox.min.y;
+      const depth = boundingBox.max.z - boundingBox.min.z;
 
-    console.log('Width:', width);
-    console.log('Height:', height);
-    console.log('Depth:', depth);
-    });
+      console.log('Width:', width);
+      console.log('Height:', height);
+      console.log('Depth:', depth);
+      });
 
-    return null;
+      return null;
   };
   return (
     <div className="margin-top-imp">
@@ -81,9 +88,9 @@ const Game = () => {
             <h1>{selectedFile.name}</h1>
             <br/><br/>
             <div className="actions">
-              {uploadedURL ? (
+              {/* {uploadedURL ? (
                 <span className="uploaded-txt">Uploaded!</span>
-              ) : (
+              ) : ( */}
                 <button
                   // onClick={uploadImage}
                   onClick={CalculateSTLDimensions}
@@ -91,7 +98,7 @@ const Game = () => {
                 >
                   Upload
                 </button>
-              )}
+              {/* )} */}
               <button
                 onClick={() => setDataURL(null)}
                 className="cancel-btn"
@@ -160,7 +167,7 @@ const Game = () => {
             options={options}
           />
         <textarea name="prompt" id="cadDescription" placeholder="Describe you CAD ....."></textarea>
-        <button><SendIcon/></button>
+        <button onClick={runLCAC}><SendIcon/></button>
       </div>
       <div className="cad-info">
           {/* <h4>-</h4> */}
@@ -175,11 +182,11 @@ const Game = () => {
           </div>
         </div>
         </div>
-      {uploadedURL && (
+      {/* {uploadedURL && (
         <a target="_blank" href={uploadedURL} rel="noreferrer">
           <span className="uploaded-url">{uploadedURL}</span>
         </a>
-      )}
+      )} */}
         
       </div>
         
