@@ -1609,7 +1609,8 @@ z-index: 20;
 }
 .prompt-area {
   padding: 5px;
-  min-height: 335px;
+  min-height: 315px;
+  margin-top: -14px;
   display: grid;
   grid-template-columns: auto;
   align-items: center;
@@ -1658,7 +1659,8 @@ z-index: 20;
 }
 .lcac-outter {
   user-select: none;
-  margin-top: 115px;
+  margin-top: 90px;
+  margin-bottom: 30px;
 }
 .lcac-outter h1 {
   font-weight: 100;
@@ -1679,9 +1681,8 @@ z-index: 20;
 .lcac-main-outter {
   background-color: transparent;
   width: 100%;
-  height: 200px;
+  height: 100px;
   margin-bottom: 100px;
-  margin-top: 21px;
 }
 .digitalArt-info h1 {
   margin: 0;
