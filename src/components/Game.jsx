@@ -131,7 +131,7 @@ const Game = () => {
         )}
       </div>
       <div className="prompt-area">
-        <div className="cad-details-div">
+        {/* <div className="cad-details-div">
           <label>
             Height
           </label>
@@ -144,8 +144,7 @@ const Game = () => {
             Width
           </label>
           <input type="number" name="width" id="CADwidth" />
-        </div>
-        <br/>
+        </div> */}
         <label for="materials">Choose a Material:</label>
         {/* <select id="materials" name="materials">
           <option>Metal</option>
