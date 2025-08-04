@@ -1609,7 +1609,7 @@ z-index: 20;
 }
 .prompt-area {
   padding: 5px;
-  min-height: 315px;
+  min-height: 200px;
   margin-top: -14px;
   display: grid;
   grid-template-columns: auto;
@@ -1646,7 +1646,7 @@ z-index: 20;
   grid-template-columns: auto;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 10px; 
   margin-left: 290px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1659,7 +1659,7 @@ z-index: 20;
 }
 .lcac-outter {
   user-select: none;
-  margin-top: 90px;
+  margin-top: 120px;
   margin-bottom: 30px;
 }
 .lcac-outter h1 {

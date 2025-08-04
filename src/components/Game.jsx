@@ -1,30 +1,32 @@
 import { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import SendIcon from '@mui/icons-material/Send'; 
-import Select from 'react-select';
-import makeAnimated from 'react-select/animated';
+// import makeAnimated from 'react-select/animated';
 import {STLLoader} from 'three/examples/jsm/loaders/STLLoader';
 import {useLoader} from '@react-three/fiber';
 
-const animatedComponents = makeAnimated();
-const options = [
-  { value: 'aluminum', label: 'Aluminum' },
-  { value: 'brass', label: 'Brass' },
-  { value: 'bronze', label: 'Bronze' },
-  { value: 'copper', label: 'Copper' },
-  { value: 'copper', label: 'Platinum' },
-  { value: 'copper', label: 'Gold' },
-  { value: 'copper', label: 'Silver' },
-  { value: 'copper', label: 'Stainless' },
-  { value: 'copper', label: 'Steel' },
-  { value: 'copper', label: 'Titanium' }
-]
+// const animatedComponents = makeAnimated();
+// const options = [
+//   { value: 'aluminum', label: 'Aluminum' },
+//   { value: 'brass', label: 'Brass' },
+//   { value: 'bronze', label: 'Bronze' },
+//   { value: 'copper', label: 'Copper' },
+//   { value: 'copper', label: 'Platinum' },
+//   { value: 'copper', label: 'Gold' },
+//   { value: 'copper', label: 'Silver' },
+//   { value: 'copper', label: 'Stainless' },
+//   { value: 'copper', label: 'Steel' },
+//   { value: 'copper', label: 'Titanium' }
+// ]
 const Game = () => {
 
   const runLCAC = () => {
     const pyodide = window.pyodide;
     console.log(pyodide.runPython(
       `
+        import os
+        cmd = "volume-calculator {selectedFile}"
+        returned_value = os.system(cmd)
         print('Python Script is Running');
       `
     ))
@@ -145,33 +147,14 @@ const Game = () => {
           </label>
           <input type="number" name="width" id="CADwidth" />
         </div> */}
-        <label for="materials">Choose a Material:</label>
-        {/* <select id="materials" name="materials">
-          <option>Metal</option>
-          <option value="aluminum">Aluminum</option>
-          <option value="brass">Brass</option>
-          <option value="bronze">Bronze</option>
-          <option value="copper">Copper</option>
-          <option value="platinum">Platinum</option>
-          <option value="gold">Gold</option>
-          <option value="silver">Silver</option>
-          <option value="steel">Steel</option>
-          <option value="stainless">Stainless</option>
-          <option value="titanium">Titanium</option> */}
-          <Select
-            closeMenuOnSelect={false}
-            components={animatedComponents}
-            isSearchable="true"
-            isMulti="true"
-            options={options}
-          />
+       
         <textarea name="prompt" id="cadDescription" placeholder="Describe you CAD ....."></textarea>
         <button onClick={runLCAC}><SendIcon/></button>
       </div>
       <div className="cad-info">
           {/* <h4>-</h4> */}
           <div className="cad-info-two">
-          <h5>*Please upload a .glTF file  of your CAD in the box above, specify the diamentions and describe your conceptual design and press the submit button.</h5>
+          <h5>*Please upload a .stl file  of your CAD in the box above and describe your conceptual design and press the submit button.</h5>
           <div className="cad-info-two-one">
             <h3>Basic <span className="secondFont-two">Plan</span></h3>
             <img 
