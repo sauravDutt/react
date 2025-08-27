@@ -133,13 +133,11 @@ code {
 
 .sauravDutt-projects {
   margin: 0px auto;
-  height: 200px;
   width: 95%;
   padding: 5px;
-  overflow-y: scroll;
   padding: 0;
   display: grid;
-  gap: 10px;
+  gap: 25px;
   grid-template-columns: auto;
   padding-top: 20px;
   padding-bottom: 20px;

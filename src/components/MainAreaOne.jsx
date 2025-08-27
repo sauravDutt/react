@@ -91,6 +91,17 @@ const MainAreaOne = () => {
           <h3>Saurav Dutt</h3>
           </div>
         </motion.div>
+        <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          <h1 className="lca-title">Design form and aesthetics <br/><i>"good time design chair".</i></h1>
+          <div className="folio-card-icon-outter-lca">
+            <br/>
+          <h3>...</h3>
+          </div>
+        </motion.div>
       </div>
           {/* <div className="right-discover">
             <img
