@@ -92,7 +92,7 @@ const MainAreaOne = () => {
         >
           <h1 className="lca-title"><i>" life cycle assessment calculator "</i> for estimation in conceptual design.</h1>
           <div className="folio-card-icon-outter-lca">
-          <h3>Saurav Dutt</h3>
+          <h3>...</h3>
           </div>
         </motion.div>
         <motion.div 
