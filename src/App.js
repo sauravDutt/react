@@ -16,6 +16,7 @@ import CachedRoundedIcon from '@mui/icons-material/CachedRounded';
 import TreasuryDashboard from "./components/TresuryDashboard";
 import Freestyle from "./components/Freestyle";
 import LCAestimationInCD from "./components/LCAestimationInCD";
+import Chair from "./components/Chair";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
@@ -67,6 +68,7 @@ function App() {
         <Route path="/" element={<MainAreaOne />} />
         <Route path="/login" element={<LogIn setIsAuth={setIsAuth} />} />
         <Route path="/lcac" element={<Game />} />
+        <Route path="/chair" element={<Chair/>}/>
         <Route
           path="/dashboard"
           element={<UserDashboardPage setIsAuth={setIsAuth} isAuth={isAuth} />}

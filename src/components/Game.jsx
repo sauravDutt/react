@@ -1,23 +1,8 @@
 import { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import SendIcon from '@mui/icons-material/Send'; 
-// import makeAnimated from 'react-select/animated';
-import {STLLoader} from 'three/examples/jsm/loaders/STLLoader';
-import {useLoader} from '@react-three/fiber';
 
-// const animatedComponents = makeAnimated();
-// const options = [
-//   { value: 'aluminum', label: 'Aluminum' },
-//   { value: 'brass', label: 'Brass' },
-//   { value: 'bronze', label: 'Bronze' },
-//   { value: 'copper', label: 'Copper' },
-//   { value: 'copper', label: 'Platinum' },
-//   { value: 'copper', label: 'Gold' },
-//   { value: 'copper', label: 'Silver' },
-//   { value: 'copper', label: 'Stainless' },
-//   { value: 'copper', label: 'Steel' },
-//   { value: 'copper', label: 'Titanium' }
-// ]
+
 const Game = () => {
 
   const runLCAC = () => {
@@ -33,7 +18,6 @@ const Game = () => {
   }
 
   const [dataURL, setDataURL] = useState(null)
-  // const [uploadedURL, setUploadedURL] = useState(null)
   const onDrop = useCallback(acceptedFiles => {
      acceptedFiles.forEach(file => {
       const reader = new FileReader()
@@ -57,27 +41,25 @@ const Game = () => {
   const selectedFile = acceptedFiles[0]
   console.log(selectedFile)
   console.log(dataURL)
-  // console.log(setUploadedURL)
 
-  const CalculateSTLDimensions = ({ url }) => {
-    const loader = useLoader(STLLoader, url);
-    loader.load(url, (geometry) => {
-      // Compute the bounding box
-      geometry.computeBoundingBox();
-      const boundingBox = geometry.boundingBox;
+  // const CalculateSTLDimensions = ({ url }) => {
+  //   const loader = useLoader(STLLoader, url);
+  //   loader.load(url, (geometry) => {
+  //     geometry.computeBoundingBox();
+  //     const boundingBox = geometry.boundingBox;
 
-      // Get the dimensions
-      const width = boundingBox.max.x - boundingBox.min.x;
-      const height = boundingBox.max.y - boundingBox.min.y;
-      const depth = boundingBox.max.z - boundingBox.min.z;
+  //     // Get the dimensions
+  //     const width = boundingBox.max.x - boundingBox.min.x;
+  //     const height = boundingBox.max.y - boundingBox.min.y;
+  //     const depth = boundingBox.max.z - boundingBox.min.z;
 
-      console.log('Width:', width);
-      console.log('Height:', height);
-      console.log('Depth:', depth);
-      });
+  //     console.log('Width:', width);
+  //     console.log('Height:', height);
+  //     console.log('Depth:', depth);
+  //     });
 
-      return null;
-  };
+  //     return null;
+  // };
   return (
     <div className="margin-top-imp">
       <div className="lcac-outter">
@@ -90,17 +72,12 @@ const Game = () => {
             <h1>{selectedFile.name}</h1>
             <br/><br/>
             <div className="actions">
-              {/* {uploadedURL ? (
-                <span className="uploaded-txt">Uploaded!</span>
-              ) : ( */}
                 <button
-                  // onClick={uploadImage}
-                  onClick={CalculateSTLDimensions}
+                  // onClick={CalculateSTxLDimensions}
                   className="upload-btn"
                 >
                   Upload
                 </button>
-              {/* )} */}
               <button
                 onClick={() => setDataURL(null)}
                 className="cancel-btn"
@@ -133,26 +110,10 @@ const Game = () => {
         )}
       </div>
       <div className="prompt-area">
-        {/* <div className="cad-details-div">
-          <label>
-            Height
-          </label>
-          <input type="number" name="height" id="CADheight" />
-          <label>
-            Length
-          </label>
-          <input type="number" name="width" id="CADwidth" />
-          <label>
-            Width
-          </label>
-          <input type="number" name="width" id="CADwidth" />
-        </div> */}
-       
         <textarea name="prompt" id="cadDescription" placeholder="Describe you CAD ....."></textarea>
         <button onClick={runLCAC}><SendIcon/></button>
       </div>
       <div className="cad-info">
-          {/* <h4>-</h4> */}
           <div className="cad-info-two">
           <h5>*Please upload a .stl file  of your CAD in the box above and describe your conceptual design and press the submit button.</h5>
           <div className="cad-info-two-one">
@@ -164,15 +125,7 @@ const Game = () => {
           </div>
         </div>
         </div>
-      {/* {uploadedURL && (
-        <a target="_blank" href={uploadedURL} rel="noreferrer">
-          <span className="uploaded-url">{uploadedURL}</span>
-        </a>
-      )} */}
-        
       </div>
-        
-        
     </div>
   );
 };

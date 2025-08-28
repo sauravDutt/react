@@ -29,6 +29,9 @@ const MainAreaOne = () => {
       const showFolioLCA = () => {
         navigate("/lca_estimation_in_conceptual_design")
       }
+      const showChairDesign = () => {
+        navigate('/chair')
+      }
   
   return (
     <MotionConfig transition={{ duration: 0.5 }}>
@@ -95,6 +98,7 @@ const MainAreaOne = () => {
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
+          onClick={showChairDesign}
         >
           <h1 className="lca-title">Design form and aesthetics <br/><i>"good time design chair".</i></h1>
           <div className="folio-card-icon-outter-lca">
