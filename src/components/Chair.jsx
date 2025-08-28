@@ -27,10 +27,6 @@ const Chair = () => {
                     <li>Final Model Process</li>
                 </ol>
             </div>
-            <div>
-                
-            </div>
-            <div></div>
         </div>
     )
 }
