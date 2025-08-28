@@ -9,7 +9,7 @@ const Chair = () => {
                     The objective is to express personal aesthetics and design a prototype of a chair. The folio is structured in the following order. 
                 </p>
             </div>
-            <div></div>
+            <div className="chair-structure"></div>
             <div></div>
             <div></div>
         </div>

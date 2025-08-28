@@ -597,6 +597,10 @@ z-index: 20;
   border-radius: 10px;
   margin: 0;
   margin-top: 20px;
+  padding: 5px;
+}
+.chair-structure {
+  width: 129px;
 }
 .chair-Outter div h1{
   font-size: 20px;
@@ -606,7 +610,6 @@ z-index: 20;
 }
 .chair-brief {
   width: 235px;
-  padding: 5px;
 }
 
 .portfolio-title{
