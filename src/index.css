@@ -587,20 +587,19 @@ z-index: 20;
   background-color: #fff;
   z-index: 99 !important;
   position: fixed;
+  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .chair-Outter div{
-  border: 1px solid #000;
-  height: 362px;
   border-radius: 10px;
   margin: 0;
-  margin-top: 20px;
   padding: 5px;
 }
 .chair-structure {
-  width: 125px;
+  height: 387px;
+  width: 120px;
 
 }
 .chair-structure ol {
@@ -610,12 +609,21 @@ z-index: 20;
 }
 .chair-structure ol li {
   list-style: none;
-  border: 1px solid #000;
-  padding: 2px;
+  background-color: #0000001a;
+  padding: 5px;
   width: 100%;
-  padding-left: 4px;
+  padding-left: 6px;
   border-radius: 10px;
   margin-top: 4px;
+}
+.chair-structure ol li:hover {
+  background-color: #000000b9;
+  color: #fff;
+}
+.chair-intro {
+  width: 350px;
+  height: 245px;
+  border: 1px solid #000;
 }
 .chair-Outter div h1{
   font-size: 20px;
@@ -624,7 +632,9 @@ z-index: 20;
   font-size: 14px;
 }
 .chair-brief {
+  border: 1px solid #000;
   width: 235px;
+  height: 387px;
 }
 
 .portfolio-title{

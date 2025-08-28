@@ -14,18 +14,23 @@ const Chair = () => {
                 <br/>
                 <br/>
                 <br/>
+                <br/>
+                <br/>
                 <p style={{textAlign:"right", marginRight: "25px"}}>----------{'>'}</p>
             </div>
             <div className="chair-structure">
                 <ol>
-                    <li>Design Inspiration</li>
-                    <li>Mind Map of Personal Aesthetics </li>
-                    <li>Personal Aesthetics Mood Board </li>
-                    <li>Manifesto</li>
-                    <li>Ideation Sketches</li>
-                    <li>Prototype Concept </li>
                     <li>Final Model Process</li>
+                    <li>Prototype Concept </li>
+                    <li>Ideation Sketches</li>
+                    <li>Manifesto</li>
+                    <li>Personal Aesthetics Mood Board </li>
+                    <li>Mind Map of Personal Aesthetics </li>
+                    <li>Design Inspiration</li>
                 </ol>
+            </div>
+            <div className="chair-intro">
+
             </div>
         </div>
     )
