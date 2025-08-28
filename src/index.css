@@ -593,14 +593,26 @@ z-index: 20;
 }
 .chair-Outter div{
   border: 1px solid #000;
-  height: 300px;
+  height: 362px;
   border-radius: 10px;
   margin: 0;
   margin-top: 20px;
   padding: 5px;
 }
 .chair-structure {
-  width: 129px;
+  width: 120px;
+
+}
+.chair-structure ol {
+  padding-left: 20px;
+  margin: 0;
+}
+.chair-structure ol li {
+  border: 1px solid #000;
+  padding: 2px;
+  padding-left: 4px;
+  border-radius: 10px;
+  margin: 2px;
 }
 .chair-Outter div h1{
   font-size: 20px;
