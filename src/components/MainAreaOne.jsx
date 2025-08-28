@@ -82,6 +82,7 @@ const MainAreaOne = () => {
               />
             </div>
           </motion.div>
+          <h1 className="portfolio-title">Study</h1>
           <div className="sauravDutt-projects">
             <motion.div 
           className="default"

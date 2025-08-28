@@ -1,7 +1,6 @@
 const Chair = () => {
     return(
-        <div>
-            This is Chair
+        <div className="chair-Outter">
         </div>
     )
 }
