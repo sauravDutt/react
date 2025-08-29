@@ -16,7 +16,7 @@ const Chair = () => {
                 <br/>
                 <br/>
                 <br/>
-                <p style={{textAlign:"right", marginRight: "25px"}}>----------{'>'}</p>
+                <p style={{textAlign:"right", marginRight: "25px", marginTop:"22px"}}>----------{'>'}</p>
             </div>
             <div className="chair-structure">
                 <ol>
