@@ -1,3 +1,5 @@
+
+
 const Chair = () => {
     return(
         <div className="chair-Outter">
@@ -8,14 +10,7 @@ const Chair = () => {
                 <p>
                     The objective is to express personal aesthetics and design a prototype of a chair. The folio is structured in the following order. 
                 </p>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+                <br/><br/><br/><br/><br/><br/><br/><br/>
                 <p style={{textAlign:"right", marginRight: "25px", marginTop:"22px"}}>----------{'>'}</p>
             </div>
             <div className="chair-structure">
@@ -36,4 +31,6 @@ const Chair = () => {
     )
 }
 
+
 export default Chair
+
