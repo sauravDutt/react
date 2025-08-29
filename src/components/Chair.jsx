@@ -1,6 +1,14 @@
+import { useState } from "react"
 
 
 const Chair = () => {
+
+    let [isImgUrl, setIsImgUrl ] = useState()
+
+    const showDesignInspiration = () => {
+        setIsImgUrl('/img/csc.png')
+    }
+
     return(
         <div className="chair-Outter">
             <div className="chair-brief">
@@ -21,11 +29,11 @@ const Chair = () => {
                     <li>Manifesto</li>
                     <li>Personal Aesthetics Mood Board </li>
                     <li>Mind Map of Personal Aesthetics </li>
-                    <li>Design Inspiration</li>
+                    <li onClick={showDesignInspiration}>Design Inspiration</li>
                 </ol>
             </div>
             <div className="chair-intro">
-
+                <img src={process.env.PUBLIC_URL + {isImgUrl}} alt="img" srcset="" />
             </div>
         </div>
     )
