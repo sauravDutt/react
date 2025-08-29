@@ -3,10 +3,11 @@ import { useState } from "react"
 
 const Chair = () => {
 
-    let [isImgUrl, setIsImgUrl ] = useState()
+    let [isImgUrl, setIsImgUrl ] = useState('/img/desk.png')
 
     const showDesignInspiration = () => {
         setIsImgUrl('/img/csc.png')
+        console.log(isImgUrl)
     }
 
     return(
@@ -33,7 +34,7 @@ const Chair = () => {
                 </ol>
             </div>
             <div className="chair-intro">
-                <img src={process.env.PUBLIC_URL + {isImgUrl}} alt="img" srcset="" />
+                <img src={process.env.PUBLIC_URL + isImgUrl } alt="img" srcset="" />
             </div>
         </div>
     )
