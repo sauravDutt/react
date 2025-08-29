@@ -9,6 +9,24 @@ const Chair = () => {
         setIsImgUrl('/img/csc.png')
         console.log(isImgUrl)
     }
+    const showMindMap = () => {
+        setIsImgUrl('/img/handToolsOutter.png')
+    }
+    const showPersonalAesthetics = () => {
+        setIsImgUrl('/img/one.png')
+    }
+    const showManifesto = () => {
+        setIsImgUrl('/img/Part2.png')
+    }
+    const showIdeation = () => {
+        setIsImgUrl('/img/glass.png')
+    }
+    const showPrototype = () => {
+        setIsImgUrl('/img/cereal.png')
+    }
+    const showFinalModel = () => {
+        setIsImgUrl('/img/v6.png')
+    }
 
     return(
         <div className="chair-Outter">
@@ -24,12 +42,12 @@ const Chair = () => {
             </div>
             <div className="chair-structure">
                 <ol>
-                    <li>Final Model Process</li>
-                    <li>Prototype Concept </li>
-                    <li>Ideation Sketches</li>
-                    <li>Manifesto</li>
-                    <li>Personal Aesthetics Mood Board </li>
-                    <li>Mind Map of Personal Aesthetics </li>
+                    <li onClick={showFinalModel}>Final Model Process</li>
+                    <li onClick={showPrototype}>Prototype Concept </li>
+                    <li onClick={showIdeation}>Ideation Sketches</li>
+                    <li onClick={showManifesto}>Manifesto</li>
+                    <li onClick={showPersonalAesthetics}>Personal Aesthetics Mood Board </li>
+                    <li onClick={showMindMap}>Mind Map of Personal Aesthetics </li>
                     <li onClick={showDesignInspiration}>Design Inspiration</li>
                 </ol>
             </div>
