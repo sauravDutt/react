@@ -580,7 +580,7 @@ z-index: 20;
 }
 
 .chair-Outter {
-  border: 1px solid #000;
+  border: 1px solid #ffffff00;
   width: 100%;
   margin-top: 10px;
   height: 86vh;
@@ -622,7 +622,8 @@ z-index: 20;
 }
 .chair-intro {
   width: 350px;
-  height: 245px;
+  height: 255px;
+  margin-top: -20px !important;
   border: 1px solid #000;
 }
 .chair-Outter div h1{
