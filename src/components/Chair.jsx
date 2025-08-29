@@ -3,7 +3,7 @@ import { useState } from "react"
 
 const Chair = () => {
 
-    let [isImgUrl, setIsImgUrl ] = useState('/img/desk.png')
+    let [isImgUrl, setIsImgUrl ] = useState('/img/chairIntro.png')
 
     const showDesignInspiration = () => {
         setIsImgUrl('/img/csc.png')
@@ -19,7 +19,7 @@ const Chair = () => {
         setIsImgUrl('/img/Part2.png')
     }
     const showIdeation = () => {
-        setIsImgUrl('/img/glass.png')
+        setIsImgUrl('/img/glass.png') 
     }
     const showPrototype = () => {
         setIsImgUrl('/img/cereal.png')
