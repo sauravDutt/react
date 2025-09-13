@@ -12,11 +12,11 @@ import CreateArticleForm from "./components/CreateArticleForm";
 import Game from "./components/Game";
 import ChatBotOne from "./components/ChatBotOne";
 import { auth } from "./firebase-config";
-import CachedRoundedIcon from '@mui/icons-material/CachedRounded';
 import TreasuryDashboard from "./components/TresuryDashboard";
 import Freestyle from "./components/Freestyle";
 import LCAestimationInCD from "./components/LCAestimationInCD";
 import Chair from "./components/Chair";
+import InfoIcon from '@mui/icons-material/Info';
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
@@ -43,7 +43,7 @@ function App() {
             <StoreRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           <Link to="/lcac" className="button-outter">
-            <CachedRoundedIcon fontSize="large" sx={{ width: "100%" }} />
+            <InfoIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           {!isAuth ? (
             <Link to="/login" className="button-outter">
