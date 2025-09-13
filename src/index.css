@@ -1069,8 +1069,10 @@ z-index: 20;
   margin-bottom: 10px;
 }
 .margin-top-imp {
-  margin-top: 80px;
-  height: 100vh;
+  position: relative;
+  padding-top: 20px;
+  background-color: #fff;
+  z-index: 890 !important;
 }
 .timeInaBottle {
   height: 75px;
@@ -1732,7 +1734,7 @@ z-index: 20;
 }
 .lcac-outter {
   user-select: none;
-  margin-top: 120px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 .lcac-outter h1 {
