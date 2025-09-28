@@ -14,9 +14,11 @@ import { useNavigate } from "react-router-dom";
 const OriginStoryContent = () => {
   return (
     <p className="originPtag">
-      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> is an online platform for independent designers in the early stages of product development. The Life Cycle Assessment Calculator utility illustrates and analyses every step of a product's (concept's) life cycle.
+      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> is a Community, a Consortium of Digital Creators, Writers, Illustrators, Storytellers and like-minded
+fine art enthusiasts. A platform for transparent trade of digital assets, with a collective growth and interests in
+mind.
       <br/>
-      <span className="smallText-two">Designs that meet the <strong>GTD estimate criteria</strong> are offered a chance to be listed in the GTD marketplace.</span>
+      <span className="smallText-two">2% of every transaction goes to the community <strong>treasury</strong>.</span>
     </p>
   );
 };

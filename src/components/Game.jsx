@@ -14,7 +14,7 @@ fine art enthusiasts. A platform for transparent trade of digital assets, with a
 mind.
         </p>
         <p>
-
+          
         </p>
       </div>
 
