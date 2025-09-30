@@ -44,8 +44,8 @@ const MainAreaOne = () => {
             <div>
               <h1>Goodtime.design</h1>
               <p>
-                Good Time Design, is an online consortium of fine art and design enthusiasts. <br/>
-                <span className="smallText-two">10% of every transaction goes to the community <strong>treasury</strong>. </span>
+                Good Time Design, is an online consortium of fine art enthusisasts and independent designers. <br/>
+                <span className="smallText-two">2% of every transaction goes to the community <strong>treasury</strong>. </span>
               </p>
             </div>
           </div>
