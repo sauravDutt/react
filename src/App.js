@@ -17,6 +17,7 @@ import Freestyle from "./components/Freestyle";
 import LCAestimationInCD from "./components/LCAestimationInCD";
 import Chair from "./components/Chair";
 import InfoIcon from '@mui/icons-material/Info';
+import Treasury from "./components/Treasury";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
@@ -69,6 +70,7 @@ function App() {
         <Route path="/login" element={<LogIn setIsAuth={setIsAuth} />} />
         <Route path="/lcac" element={<Game />} />
         <Route path="/chair" element={<Chair/>}/>
+        <Route path="/treasury" element={<Treasury/>}/>
         <Route
           path="/dashboard"
           element={<UserDashboardPage setIsAuth={setIsAuth} isAuth={isAuth} />}

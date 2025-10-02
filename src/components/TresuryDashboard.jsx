@@ -8,11 +8,15 @@ import PasswordIcon from "@mui/icons-material/Password";
 import DigitalArt from "./DigitalArt";
 import DigitalArtOne from "./DigitalArtOne";
 import DigitalArtTwo from "./DigitalArtTwo";
+import { useNavigate } from "react-router-dom";
 // import DesignServicesIcon from '@mui/icons-material/DesignServices';
 // import SendIcon from "@mui/icons-material/Send";
 
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
-
+let navigate = useNavigate();
+  const ShowTreasury = ()=> {
+        navigate("/treasury")
+  }
 
   // var log = [
   //   {
@@ -90,7 +94,7 @@ const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
             </p>
             <div className="memberID-btn">
               <PasswordIcon fontSize="large" sx={{ width: "100%" }} />
-              <input type="password" name="memberID" id="password" />
+              <input type="password" name="memberID" id="password" onKeyDown={ShowTreasury}/>
             </div>
           </div>
         </div>
