@@ -1,6 +1,8 @@
 const Treasury = () => {
     return(
-        <div></div>
+        <div className="treasury-Main-outter">
+            <h1>Treasury</h1>
+        </div>
     )
 }
 
