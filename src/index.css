@@ -1914,6 +1914,14 @@ z-index: 20;
   margin: 0 auto;
 }
 
+.treasury-top-story {
+  width: 90%;
+  margin: 0 auto;
+  height: 300px;
+  border-radius: 10px;
+  border: 2px solid #00000074;
+}
+
 .treasury-amount h2 {
   text-align: center;
   margin: 0 auto;

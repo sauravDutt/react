@@ -4,7 +4,10 @@ const Treasury = () => {
             <h1>Treasury</h1>
             <div className="treasury-total">
                 <h2>£ 7,851.91</h2>
-              </div>
+            </div>
+            <div className="treasury-top-story">
+                
+            </div>
         </div>
     )
 }
