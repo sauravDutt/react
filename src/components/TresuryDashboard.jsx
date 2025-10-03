@@ -14,9 +14,7 @@ import { useNavigate } from "react-router-dom";
 
 const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
 let navigate = useNavigate();
-  const ShowTreasury = ()=> {
-        navigate("/treasury")
-  }
+
 
   // var log = [
   //   {
@@ -94,7 +92,11 @@ let navigate = useNavigate();
             </p>
             <div className="memberID-btn">
               <PasswordIcon fontSize="large" sx={{ width: "100%" }} />
-              <input type="password" name="memberID" id="password" onKeyDown={ShowTreasury}/>
+              <input type="password" name="memberID" id="password" 
+              onKeyDown={(e) => (
+                e.keyCode === 13 ? navigate('/treasury') : null
+              )}
+              />
             </div>
           </div>
         </div>
