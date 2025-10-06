@@ -5,6 +5,7 @@ const Treasury = () => {
             <div className="treasury-total">
                 <h2>£ 7,851.91</h2>
             </div>
+            <h2 className="subHeading-treasury">History</h2>
             <div className="treasury-top-story">
                 
             </div>

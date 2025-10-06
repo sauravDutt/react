@@ -14,11 +14,9 @@ import { useNavigate } from "react-router-dom";
 const OriginStoryContent = () => {
   return (
     <p className="originPtag">
-      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> is a Community, a Consortium of Digital Creators, Writers, Illustrators, Storytellers and like-minded
-fine art enthusiasts. A platform for transparent trade of digital assets, with a collective growth and interests in
-mind.
+      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> an online community of fine art enthusiasts, a consortium between independent designers, manufacturers, digital creators and artists, providing a transparent trade of digital (tangible) assets.
       <br/>
-      <span className="smallText-two">2% of every transaction goes to the community <strong>treasury</strong>.</span>
+      <span className="smallText-two">1% of every transaction goes to the community <strong>treasury</strong>.</span>
     </p>
   );
 };
@@ -31,9 +29,9 @@ const MainAreaOne = () => {
       const showFolioLCA = () => {
         navigate("/lca_estimation_in_conceptual_design")
       }
-      const showChairDesign = () => {
-        navigate('/chair')
-      }
+      // const showChairDesign = () => {
+      //   navigate('/chair')
+      // }
   
   return (
     <MotionConfig transition={{ duration: 0.5 }}>
@@ -45,7 +43,7 @@ const MainAreaOne = () => {
               <h1>Goodtime.design</h1>
               <p>
                 Good Time Design, is an online consortium of fine art enthusisasts and independent designers. <br/>
-                <span className="smallText-two">2% of every transaction goes to the community <strong>treasury</strong>. </span>
+                <span className="smallText-two">1% of every transaction goes to the community <strong>treasury</strong>. </span>
               </p>
             </div>
           </div>
@@ -84,7 +82,7 @@ const MainAreaOne = () => {
               />
             </div>
           </motion.div>
-          <h1 className="portfolio-title">Study</h1>
+          {/* <h1 className="portfolio-title">Study</h1> */}
           <div className="sauravDutt-projects">
             <motion.div 
           className="default"
@@ -97,7 +95,7 @@ const MainAreaOne = () => {
           <h3>...</h3>
           </div>
         </motion.div>
-        <motion.div 
+        {/* <motion.div 
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
@@ -108,7 +106,7 @@ const MainAreaOne = () => {
             <br/>
           <h3>...</h3>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
           {/* <div className="right-discover">
             <img

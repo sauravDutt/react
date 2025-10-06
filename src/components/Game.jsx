@@ -9,9 +9,7 @@ const Game = () => {
       <div className="lcac-outter">
         <h1><span className="second-font">Good time design <br/></span>( GTD / about )</h1>
         <p>
-          Good Time Design (GTD) is a Community, a Consortium of Digital Creators, Writers, Illustrators, Storytellers and like-minded
-fine art enthusiasts. A platform for transparent trade of digital assets, with a collective growth and interests in
-mind.
+          Good Time Design (GTD) is an online community of fine art enthusiasts, a consortium between independent designers, manufacturers, digital creators and artists, providing a transparent trade of digital (tangible) assets.
         </p>
         <p>
           
