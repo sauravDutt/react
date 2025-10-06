@@ -18,7 +18,7 @@ let navigate = useNavigate();
   auth.onAuthStateChanged((user) => {
     setUser(user);
   });
-  
+
   const showWallet = () => {
     console.log(user);
   }
@@ -39,7 +39,7 @@ let navigate = useNavigate();
                 </div>
                 <div className="userDetails">
                 <h2>{user.displayName}</h2>
-                <p>{user.email}<br/>4AS0831</p>
+                <p>{user.email}<br/><strong>4AS0831</strong></p>
                 <button onClick={showWallet} className="cashout-btn"><AccountBalanceWalletRoundedIcon sx={{fontSize: 40}}/></button>
                 </div>
                 <div className="onlineDot"></div>
