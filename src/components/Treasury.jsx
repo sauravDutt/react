@@ -1,6 +1,8 @@
 import { auth } from "../firebase-config";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+
+import { motion, MotionConfig } from "framer-motion";
 import { useState } from "react";
 import AccountBalanceWalletRoundedIcon from '@mui/icons-material/AccountBalanceWalletRounded';
 
@@ -25,6 +27,7 @@ let navigate = useNavigate();
   }
     
     return(
+      <MotionConfig>
         <div className="treasury-Main-outter">
             <h1>Treasury</h1>
             <div className="treasury-total">
@@ -50,7 +53,11 @@ let navigate = useNavigate();
                 </div>
                 <br />
             </div>
-            <div className="userLogout-treasury">
+            <motion.div 
+              className="userLogout-treasury"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.9 }}
+            >
                 <div className="userImageDashboard-outter">
                 <img src={user.photoURL} alt="User" />
                 </div>
@@ -60,8 +67,9 @@ let navigate = useNavigate();
                 <button onClick={showWallet} className="cashout-btn"><AccountBalanceWalletRoundedIcon sx={{fontSize: 40}}/></button>
                 </div>
                 <div className="onlineDot"></div>
-            </div>
+            </motion.div>
         </div>
+        </MotionConfig>
         
     )
 }
