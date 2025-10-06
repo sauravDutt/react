@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import AccountBalanceWalletRoundedIcon from '@mui/icons-material/AccountBalanceWalletRounded';
+
+
 const Treasury = ({ setIsAuth, isAuth }) => {
 let navigate = useNavigate();
 
@@ -30,7 +32,23 @@ let navigate = useNavigate();
             </div>
             <h2 className="subHeading-treasury">History</h2>
             <div className="treasury-top-story">
-                
+                <div className="transaction1">
+                    <div></div>
+                    <div className="treasuryAmountAdd"></div>
+                </div>
+                <div className="transaction1">
+                    <div></div>
+                    <div className="treasuryAmountAdd"></div>
+                </div>
+                <div className="transaction1">
+                    <div></div>
+                    <div className="treasuryAmountAdd"></div>
+                </div>
+                <div className="transaction1">
+                    <div></div>
+                    <div className="treasuryAmountAdd"></div>
+                </div>
+                <br />
             </div>
             <div className="userLogout-treasury">
                 <div className="userImageDashboard-outter">

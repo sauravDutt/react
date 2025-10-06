@@ -1962,6 +1962,26 @@ z-index: 20;
   height: 350px;
   border-top: 2px solid #00000074;
   border-bottom: 2px solid #00000074;
+  overflow-x: hidden;
+  overflow-y: scroll;
+} 
+.transaction1 {
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 90px;
+  display: grid;
+  margin: 15;
+  width: 320px;
+  box-shadow: 5px 5px 15px #b6b6b635, -5px -5px 15px #b6b6b635;
+  border-radius: 10px;
+  padding: 5px;
+  gap: 5px;
+  grid-template-columns: 70% 27%;
+}
+
+.treasuryAmountAdd {
+  background-color: #0000000c;
+  border-radius: 12px;
 }
 
 .treasury-amount h2 {
