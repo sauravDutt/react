@@ -67,7 +67,7 @@ const MainAreaOne = () => {
             className="bannerBoiler cat"
             position="positionRight"
             title="Consortium"
-            description="Every acquisition through the platform puts 1% of the total cost in the treasury. Shared equaly between the buyer and seller."
+            description="Every acquisition made through the platform puts 1% of the total cost in the treasury. Shared equally between the buyer and seller."
             heidBtn="heidBtn"
           />
           <motion.div style={{ marginBottom: "35px" }} animate={{ height }}>
