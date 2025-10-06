@@ -102,7 +102,7 @@ const MainAreaOne = () => {
           <h2 className="subHeading">To learn more about goodtime.design, click on the info button below </h2>
           <h1 className="lca-title"> info</h1>
           <div className="folio-card-icon-outter-lca">
-          <InfoIcon fontSize="large" sx={{ width: "100%" }}/>
+          <InfoIcon sx={{ fontSize: 35, marginTop: -5 }}/>
           </div>
         </motion.div>
         <motion.div 
@@ -114,7 +114,7 @@ const MainAreaOne = () => {
            <h2 className="subHeading">Explore the Good Time Marketplace, click on the marketplace button below </h2>
           <h1 className="lca-title"> marketplace</h1>
           <div className="folio-card-icon-outter-lca">
-          <StoreRoundedIcon fontSize="large" sx={{ width: "100%" }}/>
+          <StoreRoundedIcon sx={{ fontSize: 35, marginTop: -5 }}/>
           </div>
         </motion.div>
         <motion.div 
@@ -124,7 +124,7 @@ const MainAreaOne = () => {
           onClick={showFolioLCA}
         >
           <h1 className="lca-title"><i>life cycle assessment calculator</i></h1>
-          <h2 className="subHeading">Sustainable approach towards conceptual product design.</h2>
+          <h2 className="subHeading-last">Sustainable approach towards conceptual product design.</h2>
           <div className="folio-card-icon-outter-lca">
           <h3>...</h3>
           </div>

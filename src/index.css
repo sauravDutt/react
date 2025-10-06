@@ -1535,6 +1535,12 @@ z-index: 20;
   padding: 0;
   margin-left: 25px;
 }
+.subHeading-last {
+  font-weight: 300;
+  font-size: 15px;
+  padding: 0;
+  margin-left: 25px;
+}
 .subHeading-treasury {
   font-weight: 300;
   margin: 0;
