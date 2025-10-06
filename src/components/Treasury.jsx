@@ -3,7 +3,7 @@ import { auth } from "../firebase-config";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-
+import AccountBalanceWalletRoundedIcon from '@mui/icons-material/AccountBalanceWalletRounded';
 const Treasury = ({ setIsAuth, isAuth }) => {
 let navigate = useNavigate();
 
@@ -15,16 +15,13 @@ let navigate = useNavigate();
 
   const [user, setUser] = useState([]);
 
-  const signOutUser = () => {
-    signOut(auth).then(() => {
-      localStorage.clear();
-      setIsAuth(false);
-      window.location.pathname = "/login";
-    });
-  };
   auth.onAuthStateChanged((user) => {
     setUser(user);
   });
+  
+  const showWallet = () => {
+    console.log(user);
+  }
     
     return(
         <div className="treasury-Main-outter">
@@ -42,8 +39,8 @@ let navigate = useNavigate();
                 </div>
                 <div className="userDetails">
                 <h2>{user.displayName}</h2>
-                <p>{user.email}</p>
-                <button onClick={signOutUser}>Signout</button>
+                <p>{user.email}<br/>4AS0831</p>
+                <button onClick={showWallet} className="cashout-btn"><AccountBalanceWalletRoundedIcon sx={{fontSize: 40}}/></button>
                 </div>
                 <div className="onlineDot"></div>
             </div>
