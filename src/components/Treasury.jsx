@@ -35,23 +35,23 @@ let navigate = useNavigate();
             </div>
             <h2 className="subHeading-treasury">History</h2>
             <div className="treasury-top-story">
-                <div className="transaction1">
+                <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} >
                     <div></div>
                     <div className="treasuryAmountAdd"></div>
-                </div>
-                <div className="transaction1">
+                </motion.div>
+                <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
                     <div></div>
                     <div className="treasuryAmountAdd"></div>
-                </div>
-                <div className="transaction1">
+                </motion.div>
+                <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
                     <div></div>
                     <div className="treasuryAmountAdd"></div>
-                </div>
-                <div className="transaction1">
+                </motion.div>
+                <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
                     <div></div>
                     <div className="treasuryAmountAdd"></div>
-                </div>
-                <br />
+                </motion.div>
+                <br/>
             </div>
             <motion.div 
               className="userLogout-treasury"
