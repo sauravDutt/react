@@ -123,7 +123,8 @@ const MainAreaOne = () => {
           whileTap={{ scale: 0.9 }}
           onClick={showFolioLCA}
         >
-          <h1 className="lca-title"><i>" life cycle assessment calculator "</i>.</h1>
+          <h1 className="lca-title"><i>life cycle assessment calculator</i></h1>
+          <h2 className="subHeading">Sustainable approach towards conceptual product design.</h2>
           <div className="folio-card-icon-outter-lca">
           <h3>...</h3>
           </div>
