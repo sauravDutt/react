@@ -7,6 +7,9 @@ import "react-h5-audio-player/lib/styles.css";
 import GtownMap from "./GtownMap";
 import useMeasure from "react-use-measure";
 import { useNavigate } from "react-router-dom";
+
+import InfoIcon from '@mui/icons-material/Info';
+import StoreRoundedIcon from '@mui/icons-material/StoreRounded';
 // import DigitalArt from "./DigitalArt";
 // import DigitalArtOne from "./DigitalArtOne";
 // import DigitalArtTwo from "./DigitalArtTwo";
@@ -29,6 +32,12 @@ const MainAreaOne = () => {
       const showFolioLCA = () => {
         navigate("/lca_estimation_in_conceptual_design")
       }
+      const showInfo = () => {
+        navigate("/lcac")
+      }
+      const showMarketplace = () => [
+        navigate("/designer_marketplace")
+      ]
       // const showChairDesign = () => {
       //   navigate('/chair')
       // }
@@ -58,7 +67,7 @@ const MainAreaOne = () => {
             className="bannerBoiler cat"
             position="positionRight"
             title="Consortium"
-            description="At GTD, we maintain a community treasury, every member has a say in the collected funds."
+            description="Every acquisition through the platform puts 1% of the total cost in the treasury. Shared equaly between the buyer and seller."
             heidBtn="heidBtn"
           />
           <motion.div style={{ marginBottom: "35px" }} animate={{ height }}>
@@ -88,9 +97,33 @@ const MainAreaOne = () => {
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
+          onClick={showInfo}
+        >
+          <h2 className="subHeading">To learn more about goodtime.design, click on the info button below </h2>
+          <h1 className="lca-title"> info</h1>
+          <div className="folio-card-icon-outter-lca">
+          <InfoIcon/>
+          </div>
+        </motion.div>
+        <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={showMarketplace}
+        >
+           <h2 className="subHeading">Explore the Good Time Marketplace, click on the marketplace button below </h2>
+          <h1 className="lca-title"> marketplace</h1>
+          <div className="folio-card-icon-outter-lca">
+          <StoreRoundedIcon/>
+          </div>
+        </motion.div>
+        <motion.div 
+          className="default"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.9 }}
           onClick={showFolioLCA}
         >
-          <h1 className="lca-title"><i>" life cycle assessment calculator "</i> for estimation in conceptual design.</h1>
+          <h1 className="lca-title"><i>" life cycle assessment calculator "</i>.</h1>
           <div className="folio-card-icon-outter-lca">
           <h3>...</h3>
           </div>

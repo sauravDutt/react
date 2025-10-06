@@ -172,6 +172,7 @@ td {
   margin: 0;
   float: right;
   margin-right: 20px;
+  margin-top: -10px;
 }
 .folio-card-icon-outter-lca h3 {
   margin: 0;
@@ -1512,6 +1513,12 @@ z-index: 20;
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.subHeading {
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0;
+  margin-left: 25px;
 }
 .subHeading-treasury {
   font-weight: 300;
