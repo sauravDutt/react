@@ -21,8 +21,8 @@ const DigitalArt = () => {
       <div className="digitalArt-info">
         <h1>incomplete R8</h1>
         <p>
-          <strong>Digital Artwork</strong> - "The incomplete" collection, <br />
-          by <i>Skank Hunt</i>
+          <strong>Digital Artwork</strong> - "The incomplete" collection. <br /> <br />
+          by <strong>4AS0831</strong>
         </p>
       </div>
     </div>

@@ -713,7 +713,18 @@ z-index: 20;
   background-color: #fafafa;
   grid-template-columns: 35% 65%;
 }
-
+.userLogout-treasury {
+  box-shadow: 5px 5px 15px #00000038;
+  position: absolute;
+  width: 90%;
+  margin-left: 4%;
+  display: grid;
+  border-radius: 15px;
+  padding: 5px;
+  z-index: 69;
+  background-color: #fafafa;
+  grid-template-columns: 35% 65%;
+}
 .userLogout-two {
   box-shadow: 5px 5px 15px #00000038;
   position: fixed;
@@ -1931,7 +1942,7 @@ z-index: 20;
 .treasury-top-story {
   width: 90%;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   height: 350px;
   border-top: 2px solid #00000074;
   border-bottom: 2px solid #00000074;

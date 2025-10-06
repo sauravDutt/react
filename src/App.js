@@ -70,7 +70,7 @@ function App() {
         <Route path="/login" element={<LogIn setIsAuth={setIsAuth} />} />
         <Route path="/lcac" element={<Game />} />
         <Route path="/chair" element={<Chair/>}/>
-        <Route path="/treasury" element={<Treasury/>}/>
+        <Route path="/treasury" element={<Treasury isAuth={isAuth} userName={userName} userImageUrl={userImageUrl}/>}/>
         <Route
           path="/dashboard"
           element={<UserDashboardPage setIsAuth={setIsAuth} isAuth={isAuth} />}
