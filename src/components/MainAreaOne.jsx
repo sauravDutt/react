@@ -102,7 +102,7 @@ const MainAreaOne = () => {
           <h2 className="subHeading">To learn more about goodtime.design, click on the info button below </h2>
           <h1 className="lca-title"> info</h1>
           <div className="folio-card-icon-outter-lca">
-          <InfoIcon/>
+          <InfoIcon fontSize="large" sx={{ width: "100%" }}/>
           </div>
         </motion.div>
         <motion.div 
@@ -114,7 +114,7 @@ const MainAreaOne = () => {
            <h2 className="subHeading">Explore the Good Time Marketplace, click on the marketplace button below </h2>
           <h1 className="lca-title"> marketplace</h1>
           <div className="folio-card-icon-outter-lca">
-          <StoreRoundedIcon/>
+          <StoreRoundedIcon fontSize="large" sx={{ width: "100%" }}/>
           </div>
         </motion.div>
         <motion.div 
