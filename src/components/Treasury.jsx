@@ -37,11 +37,13 @@ let navigate = useNavigate();
             <div className="treasury-top-story">
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} >
                     <div></div>
-                    <div className="treasuryAmountAdd"></div>
+                    <div className="treasuryAmountAdd green"><h2>£ 9</h2></div>
                 </motion.div>
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
                     <div></div>
-                    <div className="treasuryAmountAdd"></div>
+                    <div className="treasuryAmountAdd normal">
+                      <h2>£ 100</h2>
+                    </div>
                 </motion.div>
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
                     <div></div>
@@ -68,6 +70,7 @@ let navigate = useNavigate();
                 </div>
                 <div className="onlineDot"></div>
             </motion.div>
+            <br/><br/><br/>
         </div>
         </MotionConfig>
         
