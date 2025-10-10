@@ -42,8 +42,8 @@ const Game = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
         >
-          <h1 className="lca-title"><i>Q1.</i></h1>
-          <h2 className="subHeading-last">There is an artwork listed on the platform by sauravd069 for £ 1,000 /- and skankhunt420 acquires it, what happens in the application ?</h2>
+          <h1 className="lca-title"><i>Q2.</i></h1>
+          <h2 className="subHeading-last">How can a member Cash Out their treasury balance ?</h2>
           <div className="folio-card-icon-outter-lca">
           <h3>...</h3>
           </div>
