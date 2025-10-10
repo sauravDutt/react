@@ -3,8 +3,7 @@ import { auth } from "../firebase-config";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import CachedRoundedIcon from '@mui/icons-material/CachedRounded';
-
+import { motion, MotionConfig } from "framer-motion";
 const UserDashboardPage = ({ setIsAuth, isAuth }) => {
   let navigate = useNavigate();
 
@@ -14,15 +13,10 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
     }
   });
 
-  const openInNewTab = (url) => {
-  const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
-  if (newWindow) newWindow.opener = null
-  }
+
   const [user, setUser] = useState([]);
 
-  const showSurveyLCA = () => {
-    openInNewTab("https://docs.google.com/forms/d/e/1FAIpQLSfJ7ubsoQYA5zEoKaYAA7msqYXEaOXURW8392BAnRMzoYtd1Q/viewform?usp=dialog");
-  }
+
 
   const signOutUser = () => {
     signOut(auth).then(() => {
@@ -36,6 +30,7 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
   });
 
   return (
+    <MotionConfig>
     <div className="dashBoard-outter">
       <div className="userLogout">
         <div className="userImageDashboard-outter">
@@ -48,7 +43,11 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
         </div>
         <div className="onlineDot"></div>
       </div>
-      <div className="userLogout-two">
+      <motion.div 
+        className="userLogout-two"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.9 }}
+      >
         <div className="userDetails-two">
           <img 
             className="bestChair-img"
@@ -56,12 +55,12 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
             alt="Img"
             srcset="" 
             /><br/>
-          <h2>" <span className="smallText-user">take a survey.</span>"</h2>
+          <h2>£1<span className="smallText-user"><br/>one time membership fee.</span></h2>
           <div className="grid-class">
             <h1>...</h1>
           </div>
         </div>
-      </div>
+      </motion.div>
       {/* <div className="userStats">
         <p>
           <span>Dashboard</span>
@@ -100,6 +99,7 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
           })}
       </div> */}
     </div>
+    </MotionConfig>
   );
 };
 

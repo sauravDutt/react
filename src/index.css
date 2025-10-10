@@ -773,7 +773,7 @@ z-index: 20;
   margin-top: -20px;
 }
 .smallText-user {
-  font-size: 25px;
+  font-size: 19px;
 }
 .grid-class {
   display: grid;
@@ -790,11 +790,12 @@ z-index: 20;
 }
 .userDetails-two h2 {
   font-family: 'logo';
-  font-size: 45px;
+  font-size: 65px;
   font-weight: 400;
-  text-align: center;
   margin: 0px;
   padding: 0px;
+  margin-top: 30px;
+  line-height: 20px;
 }
 .userDetails-two button {
   box-shadow: 2.5px 2.5px 10px #00000017;
