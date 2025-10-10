@@ -70,7 +70,11 @@ let navigate = useNavigate();
                 </div>
                 <div className="onlineDot"></div>
             </motion.div>
-            <div className="exta-space"></div>
+            <div className="exta-space">
+              <h2>Events</h2>
+              <h1>Weekly <strong className="second-text">blackjack</strong> evenings, with receipts going to a collectively decided charity.</h1>
+              <button>Sign up</button>
+            </div>
             <br/><br/><br/>
         </div>
         </MotionConfig>
