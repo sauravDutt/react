@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import CachedRoundedIcon from '@mui/icons-material/CachedRounded';
-import StoreRoundedIcon from '@mui/icons-material/StoreRounded';
 
 const UserDashboardPage = ({ setIsAuth, isAuth }) => {
   let navigate = useNavigate();
@@ -21,10 +20,6 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
   }
   const [user, setUser] = useState([]);
 
-  const showSurvey = () => {
-    console.log("Click")
-    openInNewTab("https://docs.google.com/forms/d/e/1FAIpQLSfE7lmUdsCEiFFDyraMf1ovMkP1u0qAbCLZRf4iMHOQIEUk3A/viewform?usp=dialog");
-  }
   const showSurveyLCA = () => {
     openInNewTab("https://docs.google.com/forms/d/e/1FAIpQLSfJ7ubsoQYA5zEoKaYAA7msqYXEaOXURW8392BAnRMzoYtd1Q/viewform?usp=dialog");
   }
@@ -60,12 +55,10 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
             src={process.env.PUBLIC_URL + "/img/bestChair.png"}
             alt="Img"
             srcset="" 
-            />
+            /><br/>
           <h2>" <span className="smallText-user">take a survey.</span>"</h2>
           <div className="grid-class">
-            <button onClick={showSurvey}><StoreRoundedIcon/> </button>
-            <button onClick={showSurveyLCA} className="twoBtnBTS"><CachedRoundedIcon/> </button>
-            <div></div>
+            <h1>...</h1>
           </div>
         </div>
       </div>
