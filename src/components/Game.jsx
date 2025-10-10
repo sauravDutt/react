@@ -1,9 +1,20 @@
 
-
 import { motion, MotionConfig } from "framer-motion";
+import { useState } from "react";
 
+const OriginStoryContent = () => {
+  return (
+    <p className="originPtag">
+      <br/>
+      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> an online community of fine art enthusiasts, a consortium between independent designers, manufacturers, digital creators and artists, providing a transparent trade of digital (tangible) assets.
+      <br/>
+      <span className="smallText-two">1% of every transaction goes to the community <strong>treasury</strong>.</span>
+    </p>
+  );
+};
 const Game = () => {
 
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <MotionConfig>
@@ -30,11 +41,14 @@ const Game = () => {
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
+          onClick={() => setIsOpen(!isOpen)}
         >
           <h1 className="lca-title"><i>Q1.</i></h1>
           <h2 className="subHeading-last">There is an artwork listed on the platform by sauravd069 for £ 1,000 /- and skankhunt420 acquires it, what happens in the application ?</h2>
           <div className="folio-card-icon-outter-lca">
-          <h3>...</h3>
+            {isOpen ? <OriginStoryContent /> : null}
+              
+          <h3>{isOpen ? "" : "..."}</h3>
           </div>
         </motion.div>
         <motion.div 
