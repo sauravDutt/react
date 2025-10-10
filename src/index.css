@@ -1523,7 +1523,7 @@ z-index: 20;
   border-bottom: 3px dotted #000;
   position: absolute;
   display: block;
-  padding-bottom: 20px;
+  
 }
 .treasury-Main-outter h1 {
   font-family: 'News';
@@ -1985,6 +1985,22 @@ z-index: 20;
   padding: 5px;
   gap: 5px;
   grid-template-columns: 69% 28%;
+}
+
+.exta-space {
+  border: 1px solid #000;
+  box-shadow: 5px 5px 15px #00000038;
+  width: 90%;
+  margin-left: 4%;
+  height: 50px;
+  margin-top: 220px;
+  margin-bottom: 100px;
+  display: grid;
+  border-radius: 15px;
+  padding: 5px;
+  z-index: 60;
+  background-color: #fafafa;
+  grid-template-columns: 35% 65%;
 }
 
 .treasuryAmountAdd {
