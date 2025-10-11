@@ -743,7 +743,7 @@ z-index: 20;
   box-shadow: 5px 5px 15px #00000038;
   position: absolute;
   width: 90%;
-  height: 150px;
+  height: 110px;
   margin-left: 4%;
   display: grid;
   border-radius: 15px;
@@ -755,10 +755,10 @@ z-index: 20;
 .userLogout-three h1 {
   font-family: 'LOGO';
   font-weight: 300;
-  text-align: center;
   margin: 0;
   padding: 0;
-  margin-top: -35px;
+  margin-left: 30px;
+  margin-top: -15px;
 }
 .userLogout-three h2 {
   color: #000000a4;
@@ -775,7 +775,7 @@ z-index: 20;
   padding: 0;
   position: absolute;
   right: 17px;
-  bottom: 12px;
+  bottom: 10px;
 }
 .userLogout img {
   border-radius: 50%;
