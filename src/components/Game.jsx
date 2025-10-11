@@ -6,9 +6,10 @@ const OriginStoryContent = () => {
   return (
     <p className="originPtag">
       <br/>
-      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> an online community of fine art enthusiasts, a consortium between independent designers, manufacturers, digital creators and artists, providing a transparent trade of digital (tangible) assets.
-      <br/>
-      <span className="smallText-two">1% of every transaction goes to the community <strong>treasury</strong>.</span>
+      1% of the cost price goes straight to the treasury. 90% of the treasury amount is devided equaly between buyer (<strong>skankhunt420</strong>) and seller (<strong>sauravd069</strong>) and 10% will go to Good Time Design for platform fee.
+      <br/><br/>
+      <span className="smallText-two">£1,000 X 1 / 100  =  <strong>£10</strong>. 
+      <br/> £10 - £1 (GTD platform fee) = <strong>£9</strong> <br/> sauravd069 = <strong>£4.50 </strong>and skankhunt420 = <strong>£4.50</strong></span>
     </p>
   );
 };
@@ -49,6 +50,7 @@ const Game = () => {
             {isOpen ? <OriginStoryContent /> : null}
               
           <h3>{isOpen ? "" : "..."}</h3>
+          <br/>
           </div>
         </motion.div>
         <motion.div 
