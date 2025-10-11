@@ -4,13 +4,19 @@ import { useState } from "react";
 
 const OriginStoryContent = () => {
   return (
-    <p className="originPtag">
-      <br/>
+    <>
+    <br/>
+    <br/>
+    <hr/>  
+    <br/>  
+    <p className="originPtag-info">
       1% of the cost price goes straight to the treasury. 90% of the treasury amount is devided equaly between buyer (<strong>skankhunt420</strong>) and seller (<strong>sauravd069</strong>) and 10% will go to Good Time Design for platform fee.
       <br/><br/>
       <span className="smallText-two">£1,000 X 1 / 100  =  <strong>£10</strong>. 
       <br/> £10 - £1 (GTD platform fee) = <strong>£9</strong> <br/> sauravd069 = <strong>£4.50 </strong>and skankhunt420 = <strong>£4.50</strong></span>
     </p>
+    </>
+
   );
 };
 const Game = () => {
@@ -53,6 +59,7 @@ const Game = () => {
           <br/>
           </div>
         </motion.div>
+        <br/>
         <motion.div 
           className="default"
           whileHover={{ scale: 1.05 }}

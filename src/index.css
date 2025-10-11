@@ -2285,6 +2285,10 @@ z-index: 20;
   margin-top: -25px;
   margin-bottom: 25px;
 }
+.originPtag-info{
+  padding: 0;
+  margin-bottom: 25px;
+}
 .right-discover {
   border: 2px solid #000;
   display: grid;
