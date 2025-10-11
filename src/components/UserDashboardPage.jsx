@@ -54,8 +54,8 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
             src={process.env.PUBLIC_URL + "/img/bestChair.png"}
             alt="Img"
             srcset="" 
-            /><br/>
-          <h2>£1<span className="smallText-user"><br/>one time membership fee.</span></h2>
+            />
+          <h2>£1<span className="smallText-user"><br/>one time membership fee. 50p is deposited in member's treasury wallet.</span></h2>
           <div className="grid-class">
             <h1>...</h1>
           </div>

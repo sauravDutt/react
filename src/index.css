@@ -773,7 +773,8 @@ z-index: 20;
   margin-top: -20px;
 }
 .smallText-user {
-  font-size: 19px;
+  font-size: 15px;
+  line-height: 3px !important;
 }
 .grid-class {
   display: grid;
@@ -794,7 +795,8 @@ z-index: 20;
   font-weight: 400;
   margin: 0px;
   padding: 0px;
-  margin-top: 30px;
+  margin-top: 35px;
+  margin-left: 15px;
   line-height: 20px;
 }
 .userDetails-two button {
