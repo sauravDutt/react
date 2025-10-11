@@ -61,6 +61,13 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
           </div>
         </div>
       </motion.div>
+      <motion.div 
+        className="userLogout-three"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.9 }}
+      >
+
+      </motion.div>
       {/* <div className="userStats">
         <p>
           <span>Dashboard</span>

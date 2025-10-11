@@ -735,11 +735,23 @@ z-index: 20;
   border-radius: 15px;
   padding: 5px;
   z-index: 69;
-  margin-top: 200px;
+  margin-top: 175px;
   background-color: #fafafa;
   grid-template-columns: 35% 65%;
 }
-
+.userLogout-three {
+  box-shadow: 5px 5px 15px #00000038;
+  position: absolute;
+  width: 90%;
+  height: 150px;
+  margin-left: 4%;
+  display: grid;
+  border-radius: 15px;
+  padding: 5px;
+  z-index: 69;
+  margin-top: 415px;
+  background-color: #fafafa;
+}
 .userLogout img {
   border-radius: 50%;
   width: 69px;
