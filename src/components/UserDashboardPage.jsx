@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { motion, MotionConfig } from "framer-motion";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+
 const UserDashboardPage = ({ setIsAuth, isAuth }) => {
   let navigate = useNavigate();
 
@@ -66,8 +68,11 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
       >
-
+        <h2>Add a listing</h2>
+        <h1>upload a preowned artwork.</h1>
+        <h3><ArrowForwardIcon/></h3>
       </motion.div>
+      <br/><br/>
       {/* <div className="userStats">
         <p>
           <span>Dashboard</span>

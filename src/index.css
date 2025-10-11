@@ -727,7 +727,7 @@ z-index: 20;
 }
 .userLogout-two {
   box-shadow: 5px 5px 15px #00000038;
-  position: fixed;
+  position: absolute;
   width: 90%;
   height: 200px;
   margin-left: 4%;
@@ -751,6 +751,31 @@ z-index: 20;
   z-index: 69;
   margin-top: 415px;
   background-color: #fafafa;
+}
+.userLogout-three h1 {
+  font-family: 'LOGO';
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: -35px;
+}
+.userLogout-three h2 {
+  color: #000000a4;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  letter-spacing: 2px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.userLogout-three h3 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 17px;
+  bottom: 12px;
 }
 .userLogout img {
   border-radius: 50%;

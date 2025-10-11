@@ -10,7 +10,7 @@ const OriginStoryContent = () => {
     <hr/>  
     <br/>  
     <p className="originPtag-info">
-      1% of the cost price goes straight to the treasury. 90% of the treasury amount is devided equaly between buyer (<strong>skankhunt420</strong>) and seller (<strong>sauravd069</strong>) and 10% will go to Good Time Design for platform fee.
+     One per cent of the purchase price is sent directly to the Treasury. The buyer (<strong>skankhunt420</strong>) and seller (<strong>sauravd069</strong>) split 90% of the treasury amount equally, with 10% going to Good Time Design for the platform fee.
       <br/><br/>
       <span className="smallText-two">£1,000 X 1 / 100  =  <strong>£10</strong>. 
       <br/> £10 - £1 (GTD platform fee) = <strong>£9</strong> <br/> sauravd069 = <strong>£4.50 </strong>and skankhunt420 = <strong>£4.50</strong></span>
