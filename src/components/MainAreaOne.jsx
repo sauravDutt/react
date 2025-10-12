@@ -51,7 +51,7 @@ const MainAreaOne = () => {
             <div>
               <h1>Goodtime.design</h1>
               <p>
-                Good Time Design, is an online consortium of fine art enthusisasts and independent designers. <br/>
+                Good Time Design, is an online community of fine art enthusisasts and independent designers. <br/>
                 <span className="smallText-two">1% of every transaction goes to the community <strong>treasury</strong>. </span>
               </p>
             </div>
@@ -66,7 +66,7 @@ const MainAreaOne = () => {
       <Banner
             className="bannerBoiler cat"
             position="positionRight"
-            title="Consortium"
+            title="consortium"
             description="Every acquisition made through the platform contributes 1% of the total cost of the asset to the treasury. Shared equally between the buyer and seller."
             heidBtn="heidBtn"
           />
