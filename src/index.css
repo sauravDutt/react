@@ -2019,6 +2019,11 @@ z-index: 20;
   gap: 5px;
   grid-template-columns: 69% 28%;
 }
+.transaction1 div p {
+  margin-left: 10px;
+  font-size: 14px;
+  padding: 5px;
+}
 
 .exta-space {
   box-shadow: 5px 5px 15px #00000038;

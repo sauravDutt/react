@@ -36,21 +36,37 @@ let navigate = useNavigate();
             <h2 className="subHeading-treasury">History</h2>
             <div className="treasury-top-story">
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} >
-                    <div></div>
+                    <div>
+                      <p>
+                        <i>Skank Hunt</i> acquired <b>incomplete R8</b> from <i>Saurav Dutt</i> for £1,000.
+                      </p>
+                    </div>
                     <div className="treasuryAmountAdd green"><h2>£ 9</h2></div>
                 </motion.div>
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
-                    <div></div>
+                    <div>
+                      <p>
+                        <i>Skank Hunt</i> <b>Cashed out</b> treasury wallet balance of £100.
+                      </p>
+                    </div>
                     <div className="treasuryAmountAdd normal">
                       <h2>£ 100</h2>
                     </div>
                 </motion.div>
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
-                    <div></div>
+                    <div>
+                      <p>
+                        <i>New Member</i> added, payed joining fee of <b>£1</b>.
+                      </p>
+                    </div>
                     <div className="treasuryAmountAdd green"><h2>£ 50p</h2></div>
                 </motion.div>
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
-                    <div></div>
+                    <div>
+                      <p>
+                        <i>Saurav Dutt</i> acquired an original <b>Banksy</b>, for £10,000.
+                      </p>
+                    </div>
                     <div className="treasuryAmountAdd green"><h2>£ 90</h2></div>
                 </motion.div>
                 <br/>
