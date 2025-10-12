@@ -34,7 +34,7 @@ let navigate = useNavigate();
                 <h2>£ 7,851.91</h2>
             </div>
             <h2 className="subHeading-treasury">Transaction History</h2>
-            <h2 className="subHeading-treasury" style={{float: "right", marginTop: "-40px", marginRight: "20px", fontWeight: "400",}}>15/10/2025</h2>
+            <h2 className="subHeading-treasury" style={{float: "right", marginTop: "-40px", marginRight: "20px", fontWeight: "400",fontSize:"15px"}}>[ 15/10/2025 ]</h2>
             <div className="treasury-top-story">
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} >
                     <div>
