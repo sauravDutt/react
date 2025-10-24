@@ -8,7 +8,6 @@ import GtownMap from "./GtownMap";
 import useMeasure from "react-use-measure";
 import { useNavigate } from "react-router-dom";
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
-import InfoIcon from '@mui/icons-material/Info';
 import StoreRoundedIcon from '@mui/icons-material/StoreRounded';
 // import DigitalArt from "./DigitalArt";
 // import DigitalArtOne from "./DigitalArtOne";
