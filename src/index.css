@@ -1591,7 +1591,7 @@ z-index: 20;
 .treasury-outter {
   margin-top: 90px;
   background-color: #0000000c;
-  border-bottom: 4px dotted #000;
+  border-bottom: 4px dotted #0000006d;
   padding-bottom: 25px;
   display: grid;
   grid-template-columns: auto;
@@ -1618,7 +1618,7 @@ z-index: 20;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  height: 490px;
+  height: 500px;
 }
 .main-artwork-outter::-webkit-scrollbar {
   width: 0px;
