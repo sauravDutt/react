@@ -2317,8 +2317,6 @@ z-index: 20;
   display: grid;
   width: 360px;
   overflow: hidden;
-  margin-top: 20px;
-  margin-bottom: 20px;
   border-radius: 10px;
   grid-template-columns: 70% 30%;
 }

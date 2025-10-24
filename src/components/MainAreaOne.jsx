@@ -66,11 +66,11 @@ const MainAreaOne = () => {
       <Banner
             className="bannerBoiler cat"
             position="positionRight"
-            title="raise funds"
+            title="raise capital"
             description="Designer's can raise capital at an early stage of product development."
             heidBtn="heidBtn"
           />
-          <motion.div style={{ marginBottom: "35px" }} animate={{ height }}>
+          <motion.div style={{ marginBottom: "15px" }} animate={{ height }}>
             <div ref={ref} className="left-discover">
               <div className="div-left">
                 <h1>
