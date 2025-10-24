@@ -1590,10 +1590,12 @@ z-index: 20;
 }
 .treasury-outter {
   margin-top: 90px;
-  height: 130vh;
   background-color: #0000000c;
+  border-bottom: 4px dotted #000;
+  padding-bottom: 30px;
   display: grid;
   grid-template-columns: auto;
+  gap: 20px;
   justify-content: center;
 }
 .treasury-dashboard-head {
@@ -1610,7 +1612,6 @@ z-index: 20;
   padding: 0 10px;
 }
 .main-artwork-outter {
-  margin-top: -140px;
   width: 100%;
   display: flex;
   overflow: hidden;

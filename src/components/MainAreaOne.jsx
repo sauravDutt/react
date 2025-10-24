@@ -7,7 +7,7 @@ import "react-h5-audio-player/lib/styles.css";
 import GtownMap from "./GtownMap";
 import useMeasure from "react-use-measure";
 import { useNavigate } from "react-router-dom";
-
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import InfoIcon from '@mui/icons-material/Info';
 import StoreRoundedIcon from '@mui/icons-material/StoreRounded';
 // import DigitalArt from "./DigitalArt";
@@ -103,7 +103,7 @@ const MainAreaOne = () => {
           <h2 className="subHeading">To learn more about goodtime.design, click on the info button below </h2>
           <h1 className="lca-title"> info</h1>
           <div className="folio-card-icon-outter-lca">
-          <InfoIcon sx={{ fontSize: 35, marginTop: -5 }}/>
+          <AccountBalanceIcon sx={{ fontSize: 35, marginTop: -5 }}/>
           </div>
         </motion.div>
         <motion.div 

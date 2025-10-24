@@ -71,36 +71,9 @@ let navigate = useNavigate();
         <DigitalArt />
         <DigitalArtOne />
         <DigitalArtTwo />
-        <div className="littleWidth"></div>
       </div>
 
-      <div className="memberCard-outter">
-        <div className="card-outter">
-          <div className="treasury-head-new">
-            <h1>Treasury</h1>
-            <div>
-              <div className="treasury-amount">
-                <h2>£ 7,851.91</h2>
-              </div>
-            </div>
-          </div>
-          
-          <div className="comments-outter">
-            <p>
-              * This is a members only Utility, enter your membership id to
-              continue.
-            </p>
-            <div className="memberID-btn">
-              <PasswordIcon fontSize="large" sx={{ width: "100%" }} />
-              <input type="password" name="memberID" id="password" 
-              onKeyDown={(e) => (
-                e.keyCode === 13 ? navigate('/treasury') : null
-              )}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 };

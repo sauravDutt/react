@@ -17,6 +17,7 @@ import Freestyle from "./components/Freestyle";
 import LCAestimationInCD from "./components/LCAestimationInCD";
 import Chair from "./components/Chair";
 import InfoIcon from '@mui/icons-material/Info';
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import Treasury from "./components/Treasury";
 
 function App() {
@@ -43,8 +44,8 @@ function App() {
           <Link to="/designer_marketplace" className="button-outter">
             <StoreRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
-          <Link to="/lcac" className="button-outter">
-            <InfoIcon fontSize="large" sx={{ width: "100%" }} />
+          <Link to="/treasury" className="button-outter">
+            <AccountBalanceIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           {!isAuth ? (
             <Link to="/login" className="button-outter">
