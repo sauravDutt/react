@@ -1619,6 +1619,8 @@ z-index: 20;
   flex-wrap: wrap;
   justify-content: center;
   height: 500px;
+  margin-top: -7px;
+  margin-bottom: 10px;
 }
 .main-artwork-outter::-webkit-scrollbar {
   width: 0px;
