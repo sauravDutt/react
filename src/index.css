@@ -1592,10 +1592,9 @@ z-index: 20;
   margin-top: 90px;
   background-color: #0000000c;
   border-bottom: 4px dotted #000;
-  padding-bottom: 30px;
+  padding-bottom: 49px;
   display: grid;
   grid-template-columns: auto;
-  gap: 20px;
   justify-content: center;
 }
 .treasury-dashboard-head {
