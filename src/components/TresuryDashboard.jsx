@@ -4,16 +4,14 @@ import TouchAppIcon from "@mui/icons-material/TouchApp";
 import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
 import StorageIcon from "@mui/icons-material/Storage";
 import SellIcon from "@mui/icons-material/Sell";
-import PasswordIcon from "@mui/icons-material/Password";
 import DigitalArt from "./DigitalArt";
 import DigitalArtOne from "./DigitalArtOne";
 import DigitalArtTwo from "./DigitalArtTwo";
-import { useNavigate } from "react-router-dom";
 // import DesignServicesIcon from '@mui/icons-material/DesignServices';
 // import SendIcon from "@mui/icons-material/Send";
 
-const TreasuryDashboard = ({ isAuth, userName, userImageUrl }) => {
-let navigate = useNavigate();
+const TreasuryDashboard = () => {
+
 
 
   // var log = [

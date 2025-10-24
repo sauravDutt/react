@@ -16,7 +16,6 @@ import TreasuryDashboard from "./components/TresuryDashboard";
 import Freestyle from "./components/Freestyle";
 import LCAestimationInCD from "./components/LCAestimationInCD";
 import Chair from "./components/Chair";
-import InfoIcon from '@mui/icons-material/Info';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import Treasury from "./components/Treasury";
 
