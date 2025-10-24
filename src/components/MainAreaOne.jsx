@@ -17,9 +17,10 @@ import StoreRoundedIcon from '@mui/icons-material/StoreRounded';
 const OriginStoryContent = () => {
   return (
     <p className="originPtag">
-      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> an online community of fine art enthusiasts, a consortium between independent designers, manufacturers, digital creators and artists, providing a transparent trade of digital (tangible) assets.
+      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> is a design community, promoting original and sustainable designs by independent designers, design students and design studios.
+      GTD offers a conceptual design marketplace where a designer can showcase and sell their conceptual designs (IP). GTD also offers a utility to raise capital, where designer's can raise funds against the equity of their IP.
       <br/>
-      <span className="smallText-two">1% of every transaction goes to the community <strong>treasury</strong>.</span>
+      <span className="smallText-two">IP - <strong>interlectual property</strong>.</span>
     </p>
   );
 };
@@ -67,7 +68,7 @@ const MainAreaOne = () => {
             className="bannerBoiler cat"
             position="positionRight"
             title="raise funds"
-            description="GTD offers a platform for independent designers and design students to raise capital for their design projects."
+            description="Designer's can raise capital at an early stage of product development."
             heidBtn="heidBtn"
           />
           <motion.div style={{ marginBottom: "35px" }} animate={{ height }}>
