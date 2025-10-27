@@ -29,7 +29,7 @@ let navigate = useNavigate();
     return(
       <MotionConfig>
         <div className="treasury-Main-outter">
-            <h1>Treasury</h1>
+            <h1>raise cap</h1>
             <div className="treasury-total">
                 <h2>£ 7,851.91</h2>
             </div>
