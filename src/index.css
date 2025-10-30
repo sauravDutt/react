@@ -1572,6 +1572,12 @@ z-index: 20;
   font-weight: 300;
   font-size: 20px;
   padding: 0;
+  margin-left: 25px;
+}
+.subHeading-cool{
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0;
   width: 70% !important;
   margin-left: 25px;
 }
