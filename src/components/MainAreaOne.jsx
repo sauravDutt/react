@@ -67,8 +67,8 @@ const MainAreaOne = () => {
       <Banner
             className="bannerBoiler cat"
             position="positionRight"
-            title="raise capital"
-            description="Designer's can raise capital at an early stage of product development."
+            title="market"
+            description="GTD offers a platform for young designers raise awareness about their projects impact and ."
             heidBtn="heidBtn"
           />
           <motion.div style={{ marginBottom: "15px" }} animate={{ height }}>
@@ -100,8 +100,8 @@ const MainAreaOne = () => {
           whileTap={{ scale: 0.9 }}
           onClick={showInfo}
         >
-          <h2 className="subHeading">To learn more about goodtime.design, click on the info button below </h2>
-          <h1 className="lca-title"> info</h1>
+          <h2 className="subHeading">Make your money grow, invest in a concept design.</h2>
+          <h1 className="lca-title"> market</h1>
           <div className="folio-card-icon-outter-lca">
           <AddBusinessIcon sx={{ fontSize: 35, marginTop: -5 }}/>
           </div>
@@ -112,7 +112,7 @@ const MainAreaOne = () => {
           whileTap={{ scale: 0.9 }}
           onClick={showMarketplace}
         >
-           <h2 className="subHeading">Explore the Good Time Marketplace, click on the marketplace button below </h2>
+           <h2 className="subHeading">Explore the Good Time Design Marketplace, click on the marketplace button below </h2>
           <h1 className="lca-title"> marketplace</h1>
           <div className="folio-card-icon-outter-lca">
           <StoreRoundedIcon sx={{ fontSize: 35, marginTop: -5 }}/>
