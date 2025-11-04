@@ -68,8 +68,8 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
       >
-        <h2>Add a listing</h2>
-        <h1>upload a preowned artwork.</h1>
+        <h2>Raise Capital</h2>
+        <h1>upload your conceptual design.</h1>
         <h3><ArrowForwardIcon/></h3>
       </motion.div>
       <br/><br/>

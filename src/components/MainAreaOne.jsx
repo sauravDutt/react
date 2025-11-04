@@ -112,7 +112,7 @@ const MainAreaOne = () => {
           whileTap={{ scale: 0.9 }}
           onClick={showMarketplace}
         >
-           <h2 className="subHeading-cool">Explore the Good Time Design Marketplace, click on the marketplace button below </h2>
+           <h2 className="subHeading-cool">Explore the Good T ime Design Marketplace, click on the marketplace button below </h2>
           <h1 className="lca-title"> marketplace</h1>
           <div className="folio-card-icon-outter-lca">
           <StoreRoundedIcon sx={{ fontSize: 35, marginTop: -5 }}/>
