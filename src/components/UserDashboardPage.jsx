@@ -57,7 +57,7 @@ const UserDashboardPage = ({ setIsAuth, isAuth }) => {
             alt="Img"
             srcset="" 
             />
-          <h2>£1<span className="smallText-user"><br/>one time membership fee. 50p is deposited in member's treasury wallet.</span></h2>
+          <h2>Goodtime.design<span className="smallText-user"><br/><br/>a community built for designers.</span></h2>
           <div className="grid-class">
             <h1>...</h1>
           </div>

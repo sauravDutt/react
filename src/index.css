@@ -809,15 +809,12 @@ z-index: 20;
   border-radius: 5px;
   margin-left: 120px;
 }
-.smallText-user {
-  font-size: 15px;
-  line-height: 3px !important;
-}
 .grid-class {
   display: grid;
   grid-template-columns: auto;
   color: #000000be;
   justify-content: right;
+  margin-top: -20px;
   z-index: 69;
 }
 .bestChair-img {
@@ -828,12 +825,16 @@ z-index: 20;
 }
 .userDetails-two h2 {
   font-family: 'logo';
-  font-size: 65px;
+  font-size: 25px;
   font-weight: 400;
   margin: 0px;
   padding: 0px;
   margin-top: 13px;
-  line-height: 20px;
+  line-height: 19px;
+}
+
+.smallText-user {
+  font-size: 15px;
 }
 .userDetails-two button {
   box-shadow: 2.5px 2.5px 10px #00000017;
