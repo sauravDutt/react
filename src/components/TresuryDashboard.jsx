@@ -70,8 +70,10 @@ const TreasuryDashboard = () => {
         <DigitalArtOne />
         <DigitalArtTwo />
       </div>
-    <div className="smallInfo"></div>
-      
+    <div className="smallInfo">
+      <div></div>
+      <div></div>
+    </div>
     </div>
   );
 };

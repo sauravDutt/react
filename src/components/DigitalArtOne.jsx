@@ -40,7 +40,7 @@ const DigitalArtOne = () => {
         <h1>practice One</h1>
         <p>
           <strong>Digital Artwork</strong> - "The practice" collection, <br /> <br />
-          by <strong>4AN0953</strong>
+          id <strong>4AN0853</strong>
         </p>
       </div>
     </div>

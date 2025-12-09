@@ -20,7 +20,7 @@ const DigitalArtTwo = () => {
         <h1>Chair Design</h1>
         <p>
           <strong>Digital Artwork</strong> - "The incomplete" collection, <br /> <br />
-          by <strong>4AS0831</strong>
+          id <strong>62NPD01</strong>
         </p>
       </div>
     </div>
