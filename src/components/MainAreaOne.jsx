@@ -16,8 +16,7 @@ import InfoIcon from '@mui/icons-material/Info';
 const OriginStoryContent = () => {
   return (
     <p className="originPtag">
-      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> is a platform for young designers to raise awareness about their personal project and it's impact towards sustainability, the platform caters to independent designers, design students and design studios.<br/><br/>
-      GTD offers a conceptual design marketplace where a designer can showcase and sell their conceptual designs (IP). GTD also offers a utility to raise capital, where designer's can raise funds against the equity of their IP.
+      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> is a platform for young designers, design enthusiasts to raise awareness about their personal project  the platform caters to independent designers, design students and design studios.<br/><br/>
       <br/>
       <span className="smallText-two">IP - <strong>interlectual property</strong>.</span>
     </p>
@@ -67,7 +66,7 @@ const MainAreaOne = () => {
             className="bannerBoiler cat"
             position="positionRight"
             title="market"
-            description="GTD xxxxxx xxxxxxx xxxxxxx xxxxxx xxxxxxx xx xxxxxxxx x xxxxxxx x x x x x x xxxxxxxxxxxxxx. x x x x xxxxxxx xxx."
+            description="A market to raise capital and sell original conceptual design."
             heidBtn="heidBtn"
           />
           <motion.div style={{ marginBottom: "15px" }} animate={{ height }}>
