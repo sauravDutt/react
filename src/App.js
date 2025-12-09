@@ -16,7 +16,7 @@ import TreasuryDashboard from "./components/TresuryDashboard";
 import Freestyle from "./components/Freestyle";
 import LCAestimationInCD from "./components/LCAestimationInCD";
 import Chair from "./components/Chair";
-import AddBusinessIcon from '@mui/icons-material/AddBusiness';
+import PaymentsIcon from '@mui/icons-material/Payments';
 import Treasury from "./components/Treasury";
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
             <StoreRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           <Link to="/treasury" className="button-outter">
-            <AddBusinessIcon fontSize="large" sx={{ width: "100%" }} />
+            <PaymentsIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           {!isAuth ? (
             <Link to="/login" className="button-outter">

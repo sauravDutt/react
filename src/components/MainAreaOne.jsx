@@ -8,8 +8,7 @@ import GtownMap from "./GtownMap";
 import useMeasure from "react-use-measure";
 import { useNavigate } from "react-router-dom";
 import StoreRoundedIcon from '@mui/icons-material/StoreRounded';
-
-import AddBusinessIcon from '@mui/icons-material/AddBusiness';
+import InfoIcon from '@mui/icons-material/Info';
 // import DigitalArt from "./DigitalArt";
 // import DigitalArtOne from "./DigitalArtOne";
 // import DigitalArtTwo from "./DigitalArtTwo";
@@ -100,10 +99,10 @@ const MainAreaOne = () => {
           whileTap={{ scale: 0.9 }}
           onClick={showInfo}
         >
-          <h2 className="subHeading-cool">Make your money grow, invest in a concept design.</h2>
-          <h1 className="lca-title"> market</h1>
+          <h2 className="subHeading-cool">To know more about Goot Time Design click on this information card.</h2>
+          <h1 className="lca-title"> info</h1>
           <div className="folio-card-icon-outter-lca">
-          <AddBusinessIcon sx={{ fontSize: 35, marginTop: -5 }}/>
+          <InfoIcon sx={{ fontSize: 35, marginTop: -5 }}/>
           </div>
         </motion.div>
         <motion.div 
