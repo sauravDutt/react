@@ -570,6 +570,7 @@ z-index: 20;
 .loginContainer img {
   width: 370px;
   margin-top: -90px;
+  margin-left: -10.5px;
   margin-bottom: -50px;
 }
 .loginContainer p {
@@ -1617,7 +1618,7 @@ z-index: 20;
   justify-content: center;
 }
 .smallInfo div {
-  border: 2px solid #0000003e;
+  border: 2px solid #00000035;
   border-radius: 10px;
 }
 
@@ -2324,7 +2325,7 @@ z-index: 20;
 .oneImage-discover-new {
   width: 220px;
   margin-left: -120px;
-  margin-top: 269%;
+  margin-top: 285%;
 }
 .twoImage-discover {
   width: 200px;
