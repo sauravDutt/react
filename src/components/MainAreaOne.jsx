@@ -16,7 +16,7 @@ import InfoIcon from '@mui/icons-material/Info';
 const OriginStoryContent = () => {
   return (
     <p className="originPtag">
-      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> is a platform for young designers, independent designers and design enthusiasts to raise awareness about their conceptual design projects the platform provides a mean to sell and raise capital against these creative IPs.<br/><br/>
+      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> is a platform for young designers, independent designers and design enthusiasts to raise awareness about their conceptual design projects the platform provides a means to sell and raise capital against these creative IPs.<br/><br/>
       <br/>
       <span className="smallText-two">IP - <strong>interlectual property</strong>.</span>
     </p>
