@@ -71,7 +71,12 @@ const TreasuryDashboard = () => {
         <DigitalArtTwo />
       </div>
     <div className="smallInfo">
-      <div></div>
+      <div>
+        <p>
+          Join the waiting list
+        </p>
+        <input type="email" name="useremail" id="email" />
+      </div>
       <div></div>
     </div>
     </div>
