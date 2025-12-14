@@ -73,9 +73,9 @@ const TreasuryDashboard = () => {
     <div className="smallInfo">
       <div>
         <p>
-          Join the waiting list
+          Join the waiting list.
         </p>
-        <input type="email" name="useremail" id="email" />
+        <input type="email" name="useremail" id="email" placeholder="email.."/>
       </div>
       <div></div>
     </div>

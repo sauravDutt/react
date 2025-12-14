@@ -1628,15 +1628,16 @@ z-index: 20;
 }
 .smallInfo :nth-child(1) input {
   margin: 0 auto;
+  padding: 5px;
   width: 62%;
   background-color: transparent;
   border: none;
   font-size: 25px;
   float: right;
-  margin-top: -61px;
+  margin-top: -69px;
   margin-right: 10px;
   border-radius: 5px;
-  border: 2px solid #fff;
+  border: 2px solid #ffffffa6;
 }
 .treasury-dashboard-head {
   margin: 0 auto;
