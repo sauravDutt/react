@@ -56,8 +56,8 @@ const Treasury = ({ setIsAuth, isAuth }) => {
             </div>
             
             <div className="exta-space">
-              <h2>Sign in with google to get started.</h2>
-              <h1>Sart raising capital against your conceptual design ip's.</h1>
+              <h2>Sign in with google account to use this utility.</h2>
+              <h1>Sart raising capital against your Conceptual Designs.</h1>
               <button>Sign in</button>
             </div>
             <br/><br/><br/>
