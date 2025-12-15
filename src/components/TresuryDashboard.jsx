@@ -1,9 +1,9 @@
-import { motion } from "framer-motion";
-import SkipNextIcon from "@mui/icons-material/SkipNext";
-import TouchAppIcon from "@mui/icons-material/TouchApp";
-import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
-import StorageIcon from "@mui/icons-material/Storage";
-import SellIcon from "@mui/icons-material/Sell";
+// import { motion } from "framer-motion";
+// import SkipNextIcon from "@mui/icons-material/SkipNext";
+// import TouchAppIcon from "@mui/icons-material/TouchApp";
+// import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
+// import StorageIcon from "@mui/icons-material/Storage";
+// import SellIcon from "@mui/icons-material/Sell";
 import DigitalArt from "./DigitalArt";
 import DigitalArtOne from "./DigitalArtOne";
 import DigitalArtTwo from "./DigitalArtTwo";
