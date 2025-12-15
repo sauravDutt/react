@@ -1610,6 +1610,7 @@ z-index: 20;
   height: 100px;
   margin-top: 5px;
   z-index: 69;
+  display: none;
   position: absolute;
   width: 100%;
   display: grid;
@@ -1617,7 +1618,7 @@ z-index: 20;
 }
 
 .smallInfo :nth-child(1){
-  background-color: #323232;
+  background-color: #4a4a4a;
   color: #fff;
   padding-bottom: 12px;
   font-family: 'logo';
@@ -1660,12 +1661,11 @@ z-index: 20;
   overflow-x: scroll;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  height: 500px;
-  padding-bottom: 10px;
+  height: 440px;
   border-bottom: 4px dotted #000;
   margin: 0 auto;
-  margin-top: -15px;
+  padding-top: 15px;
+  margin-top: 20px;
 }
 .main-artwork-outter::-webkit-scrollbar {
   width: 0px;
