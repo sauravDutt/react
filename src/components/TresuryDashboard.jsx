@@ -28,7 +28,16 @@ const TreasuryDashboard = () => {
   // }
   return (
     <div className="treasury-outter">
-      <div className="treasury-dashboard-head">
+      <div className="smallInfo">
+      <div>
+        <p>
+          Join the waiting list.
+        </p>
+        <input type="email" name="useremail" id="email" placeholder="email.."/>
+        <button type="submit">Send</button>
+      </div>
+    </div>
+      {/* <div className="treasury-dashboard-head">
         <motion.div
           className="bidBtn"
           whileHover={{ scale: 1.1 }}
@@ -64,21 +73,13 @@ const TreasuryDashboard = () => {
         >
           <SkipNextIcon fontSize="large" sx={{ width: "90%" }} />
         </motion.div>
-      </div>
+      </div> */}
       <div className="main-artwork-outter">
         <DigitalArt />
         <DigitalArtOne />
         <DigitalArtTwo />
       </div>
-    <div className="smallInfo">
-      <div>
-        <p>
-          Join the waiting list.
-        </p>
-        <input type="email" name="useremail" id="email" placeholder="email.."/>
-      </div>
-      <div></div>
-    </div>
+      <br/><br/>
     </div>
   );
 };
