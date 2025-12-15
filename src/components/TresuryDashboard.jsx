@@ -28,14 +28,6 @@ const TreasuryDashboard = () => {
   // }
   return (
     <div className="treasury-outter">
-      <div className="smallInfo">
-        <div>
-          <p>
-            Join the waiting list.
-          </p>
-          <input type="email" name="useremail" id="email" placeholder="email.."/>
-        </div>
-      </div>
       <div className="treasury-dashboard-head">
         <motion.div
           className="bidBtn"
@@ -78,7 +70,15 @@ const TreasuryDashboard = () => {
         <DigitalArtOne />
         <DigitalArtTwo />
       </div>
-      <br/><br/>
+    <div className="smallInfo">
+      <div>
+        <p>
+          Join the waiting list.
+        </p>
+        <input type="email" name="useremail" id="email" placeholder="email.."/>
+      </div>
+      <div></div>
+    </div>
     </div>
   );
 };
