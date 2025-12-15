@@ -1661,10 +1661,10 @@ z-index: 20;
   overflow-x: scroll;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 440px;
+  height: 470px;
   border-bottom: 4px dotted #000;
   margin: 0 auto;
-  padding-top: 15px;
+  padding-top: 20px;
   margin-top: 20px;
 }
 .main-artwork-outter::-webkit-scrollbar {
