@@ -27,9 +27,27 @@ const OriginStoryContent = () => {
 
   );
 };
+
+const OriginStoryContentTwo = () => {
+  return(
+    <>
+    <br/>
+    <br/>
+    <hr/>  
+    <br/>  
+    <p className="originPtag-info">
+      When a manufacturer shows interest or places a bid on a design, the designer is notified and receives details of all interested parties. If multiple manufacturers are involved, GTD opens a private negotiation chatroom where the designer and manufacturers can discuss terms. During this stage, the designer may revise the offer by adjusting equity or capital to accommodate more partners.
+</p><p>
+Once negotiations conclude, GTD formalises the agreement based on the agreed terms. The agreement includes a royalty clause typically 1% of the product’s selling price in perpetuity which is negotiable. By default, the platform retains 50% of this royalty. In this case, @sauravDutt receives £5,000 for 10% rights to his design and earns 0.5% royalty per unit sold, with the remaining 0.5% retained by GTD. If the product sells for £30, both the designer and the platform earn £0.15 per unit in perpetuity.
+    </p>
+    </>
+  )
+}
+
 const Game = () => {
 
   const [isOpen, setIsOpen] = useState(false);
+  const [isOpenOne, setIsOpenOne] = useState(false);
 
   return (
     <MotionConfig>
@@ -55,7 +73,7 @@ const Game = () => {
         
       
         <br/>
-        <h1 className="lcac-outter-h1">F A Q</h1>
+        <h1 className="lcac-outter-h1">- Case Studies -</h1>
         <br/>
         <motion.div 
           className="default"
@@ -77,11 +95,16 @@ const Game = () => {
           className="default"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.9 }}
+          onClick={() => setIsOpenOne(!isOpenOne)}
         >
           <h1 className="lca-title"><i>Q2.</i></h1>
-          <h2 className="subHeading-last">How can a member Cash Out their treasury balance ?</h2>
+          <h2 className="subHeading-last"><strong>@sauravDutt</strong> lists a one-of-a-kind work-from-home desk accessory concept on the platform under the Raise Capital option, seeking <strong>£5,000</strong> in exchange for <strong>10%</strong> rights to the design, including nationwide manufacturing and retail rights. A local desk accessory manufacturer wants to add this concept to their product lineup on a trial basis.
+How does the platform facilitate this transaction?</h2>
           <div className="folio-card-icon-outter-lca">
-          <h3>...</h3>
+            {isOpenOne ? <OriginStoryContentTwo /> : null}
+
+
+          <h3>{isOpenOne ? "" : "..."}</h3>
           </div>
         </motion.div>
 
