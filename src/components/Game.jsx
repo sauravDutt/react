@@ -82,7 +82,7 @@ const Game = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <h1 className="lca-title"><i>Q1.</i></h1>
-          <h2 className="subHeading-last">A redesigned concept chair is listed on the platform by <strong>@skankhunt420</strong> for £10,000 /- and a chair manufacturer acquires it, what is happening in the application?</h2>
+          <h2 className="subHeading-last">A redesigned concept of a chair is listed on the platform by <strong>@skankhunt420</strong> for £10,000 /- and a chair manufacturer acquires it, what is happening in the application?</h2>
           <div className="folio-card-icon-outter-lca">
             {isOpen ? <OriginStoryContent /> : null}
               
