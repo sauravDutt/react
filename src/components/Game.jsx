@@ -21,7 +21,7 @@ const OriginStoryContent = () => {
      </p>
 <br/><p>
       <span className="smallText-two">£10,000 - £50  =  <strong>£9,950.00</strong>. 
-      <br/>1% of £9,950.00 = <strong>£99.50</strong> <br/> @skankhunt420 = <strong>£9,850.50</strong> (£9,950.00 - £99.5)<br/> manufacturer = <strong>£10,099.50</strong>(£10,0000 + £99.50)</span>
+      <br/>1% of £9,950.00 = <strong>£99.50</strong> <br/> @skankhunt42 = <strong>£9,850.50</strong> (£9,950.00 - £99.5)<br/> manufacturer = <strong>£10,099.50</strong>(£10,0000 + £99.50)</span>
     </p>
     </>
 
