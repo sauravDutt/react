@@ -29,11 +29,11 @@ const Treasury = ({ setIsAuth, isAuth }) => {
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
                     <div>
                       <p>
-                        <i>Skank Hunt</i> <b>Cashed out</b> treasury wallet balance of £100.
+                        <i>Saurav Dutt</i> <b>rased</b> capital for upcoming Cow Selective Cooling system.
                       </p>
                     </div>
                     <div className="treasuryAmountAdd normal">
-                      <h2>£ 100</h2>
+                      <h2>£ 1.5k</h2>
                     </div>
                 </motion.div>
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
