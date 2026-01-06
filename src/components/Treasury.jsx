@@ -21,7 +21,7 @@ const Treasury = ({ setIsAuth, isAuth }) => {
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }} >
                     <div>
                       <p>
-                        <i>Skank Hunt</i> raising capital <b>cerial-despencer redesign</b> ask is <i>£1,000 for 10%</i> in two installments.
+                        <i>Skank Hunt</i> is <b>raising</b> £1,000 for 10% of "<i>cerial-despencer redesign</i>" <b>offering</b> 5% each with nationwide manufacturing rights. 
                       </p>
                     </div>
                     <div className="treasuryAmountAdd green"><h2>£ 500</h2></div>
@@ -39,7 +39,7 @@ const Treasury = ({ setIsAuth, isAuth }) => {
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
                     <div>
                       <p>
-                        <i>New Member</i> added, payed joining fee of <b>£1</b>.
+                        <i>GTD</i> designed a New WFH desk accessory,<b>offering</b> the concept's manufacturing rights for £50p.
                       </p>
                     </div>
                     <div className="treasuryAmountAdd green"><h2>£ 50p</h2></div>
@@ -47,10 +47,10 @@ const Treasury = ({ setIsAuth, isAuth }) => {
                 <motion.div className="transaction1" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
                     <div>
                       <p>
-                        <i>Saurav Dutt</i> acquired an original <b>Banksy</b>, for £10,000.
+                        <i>@skankhunt</i> is <b>raising</b> £5,000 for 25% of his IP. <b>offering</b> 5% each with nationwide manufacturing rights. 
                       </p>
                     </div>
-                    <div className="treasuryAmountAdd green"><h2>£ 90</h2></div>
+                    <div className="treasuryAmountAdd green"><h2>£ 1,000</h2></div>
                 </motion.div>
                 <br/>
             </div>
