@@ -1,6 +1,5 @@
 
 import { motion, MotionConfig } from "framer-motion";
-import CategoryIcon from '@mui/icons-material/Category';
 import PaymentsIcon from '@mui/icons-material/Payments';
 
 

@@ -1,9 +1,9 @@
-// import { motion } from "framer-motion";
-// import SkipNextIcon from "@mui/icons-material/SkipNext";
-// import TouchAppIcon from "@mui/icons-material/TouchApp";
-// import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
-// import StorageIcon from "@mui/icons-material/Storage";
-// import SellIcon from "@mui/icons-material/Sell";
+import { motion } from "framer-motion";
+import SkipNextIcon from "@mui/icons-material/SkipNext";
+import TouchAppIcon from "@mui/icons-material/TouchApp";
+import SkipPreviousIcon from "@mui/icons-material/SkipPrevious";
+import StorageIcon from "@mui/icons-material/Storage";
+import SellIcon from "@mui/icons-material/Sell";
 import DigitalArt from "./DigitalArt";
 import DigitalArtOne from "./DigitalArtOne";
 import DigitalArtTwo from "./DigitalArtTwo";
@@ -28,7 +28,7 @@ const TreasuryDashboard = () => {
   // }
   return (
     <div className="treasury-outter">
-      <div className="smallInfo">
+      {/* <div className="smallInfo">
       <div>
         <p>
           Join the waiting list.
@@ -36,8 +36,8 @@ const TreasuryDashboard = () => {
         <input type="email" name="useremail" id="email" placeholder="email.."/>
         <button type="submit">Send</button>
       </div>
-    </div>
-      {/* <div className="treasury-dashboard-head">
+    </div> */}
+      <div className="treasury-dashboard-head">
         <motion.div
           className="bidBtn"
           whileHover={{ scale: 1.1 }}
@@ -73,7 +73,7 @@ const TreasuryDashboard = () => {
         >
           <SkipNextIcon fontSize="large" sx={{ width: "90%" }} />
         </motion.div>
-      </div> */}
+      </div>
       <div className="main-artwork-outter">
         <DigitalArt />
         <DigitalArtOne />
