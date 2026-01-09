@@ -98,7 +98,7 @@ const MainAreaOne = () => {
           whileTap={{ scale: 0.9 }}
           onClick={showInfo}
         >
-          <h2 className="subHeading-cool">To know more about Goot Time Design click on this information card.</h2>
+          <h2 className="subHeading-cool">To know more about Good Time Design click on this information card.</h2>
           <h1 className="lca-title"> info</h1>
           <div className="folio-card-icon-outter-lca">
           <InfoIcon sx={{ fontSize: 35, marginTop: -5 }}/>
