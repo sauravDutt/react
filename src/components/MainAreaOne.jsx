@@ -16,9 +16,9 @@ import InfoIcon from '@mui/icons-material/Info';
 const OriginStoryContent = () => {
   return (
     <p className="originPtag">
-      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> is a platform for young independent designers and design enthusiasts to raise awareness about their conceptual design projects the platform provides a means to sell and raise capital against their creative IPs.<br/><br/>
+      <strong>Good Time Design</strong>, or <strong>"GTD"</strong> is a platform for young independent designers and design enthusiasts to raise awareness about their conceptual design projects the platform provides a means to sell and raise capital against their CADs.<br/><br/>
       <br/>
-      <span className="smallText-two">IP - <strong>interlectual property</strong>.</span>
+      <span className="smallText-two"></span>
     </p>
   );
 };
@@ -87,7 +87,7 @@ const MainAreaOne = () => {
                 }
                 src={process.env.PUBLIC_URL + "/img/dlf.png"}
                 alt="Img"
-              />
+              /> 
             </div>
           </motion.div>
           {/* <h1 className="portfolio-title">Study</h1> */}

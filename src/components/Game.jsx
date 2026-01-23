@@ -56,20 +56,20 @@ const Game = () => {
         <h1 className="lcac-outter-h1"><span className="second-font">goodtime.design <br/><br/></span>( GTD / about )</h1>
         <br />
         <p>
-          Goodtime.design is a conceptual design marketplace created to empower independent industrial designers and connect them directly with manufacturers seeking original, sustainable, and <strong>manufacturing ready product concepts</strong>. The platform enables designers to monetise their CAD work and Product Design Specifications (PDS) while ensuring proper intellectual property protection and fair commercial opportunities.
+          Goodtime.design is a conceptual design marketplace created to empower independent industrial designers and connect them directly with manufacturers seeking original, sustainable, and <strong>manufacturing ready product concepts</strong>. The platform enables designers to monetise their CAD work and Product Design Specifications (PDS) while ensuring an transparent trade of assets. 
         </p>
         <p>
-          Designers can submit original concept designs along with full documentation for review. Once a design is verified as genuine, original, and technically sound, GTD funds the required intellectual property registration and enters into an agreement with the designer, granting the platform exclusive rights to list and monetise the design. This removes upfront financial barriers for designers while maintaining transparency and ownership value.
+          Designers can submit original concept designs along with full documentation for review. Once a design is verified as genuine, original, and technically sound, GTD enters into an agreement with the designer, granting the platform exclusive rights to list and monetise the design. This removes upfront financial barriers for designers while maintaining transparency and ownership value.
         </p>
         <p>
-          Approved designs are listed with flexible commercial options. Manufacturers may purchase full intellectual property and manufacturing rights outright, or acquire partial rights through a capital-raising model tied directly to the design. This allows designers to raise funding by offering a defined percentage of rights in their concept, similar to equity, while retaining long-term participation through royalties. Manufacturers who acquire sufficient rights gain the ability to mass-produce the design for retail, with designers continuing to benefit from perpetual royalty arrangements.
+          Approved designs are listed with flexible commercial options. Manufacturers may purchase full conceptual design and manufacturing rights outright, or acquire partial rights through a capital-raising model tied directly to the design. This allows designers to raise funding by offering a defined percentage of rights in their concept, similar to equity, while retaining long-term participation through royalties. Manufacturers who acquire sufficient rights gain the ability to mass-produce the design for retail, with designers continuing to benefit from perpetual royalty arrangements.
         </p>
         <p>
-          GTD operates with a low-commission structure, earning a small percentage from successful transactions while covering initial IP costs. The platform prioritises sustainable, practical designs that can be produced through 3D printing or injection moulding, offering manufacturers vetted concepts ready for production and designers a legitimate path to market.
+          GTD operates with a low-commission structure, earning a small percentage from every successful transactions. The platform prioritises sustainable, practical designs that can be produced through 3D printing or injection moulding, offering manufacturers vetted concepts ready for production and designers a legitimate path to market.
         </p>
-        <p>
+        <p style={{textAlign: "justify"}}><strong>
           By lowering barriers to entry and formalising the relationship between designers and manufacturers, goodtime.design aims to unlock global opportunities for talented independent designers and support the creation of simple, sustainable products for modern manufacturing.
-        </p>
+        </strong></p>
         
       
         <br/>
