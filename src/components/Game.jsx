@@ -67,7 +67,7 @@ const Game = () => {
         <p>
           GTD operates with a low-commission structure, earning a small percentage from every successful transactions. The platform prioritises sustainable, practical designs that can be produced through 3D printing or injection moulding, offering manufacturers vetted concepts ready for production and designers a legitimate path to market.
         </p>
-        <p style={{textAlign: "justify"}}><strong>
+        <p><strong>
           By lowering barriers to entry and formalising the relationship between designers and manufacturers, goodtime.design aims to unlock global opportunities for talented independent designers and support the creation of simple, sustainable products for modern manufacturing.
         </strong></p>
         
