@@ -1040,7 +1040,7 @@ z-index: 20;
   background-repeat: no-repeat;
   margin: 0 auto;
   margin-top: -55px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 .podcast-banner-div {
   padding: 5px;
@@ -2846,6 +2846,7 @@ input[type="number"] {
 @media screen and (max-width: 950px) {
   .mainArea {
     width: 90%;
+    height: 70vh;
   }
   .mainAreaTwo {
     display: none;
