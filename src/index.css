@@ -2374,7 +2374,7 @@ z-index: 20;
 .left-discover {
   border: 2px solid #000;
   display: grid;
-  width: 360px;
+  width: 330px;
   overflow: hidden;
   border-radius: 10px;
   grid-template-columns: 70% 30%;
