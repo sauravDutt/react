@@ -2847,6 +2847,7 @@ input[type="number"] {
   .mainArea {
     width: 90%;
     height: 69vh;
+    border: none;
   }
   .mainAreaTwo {
     display: none;
