@@ -267,14 +267,13 @@ td {
 .mainArea-outter {
   display: grid;
   margin-top: 96px;
-  gap: 30px;
+  gap: 15px;
   justify-content: center;
   grid-template-columns: 35% 60%;
 }
 .mainArea {
   position: relative;
   height: 69vh;
-  border: 2px solid #000;
   border-radius: 20px;
   margin: 10px auto -5px auto;
   padding: 0px;
