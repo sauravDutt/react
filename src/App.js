@@ -16,8 +16,8 @@ import TreasuryDashboard from "./components/TresuryDashboard";
 import Freestyle from "./components/Freestyle";
 import LCAestimationInCD from "./components/LCAestimationInCD";
 import Chair from "./components/Chair";
-import PaymentsIcon from '@mui/icons-material/Payments';
-import Treasury from "./components/Treasury";
+import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
+import Portfolio from "./components/Portfolio";
 
 function App() {
   const [isAuth, setIsAuth] = useState(false);
@@ -44,7 +44,7 @@ function App() {
             <StoreRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           <Link to="/treasury" className="button-outter">
-            <PaymentsIcon fontSize="large" sx={{ width: "100%" }} />
+            <SchoolRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           {!isAuth ? (
             <Link to="/login" className="button-outter">
@@ -70,7 +70,7 @@ function App() {
         <Route path="/login" element={<LogIn setIsAuth={setIsAuth} />} />
         <Route path="/lcac" element={<Game />} />
         <Route path="/chair" element={<Chair/>}/>
-        <Route path="/treasury" element={<Treasury isAuth={isAuth} userName={userName} userImageUrl={userImageUrl}/>}/>
+        <Route path="/portfolio" element={<Portfolio />}/>
         <Route
           path="/dashboard"
           element={<UserDashboardPage setIsAuth={setIsAuth} isAuth={isAuth} />}
