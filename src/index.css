@@ -59,7 +59,7 @@ a {
   justify-content: center;
   align-items: center;
   z-index: 999;
-  width: 90%;
+  width: 360px;
   height: 79px;
   margin-left: 4.9%;
   bottom: 35px;
@@ -3183,7 +3183,7 @@ input[type="number"] {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .mainAreaTwo {
     display: none;
   }
@@ -3196,6 +3196,9 @@ input[type="number"] {
   }
   .dispenser-outter {
     width: 332px;
+  }
+  .header-outter {
+    width: 90%;
   }
   .control-btns-outter {
     width: 325px;
