@@ -38,7 +38,7 @@ const AboutDispenser = () => {
                     <br/>
                     <br/>
                     <br/>
-                    Good Time Design (<strong>GTD</strong>) is an online marketplace for sustainable conceptual designs, as well as a platform for independent industrial designers and design students to sell their concept designs (CADs) directly to manufacturers. It's an ongoing project; for more updates, follow us on <strong><a href="https://www.instagram.com/goodtime__design/" target="_blank" rel="noopener noreferrer">Instagram</a></strong>.
+                    Good Time Design (<strong>GTD</strong>) is an online marketplace for sustainable conceptual designs, as well as a platform for independent industrial designers and design students to sell their concept designs (CADs) directly to manufacturers, navigate around the platform by the four buttons at the bottom. It's an ongoing project; for more updates, follow us on <strong><a href="https://www.instagram.com/goodtime__design/" target="_blank" rel="noopener noreferrer">Instagram</a></strong>.
                 </p>
             </div>
         </motion.div>
