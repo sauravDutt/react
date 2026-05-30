@@ -1563,6 +1563,52 @@ z-index: 20;
   display: block;
   
 }
+.article-outter {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 69;
+  overflow: hidden;
+  width: 840px;
+  gap: 15px;
+  justify-content: center;
+  /* align-items:  flex-start; */
+  height: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0 auto;
+  z-index: 10px;
+}
+ .view-angle-h4{
+    text-align: center;
+    background-color: rgb(146, 246, 131);
+    padding: 5px 12px;
+    border-radius: 5px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 0px;
+  }
+  .view-angle-h4-upper{
+    text-align: center;
+    background-color: rgb(146, 246, 131);
+    padding: 5px 12px;
+    border-radius: 5px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: -15px;
+  }
+
+.csc-outter {
+  color: #000;
+  overflow: hidden;
+  border: 2px solid #000000e9;
+  border-radius: 10px;
+  width: 535px;
+  height: 450px;
+  padding: 10px;
+  z-index: 30;
+  cursor: pointer;
+}
+
 .treasury-Main-outter h1 {
   font-family: 'News';
   font-size: 50px;
@@ -2630,20 +2676,7 @@ z-index: 20;
   border: 1px solid #000;
   margin-top: 100px;
 }
-.article-outter {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
-  width: 840px;
-  gap: 15px;
-  justify-content: center;
-  /* align-items:  flex-start; */
-  height: 100%;
-  padding: 5px;
-  border-radius: 10px;
-  margin: 0 auto;
-  z-index: 10px;
-}
+
 
 .upper-spacing {
   width: 100%;
@@ -2852,19 +2885,256 @@ input[type="number"] {
   border: none;
   text-align: center;
 }
-@media screen and (max-height: 900px)
-{
+
+.Behind-product-text {
+  width: 100%;
+  height: 90%;
+}
+
+.Behind-product-text h1 {
+  font-family: "testFont";
+  font-size: 45px;
+  font-weight: 300;
+  margin: 0;
+  margin-left: 5px;
+  color: #000;
+  z-index: 0;
+}
+.Behind-product-text p{
+  margin: 0;
+  margin-left: 5px;
+}
+
+.control-btns-outter {
+    width: 525px;
+    height: 40px;
+    z-index: 75;
+    display: grid;
+    padding: 0px ;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 3px;
+  }
+  .control-btns-outter button {
+    background-color: #fff;
+    border: 2px solid #0000009a;
+    border-radius: 50px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    padding: 0 10px 0 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .control-btns-outter button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+.designIntroduction-img {
+  width: 517px;
+  position: absolute;
+  margin-left: 10px;
+  z-index: 45;
+  margin-top: -425px;
+}
+.designIntroduction-img-sm {
+  width: 390px;
+  position: absolute;
+  margin-left: 60px;
+  z-index: 45;
+  margin-top: -315px;
+}
+.designIntroduction-img-small {
+  width: 400px;
+  position: absolute;
+  margin-left: 60px;
+  z-index: 45;
+  margin-top: -305px;
+}
+.designIntroduction-img-small-back {
+  width: 360px;
+  position: absolute;
+  margin-left: 80px;
+  z-index: 45;
+  margin-top: -335px;
+}
+.designIntroduction-img-down {
+  width: 517px;
+  position: absolute;
+  margin-left: 10px;
+  z-index: 45;
+  margin-top: -290px;
+}
+
+.profile-img {
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 50px;
+  border: 4px solid rgba(0, 128, 0, 0.294);
 
 }
-@media screen and (max-width: 900px) {
-  .mainAreaTwo {
-    display: none;
-  }
-  .mainArea-outter {
-    grid-template-columns: auto;
-  }
+.designer-intro-outter h3 {
+  margin: 0;
+  margin-top: -22px;
+  margin-left: 75px;
+  margin-bottom: 10px;
+}
+.designer-intro-outter h1 {
+  margin: 0;
+  margin-top: -67px;
+  margin-left: 75px;
+  margin-bottom: 23px;
+}
+.designer-intro-outter  button {
+  float: right;
+  background-color: transparent;
+  border: 2px solid #0000007b;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  padding: 5px 10px 5px 10px;
 
 }
+.designer-intro-outter  button:hover {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.dispenser-outter {
+  color: #000;
+  overflow: hidden;
+  border: 2px solid #000000e9;
+  border-radius: 10px;
+  width: 535px;
+  padding: 10px;
+  z-index: 30;
+  cursor: pointer;
+}
+.dispenser-outter h1, .dispenser-outter h3  {
+  margin: 0 !important;
+}
+.dispenser-outter p button {
+  float: right;
+  background-color: transparent;
+  border: 2px solid #0000007b;
+  border-radius: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  padding: 5px 10px 5px 10px;
+}
+.dispenser-outter p button :hover {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.workOne-outter {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 250px;
+  padding: 10px;
+  cursor: pointer;
+  color: #000;
+}
+.music-outter{
+  color: #000;
+  border: 2px solid #000000c9;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 250px;
+  padding: 10px;
+  cursor: pointer;
+}
+.workOne-outter button {
+  float: right;
+  background-color: #fff;
+  border: 1px solid #00000025;
+  border-radius: 50px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.workOne-outter button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+.music-outter h1{
+  font-size: 19px;
+  color: #000;
+  margin: 10px 0px 5px 0px;
+  margin-left: 2px;
+}
+.music-outter h3{
+  float: right;
+  margin: 0;
+  font-size: 16px;
+  margin-left: 2px;
+}
+.music-outter p {
+  margin-left: 2px;
+  margin-top: 44px;
+}
+
+.musicBtn {
+  
+  float: right;
+  background-color: #fff;
+  border: 1px solid #7a00a756;
+  border-radius: 50px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigger-title {
+  font-size: 15px;
+}
+.musicActive{
+  float: right;
+  border-radius: 50px;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #45035ddd;
+  color: #fff;
+  border: 3px solid #6001838e;
+}
+.workOne-outter h1, .workOne-outter h3 {
+  margin: 0;
+}
+
+
+.designer-intro-outter {
+  color: #000;
+  border: 2px solid #000000c9;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 535px;
+  padding: 10px;
+  z-index: 30;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 950px) {
   .mainArea {
     width: 90%;
@@ -2905,6 +3175,97 @@ input[type="number"] {
     width: 380px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .mainAreaTwo {
+    display: none;
+  }
+  .article-outter {
+    width: 97%;
+  }
+  .Behind-product-text h1  {
+    font-size: 35px;
+
+  }
+  .dispenser-outter {
+    width: 332px;
+  }
+  .control-btns-outter {
+    width: 325px;
+    height: 30px;
+    margin-top: -10px;
+  }
+  .Behind-product-text p{
+    margin: 0;
+  }
+  .designIntroduction-img {
+    width: 325px;
+    margin-top: -276px;
+    margin-left: 7px;
+  }
+  .designIntroduction-img-sm {
+    width: 260px;
+    margin-top: -215px;
+    margin-left: 45px;
+  }
+  .designIntroduction-img-down{
+    width: 325px;
+    margin-top: -180px;
+  }
+  .designer-intro-outter {
+    width: 332px;
+  }
+  .designer-intro-outter h1 {
+    font-size: 20px;
+    margin-top: -55px;
+
+  }
+  .csc-outter {
+    width: 332px;
+    height: 315px;
+  }
+  .mainArea-outter {
+    grid-template-columns: auto;
+  }
+  .designer-intro-outter h3{
+    font-size: 15px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  .workOne-outter {
+    width: 150px;
+  }
+  .music-outter {
+    width: 150px;
+  }
+  .music-outter h1 {
+    font-size: 15px;
+  }
+  .workOne-outter h1 {
+    font-size: 20px;
+  }
+  .workOne-outter h3{
+    font-size: 15px;
+  }
+  .designIntroduction-img-small {
+  width: 280px;
+  position: absolute;
+  margin-left: 28px;
+  z-index: 45;
+  margin-top: -209px;
+}
+.designIntroduction-img-small-back {
+  width: 225px;
+  position: absolute;
+  margin-left: 55px;
+  z-index: 45;
+  margin-top: -205px;
+}
+  .designer-intro-outter p, .workOne-outter p, .music-outter p {
+    font-size: 12px;
+  }
+}
+
 
 @media screen and (max-width: 400px) {
   .Folio-outter div {

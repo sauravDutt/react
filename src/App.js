@@ -43,7 +43,7 @@ function App() {
           <Link to="/designer_marketplace" className="button-outter">
             <StoreRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
-          <Link to="/treasury" className="button-outter">
+          <Link to="/portfolio" className="button-outter">
             <SchoolRoundedIcon fontSize="large" sx={{ width: "100%" }} />
           </Link>
           {!isAuth ? (
