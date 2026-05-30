@@ -36,11 +36,18 @@ code {
   src: url("./News.otf");
   font-style: normal;
 }
-
+@font-face {
+  font-family: "testFont";
+  src: url("./Cocogoose\ Pro\ Inline\ Trial.ttf");
+  font-style: normal;
+}
 .App {
   background-color: #fff;
 }
-
+a {
+  text-decoration: none;
+  color: #000;
+}
 .rhap_container {
   background-color: transparent !important;
   box-shadow: none !important;

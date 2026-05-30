@@ -94,7 +94,7 @@ const CSC = () => {
             whileHover={{ scale: 1.02 }}
             className="csc-outter"
         >
-            <div className="Behind-product-text">
+            <div className="Behind-product-text"> 
                 <h1>treat dispenser</h1>
                 <p>Conceptual Design<br/>Logic</p>
             </div>
