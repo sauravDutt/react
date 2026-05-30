@@ -69,7 +69,7 @@ const DesignerIntro = () => {
                     <button onClick={() => setIsOpen(!isOpen)}>
                         {isOpen ? "Read Less" : "Read More"}
                     </button>
-                    <p style={{marginTop: '58px'}}>
+                    <p style={{marginTop: '58px', marginBottom: '15px'}}>
                         The following is a conceptual design of a modular treat dispenser system for domestic animals. 
                     </p>
                 </div>
