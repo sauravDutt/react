@@ -59,12 +59,15 @@ const DesignerIntro = () => {
                     <h1>Saurav Dutt</h1>
                     <h3>Industrial Product Designer</h3>
                     <p>
-                        Welcome to <strong>Good Time Design</strong> or <strong>GTD</strong>, a personal design portfolio, expressing my various domains of sustainable design solutions following design methodologies and philosophies. 
+                        Welcome to <strong>Good Time Design</strong> or <strong>GTD</strong>, a personal design portfolio, expressing my various domains of sustainable design solutions following design methodologies and philosophies.
                     </p>
                     {isOpen ? <Resume/> : null}
                     <button onClick={() => setIsOpen(!isOpen)}>
                         {isOpen ? "Read Less" : "Read More"}
                     </button>
+                    <p style={{marginTop: '58px'}}>
+                        The following is a conceptual design of a modular treat dispenser system for domestic animals. 
+                    </p>
                 </div>
                 
             </motion.div>
