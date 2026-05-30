@@ -38,7 +38,7 @@ const AboutDispenser = () => {
                     <br/>
                     <br/>
                     <br/>
-                    Web application is under development. In the meantime, you can check out my <a href="https://www.instagram.com/goodtime__design/" target="_blank" rel="noopener noreferrer">Instagram</a> for more updates and content.
+                    Good Time Design (<strong>GTD</strong>) is an online marketplace for sustainable conceptual designs, as well as a platform for independent industrial designers and design students to sell their concept designs (CADs) directly to manufacturers. It's an ongoing project; for more updates, follow us on <strong><a href="https://www.instagram.com/goodtime__design/" target="_blank" rel="noopener noreferrer">Instagram</a></strong>.
                 </p>
             </div>
         </motion.div>

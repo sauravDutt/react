@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, MotionConfig } from "framer-motion";
 
 const Resume = () => {
+
         return(
         <p className="readMore-text">
             <span className="bigger-title">Education</span>
@@ -53,16 +54,19 @@ const DesignerIntro = () => {
                 whileTap={{ scale: 0.9 }}
                 className="designer-intro-outter"
             >
-                <img src={process.env.PUBLIC_URL+"/img/profileImg.jpeg"} alt="profile" className="profile-img" />
-                <h1>Saurav Dutt</h1>
-                <h3>Industrial Product Designer</h3>
-                <p>
-                    Welcome to <strong>Good Time Design</strong> or <strong>GTD</strong>, a personal design portfolio, expressing my various domains of sustainable design solutions following design methodologies and philosophies. 
-                </p>
-                {isOpen ? <Resume/> : null}
-                <button onClick={() => setIsOpen(!isOpen)}>
-                    {isOpen ? "Read Less" : "Read More"}
-                </button>
+                <div >
+                    <img src={process.env.PUBLIC_URL+"/img/profileImg.jpeg"} alt="profile" className="profile-img" />
+                    <h1>Saurav Dutt</h1>
+                    <h3>Industrial Product Designer</h3>
+                    <p>
+                        Welcome to <strong>Good Time Design</strong> or <strong>GTD</strong>, a personal design portfolio, expressing my various domains of sustainable design solutions following design methodologies and philosophies. 
+                    </p>
+                    {isOpen ? <Resume/> : null}
+                    <button onClick={() => setIsOpen(!isOpen)}>
+                        {isOpen ? "Read Less" : "Read More"}
+                    </button>
+                </div>
+                
             </motion.div>
         </MotionConfig>
     )

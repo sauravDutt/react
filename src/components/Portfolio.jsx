@@ -10,15 +10,11 @@ const Portfolio = () => {
          <div className="article-outter">
               <div className='upper-spacing'></div>
               <MotionConfig transition={{ duration: 0.5 }}>
-                
+                <DesignerIntro/>
                 <CSC/>
                 <AboutDispenser/>
-                
                 <Github/>
                 <MusicPlay/>
-                
-                <DesignerIntro/>
-                
               </MotionConfig>
               <div className='upper-spacing-two'></div>
         </div>
