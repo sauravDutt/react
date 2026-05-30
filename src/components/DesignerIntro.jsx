@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion, MotionConfig } from "framer-motion";
+import useMeasure from "react-use-measure";
 
 const Resume = () => {
 
@@ -44,6 +45,7 @@ const Resume = () => {
 }
 
 const DesignerIntro = () => {
+    let [ref, { height }] = useMeasure();
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -52,9 +54,11 @@ const DesignerIntro = () => {
             <motion.div 
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.9 }}
+                animate={{ height }}
                 className="designer-intro-outter"
+
             >
-                <div >
+                <div ref={ref}>
                     <img src={process.env.PUBLIC_URL+"/img/profileImg.jpeg"} alt="profile" className="profile-img" />
                     <h1>Saurav Dutt</h1>
                     <h3>Industrial Product Designer</h3>
